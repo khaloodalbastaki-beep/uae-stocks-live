@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-18T22:30:46.908Z",
+      "retrieved_at": "2026-06-18T22:47:37.870Z",
       "url": null,
       "lang": null
     }
@@ -60,44 +60,44 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 50,
-      "grade": "C",
+      "score": 27,
+      "grade": "D",
       "subfactors": [
         {
           "key": "rev",
           "label": "Revenue growth (YoY)",
-          "raw": 0.0677,
-          "points": 39.233333333333334,
+          "raw": 0.0003,
+          "points": 16.76666666666667,
           "weight": 0.2,
-          "note": "6.8% top-line growth",
-          "contribution": 7.8
+          "note": "0.0% top-line growth",
+          "contribution": 3.4
         },
         {
           "key": "profit",
           "label": "Earnings growth (YoY)",
-          "raw": 0.2034,
-          "points": 75.85,
+          "raw": 0.0563,
+          "points": 39.074999999999996,
           "weight": 0.24,
-          "note": "20.3% earnings growth",
-          "contribution": 18.2
+          "note": "5.6% earnings growth",
+          "contribution": 9.4
         },
         {
           "key": "cagr",
           "label": "Revenue CAGR (3y)",
-          "raw": 0.0677,
-          "points": 33.849999999999994,
+          "raw": 0.0003,
+          "points": 0.15,
           "weight": 0.16,
-          "note": "6.8% 3-year CAGR",
-          "contribution": 5.4
+          "note": "0.0% 3-year CAGR",
+          "contribution": 0.0
         },
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.015,
-          "points": 64.28571428571428,
+          "raw": 0.0072,
+          "points": 53.14285714285714,
           "weight": 0.14,
           "note": "expanding margins",
-          "contribution": 9.0
+          "contribution": 7.4
         },
         {
           "key": "reinvest",
@@ -191,26 +191,26 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 45,
-      "grade": "D+",
+      "score": 50,
+      "grade": "C",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0,
-          "points": 0.0,
+          "raw": 0.0169,
+          "points": 28.166666666666668,
           "weight": 0.2,
-          "note": "0.00% yield",
-          "contribution": 0.0
+          "note": "1.69% yield",
+          "contribution": 5.6
         },
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.66,
-          "points": 76.2,
+          "raw": 0.67,
+          "points": 74.5,
           "weight": 0.2,
-          "note": "66% of earnings paid out",
-          "contribution": 15.2
+          "note": "67% of earnings paid out",
+          "contribution": 14.9
         },
         {
           "key": "fcf",
@@ -250,16 +250,16 @@
         }
       ]
     },
-    "headline": 52,
-    "headline_grade": "C",
+    "headline": 44,
+    "headline_grade": "D+",
     "archetype": "utility",
     "engine": "deterministic-v1"
   },
   "fundamentals": {
-    "revenue_growth": 0.0677,
-    "profit_growth": 0.2034,
-    "revenue_cagr_3y": 0.0677,
-    "margin_trend": 0.015,
+    "revenue_growth": 0.0003,
+    "profit_growth": 0.0563,
+    "revenue_cagr_3y": 0.0003,
+    "margin_trend": 0.0072,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 3.0,
@@ -269,8 +269,8 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0,
-    "payout_ratio": 0.66,
+    "dividend_yield": 0.0169,
+    "payout_ratio": 0.67,
     "fcf_coverage": 0.4,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
@@ -279,10 +279,10 @@
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "2024-12-31",
-    "source": "Abu Dhabi National Energy Company PJSC official press release, ADX filings, Arabian Business, Emirates247, WAM",
-    "source_url": "https://www.taqa.com/press-releases/taqa-group-reports-full-year-2023-net-income-of-aed-16-7-billion/",
-    "extractor": "research-grounded/Explore (seed)",
+    "as_of": "FY2025",
+    "source": "FY2025 results (workflow-verified)",
+    "source_url": "https://stockanalysis.com/quote/adx/TAQA/financials/",
+    "extractor": "workflow-research-fy2025",
     "confidence": "high"
   },
   "overview": {
@@ -296,24 +296,24 @@
       "volume": 10058102,
       "high_52w": 2.708,
       "low_52w": 2.616,
-      "dividend_yield": 0.0
+      "dividend_yield": 0.0169
     },
     "top_catalysts": [
       "Mixed fundamentals; no single pillar stands out"
     ],
     "top_risks": [
-      "Execution and macro conditions remain the key swing factors"
+      "Weak growth signal (Growth 27/100)"
     ]
   },
   "disclosures": [
     {
-      "id": "TAQA-2-1781004647",
+      "id": "TAQA-2-1781005657",
       "symbol": "TAQA",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-09T11:30:47+00:00",
+      "published_at": "2026-06-09T11:47:37+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-0-1780943447",
+      "id": "TAQA-0-1780944457",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-08T18:30:47+00:00",
+      "published_at": "2026-06-08T18:47:37+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-7-1779456647",
+      "id": "TAQA-7-1779457657",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-05-22T13:30:47+00:00",
+      "published_at": "2026-05-22T13:47:37+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-3-1777984247",
+      "id": "TAQA-3-1777985257",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-05-05T12:30:47+00:00",
+      "published_at": "2026-05-05T12:47:37+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-4-1776457847",
+      "id": "TAQA-4-1776458857",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-17T20:30:47+00:00",
+      "published_at": "2026-04-17T20:47:37+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-5-1776436247",
+      "id": "TAQA-5-1776437257",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-17T14:30:47+00:00",
+      "published_at": "2026-04-17T14:47:37+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-1-1776281447",
+      "id": "TAQA-1-1776282457",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-15T19:30:47+00:00",
+      "published_at": "2026-04-15T19:47:37+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-6-1775226647",
+      "id": "TAQA-6-1775227657",
       "symbol": "TAQA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-03T14:30:47+00:00",
+      "published_at": "2026-04-03T14:47:37+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
@@ -616,7 +616,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -667,7 +667,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -688,7 +688,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -707,7 +707,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -726,7 +726,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -745,7 +745,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -764,7 +764,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -794,67 +794,68 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-18T22:30:47+00:00",
+      "retrieved_at": "2026-06-18T22:47:37+00:00",
       "url": null,
       "lang": null
     }
   },
   "financials": {
     "years": [
-      2021,
       2022,
       2023,
-      2024
+      2024,
+      2025
     ],
     "revenue": [
-      45294000000.0,
       50051000000.0,
       51717000000.0,
-      54781000000.0
+      54781000000.0,
+      54798000000.0
     ],
     "net_income": [
-      5960000000.0,
       8030000000.0,
       16647000000.0,
-      7068000000.0
+      7068000000.0,
+      7466000000.0
     ],
     "operating_cash_flow": [
-      20293000000.0,
       21879000000.0,
       20118000000.0,
-      18226000000.0
+      18226000000.0,
+      19067000000.0
     ],
     "ratios": {
-      "net_margin": 0.129,
+      "net_margin": 0.1362,
       "net_debt_to_ebitda": 3.0,
       "current_ratio": 1.04,
-      "payout_ratio": 0.66
+      "payout_ratio": 0.67
     },
-    "revenue_cagr_3y": 0.0677,
+    "revenue_cagr_3y": 0.0003,
     "data_quality": "real",
     "currency": "AED"
   },
   "valuation": {
-    "fair_value": 0.753,
-    "fair_low": 0.701,
-    "fair_high": 0.89,
+    "fair_value": 0.767,
+    "fair_low": 0.637,
+    "fair_high": 1.038,
     "price": 2.63,
-    "upside_pct": -0.7138,
+    "upside_pct": -0.7084,
     "rating": "overvalued",
     "confidence": "medium",
-    "summary": "Model fair value AED 0.75 is 71% below the AED 2.63 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~6% growth and a 8.5% discount rate, 7% ROE. Medium confidence (range AED 0.70–0.89).",
+    "summary": "Model fair value AED 0.77 is 71% below the AED 2.63 price — overvalued. Driven mainly by the dividend-discount model; assumes ~2% growth and a 8.5% discount rate, 7% ROE. Medium confidence (range AED 0.64–1.04).",
     "methods": {
-      "pb": 0.464,
-      "pe": 0.918,
-      "fcf": 0.694
+      "ddm": 0.729,
+      "pb": 0.717,
+      "pe": 0.844,
+      "fcf": 0.379
     },
     "assumptions": {
       "discount_rate": 0.085,
-      "growth": 0.0585,
-      "roe": 0.0674,
-      "eps": 0.06,
-      "bvps": 0.9323,
-      "dps": 4.2
+      "growth": 0.0226,
+      "roe": 0.0693,
+      "eps": 0.066,
+      "bvps": 0.9576,
+      "dps": 0.0445
     },
     "method_labels": {
       "ddm": "Dividend discount (Gordon)",
@@ -903,12 +904,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -919,12 +920,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -935,12 +936,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -951,12 +952,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -967,12 +968,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -983,12 +984,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -998,7 +999,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-17T20:30:47+00:00",
+        "published_at": "2026-06-17T20:47:37+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -1006,7 +1007,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -1014,7 +1015,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-17T20:30:47+00:00",
+        "published_at": "2026-06-17T20:47:37+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -1022,7 +1023,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -1030,7 +1031,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-16T04:30:47+00:00",
+        "published_at": "2026-06-16T04:47:37+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -1038,7 +1039,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -1092,61 +1093,61 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 52.5,
+        "score": 43.9,
         "reasons": [
           "Mixed fundamentals; no single pillar stands out"
         ],
         "risks": [
-          "Execution and macro conditions remain the key swing factors"
+          "Weak growth signal (Growth 27/100)"
         ]
       }
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-18T22:30:47+00:00",
+    "generated_at": "2026-06-18T22:47:37+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-18T22:13:12+00:00"
   },
-  "generated_at": "2026-06-18T22:30:47+00:00",
+  "generated_at": "2026-06-18T22:47:37+00:00",
   "peers": {
     "archetype": "utility",
     "self": {
       "symbol": "TAQA",
       "name_en": "Abu Dhabi National Energy (TAQA)",
       "archetype": "utility",
-      "pe": 43.8,
-      "pb": 2.82,
-      "roe": 0.0674,
-      "dy": 0.0,
-      "upside": -0.7138
+      "pe": 39.8,
+      "pb": 2.75,
+      "roe": 0.0693,
+      "dy": 0.0169,
+      "upside": -0.7084
     },
     "medians": {
-      "pe": 20.1,
-      "pb": 2.82,
-      "roe": 0.074,
+      "pe": 17.0,
+      "pb": 2.75,
+      "roe": 0.085,
       "dy": 0.044,
-      "upside": -0.31
+      "upside": -0.24
     },
     "peers": [
       {
         "symbol": "DEWA",
         "name_en": "Dubai Electricity & Water Authority",
         "archetype": "utility",
-        "pe": 20.1,
-        "pb": 1.48,
-        "roe": 0.0738,
+        "pe": 16.6,
+        "pb": 1.44,
+        "roe": 0.0854,
         "dy": 0.044,
-        "upside": -0.1186
+        "upside": -0.2398
       },
       {
         "symbol": "EMPOWER",
         "name_en": "Emirates Central Cooling Systems (Empower)",
         "archetype": "utility",
-        "pe": 18.9,
-        "pb": 5.04,
-        "roe": 0.2692,
-        "dy": 0.0507,
-        "upside": -0.3097
+        "pe": 17.0,
+        "pb": 4.86,
+        "roe": 0.2871,
+        "dy": 0.0515,
+        "upside": -0.0234
       }
     ],
     "n": 3

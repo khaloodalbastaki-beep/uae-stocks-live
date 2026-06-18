@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-18T22:30:46.908Z",
+      "retrieved_at": "2026-06-18T22:47:37.870Z",
       "url": null,
       "lang": null
     }
@@ -60,44 +60,44 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 4,
-      "grade": "D",
+      "score": 65,
+      "grade": "B",
       "subfactors": [
         {
           "key": "rev",
           "label": "Revenue growth (YoY)",
-          "raw": -0.0895,
-          "points": 0.0,
+          "raw": 0.1421,
+          "points": 64.03333333333333,
           "weight": 0.26,
-          "note": "-8.9% top-line growth",
-          "contribution": 0.0
+          "note": "14.2% top-line growth",
+          "contribution": 16.6
         },
         {
           "key": "profit",
           "label": "Earnings growth (YoY)",
-          "raw": -0.3882,
-          "points": 0.0,
+          "raw": 0.3801,
+          "points": 100.0,
           "weight": 0.24,
-          "note": "-38.8% earnings growth",
-          "contribution": 0.0
+          "note": "38.0% earnings growth",
+          "contribution": 24.0
         },
         {
           "key": "cagr",
           "label": "Revenue CAGR (3y)",
-          "raw": 0.0,
-          "points": 0.0,
+          "raw": 0.1421,
+          "points": 71.05,
           "weight": 0.16,
-          "note": "0.0% 3-year CAGR",
-          "contribution": 0.0
+          "note": "14.2% 3-year CAGR",
+          "contribution": 11.4
         },
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": -0.0352,
-          "points": 0.0,
+          "raw": 0.015,
+          "points": 64.28571428571428,
           "weight": 0.14,
-          "note": "compressing margins",
-          "contribution": 0.0
+          "note": "expanding margins",
+          "contribution": 9.0
         },
         {
           "key": "reinvest",
@@ -191,31 +191,31 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 52,
+      "score": 50,
       "grade": "C",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0381,
-          "points": 63.5,
+          "raw": 0.0428,
+          "points": 71.33333333333334,
           "weight": 0.18,
-          "note": "3.81% yield",
-          "contribution": 11.4
+          "note": "4.28% yield",
+          "contribution": 12.8
         },
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.8,
-          "points": 52.4,
+          "raw": 0.92,
+          "points": 32.0,
           "weight": 0.2,
-          "note": "80% of earnings paid out",
-          "contribution": 10.5
+          "note": "92% of earnings paid out",
+          "contribution": 6.4
         },
         {
           "key": "fcf",
           "label": "Free-cash-flow coverage",
-          "raw": 0.6,
+          "raw": 0.43,
           "points": 0.0,
           "weight": 0.22,
           "note": "thin / uncovered coverage",
@@ -250,16 +250,16 @@
         }
       ]
     },
-    "headline": 38,
-    "headline_grade": "D",
+    "headline": 62,
+    "headline_grade": "C+",
     "archetype": "consumer",
     "engine": "deterministic-v1"
   },
   "fundamentals": {
-    "revenue_growth": -0.0895,
-    "profit_growth": -0.3882,
-    "revenue_cagr_3y": 0.0,
-    "margin_trend": -0.0352,
+    "revenue_growth": 0.1421,
+    "profit_growth": 0.3801,
+    "revenue_cagr_3y": 0.1421,
+    "margin_trend": 0.015,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 0.0,
@@ -269,9 +269,9 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0381,
-    "payout_ratio": 0.8,
-    "fcf_coverage": 0.6,
+    "dividend_yield": 0.0428,
+    "payout_ratio": 0.92,
+    "fcf_coverage": 0.43,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
     "frequency": "Annual",
@@ -279,10 +279,10 @@
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "2024-12-31",
-    "source": "Americana Restaurants International PLC - Official FY2024 Earnings Release & Financial Statements",
-    "source_url": "https://www.americanarestaurants.com/wp-content/uploads/2025/02/Americana-Restaurants-Press-Release-FY-2024-Results_EN.pdf",
-    "extractor": "research-grounded/Explore (seed)",
+    "as_of": "FY2025",
+    "source": "FY2025 results (workflow-verified)",
+    "source_url": "https://www.americanarestaurants.com/wp-content/uploads/2026/02/4.-AMR-FY-2025-Earnings-press-release-vF.pdf",
+    "extractor": "workflow-research-fy2025",
     "confidence": "high"
   },
   "overview": {
@@ -296,24 +296,25 @@
       "volume": 9937000,
       "high_52w": 2.165,
       "low_52w": 2.015,
-      "dividend_yield": 0.0381
+      "dividend_yield": 0.0428
     },
     "top_catalysts": [
+      "Solid growth profile (Growth 65/100)",
       "Resilient balance sheet / stability (Stability 67/100)"
     ],
     "top_risks": [
-      "Weak growth signal (Growth 4/100)"
+      "Execution and macro conditions remain the key swing factors"
     ]
   },
   "disclosures": [
     {
-      "id": "AMERICANA-6-1781037047",
+      "id": "AMERICANA-6-1781038057",
       "symbol": "AMERICANA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-09T20:30:47+00:00",
+      "published_at": "2026-06-09T20:47:37+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -326,20 +327,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AMERICANA-7-1780770647",
+      "id": "AMERICANA-7-1780771657",
       "symbol": "AMERICANA",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-06T18:30:47+00:00",
+      "published_at": "2026-06-06T18:47:37+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -352,20 +353,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AMERICANA-4-1777311047",
+      "id": "AMERICANA-4-1777312057",
       "symbol": "AMERICANA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-27T17:30:47+00:00",
+      "published_at": "2026-04-27T17:47:37+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -378,20 +379,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AMERICANA-0-1776792647",
+      "id": "AMERICANA-0-1776793657",
       "symbol": "AMERICANA",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-04-21T17:30:47+00:00",
+      "published_at": "2026-04-21T17:47:37+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -404,20 +405,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AMERICANA-1-1775993447",
+      "id": "AMERICANA-1-1775994457",
       "symbol": "AMERICANA",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-12T11:30:47+00:00",
+      "published_at": "2026-04-12T11:47:37+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -430,20 +431,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AMERICANA-3-1775410247",
+      "id": "AMERICANA-3-1775411257",
       "symbol": "AMERICANA",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-05T17:30:47+00:00",
+      "published_at": "2026-04-05T17:47:37+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -456,20 +457,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AMERICANA-5-1775136647",
+      "id": "AMERICANA-5-1775137657",
       "symbol": "AMERICANA",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-02T13:30:47+00:00",
+      "published_at": "2026-04-02T13:47:37+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -482,20 +483,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AMERICANA-2-1774719047",
+      "id": "AMERICANA-2-1774720057",
       "symbol": "AMERICANA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-03-28T17:30:47+00:00",
+      "published_at": "2026-03-28T17:47:37+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -508,20 +509,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AMERICANA-8-1774452647",
+      "id": "AMERICANA-8-1774453657",
       "symbol": "AMERICANA",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-03-25T15:30:47+00:00",
+      "published_at": "2026-03-25T15:47:37+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -534,7 +535,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
@@ -642,7 +643,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -667,7 +668,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -693,7 +694,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -724,68 +725,68 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-18T22:30:47+00:00",
+      "retrieved_at": "2026-06-18T22:47:37+00:00",
       "url": null,
       "lang": null
     }
   },
   "financials": {
     "years": [
-      2021,
       2022,
       2023,
-      2024
+      2024,
+      2025
     ],
     "revenue": [
-      7535970000.0,
-      8738977500.0,
-      8862109975.0,
-      8067748000.0
+      8737027500.0,
+      8862249615.0,
+      8067617488.0,
+      9214144123.0
     ],
     "net_income": [
-      748896200.0,
       951912000.0,
-      952983750.0,
-      583193000.0
+      952889850.0,
+      583092328.0,
+      804724283.0
     ],
     "operating_cash_flow": [
-      1722051125.0,
-      1667058825.0,
-      1982388975.0,
-      1589458000.0
+      null,
+      1982397308.0,
+      1589461673.0,
+      2163191983.0
     ],
     "ratios": {
-      "net_margin": 0.0723,
+      "net_margin": 0.0873,
       "net_debt_to_ebitda": 0.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.8
+      "payout_ratio": 0.92
     },
-    "revenue_cagr_3y": 0.0,
+    "revenue_cagr_3y": 0.1421,
     "data_quality": "real",
     "currency": "AED"
   },
   "valuation": {
-    "fair_value": 0.978,
-    "fair_low": 0.833,
-    "fair_high": 1.134,
+    "fair_value": 1.235,
+    "fair_low": 1.073,
+    "fair_high": 1.399,
     "price": 2.06,
-    "upside_pct": -0.5252,
+    "upside_pct": -0.4002,
     "rating": "overvalued",
-    "confidence": "medium",
-    "summary": "Model fair value AED 0.98 is 53% below the AED 2.06 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~2% growth and a 10.0% discount rate, 40% ROE. Medium confidence (range AED 0.83–1.13).",
+    "confidence": "low",
+    "summary": "Model fair value AED 1.24 is 40% below the AED 2.06 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~2% growth and a 10.0% discount rate, 45% ROE. Low confidence (range AED 1.07–1.40).",
     "methods": {
-      "ddm": 1.043,
-      "pb": 0.848,
-      "pe": 1.014,
-      "fcf": 0.549
+      "ddm": 1.093,
+      "pb": 1.068,
+      "pe": 1.364,
+      "fcf": 0.512
     },
     "assumptions": {
       "discount_rate": 0.1,
-      "growth": 0.023,
-      "roe": 0.3989,
-      "eps": 0.0693,
-      "bvps": 0.1737,
-      "dps": 0.0785
+      "growth": 0.0179,
+      "roe": 0.4472,
+      "eps": 0.0958,
+      "bvps": 0.2136,
+      "dps": 0.0881
     },
     "method_labels": {
       "ddm": "Dividend discount (Gordon)",
@@ -841,12 +842,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -857,12 +858,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -873,12 +874,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -889,12 +890,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -905,12 +906,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -921,12 +922,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -936,7 +937,7 @@
       {
         "title": "Wheat headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-18T00:30:47+00:00",
+        "published_at": "2026-06-18T00:47:37+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.79,
@@ -944,7 +945,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -952,7 +953,7 @@
       {
         "title": "Wheat headline — global macro update 2",
         "theme": "TOURISM",
-        "published_at": "2026-06-18T20:30:47+00:00",
+        "published_at": "2026-06-18T20:47:37+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -0.42,
@@ -960,7 +961,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -968,7 +969,7 @@
       {
         "title": "Wheat headline — global macro update 3",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-16T06:30:47+00:00",
+        "published_at": "2026-06-16T06:47:37+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -5.45,
@@ -976,7 +977,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -984,7 +985,7 @@
       {
         "title": "Wheat headline — global macro update 4",
         "theme": "TRADE",
-        "published_at": "2026-06-18T03:30:47+00:00",
+        "published_at": "2026-06-18T03:47:37+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": 0.02,
@@ -992,7 +993,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -1000,7 +1001,7 @@
       {
         "title": "Wheat headline — global macro update 5",
         "theme": "TRADE",
-        "published_at": "2026-06-16T00:30:47+00:00",
+        "published_at": "2026-06-16T00:47:37+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -3.44,
@@ -1008,7 +1009,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -1030,13 +1031,14 @@
       "what_would_change_view": "A new high-materiality disclosure, an unexpected sector move, or a sharp commodity shock in this name's exposure map."
     },
     "long_term": {
-      "stance": "Cautious",
+      "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
+        "Solid growth profile (Growth 65/100)",
         "Resilient balance sheet / stability (Stability 67/100)"
       ],
       "risks": [
-        "Weak growth signal (Growth 4/100)"
+        "Execution and macro conditions remain the key swing factors"
       ],
       "what_would_change_view": "A durable change in the growth, stability or dividend pillars — e.g. a re-rating in earnings, a leverage spike, or a dividend cut."
     },
@@ -1054,81 +1056,82 @@
         ]
       },
       "long": {
-        "stance": "Cautious",
+        "stance": "Neutral",
         "confidence": "medium",
-        "score": 37.2,
+        "score": 62.4,
         "reasons": [
+          "Solid growth profile (Growth 65/100)",
           "Resilient balance sheet / stability (Stability 67/100)"
         ],
         "risks": [
-          "Weak growth signal (Growth 4/100)"
+          "Execution and macro conditions remain the key swing factors"
         ]
       }
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-18T22:30:47+00:00"
+    "generated_at": "2026-06-18T22:47:37+00:00"
   },
-  "generated_at": "2026-06-18T22:30:47+00:00",
+  "generated_at": "2026-06-18T22:47:37+00:00",
   "peers": {
     "archetype": "consumer",
     "self": {
       "symbol": "AMERICANA",
       "name_en": "Americana Restaurants",
       "archetype": "consumer",
-      "pe": 29.7,
-      "pb": 11.86,
-      "roe": 0.3989,
-      "dy": 0.0381,
-      "upside": -0.5252
+      "pe": 21.5,
+      "pb": 9.64,
+      "roe": 0.4472,
+      "dy": 0.0428,
+      "upside": -0.4002
     },
     "medians": {
-      "pe": 10.6,
-      "pb": 1.03,
-      "roe": 0.383,
-      "dy": 0.0,
-      "upside": 0.636
+      "pe": 21.5,
+      "pb": 1.11,
+      "roe": 0.097,
+      "dy": 0.051,
+      "upside": -0.4
     },
     "peers": [
       {
         "symbol": "ADNH",
         "name_en": "Abu Dhabi National Hotels",
         "archetype": "consumer",
-        "pe": 3.9,
-        "pb": 0.51,
-        "roe": 0.1257,
-        "dy": 0.1059,
-        "upside": 1.581
+        "pe": 4.7,
+        "pb": 0.48,
+        "roe": 0.0968,
+        "dy": 0.0706,
+        "upside": 1.2018
       },
       {
         "symbol": "AGTHIA",
         "name_en": "Agthia Group",
         "archetype": "consumer",
-        "pe": 10.6,
-        "pb": 1.03,
-        "roe": 0.0973,
-        "dy": 0.0,
-        "upside": 0.6361
+        "pe": 37.1,
+        "pb": 1.11,
+        "roe": 0.0307,
+        "dy": 0.0596,
+        "upside": -0.6335
       },
       {
         "symbol": "GHITHA",
         "name_en": "Ghitha Holding",
         "archetype": "consumer",
-        "pe": 1.0,
-        "pb": 0.4,
-        "roe": 0.3831,
+        "pe": 74.0,
+        "pb": 0.39,
+        "roe": 0.0053,
         "dy": 0.0,
-        "upside": 1.9609
+        "upside": -0.6394
       },
       {
         "symbol": "TALABAT",
         "name_en": "Talabat Holding",
         "archetype": "consumer",
-        "pe": 19.8,
-        "pb": 15.19,
+        "pe": 16.8,
+        "pb": 11.68,
         "roe": 0.6,
-        "dy": 0.0,
-        "upside": 0.0481
+        "dy": 0.0512,
+        "upside": 0.1951
       }
     ],
     "n": 5

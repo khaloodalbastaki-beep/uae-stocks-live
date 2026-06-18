@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "DFM (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-18T22:30:46.908Z",
+      "retrieved_at": "2026-06-18T22:47:37.870Z",
       "url": null,
       "lang": null
     }
@@ -60,44 +60,44 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 57,
-      "grade": "C+",
+      "score": 16,
+      "grade": "D",
       "subfactors": [
         {
           "key": "rev",
           "label": "Revenue growth (YoY)",
-          "raw": 0.1588,
-          "points": 69.6,
+          "raw": 0.0361,
+          "points": 28.700000000000003,
           "weight": 0.26,
-          "note": "15.9% top-line growth",
-          "contribution": 18.1
+          "note": "3.6% top-line growth",
+          "contribution": 7.5
         },
         {
           "key": "profit",
           "label": "Earnings growth (YoY)",
-          "raw": 0.1648,
-          "points": 66.2,
+          "raw": -0.0814,
+          "points": 4.650000000000001,
           "weight": 0.24,
-          "note": "16.5% earnings growth",
-          "contribution": 15.9
+          "note": "-8.1% earnings growth",
+          "contribution": 1.1
         },
         {
           "key": "cagr",
           "label": "Revenue CAGR (3y)",
-          "raw": 0.1588,
-          "points": 79.39999999999999,
+          "raw": 0.0361,
+          "points": 18.05,
           "weight": 0.16,
-          "note": "15.9% 3-year CAGR",
-          "contribution": 12.7
+          "note": "3.6% 3-year CAGR",
+          "contribution": 2.9
         },
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.002,
-          "points": 45.714285714285715,
+          "raw": -0.0722,
+          "points": 0.0,
           "weight": 0.14,
-          "note": "expanding margins",
-          "contribution": 6.4
+          "note": "compressing margins",
+          "contribution": 0.0
         },
         {
           "key": "reinvest",
@@ -191,26 +191,26 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 73,
-      "grade": "B+",
+      "score": 68,
+      "grade": "B",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0564,
-          "points": 94.0,
+          "raw": 0.0439,
+          "points": 73.16666666666667,
           "weight": 0.18,
-          "note": "5.64% yield",
-          "contribution": 16.9
+          "note": "4.39% yield",
+          "contribution": 13.2
         },
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.4,
-          "points": 79.6,
+          "raw": 0.36,
+          "points": 72.8,
           "weight": 0.2,
-          "note": "40% of earnings paid out",
-          "contribution": 15.9
+          "note": "36% of earnings paid out",
+          "contribution": 14.6
         },
         {
           "key": "fcf",
@@ -250,16 +250,16 @@
         }
       ]
     },
-    "headline": 62,
-    "headline_grade": "C+",
+    "headline": 44,
+    "headline_grade": "D+",
     "archetype": "bank",
     "engine": "deterministic-v1"
   },
   "fundamentals": {
-    "revenue_growth": 0.1588,
-    "profit_growth": 0.1648,
-    "revenue_cagr_3y": 0.1588,
-    "margin_trend": 0.002,
+    "revenue_growth": 0.0361,
+    "profit_growth": -0.0814,
+    "revenue_cagr_3y": 0.0361,
+    "margin_trend": -0.0722,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -269,8 +269,8 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0564,
-    "payout_ratio": 0.4,
+    "dividend_yield": 0.0439,
+    "payout_ratio": 0.36,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
@@ -279,10 +279,10 @@
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "2024-12-31",
-    "source": "Dubai Islamic Bank official investor relations and DFM disclosures",
-    "source_url": "https://www.dib.ae/about-us/news/2025/02/11/dubai-islamic-bank-full-year-2024-group-financial-results",
-    "extractor": "research-grounded/Explore (seed)",
+    "as_of": "FY2025",
+    "source": "FY2025 results (workflow-verified)",
+    "source_url": "https://www.dib.ae/about-us/news/2026/02/10/dib-delivers-strong-revenue-of-aed-13-billion-pre-tax-profit-of-aed-9-billion-total-assets-grow-21-to-aed-416-billion",
+    "extractor": "workflow-research-fy2025",
     "confidence": "high"
   },
   "overview": {
@@ -296,24 +296,24 @@
       "volume": 0,
       "high_52w": 7.98,
       "low_52w": 7.451,
-      "dividend_yield": 0.0564
+      "dividend_yield": 0.0439
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 73/100)"
+      "Dependable dividend characteristics (Dividend 68/100)"
     ],
     "top_risks": [
-      "Execution and macro conditions remain the key swing factors"
+      "Weak growth signal (Growth 16/100)"
     ]
   },
   "disclosures": [
     {
-      "id": "DIB-1-1781551847",
+      "id": "DIB-1-1781552858",
       "symbol": "DIB",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-15T19:30:47+00:00",
+      "published_at": "2026-06-15T19:47:38+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIB-2-1777908647",
+      "id": "DIB-2-1777909658",
       "symbol": "DIB",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-05-04T15:30:47+00:00",
+      "published_at": "2026-05-04T15:47:38+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIB-3-1777811447",
+      "id": "DIB-3-1777812458",
       "symbol": "DIB",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-03T12:30:47+00:00",
+      "published_at": "2026-05-03T12:47:38+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DIB-0-1776429047",
+      "id": "DIB-0-1776430058",
       "symbol": "DIB",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-17T12:30:47+00:00",
+      "published_at": "2026-04-17T12:47:38+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIB-4-1774107047",
+      "id": "DIB-4-1774108058",
       "symbol": "DIB",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-03-21T15:30:47+00:00",
+      "published_at": "2026-03-21T15:47:38+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -430,7 +430,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       },
@@ -538,7 +538,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       }
@@ -563,7 +563,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       }
@@ -589,7 +589,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       }
@@ -610,7 +610,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       }
@@ -629,7 +629,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       }
@@ -648,7 +648,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       }
@@ -667,7 +667,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       }
@@ -686,7 +686,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:38+00:00",
         "url": null,
         "lang": null
       }
@@ -716,29 +716,29 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-18T22:30:47+00:00",
+      "retrieved_at": "2026-06-18T22:47:38+00:00",
       "url": null,
       "lang": null
     }
   },
   "financials": {
     "years": [
-      2021,
       2022,
       2023,
-      2024
+      2024,
+      2025
     ],
     "revenue": [
-      7028000000.0,
-      8364000000.0,
-      10084000000.0,
-      12414000000.0
+      10467000000.0,
+      11665000000.0,
+      12837000000.0,
+      13300000000.0
     ],
     "net_income": [
-      4391000000.0,
-      5474000000.0,
-      6798000000.0,
-      7934000000.0
+      5552000000.0,
+      7010000000.0,
+      8165000000.0,
+      7500000000.0
     ],
     "operating_cash_flow": [
       null,
@@ -747,36 +747,36 @@
       null
     ],
     "ratios": {
-      "net_margin": 0.6391,
+      "net_margin": 0.5639,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.4
+      "payout_ratio": 0.36
     },
-    "revenue_cagr_3y": 0.1588,
+    "revenue_cagr_3y": 0.0361,
     "data_quality": "real",
     "currency": "AED"
   },
   "valuation": {
-    "fair_value": 12.212,
-    "fair_low": 10.684,
-    "fair_high": 14.325,
+    "fair_value": 10.746,
+    "fair_low": 9.405,
+    "fair_high": 12.596,
     "price": 7.98,
-    "upside_pct": 0.5304,
+    "upside_pct": 0.3467,
     "rating": "undervalued",
-    "confidence": "high",
-    "summary": "Model fair value AED 12.21 is 53% above the AED 7.98 price — undervalued. Driven mainly by book value vs ROE; assumes ~10% growth and a 10.5% discount rate, 16% ROE. High confidence (range AED 10.68–14.33).",
+    "confidence": "medium",
+    "summary": "Model fair value AED 10.75 is 35% above the AED 7.98 price — undervalued. Driven mainly by book value vs ROE; assumes ~9% growth and a 10.5% discount rate, 14% ROE. Medium confidence (range AED 9.40–12.60).",
     "methods": {
-      "ddm": 8.591,
-      "pb": 13.687,
-      "pe": 12.168
+      "ddm": 6.682,
+      "pb": 12.185,
+      "pe": 11.058
     },
     "assumptions": {
       "discount_rate": 0.105,
-      "growth": 0.1,
-      "roe": 0.1592,
-      "eps": 1.04,
-      "bvps": 6.8914,
-      "dps": 0.45
+      "growth": 0.0908,
+      "roe": 0.1411,
+      "eps": 0.98,
+      "bvps": 7.3523,
+      "dps": 0.35
     },
     "method_labels": {
       "ddm": "Dividend discount (Gordon)",
@@ -816,12 +816,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -832,12 +832,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -848,12 +848,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -864,12 +864,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -880,12 +880,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -896,12 +896,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -911,7 +911,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-17T20:30:47+00:00",
+        "published_at": "2026-06-17T20:47:38+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -919,7 +919,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:38+00:00",
           "url": null,
           "lang": null
         }
@@ -927,7 +927,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-17T20:30:47+00:00",
+        "published_at": "2026-06-17T20:47:38+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -935,7 +935,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:38+00:00",
           "url": null,
           "lang": null
         }
@@ -943,7 +943,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-16T04:30:47+00:00",
+        "published_at": "2026-06-16T04:47:38+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -951,7 +951,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:38+00:00",
           "url": null,
           "lang": null
         }
@@ -1010,101 +1010,101 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 61.2,
+        "score": 42.9,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 73/100)"
+          "Dependable dividend characteristics (Dividend 68/100)"
         ],
         "risks": [
-          "Execution and macro conditions remain the key swing factors"
+          "Weak growth signal (Growth 16/100)"
         ]
       }
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-18T22:30:47+00:00",
+    "generated_at": "2026-06-18T22:47:38+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-18T22:11:16+00:00"
   },
-  "generated_at": "2026-06-18T22:30:47+00:00",
+  "generated_at": "2026-06-18T22:47:38+00:00",
   "peers": {
     "archetype": "bank",
     "self": {
       "symbol": "DIB",
       "name_en": "Dubai Islamic Bank",
       "archetype": "bank",
-      "pe": 7.7,
-      "pb": 1.16,
-      "roe": 0.1592,
-      "dy": 0.0564,
-      "upside": 0.5304
+      "pe": 8.1,
+      "pb": 1.09,
+      "roe": 0.1411,
+      "dy": 0.0439,
+      "upside": 0.3467
     },
     "medians": {
-      "pe": 9.7,
-      "pb": 1.56,
-      "roe": 0.173,
-      "dy": 0.05,
-      "upside": 0.259
+      "pe": 8.4,
+      "pb": 1.37,
+      "roe": 0.166,
+      "dy": 0.044,
+      "upside": 0.347
     },
     "peers": [
       {
         "symbol": "ADCB",
         "name_en": "Abu Dhabi Commercial Bank",
         "archetype": "bank",
-        "pe": 13.2,
-        "pb": 1.49,
-        "roe": 0.1247,
-        "dy": 0.0383,
-        "upside": -0.1314
+        "pe": 10.6,
+        "pb": 1.37,
+        "roe": 0.129,
+        "dy": 0.0409,
+        "upside": 0.0107
       },
       {
         "symbol": "ADIB",
         "name_en": "Abu Dhabi Islamic Bank",
         "archetype": "bank",
-        "pe": 14.7,
-        "pb": 3.53,
-        "roe": 0.2701,
-        "dy": 0.0378,
-        "upside": -0.0492
+        "pe": 12.6,
+        "pb": 2.49,
+        "roe": 0.2209,
+        "dy": 0.0442,
+        "upside": 0.0722
       },
       {
         "symbol": "FAB",
         "name_en": "First Abu Dhabi Bank",
         "archetype": "bank",
-        "pe": 12.5,
-        "pb": 1.56,
-        "roe": 0.1303,
-        "dy": 0.0406,
-        "upside": -0.0949
+        "pe": 10.0,
+        "pb": 1.53,
+        "roe": 0.1587,
+        "dy": 0.0433,
+        "upside": 0.1617
       },
       {
         "symbol": "RAKBANK",
         "name_en": "National Bank of Ras Al Khaimah",
         "archetype": "bank",
-        "pe": 8.9,
-        "pb": 1.56,
-        "roe": 0.1756,
-        "dy": 0.0546,
-        "upside": 0.336
+        "pe": 7.1,
+        "pb": 1.3,
+        "roe": 0.1831,
+        "dy": 0.0689,
+        "upside": 0.691
       },
       {
         "symbol": "SIB",
         "name_en": "Sharjah Islamic Bank",
         "archetype": "bank",
-        "pe": 10.0,
+        "pe": 7.9,
         "pb": 1.17,
-        "roe": 0.1263,
-        "dy": 0.05,
-        "upside": 0.1347
+        "roe": 0.1578,
+        "dy": 0.0667,
+        "upside": 0.5373
       },
       {
         "symbol": "CBD",
         "name_en": "Commercial Bank of Dubai",
         "archetype": "bank",
-        "pe": 9.7,
-        "pb": 1.62,
-        "roe": 0.1733,
-        "dy": 0.054,
-        "upside": 0.2588
+        "pe": 8.4,
+        "pb": 1.45,
+        "roe": 0.1802,
+        "dy": 0.062,
+        "upside": 0.4716
       }
     ],
     "n": 9

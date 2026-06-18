@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-18T22:30:46.908Z",
+      "retrieved_at": "2026-06-18T22:47:37.870Z",
       "url": null,
       "lang": null
     }
@@ -60,44 +60,44 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 20,
+      "score": 17,
       "grade": "D",
       "subfactors": [
         {
           "key": "rev",
           "label": "Revenue growth (YoY)",
-          "raw": 0.0516,
-          "points": 33.86666666666667,
+          "raw": -0.2147,
+          "points": 0.0,
           "weight": 0.26,
-          "note": "5.2% top-line growth",
-          "contribution": 8.8
+          "note": "-21.5% top-line growth",
+          "contribution": 0.0
         },
         {
           "key": "profit",
           "label": "Earnings growth (YoY)",
-          "raw": -0.0563,
-          "points": 10.925,
+          "raw": -0.1392,
+          "points": 0.0,
           "weight": 0.24,
-          "note": "-5.6% earnings growth",
-          "contribution": 2.6
+          "note": "-13.9% earnings growth",
+          "contribution": 0.0
         },
         {
           "key": "cagr",
           "label": "Revenue CAGR (3y)",
-          "raw": 0.0516,
-          "points": 25.8,
+          "raw": 0.0,
+          "points": 0.0,
           "weight": 0.16,
-          "note": "5.2% 3-year CAGR",
-          "contribution": 4.1
+          "note": "0.0% 3-year CAGR",
+          "contribution": 0.0
         },
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": -0.04,
-          "points": 0.0,
+          "raw": 0.0326,
+          "points": 89.4285714285714,
           "weight": 0.14,
-          "note": "compressing margins",
-          "contribution": 0.0
+          "note": "expanding margins",
+          "contribution": 12.5
         },
         {
           "key": "reinvest",
@@ -121,8 +121,8 @@
     },
     "stability": {
       "pillar": "stability",
-      "score": 71,
-      "grade": "B",
+      "score": 53,
+      "grade": "C",
       "subfactors": [
         {
           "key": "lev",
@@ -145,11 +145,11 @@
         {
           "key": "ocf",
           "label": "Operating cash-flow consistency",
-          "raw": 1.0,
-          "points": 100.0,
+          "raw": 0.3,
+          "points": 0.0,
           "weight": 0.18,
-          "note": "steady cash generation",
-          "contribution": 18.0
+          "note": "lumpy cash flow",
+          "contribution": 0.0
         },
         {
           "key": "vol",
@@ -191,26 +191,26 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 57,
-      "grade": "C+",
+      "score": 69,
+      "grade": "B",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0059,
-          "points": 9.833333333333332,
+          "raw": 0.0591,
+          "points": 98.5,
           "weight": 0.18,
-          "note": "0.59% yield",
-          "contribution": 1.8
+          "note": "5.91% yield",
+          "contribution": 17.7
         },
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.7,
-          "points": 69.4,
+          "raw": 0.81,
+          "points": 50.699999999999996,
           "weight": 0.2,
-          "note": "70% of earnings paid out",
-          "contribution": 13.9
+          "note": "81% of earnings paid out",
+          "contribution": 10.1
         },
         {
           "key": "fcf",
@@ -250,27 +250,27 @@
         }
       ]
     },
-    "headline": 47,
+    "headline": 43,
     "headline_grade": "D+",
     "archetype": "energy",
     "engine": "deterministic-v1"
   },
   "fundamentals": {
-    "revenue_growth": 0.0516,
-    "profit_growth": -0.0563,
-    "revenue_cagr_3y": 0.0516,
-    "margin_trend": -0.04,
+    "revenue_growth": -0.2147,
+    "profit_growth": -0.1392,
+    "revenue_cagr_3y": 0.0,
+    "margin_trend": 0.0326,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 1.17,
     "current_ratio": 1.3,
-    "ocf_consistency": 1.0,
+    "ocf_consistency": 0.3,
     "price_volatility": 0.3,
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0059,
-    "payout_ratio": 0.7,
+    "dividend_yield": 0.0591,
+    "payout_ratio": 0.81,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
@@ -279,10 +279,10 @@
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "2024-12-31",
-    "source": "Dana Gas PJSC official IR reports, Zawya, investing.com, MarketScreener",
-    "source_url": "https://www.danagas.com/investors/reports/",
-    "extractor": "research-grounded/Explore (seed-2)",
+    "as_of": "FY2025",
+    "source": "FY2025 results (workflow-verified)",
+    "source_url": "https://www.zawya.com/en/capital-markets/equities/dana-gas-reports-130mln-net-profit-for-fy2025-qlsv9tgv",
+    "extractor": "workflow-research-fy2025",
     "confidence": "high"
   },
   "overview": {
@@ -296,24 +296,24 @@
       "volume": 10572110,
       "high_52w": 0.944,
       "low_52w": 0.892,
-      "dividend_yield": 0.0059
+      "dividend_yield": 0.0591
     },
     "top_catalysts": [
-      "Resilient balance sheet / stability (Stability 71/100)"
+      "Dependable dividend characteristics (Dividend 69/100)"
     ],
     "top_risks": [
-      "Weak growth signal (Growth 20/100)"
+      "Weak growth signal (Growth 17/100)"
     ]
   },
   "disclosures": [
     {
-      "id": "DANA-4-1780245047",
+      "id": "DANA-4-1780246057",
       "symbol": "DANA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-31T16:30:47+00:00",
+      "published_at": "2026-05-31T16:47:37+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DANA-5-1779895847",
+      "id": "DANA-5-1779896857",
       "symbol": "DANA",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-27T15:30:47+00:00",
+      "published_at": "2026-05-27T15:47:37+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DANA-3-1779658247",
+      "id": "DANA-3-1779659257",
       "symbol": "DANA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-24T21:30:47+00:00",
+      "published_at": "2026-05-24T21:47:37+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DANA-1-1779211847",
+      "id": "DANA-1-1779212857",
       "symbol": "DANA",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-05-19T17:30:47+00:00",
+      "published_at": "2026-05-19T17:47:37+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DANA-6-1777984247",
+      "id": "DANA-6-1777985257",
       "symbol": "DANA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-05T12:30:47+00:00",
+      "published_at": "2026-05-05T12:47:37+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DANA-2-1775215847",
+      "id": "DANA-2-1775216857",
       "symbol": "DANA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-03T11:30:47+00:00",
+      "published_at": "2026-04-03T11:47:37+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DANA-0-1774463447",
+      "id": "DANA-0-1774464457",
       "symbol": "DANA",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-03-25T18:30:47+00:00",
+      "published_at": "2026-03-25T18:47:37+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DANA-7-1774099847",
+      "id": "DANA-7-1774100857",
       "symbol": "DANA",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-03-21T13:30:47+00:00",
+      "published_at": "2026-03-21T13:47:37+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
@@ -616,7 +616,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -667,7 +667,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -688,7 +688,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -707,7 +707,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -726,7 +726,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -745,7 +745,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -764,7 +764,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -794,67 +794,67 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-18T22:30:47+00:00",
+      "retrieved_at": "2026-06-18T22:47:37+00:00",
       "url": null,
       "lang": null
     }
   },
   "financials": {
     "years": [
-      2021,
       2022,
       2023,
-      2024
+      2024,
+      2025
     ],
     "revenue": [
-      1659970000.0,
       1940000000.0,
       1550000000.0,
-      1630000000.0
+      1630000000.0,
+      1280000000.0
     ],
     "net_income": [
-      1160000000.0,
       667000000.0,
       586000000.0,
-      553000000.0
+      553000000.0,
+      476000000.0
     ],
     "operating_cash_flow": [
-      1109095000.0,
-      826312500.0,
-      594945000.0,
-      1006265000.0
+      null,
+      null,
+      null,
+      null
     ],
     "ratios": {
-      "net_margin": 0.3393,
+      "net_margin": 0.3719,
       "net_debt_to_ebitda": 1.17,
       "current_ratio": 1.3,
-      "payout_ratio": 0.7
+      "payout_ratio": 0.81
     },
-    "revenue_cagr_3y": 0.0516,
+    "revenue_cagr_3y": 0.0,
     "data_quality": "real",
     "currency": "AED"
   },
   "valuation": {
-    "fair_value": 0.713,
-    "fair_low": 0.693,
-    "fair_high": 0.754,
+    "fair_value": 0.596,
+    "fair_low": 0.573,
+    "fair_high": 0.65,
     "price": 0.93,
-    "upside_pct": -0.2331,
+    "upside_pct": -0.3593,
     "rating": "overvalued",
     "confidence": "high",
-    "summary": "Model fair value AED 0.71 is 23% below the AED 0.93 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~0% growth and a 10.5% discount rate, 6% ROE. High confidence (range AED 0.69–0.75).",
+    "summary": "Model fair value AED 0.60 is 36% below the AED 0.93 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~0% growth and a 10.5% discount rate, 5% ROE. High confidence (range AED 0.57–0.65).",
     "methods": {
-      "ddm": 0.093,
-      "pb": 0.753,
-      "pe": 0.695
+      "ddm": 0.524,
+      "pb": 0.648,
+      "pe": 0.598
     },
     "assumptions": {
       "discount_rate": 0.105,
       "growth": 0.0,
-      "roe": 0.0597,
-      "eps": 0.079,
-      "bvps": 1.3241,
-      "dps": 0.0055
+      "roe": 0.0509,
+      "eps": 0.068,
+      "bvps": 1.337,
+      "dps": 0.055
     },
     "method_labels": {
       "ddm": "Dividend discount (Gordon)",
@@ -892,12 +892,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -908,12 +908,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -924,12 +924,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -940,12 +940,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -956,12 +956,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -972,12 +972,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -987,7 +987,7 @@
       {
         "title": "Energy headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-17T17:30:47+00:00",
+        "published_at": "2026-06-17T17:47:37+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.37,
@@ -995,7 +995,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -1003,7 +1003,7 @@
       {
         "title": "Energy headline — global macro update 2",
         "theme": "TRADE",
-        "published_at": "2026-06-17T03:30:47+00:00",
+        "published_at": "2026-06-17T03:47:37+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 4.74,
@@ -1011,7 +1011,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -1019,7 +1019,7 @@
       {
         "title": "Energy headline — global macro update 3",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-17T03:30:47+00:00",
+        "published_at": "2026-06-17T03:47:37+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 3.45,
@@ -1027,7 +1027,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -1035,7 +1035,7 @@
       {
         "title": "Energy headline — global macro update 4",
         "theme": "MARITIME",
-        "published_at": "2026-06-18T13:30:47+00:00",
+        "published_at": "2026-06-18T13:47:37+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 2.16,
@@ -1043,7 +1043,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -1051,7 +1051,7 @@
       {
         "title": "Energy headline — global macro update 5",
         "theme": "TRADE",
-        "published_at": "2026-06-16T00:30:47+00:00",
+        "published_at": "2026-06-16T00:47:37+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.91,
@@ -1059,7 +1059,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -1067,7 +1067,7 @@
       {
         "title": "Energy headline — global macro update 6",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-17T02:30:47+00:00",
+        "published_at": "2026-06-17T02:47:37+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -3.68,
@@ -1075,7 +1075,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -1096,13 +1096,13 @@
       "what_would_change_view": "A new high-materiality disclosure, an unexpected sector move, or a sharp commodity shock in this name's exposure map."
     },
     "long_term": {
-      "stance": "Neutral",
+      "stance": "Cautious",
       "confidence": "low",
       "reasons": [
-        "Resilient balance sheet / stability (Stability 71/100)"
+        "Dependable dividend characteristics (Dividend 69/100)"
       ],
       "risks": [
-        "Weak growth signal (Growth 20/100)"
+        "Weak growth signal (Growth 17/100)"
       ],
       "what_would_change_view": "A durable change in the growth, stability or dividend pillars — e.g. a re-rating in earnings, a leverage spike, or a dividend cut."
     },
@@ -1119,51 +1119,51 @@
         ]
       },
       "long": {
-        "stance": "Neutral",
+        "stance": "Cautious",
         "confidence": "low",
-        "score": 46.5,
+        "score": 41.4,
         "reasons": [
-          "Resilient balance sheet / stability (Stability 71/100)"
+          "Dependable dividend characteristics (Dividend 69/100)"
         ],
         "risks": [
-          "Weak growth signal (Growth 20/100)"
+          "Weak growth signal (Growth 17/100)"
         ]
       }
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-18T22:30:47+00:00"
+    "generated_at": "2026-06-18T22:47:37+00:00"
   },
-  "generated_at": "2026-06-18T22:30:47+00:00",
+  "generated_at": "2026-06-18T22:47:37+00:00",
   "peers": {
     "archetype": "energy",
     "self": {
       "symbol": "DANA",
       "name_en": "Dana Gas",
       "archetype": "energy",
-      "pe": 11.8,
+      "pe": 13.7,
       "pb": 0.7,
-      "roe": 0.0597,
-      "dy": 0.0059,
-      "upside": -0.2331
+      "roe": 0.0509,
+      "dy": 0.0591,
+      "upside": -0.3593
     },
     "medians": {
-      "pe": 13.25,
-      "pb": 1.88,
-      "roe": 0.134,
-      "dy": 0.011,
-      "upside": -0.177
+      "pe": 13.95,
+      "pb": 1.835,
+      "roe": 0.13,
+      "dy": 0.03,
+      "upside": -0.256
     },
     "peers": [
       {
         "symbol": "ADNOCGAS",
         "name_en": "ADNOC Gas",
         "archetype": "energy",
-        "pe": 14.7,
-        "pb": 3.06,
-        "roe": 0.2087,
-        "dy": 0.0171,
-        "upside": -0.1219
+        "pe": 14.2,
+        "pb": 2.97,
+        "roe": 0.2091,
+        "dy": 0.0,
+        "upside": -0.1535
       }
     ],
     "n": 2

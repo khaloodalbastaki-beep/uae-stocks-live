@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-18T22:30:46.908Z",
+      "retrieved_at": "2026-06-18T22:47:37.870Z",
       "url": null,
       "lang": null
     }
@@ -60,40 +60,40 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 51,
-      "grade": "C",
+      "score": 61,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "rev",
           "label": "Revenue growth (YoY)",
-          "raw": 0.027,
-          "points": 25.666666666666664,
+          "raw": 0.084,
+          "points": 44.66666666666667,
           "weight": 0.26,
-          "note": "2.7% top-line growth",
-          "contribution": 6.7
+          "note": "8.4% top-line growth",
+          "contribution": 11.6
         },
         {
           "key": "profit",
           "label": "Earnings growth (YoY)",
-          "raw": 1.4501,
+          "raw": 2.8597,
           "points": 100.0,
           "weight": 0.24,
-          "note": "145.0% earnings growth",
+          "note": "286.0% earnings growth",
           "contribution": 24.0
         },
         {
           "key": "cagr",
           "label": "Revenue CAGR (3y)",
-          "raw": 0.027,
-          "points": 13.499999999999998,
+          "raw": 0.084,
+          "points": 42.0,
           "weight": 0.16,
-          "note": "2.7% 3-year CAGR",
-          "contribution": 2.2
+          "note": "8.4% 3-year CAGR",
+          "contribution": 6.7
         },
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.111,
+          "raw": 0.1158,
           "points": 100.0,
           "weight": 0.14,
           "note": "expanding margins",
@@ -121,8 +121,8 @@
     },
     "stability": {
       "pillar": "stability",
-      "score": 62,
-      "grade": "C+",
+      "score": 44,
+      "grade": "D+",
       "subfactors": [
         {
           "key": "lev",
@@ -145,11 +145,11 @@
         {
           "key": "ocf",
           "label": "Operating cash-flow consistency",
-          "raw": 1.0,
-          "points": 100.0,
+          "raw": 0.3,
+          "points": 0.0,
           "weight": 0.18,
-          "note": "steady cash generation",
-          "contribution": 18.0
+          "note": "lumpy cash flow",
+          "contribution": 0.0
         },
         {
           "key": "vol",
@@ -250,21 +250,21 @@
         }
       ]
     },
-    "headline": 57,
-    "headline_grade": "C+",
+    "headline": 55,
+    "headline_grade": "C",
     "archetype": "healthcare",
     "engine": "deterministic-v1"
   },
   "fundamentals": {
-    "revenue_growth": 0.027,
-    "profit_growth": 1.4501,
-    "revenue_cagr_3y": 0.027,
-    "margin_trend": 0.111,
+    "revenue_growth": 0.084,
+    "profit_growth": 2.8597,
+    "revenue_cagr_3y": 0.084,
+    "margin_trend": 0.1158,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 6.71,
     "current_ratio": 2.26,
-    "ocf_consistency": 1.0,
+    "ocf_consistency": 0.3,
     "price_volatility": 0.3,
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
@@ -279,10 +279,10 @@
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "2024-12-31",
-    "source": "Julphar official announcements, stockanalysis.com, ADX filings",
-    "source_url": "https://www.julphar.net/en/julphar-reports-strong-financial-results-in-profits--revenues--and-cash-from-operations-for-the-fiscal-year-2024",
-    "extractor": "research-grounded/Explore (seed-2)",
+    "as_of": "FY2025",
+    "source": "FY2025 results (workflow-verified)",
+    "source_url": "https://www.julphar.net/en/julphar-delivers-strong-fy2025-results-with-accelerated-growth-and-improved-profitability",
+    "extractor": "workflow-research-fy2025",
     "confidence": "high"
   },
   "overview": {
@@ -299,21 +299,21 @@
       "dividend_yield": 0.0
     },
     "top_catalysts": [
-      "Resilient balance sheet / stability (Stability 62/100)"
+      "Mixed fundamentals; no single pillar stands out"
     ],
     "top_risks": [
-      "Execution and macro conditions remain the key swing factors"
+      "Balance-sheet / stability concerns (Stability 44/100)"
     ]
   },
   "disclosures": [
     {
-      "id": "JULPHAR-1-1779276647",
+      "id": "JULPHAR-1-1779277657",
       "symbol": "JULPHAR",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-20T11:30:47+00:00",
+      "published_at": "2026-05-20T11:47:37+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "JULPHAR-2-1778769047",
+      "id": "JULPHAR-2-1778770057",
       "symbol": "JULPHAR",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-14T14:30:47+00:00",
+      "published_at": "2026-05-14T14:47:37+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "JULPHAR-3-1777998647",
+      "id": "JULPHAR-3-1777999657",
       "symbol": "JULPHAR",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-05T16:30:47+00:00",
+      "published_at": "2026-05-05T16:47:37+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "JULPHAR-0-1777807847",
+      "id": "JULPHAR-0-1777808857",
       "symbol": "JULPHAR",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-03T11:30:47+00:00",
+      "published_at": "2026-05-03T11:47:37+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -404,7 +404,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       },
@@ -452,7 +452,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -477,7 +477,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -503,7 +503,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -524,7 +524,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -543,7 +543,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -562,7 +562,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-18T22:30:47+00:00",
+        "retrieved_at": "2026-06-18T22:47:37+00:00",
         "url": null,
         "lang": null
       }
@@ -592,65 +592,65 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-18T22:30:47+00:00",
+      "retrieved_at": "2026-06-18T22:47:37+00:00",
       "url": null,
       "lang": null
     }
   },
   "financials": {
     "years": [
-      2021,
       2022,
       2023,
-      2024
+      2024,
+      2025
     ],
     "revenue": [
-      1143000000.0,
       1616000000.0,
       1278000000.0,
-      992200000.0
+      992200000.0,
+      1075500000.0
     ],
     "net_income": [
-      64400000.0,
       -29400000.0,
       -99100000.0,
-      44600000.0
+      44900000.0,
+      173300000.0
     ],
     "operating_cash_flow": [
-      46200000.0,
       19300000.0,
       93600000.0,
-      190000000.0
+      190000000.0,
+      120900000.0
     ],
     "ratios": {
-      "net_margin": 0.045,
+      "net_margin": 0.1611,
       "net_debt_to_ebitda": 6.71,
       "current_ratio": 2.26,
       "payout_ratio": 0.5
     },
-    "revenue_cagr_3y": 0.027,
+    "revenue_cagr_3y": 0.084,
     "data_quality": "real",
     "currency": "AED"
   },
   "valuation": {
-    "fair_value": 0.555,
-    "fair_low": 0.545,
-    "fair_high": 0.592,
+    "fair_value": 2.097,
+    "fair_low": 2.058,
+    "fair_high": 2.342,
     "price": 1.13,
-    "upside_pct": -0.5089,
-    "rating": "overvalued",
-    "confidence": "high",
-    "summary": "Model fair value AED 0.55 is 51% below the AED 1.13 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~0% growth and a 10.5% discount rate, 6% ROE. High confidence (range AED 0.54–0.59).",
+    "upside_pct": 0.8554,
+    "rating": "undervalued",
+    "confidence": "medium",
+    "summary": "Model fair value AED 2.10 is 86% above the AED 1.13 price — undervalued. Driven mainly by a normalised earnings multiple; assumes ~0% growth and a 10.5% discount rate, 18% ROE. Medium confidence (range AED 2.06–2.34).",
     "methods": {
-      "pb": 0.368,
-      "pe": 0.64
+      "pb": 1.429,
+      "pe": 2.4
     },
     "assumptions": {
       "discount_rate": 0.105,
       "growth": 0.0,
-      "roe": 0.0558,
-      "eps": 0.04,
-      "bvps": 0.6919,
+      "roe": 0.1806,
+      "eps": 0.15,
+      "bvps": 0.831,
       "dps": 0.0
     },
     "method_labels": {
@@ -689,12 +689,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -705,12 +705,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -721,12 +721,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -737,12 +737,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -753,12 +753,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -769,12 +769,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-18T22:30:46+00:00",
+        "as_of": "2026-06-18T22:47:37+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:46+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -784,7 +784,7 @@
       {
         "title": "Healthcare headline — global macro update 1",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-18T18:30:47+00:00",
+        "published_at": "2026-06-18T18:47:37+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -2.24,
@@ -792,7 +792,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -800,7 +800,7 @@
       {
         "title": "Healthcare headline — global macro update 2",
         "theme": "TRADE",
-        "published_at": "2026-06-16T00:30:47+00:00",
+        "published_at": "2026-06-16T00:47:37+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -2.28,
@@ -808,7 +808,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -816,7 +816,7 @@
       {
         "title": "Healthcare headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-16T05:30:47+00:00",
+        "published_at": "2026-06-16T05:47:37+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -0.09,
@@ -824,7 +824,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -832,7 +832,7 @@
       {
         "title": "Healthcare headline — global macro update 4",
         "theme": "ENERGY",
-        "published_at": "2026-06-17T11:30:47+00:00",
+        "published_at": "2026-06-17T11:47:37+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": 3.21,
@@ -840,7 +840,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-18T22:30:47+00:00",
+          "retrieved_at": "2026-06-18T22:47:37+00:00",
           "url": null,
           "lang": null
         }
@@ -865,10 +865,10 @@
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Resilient balance sheet / stability (Stability 62/100)"
+        "Mixed fundamentals; no single pillar stands out"
       ],
       "risks": [
-        "Execution and macro conditions remain the key swing factors"
+        "Balance-sheet / stability concerns (Stability 44/100)"
       ],
       "what_would_change_view": "A durable change in the growth, stability or dividend pillars — e.g. a re-rating in earnings, a leverage spike, or a dividend cut."
     },
@@ -888,59 +888,59 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 57.2,
+        "score": 54.9,
         "reasons": [
-          "Resilient balance sheet / stability (Stability 62/100)"
+          "Mixed fundamentals; no single pillar stands out"
         ],
         "risks": [
-          "Execution and macro conditions remain the key swing factors"
+          "Balance-sheet / stability concerns (Stability 44/100)"
         ]
       }
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-18T22:30:47+00:00"
+    "generated_at": "2026-06-18T22:47:37+00:00"
   },
-  "generated_at": "2026-06-18T22:30:47+00:00",
+  "generated_at": "2026-06-18T22:47:37+00:00",
   "peers": {
     "archetype": "healthcare",
     "self": {
       "symbol": "JULPHAR",
       "name_en": "Gulf Pharmaceutical Industries (Julphar)",
       "archetype": "healthcare",
-      "pe": 28.2,
-      "pb": 1.63,
-      "roe": 0.0558,
+      "pe": 7.5,
+      "pb": 1.36,
+      "roe": 0.1806,
       "dy": 0.0,
-      "upside": -0.5089
+      "upside": 0.8554
     },
     "medians": {
-      "pe": 16.6,
-      "pb": 1.63,
-      "roe": 0.087,
-      "dy": 0.013,
-      "upside": 0.14
+      "pe": 12.9,
+      "pb": 1.41,
+      "roe": 0.181,
+      "dy": 0.017,
+      "upside": 0.758
     },
     "peers": [
       {
         "symbol": "BURJEEL",
         "name_en": "Burjeel Holdings",
         "archetype": "healthcare",
-        "pe": 16.6,
-        "pb": 2.74,
-        "roe": 0.1579,
-        "dy": 0.0259,
-        "upside": 0.1404
+        "pe": 12.9,
+        "pb": 2.79,
+        "roe": 0.2323,
+        "dy": 0.0172,
+        "upside": 0.7583
       },
       {
         "symbol": "PUREHEALTH",
         "name_en": "Pure Health Holding",
         "archetype": "healthcare",
-        "pe": 15.5,
-        "pb": 1.31,
-        "roe": 0.0867,
-        "dy": 0.0133,
-        "upside": 0.1745
+        "pe": 12.9,
+        "pb": 1.41,
+        "roe": 0.1093,
+        "dy": 0.0232,
+        "upside": 0.4944
       }
     ],
     "n": 3
