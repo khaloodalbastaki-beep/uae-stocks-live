@@ -1,58 +1,28 @@
 {
   "symbol": "TAQA",
-  "as_of": "FY2025",
+  "as_of": "2024-12-31",
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "StockAnalysis",
   "source_url": "https://stockanalysis.com/quote/adx/TAQA/financials/",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T10:59:58+00:00",
+  "retrieved_at": "2026-06-19T10:32:18+00:00",
   "reported": {
-    "revenue": 54798000000.0,
-    "revenue_prior": 54781000000.0,
-    "net_income": 7466000000.0,
-    "net_income_prior": 7068000000.0,
-    "net_margin": 0.1362,
-    "net_margin_prior": 0.129,
-    "ebitda": 21400000000,
-    "operating_cash_flow": 11800000000,
-    "fcf": 2600000000,
-    "total_debt": 64100000000,
-    "current_ratio": 1.04,
-    "dividend_per_share": 0.0445,
-    "dividend_frequency": "annual",
-    "payout_ratio": 0.674,
-    "years_paid": 7,
-    "shares_outstanding": 112434000000.0,
-    "total_equity": 107662000000.0,
-    "eps": 0.066
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      50051000000.0,
-      51717000000.0,
-      54781000000.0,
-      54798000000.0
-    ],
-    "net_income": [
-      8030000000.0,
-      16647000000.0,
-      7068000000.0,
-      7466000000.0
-    ],
-    "operating_cash_flow": [
-      21879000000.0,
-      20118000000.0,
-      18226000000.0,
-      19067000000.0
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "revenue": 54781,
+    "revenue_prior": 51717,
+    "net_income": 7068,
+    "net_income_prior": 16647,
+    "net_margin": 0.129,
+    "net_margin_prior": 0.322,
+    "total_debt": null,
+    "ebitda": 18924,
+    "operating_cash_flow": null,
+    "current_ratio": null,
+    "dividend_per_share": 0.042,
+    "payout_ratio": null,
+    "fcf": 9810,
+    "cut_history_5y": null,
+    "dividend_frequency": null,
+    "years_paid": null
+  }
 }

@@ -1,57 +1,28 @@
 {
   "symbol": "PUREHEALTH",
-  "as_of": "FY2025",
+  "as_of": "2025-12-31",
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "PureHealth press release",
   "source_url": "https://purehealth.ae/purehealth-reports-aed-2-billion-net-profit-and-proposes-aed-600-million-dividend-for-fy-2025/",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T10:59:58+00:00",
+  "retrieved_at": "2026-06-19T10:32:04+00:00",
   "reported": {
-    "revenue": 27312000000.0,
-    "revenue_prior": 25848000000.0,
-    "net_income": 2002000000.0,
-    "net_income_prior": 1712000000.0,
-    "ebitda": 4100000000,
+    "revenue": 27300000000,
+    "revenue_prior": null,
+    "net_income": 2000000000,
+    "net_income_prior": null,
     "net_margin": 0.0733,
-    "net_margin_prior": 0.0662,
-    "operating_cash_flow": 5020000000,
-    "fcf": 4240000000,
-    "total_debt": 1900000000,
+    "net_margin_prior": null,
+    "total_debt": null,
+    "ebitda": 4800000000,
+    "operating_cash_flow": null,
     "current_ratio": null,
-    "dividend_per_share": 0.054,
+    "dividend_per_share": null,
     "payout_ratio": 0.3,
-    "years_paid": 1,
-    "shares_outstanding": 11111000000.0,
-    "total_equity": 18321000000.0,
-    "eps": 0.18
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      12486000000.0,
-      16399000000.0,
-      25848000000.0,
-      27312000000.0
-    ],
-    "net_income": [
-      3718000000.0,
-      964660000.0,
-      1712000000.0,
-      2002000000.0
-    ],
-    "operating_cash_flow": [
-      4186000000.0,
-      2532000000.0,
-      4219000000.0,
-      4929000000.0
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "fcf": null,
+    "cut_history_5y": null,
+    "dividend_frequency": "semi",
+    "years_paid": null
+  }
 }

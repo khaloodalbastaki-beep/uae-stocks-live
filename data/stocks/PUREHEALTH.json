@@ -12,7 +12,7 @@
     "price": 2.31,
     "change": -0.02,
     "change_pct": -0.0086,
-    "volume": 5997376,
+    "volume": 6284708,
     "market_cap": null,
     "high_52w": 2.339,
     "low_52w": 2.145,
@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-19T10:29:36.494Z",
+      "retrieved_at": "2026-06-19T10:45:46.741Z",
       "url": null,
       "lang": null
     }
@@ -60,44 +60,44 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 42,
-      "grade": "D+",
+      "score": 21,
+      "grade": "D",
       "subfactors": [
         {
           "key": "rev",
           "label": "Revenue growth (YoY)",
-          "raw": 0.0566,
-          "points": 35.53333333333333,
+          "raw": 0.0,
+          "points": 16.666666666666668,
           "weight": 0.26,
-          "note": "5.7% top-line growth",
-          "contribution": 9.2
+          "note": "0.0% top-line growth",
+          "contribution": 4.3
         },
         {
           "key": "profit",
           "label": "Earnings growth (YoY)",
-          "raw": 0.1694,
-          "points": 67.35,
+          "raw": 0.0,
+          "points": 25.0,
           "weight": 0.24,
-          "note": "16.9% earnings growth",
-          "contribution": 16.2
+          "note": "0.0% earnings growth",
+          "contribution": 6.0
         },
         {
           "key": "cagr",
           "label": "Revenue CAGR (3y)",
-          "raw": 0.0566,
-          "points": 28.299999999999997,
+          "raw": 0.0,
+          "points": 0.0,
           "weight": 0.16,
-          "note": "5.7% 3-year CAGR",
-          "contribution": 4.5
+          "note": "0.0% 3-year CAGR",
+          "contribution": 0.0
         },
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.0071,
-          "points": 52.99999999999999,
+          "raw": 0.0,
+          "points": 42.85714285714285,
           "weight": 0.14,
-          "note": "expanding margins",
-          "contribution": 7.4
+          "note": "compressing margins",
+          "contribution": 6.0
         },
         {
           "key": "reinvest",
@@ -121,17 +121,17 @@
     },
     "stability": {
       "pillar": "stability",
-      "score": 75,
-      "grade": "B+",
+      "score": 60,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "lev",
           "label": "Leverage (net debt / EBITDA)",
-          "raw": 0.46,
-          "points": 100.0,
+          "raw": 2.0,
+          "points": 66.66666666666667,
           "weight": 0.22,
-          "note": "conservative balance sheet",
-          "contribution": 22.0
+          "note": "leveraged",
+          "contribution": 14.7
         },
         {
           "key": "liq",
@@ -145,11 +145,11 @@
         {
           "key": "ocf",
           "label": "Operating cash-flow consistency",
-          "raw": 1.0,
-          "points": 100.0,
+          "raw": 0.7,
+          "points": 57.14285714285714,
           "weight": 0.18,
-          "note": "steady cash generation",
-          "contribution": 18.0
+          "note": "lumpy cash flow",
+          "contribution": 10.3
         },
         {
           "key": "vol",
@@ -191,17 +191,17 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 74,
-      "grade": "B+",
+      "score": 56,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0234,
-          "points": 39.0,
+          "raw": 0.0,
+          "points": 0.0,
           "weight": 0.18,
-          "note": "2.34% yield",
-          "contribution": 7.0
+          "note": "0.00% yield",
+          "contribution": 0.0
         },
         {
           "key": "payout",
@@ -215,11 +215,11 @@
         {
           "key": "fcf",
           "label": "Free-cash-flow coverage",
-          "raw": 2.12,
-          "points": 100.0,
+          "raw": 1.2,
+          "points": 42.85714285714286,
           "weight": 0.22,
           "note": "comfortably covered",
-          "contribution": 22.0
+          "contribution": 9.4
         },
         {
           "key": "debt",
@@ -242,47 +242,47 @@
         {
           "key": "freq",
           "label": "Frequency & regularity",
-          "raw": "annual",
-          "points": 55.0,
+          "raw": "semi",
+          "points": 75.0,
           "weight": 0.1,
-          "note": "annual distribution, 1y streak",
-          "contribution": 5.5
+          "note": "semi distribution, 3y streak",
+          "contribution": 7.5
         }
       ]
     },
-    "headline": 62,
-    "headline_grade": "C+",
+    "headline": 43,
+    "headline_grade": "D+",
     "archetype": "healthcare",
     "engine": "deterministic-v1"
   },
   "fundamentals": {
-    "revenue_growth": 0.0566,
-    "profit_growth": 0.1694,
-    "revenue_cagr_3y": 0.0566,
-    "margin_trend": 0.0071,
+    "revenue_growth": 0.0,
+    "profit_growth": 0.0,
+    "revenue_cagr_3y": 0.0,
+    "margin_trend": 0.0,
     "reinvestment": 0.5,
     "catalysts": 0,
-    "net_debt_to_ebitda": 0.46,
+    "net_debt_to_ebitda": 2.0,
     "current_ratio": 1.3,
-    "ocf_consistency": 1.0,
+    "ocf_consistency": 0.7,
     "price_volatility": 0.3,
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0234,
+    "dividend_yield": 0.0,
     "payout_ratio": 0.3,
-    "fcf_coverage": 2.12,
+    "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
-    "frequency": "annual",
-    "years_paid": 1
+    "frequency": "semi",
+    "years_paid": 3
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "FY2025",
-    "source": "FY2025 results (workflow-verified)",
+    "as_of": "2025-12-31",
+    "source": "PureHealth press release",
     "source_url": "https://purehealth.ae/purehealth-reports-aed-2-billion-net-profit-and-proposes-aed-600-million-dividend-for-fy-2025/",
-    "extractor": "workflow-research-fy2025",
+    "extractor": "mizan/ollama",
     "confidence": "high"
   },
   "overview": {
@@ -293,28 +293,27 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 5997376,
+      "volume": 6284708,
       "high_52w": 2.339,
       "low_52w": 2.145,
-      "dividend_yield": 0.0234
+      "dividend_yield": 0.0
     },
     "top_catalysts": [
-      "Resilient balance sheet / stability (Stability 75/100)",
-      "Dependable dividend characteristics (Dividend 74/100)"
+      "Mixed fundamentals; no single pillar stands out"
     ],
     "top_risks": [
-      "Weak growth signal (Growth 42/100)"
+      "Weak growth signal (Growth 21/100)"
     ]
   },
   "disclosures": [
     {
-      "id": "PUREHEALTH-3-1778822976",
+      "id": "PUREHEALTH-3-1778823946",
       "symbol": "PUREHEALTH",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-05-15T05:29:36+00:00",
+      "published_at": "2026-05-15T05:45:46+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -327,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "PUREHEALTH-4-1778459376",
+      "id": "PUREHEALTH-4-1778460346",
       "symbol": "PUREHEALTH",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-11T00:29:36+00:00",
+      "published_at": "2026-05-11T00:45:46+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -353,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "PUREHEALTH-2-1776212976",
+      "id": "PUREHEALTH-2-1776213946",
       "symbol": "PUREHEALTH",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-15T00:29:36+00:00",
+      "published_at": "2026-04-15T00:45:46+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -379,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "PUREHEALTH-5-1775712576",
+      "id": "PUREHEALTH-5-1775713546",
       "symbol": "PUREHEALTH",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-09T05:29:36+00:00",
+      "published_at": "2026-04-09T05:45:46+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -405,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "PUREHEALTH-1-1774830576",
+      "id": "PUREHEALTH-1-1774831546",
       "symbol": "PUREHEALTH",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-03-30T00:29:36+00:00",
+      "published_at": "2026-03-30T00:45:46+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -431,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "PUREHEALTH-0-1774139376",
+      "id": "PUREHEALTH-0-1774140346",
       "symbol": "PUREHEALTH",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-03-22T00:29:36+00:00",
+      "published_at": "2026-03-22T00:45:46+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -457,7 +456,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       },
@@ -484,7 +483,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       }
@@ -509,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       }
@@ -535,7 +534,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       }
@@ -556,7 +555,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       }
@@ -575,7 +574,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       }
@@ -594,7 +593,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T10:29:36+00:00",
+        "retrieved_at": "2026-06-19T10:45:46+00:00",
         "url": null,
         "lang": null
       }
@@ -624,7 +623,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-19T10:29:36+00:00",
+      "retrieved_at": "2026-06-19T10:45:46+00:00",
       "url": null,
       "lang": null
     }
@@ -634,69 +633,40 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "revenue": [
-      12486000000.0,
-      16399000000.0,
-      25848000000.0,
-      27312000000.0
+      2879500000.0,
+      3023400000.0,
+      3174600000.0,
+      3333300000.0,
+      3500000000.0
     ],
     "net_income": [
-      3718000000.0,
-      964660000.0,
-      1712000000.0,
-      2002000000.0
+      460700000.0,
+      483700000.0,
+      507900000.0,
+      533300000.0,
+      560000000.0
     ],
     "operating_cash_flow": [
-      4186000000.0,
-      2532000000.0,
-      4219000000.0,
-      4929000000.0
+      511400000.0,
+      537000000.0,
+      563800000.0,
+      592000000.0,
+      621600000.0
     ],
     "ratios": {
-      "net_margin": 0.0733,
-      "net_debt_to_ebitda": 0.46,
+      "net_margin": 0.16,
+      "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
       "payout_ratio": 0.3
     },
-    "revenue_cagr_3y": 0.0566,
-    "data_quality": "real",
-    "currency": "AED"
+    "revenue_cagr_3y": 0.0,
+    "data_quality": "demo"
   },
-  "valuation": {
-    "fair_value": 3.482,
-    "fair_low": 3.211,
-    "fair_high": 3.791,
-    "price": 2.31,
-    "upside_pct": 0.5073,
-    "rating": "undervalued",
-    "confidence": "low",
-    "summary": "Model fair value AED 3.48 is 51% above the AED 2.31 price — undervalued. Driven mainly by a normalised earnings multiple; assumes ~8% growth and a 10.5% discount rate, 11% ROE. Low confidence (range AED 3.21–3.79).",
-    "methods": {
-      "ddm": 1.031,
-      "pb": 1.777,
-      "pe": 4.257,
-      "fcf": 7.285
-    },
-    "assumptions": {
-      "discount_rate": 0.105,
-      "growth": 0.0765,
-      "roe": 0.1093,
-      "eps": 0.18,
-      "bvps": 1.6489,
-      "dps": 0.054
-    },
-    "method_labels": {
-      "ddm": "Dividend discount (Gordon)",
-      "pb": "Justified P/B (ROE)",
-      "pe": "Earnings multiple",
-      "fcf": "FCF perpetuity"
-    },
-    "basis": "deterministic",
-    "note": "The market prices PUREHEALTH as a low-growth, high-stability yield vehicle and discounts the wide spread between asset-based and earnings-based fair-value estimates, so the gap closes only if growth re-accelerates or the dividend becomes visibly safer and growing",
-    "note_by": "nemotron"
-  },
+  "valuation": null,
   "global_factors": {
     "exposures": [
       {
@@ -734,12 +704,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-19T10:29:36+00:00",
+        "as_of": "2026-06-19T10:45:46+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -750,12 +720,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-19T10:29:36+00:00",
+        "as_of": "2026-06-19T10:45:46+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -766,12 +736,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T10:29:36+00:00",
+        "as_of": "2026-06-19T10:45:46+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -782,12 +752,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T10:29:36+00:00",
+        "as_of": "2026-06-19T10:45:46+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -798,12 +768,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T10:29:36+00:00",
+        "as_of": "2026-06-19T10:45:46+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -814,12 +784,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-19T10:29:36+00:00",
+        "as_of": "2026-06-19T10:45:46+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -829,7 +799,7 @@
       {
         "title": "Uae headline — global macro update 1",
         "theme": "MARITIME",
-        "published_at": "2026-06-18T13:29:36+00:00",
+        "published_at": "2026-06-18T13:45:46+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": 0.9,
@@ -837,7 +807,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -845,7 +815,7 @@
       {
         "title": "Uae headline — global macro update 2",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-17T07:29:36+00:00",
+        "published_at": "2026-06-17T07:45:46+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": 5.21,
@@ -853,7 +823,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -861,7 +831,7 @@
       {
         "title": "Uae headline — global macro update 3",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-17T08:29:36+00:00",
+        "published_at": "2026-06-17T08:45:46+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.11,
@@ -869,7 +839,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -877,7 +847,7 @@
       {
         "title": "Uae headline — global macro update 4",
         "theme": "TRADE",
-        "published_at": "2026-06-17T12:29:36+00:00",
+        "published_at": "2026-06-17T12:45:46+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -4.2,
@@ -885,7 +855,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -893,7 +863,7 @@
       {
         "title": "Uae headline — global macro update 5",
         "theme": "TRADE",
-        "published_at": "2026-06-18T04:29:36+00:00",
+        "published_at": "2026-06-18T04:45:46+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -5.62,
@@ -901,7 +871,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -909,7 +879,7 @@
       {
         "title": "Uae headline — global macro update 6",
         "theme": "ENERGY",
-        "published_at": "2026-06-18T17:29:36+00:00",
+        "published_at": "2026-06-18T17:45:46+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 2.46,
@@ -917,7 +887,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T10:29:36+00:00",
+          "retrieved_at": "2026-06-19T10:45:46+00:00",
           "url": null,
           "lang": null
         }
@@ -976,41 +946,40 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 60.9,
+        "score": 42.7,
         "reasons": [
-          "Resilient balance sheet / stability (Stability 75/100)",
-          "Dependable dividend characteristics (Dividend 74/100)"
+          "Mixed fundamentals; no single pillar stands out"
         ],
         "risks": [
-          "Weak growth signal (Growth 42/100)"
+          "Weak growth signal (Growth 21/100)"
         ]
       }
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-19T10:29:36+00:00",
+    "generated_at": "2026-06-19T10:45:46+00:00",
     "narrator": "nemotron",
     "narrated_at": "2026-06-19T04:09:35+00:00"
   },
-  "generated_at": "2026-06-19T10:29:36+00:00",
+  "generated_at": "2026-06-19T10:45:46+00:00",
   "peers": {
     "archetype": "healthcare",
     "self": {
       "symbol": "PUREHEALTH",
       "name_en": "Pure Health Holding",
       "archetype": "healthcare",
-      "pe": 12.8,
-      "pb": 1.4,
-      "roe": 0.1093,
-      "dy": 0.0234,
-      "upside": 0.5073
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "dy": 0.0,
+      "upside": null
     },
     "medians": {
-      "pe": 12.8,
-      "pb": 1.4,
-      "roe": 0.181,
-      "dy": 0.017,
-      "upside": 0.774
+      "pe": 10.05,
+      "pb": 2.045,
+      "roe": 0.206,
+      "dy": 0.0,
+      "upside": 0.84
     },
     "peers": [
       {
