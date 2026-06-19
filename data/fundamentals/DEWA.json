@@ -1,59 +1,28 @@
 {
   "symbol": "DEWA",
-  "as_of": "FY2025",
+  "as_of": "2025-12-31",
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "Media Office",
   "source_url": "https://mediaoffice.ae/en/news/2026/february/10-02/dubai-electricity-and-water-authority-pjsc-announces-record-annual-revenue",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T10:59:58+00:00",
+  "retrieved_at": "2026-06-19T11:34:37+00:00",
   "reported": {
-    "revenue": 32842000000.0,
-    "revenue_prior": 30977000000.0,
-    "net_income": 8347000000.0,
-    "net_income_prior": 7013000000.0,
-    "net_margin": 0.2542,
-    "net_margin_prior": 0.2264,
-    "ebitda": 15700000000,
-    "operating_cash_flow": null,
-    "fcf": null,
+    "revenue": 32840000000,
+    "revenue_prior": null,
+    "net_income": 9090000000,
+    "net_income_prior": null,
+    "net_margin": null,
+    "net_margin_prior": null,
     "total_debt": null,
+    "ebitda": 17370000000,
+    "operating_cash_flow": null,
     "current_ratio": null,
-    "dividend_per_share": 0.124,
-    "payout_ratio": 0.729,
-    "dividend_frequency": "semi-annual",
-    "years_paid": 5,
+    "dividend_per_share": null,
+    "payout_ratio": null,
+    "fcf": null,
     "cut_history_5y": null,
-    "shares_outstanding": 50000000000.0,
-    "total_equity": 97770000000.0,
-    "eps": 0.17
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      27336000000.0,
-      29178000000.0,
-      30977000000.0,
-      32842000000.0
-    ],
-    "net_income": [
-      7723000000.0,
-      7701000000.0,
-      7013000000.0,
-      8347000000.0
-    ],
-    "operating_cash_flow": [
-      14232000000.0,
-      16518000000.0,
-      17435000000.0,
-      21850000000.0
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "dividend_frequency": "semi",
+    "years_paid": null
+  }
 }
