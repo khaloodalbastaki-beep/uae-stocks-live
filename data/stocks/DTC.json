@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "DTC",
-    "price": 2.95,
-    "change": -0.1,
-    "change_pct": -0.0341,
-    "volume": 1789558,
-    "market_cap": 10873000000.0,
-    "high_52w": 3.19,
-    "low_52w": 2.52,
+    "price": 2.43,
+    "change": -0.05,
+    "change_pct": -0.0201,
+    "volume": 0,
+    "market_cap": null,
+    "high_52w": 2.488,
+    "low_52w": 2.38,
     "spark": [
-      2.93,
-      2.887,
-      2.908,
-      2.865,
-      2.834,
-      2.838,
-      2.868,
-      2.887,
-      2.944,
-      2.901,
-      2.885,
-      2.833,
-      2.882,
-      2.852,
-      2.802,
-      2.846,
-      2.84,
-      2.808,
-      2.832,
-      2.81,
-      2.842,
-      2.865,
-      2.837,
-      2.82,
-      2.804,
-      2.82,
-      2.854,
-      2.841,
-      2.835,
-      2.95
+      2.45,
+      2.474,
+      2.469,
+      2.446,
+      2.451,
+      2.458,
+      2.469,
+      2.451,
+      2.44,
+      2.434,
+      2.413,
+      2.396,
+      2.404,
+      2.397,
+      2.385,
+      2.398,
+      2.422,
+      2.451,
+      2.476,
+      2.45,
+      2.475,
+      2.488,
+      2.483,
+      2.457,
+      2.436,
+      2.409,
+      2.391,
+      2.395,
+      2.38,
+      2.43
     ],
     "prov": {
-      "source_type": "mock",
-      "source_name": "Demo seed",
-      "data_quality": "demo",
-      "retrieved_at": "2026-06-19T06:11:19+00:00",
+      "source_type": "official",
+      "source_name": "DFM (delayed)",
+      "data_quality": "delayed",
+      "retrieved_at": "2026-06-19T06:27:22.041Z",
       "url": null,
       "lang": null
     }
@@ -197,11 +197,11 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0038,
-          "points": 6.333333333333334,
+          "raw": 0.0046,
+          "points": 7.666666666666668,
           "weight": 0.18,
-          "note": "0.38% yield",
-          "contribution": 1.1
+          "note": "0.46% yield",
+          "contribution": 1.4
         },
         {
           "key": "payout",
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0038,
+    "dividend_yield": 0.0046,
     "payout_ratio": 0.85,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -292,11 +292,11 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": 10873000000.0,
-      "volume": 1789558,
-      "high_52w": 3.19,
-      "low_52w": 2.52,
-      "dividend_yield": 0.0038
+      "market_cap": null,
+      "volume": 0,
+      "high_52w": 2.488,
+      "low_52w": 2.38,
+      "dividend_yield": 0.0046
     },
     "top_catalysts": [
       "Resilient balance sheet / stability (Stability 69/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "DTC-5-1781316679",
+      "id": "DTC-5-1781317642",
       "symbol": "DTC",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-06-13T02:11:19+00:00",
+      "published_at": "2026-06-13T02:27:22+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DTC-6-1780463479",
+      "id": "DTC-6-1780464442",
       "symbol": "DTC",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-03T05:11:19+00:00",
+      "published_at": "2026-06-03T05:27:22+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DTC-2-1780261879",
+      "id": "DTC-2-1780262842",
       "symbol": "DTC",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-31T21:11:19+00:00",
+      "published_at": "2026-05-31T21:27:22+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DTC-1-1776406279",
+      "id": "DTC-1-1776407242",
       "symbol": "DTC",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-17T06:11:19+00:00",
+      "published_at": "2026-04-17T06:27:22+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DTC-4-1774930279",
+      "id": "DTC-4-1774931242",
       "symbol": "DTC",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-03-31T04:11:19+00:00",
+      "published_at": "2026-03-31T04:27:22+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DTC-3-1774847479",
+      "id": "DTC-3-1774848442",
       "symbol": "DTC",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-03-30T05:11:19+00:00",
+      "published_at": "2026-03-30T05:27:22+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DTC-0-1774581079",
+      "id": "DTC-0-1774582042",
       "symbol": "DTC",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-03-27T03:11:19+00:00",
+      "published_at": "2026-03-27T03:27:22+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -482,7 +482,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       },
@@ -590,7 +590,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       }
@@ -615,7 +615,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       }
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       }
@@ -662,7 +662,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       }
@@ -681,7 +681,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       }
@@ -700,7 +700,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T06:11:19+00:00",
+        "retrieved_at": "2026-06-19T06:27:22+00:00",
         "url": null,
         "lang": null
       }
@@ -730,7 +730,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-19T06:11:19+00:00",
+      "retrieved_at": "2026-06-19T06:27:22+00:00",
       "url": null,
       "lang": null
     }
@@ -771,16 +771,16 @@
     "currency": "AED"
   },
   "valuation": {
-    "fair_value": 1.659,
-    "fair_low": 1.578,
+    "fair_value": 1.648,
+    "fair_low": 1.568,
     "fair_high": 1.739,
-    "price": 2.95,
-    "upside_pct": -0.4378,
+    "price": 2.43,
+    "upside_pct": -0.3218,
     "rating": "overvalued",
     "confidence": "low",
-    "summary": "Model fair value AED 1.66 is 44% below the AED 2.95 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 10.0% discount rate, 60% ROE. Low confidence (range AED 1.58–1.74).",
+    "summary": "Model fair value AED 1.65 is 32% below the AED 2.43 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 10.0% discount rate, 60% ROE. Low confidence (range AED 1.57–1.74).",
     "methods": {
-      "ddm": 0.295,
+      "ddm": 0.243,
       "pb": 0.821,
       "pe": 2.535
     },
@@ -798,7 +798,9 @@
       "pe": "Earnings multiple",
       "fcf": "FCF perpetuity"
     },
-    "basis": "deterministic"
+    "basis": "deterministic",
+    "note": "The market appears to be pricing in a more favourable long‑term trajectory than the models capture — likely betting on Dubai's structural growth tailwinds and potential concession upside — and the gap would narrow only if the company demonstrates tangible progress on growth initiatives or the market re‑rates the sector lower.",
+    "note_by": "nemotron"
   },
   "global_factors": {
     "exposures": [
@@ -837,12 +839,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-19T06:11:19+00:00",
+        "as_of": "2026-06-19T06:27:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T06:11:19+00:00",
+          "retrieved_at": "2026-06-19T06:27:22+00:00",
           "url": null,
           "lang": null
         }
@@ -853,12 +855,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-19T06:11:19+00:00",
+        "as_of": "2026-06-19T06:27:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T06:11:19+00:00",
+          "retrieved_at": "2026-06-19T06:27:22+00:00",
           "url": null,
           "lang": null
         }
@@ -869,12 +871,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T06:11:19+00:00",
+        "as_of": "2026-06-19T06:27:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T06:11:19+00:00",
+          "retrieved_at": "2026-06-19T06:27:22+00:00",
           "url": null,
           "lang": null
         }
@@ -885,12 +887,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T06:11:19+00:00",
+        "as_of": "2026-06-19T06:27:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T06:11:19+00:00",
+          "retrieved_at": "2026-06-19T06:27:22+00:00",
           "url": null,
           "lang": null
         }
@@ -901,12 +903,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T06:11:19+00:00",
+        "as_of": "2026-06-19T06:27:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T06:11:19+00:00",
+          "retrieved_at": "2026-06-19T06:27:22+00:00",
           "url": null,
           "lang": null
         }
@@ -917,12 +919,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-19T06:11:19+00:00",
+        "as_of": "2026-06-19T06:27:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T06:11:19+00:00",
+          "retrieved_at": "2026-06-19T06:27:22+00:00",
           "url": null,
           "lang": null
         }
@@ -932,7 +934,7 @@
       {
         "title": "Fuel headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-16T20:11:19+00:00",
+        "published_at": "2026-06-16T20:27:22+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -5.04,
@@ -940,7 +942,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T06:11:19+00:00",
+          "retrieved_at": "2026-06-19T06:27:22+00:00",
           "url": null,
           "lang": null
         }
@@ -948,7 +950,7 @@
       {
         "title": "Fuel headline — global macro update 2",
         "theme": "TRADE",
-        "published_at": "2026-06-17T15:11:19+00:00",
+        "published_at": "2026-06-17T15:27:22+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": -1.46,
@@ -956,7 +958,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T06:11:19+00:00",
+          "retrieved_at": "2026-06-19T06:27:22+00:00",
           "url": null,
           "lang": null
         }
@@ -964,7 +966,7 @@
       {
         "title": "Fuel headline — global macro update 3",
         "theme": "TOURISM",
-        "published_at": "2026-06-17T09:11:19+00:00",
+        "published_at": "2026-06-17T09:27:22+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 5.3,
@@ -972,7 +974,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T06:11:19+00:00",
+          "retrieved_at": "2026-06-19T06:27:22+00:00",
           "url": null,
           "lang": null
         }
@@ -980,7 +982,7 @@
       {
         "title": "Fuel headline — global macro update 4",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-17T03:11:19+00:00",
+        "published_at": "2026-06-17T03:27:22+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -3.96,
@@ -988,7 +990,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T06:11:19+00:00",
+          "retrieved_at": "2026-06-19T06:27:22+00:00",
           "url": null,
           "lang": null
         }
@@ -1001,36 +1003,47 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "A high-materiality disclosure (90/100) is in the recent flow",
-        "Recent disclosure tone skews positive"
+        "A high‑materiality disclosure (90/100) has just entered the news flow, suggesting a potentially meaningful event for the business.",
+        "The tone of recent disclosures leans positive, which can support sentiment in the near term.",
+        "The company operates in a regulated transport segment with relatively predictable demand, providing a floor for short‑term earnings visibility.",
+        "Dividend capacity (score 50) signals some cash‑return optionality that may attract income‑focused flows."
       ],
       "risks": [
-        "Negative price momentum (-3.4% on the session in demo data)"
+        "Negative price momentum (-3.4% on the session in demo data) indicates selling pressure that could persist if the disclosure underwhelms.",
+        "The short‑term stance carries only medium confidence, reflecting uncertainty around how the market digests the new disclosure.",
+        "Growth score of 34/100 suggests limited catalysts to re‑rate the share higher in the coming weeks.",
+        "Valuation models (DDM AED 0.295, P/B AED 0.821, P/E AED 2.535) all sit well below the current price, leaving little margin of safety."
       ],
-      "what_would_change_view": "A new high-materiality disclosure, an unexpected sector move, or a sharp commodity shock in this name's exposure map."
+      "what_would_change_view": "Confirmation that the high‑materiality disclosure translates into tangible earnings upside or a clearer growth trajectory would shift the short‑term view positive; a disappointing follow‑up or continued price decay would push it negative."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Resilient balance sheet / stability (Stability 69/100)"
+        "Stability score of 69/100 reflects a resilient balance sheet and a business model with defensive characteristics in a regulated transport market.",
+        "The company benefits from structural demand for mobility in Dubai, underpinned by population growth and tourism.",
+        "Dividend score of 50 suggests a sustainable payout policy that can compound returns over time.",
+        "Low‑confidence fair‑value estimate implies the model may be missing long‑term optionality (e.g., fleet electrification, adjacent logistics services)."
       ],
       "risks": [
-        "Weak growth signal (Growth 34/100)"
+        "Weak growth signal (Growth 34/100) points to limited organic expansion levers beyond population‑driven volume increases.",
+        "Low confidence in the long‑term neutral stance means the thesis is fragile to changes in regulation, competition, or technology disruption.",
+        "All three valuation methods (DDM, P/B, P/E) produce fair values materially below the current price, implying the market is pricing in optimistic scenarios that may not materialise.",
+        "Capital‑intensive fleet requirements constrain free cash flow conversion and limit financial flexibility for transformative investments."
       ],
-      "what_would_change_view": "A durable change in the growth, stability or dividend pillars — e.g. a re-rating in earnings, a leverage spike, or a dividend cut."
+      "what_would_change_view": "Evidence of a structural growth inflection — such as winning new concessions, scaling adjacencies, or materially improving returns on capital — would upgrade the long‑term view; sustained earnings stagnation or balance‑sheet deterioration would downgrade it."
     },
     "_signal": {
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 46.6,
+        "score": 50.8,
         "reasons": [
           "A high-materiality disclosure (90/100) is in the recent flow",
           "Recent disclosure tone skews positive"
         ],
         "risks": [
-          "Negative price momentum (-3.4% on the session in demo data)"
+          "Negative price momentum (-2.0% on the session in demo data)"
         ]
       },
       "long": {
@@ -1047,27 +1060,29 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-19T06:11:19+00:00"
+    "generated_at": "2026-06-19T06:27:22+00:00",
+    "narrator": "nemotron",
+    "narrated_at": "2026-06-19T06:18:24+00:00"
   },
-  "generated_at": "2026-06-19T06:11:19+00:00",
+  "generated_at": "2026-06-19T06:27:22+00:00",
   "peers": {
     "archetype": "mobility",
     "self": {
       "symbol": "DTC",
       "name_en": "Dubai Taxi Company",
       "archetype": "mobility",
-      "pe": 22.7,
-      "pb": 17.97,
+      "pe": 18.7,
+      "pb": 14.8,
       "roe": 0.6,
-      "dy": 0.0038,
-      "upside": -0.4378
+      "dy": 0.0046,
+      "upside": -0.3218
     },
     "medians": {
-      "pe": 22.7,
-      "pb": 17.97,
+      "pe": 18.7,
+      "pb": 14.8,
       "roe": 0.6,
-      "dy": 0.004,
-      "upside": -0.438
+      "dy": 0.005,
+      "upside": -0.322
     },
     "peers": [],
     "n": 1
