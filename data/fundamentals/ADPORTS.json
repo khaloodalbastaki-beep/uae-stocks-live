@@ -1,58 +1,28 @@
 {
   "symbol": "ADPORTS",
-  "as_of": "FY2025",
+  "as_of": "2025-12-31",
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "AD Ports Group",
   "source_url": "https://www.adportsgroup.com/en/news-and-media/2026/02/12/ad-ports-group-reports-record-2025-revenue",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T10:59:58+00:00",
+  "retrieved_at": "2026-06-19T08:25:19+00:00",
   "reported": {
-    "revenue": 20756444000.0,
-    "revenue_prior": 17286311000.0,
-    "net_income": 2088502000.0,
-    "net_income_prior": 1778021000.0,
-    "ebitda": 4510000000,
-    "operating_cash_flow": 3910000000,
-    "fcf": null,
-    "net_margin": 0.1006,
-    "net_margin_prior": 0.1029,
-    "dividend_per_share": 0.0,
-    "payout_ratio": null,
-    "current_ratio": null,
+    "revenue": 20800000000,
+    "revenue_prior": null,
+    "net_income": 2100000000,
+    "net_income_prior": null,
+    "net_margin": null,
+    "net_margin_prior": null,
     "total_debt": null,
-    "years_paid": null,
+    "ebitda": 5100000000,
+    "operating_cash_flow": null,
+    "current_ratio": null,
+    "dividend_per_share": null,
+    "payout_ratio": null,
+    "fcf": null,
     "cut_history_5y": null,
-    "shares_outstanding": 5090000000.0,
-    "total_equity": 30055808000.0,
-    "eps": 0.32
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      5500000000.0,
-      11678530000.0,
-      17286311000.0,
-      20756444000.0
-    ],
-    "net_income": [
-      1300000000.0,
-      1360218000.0,
-      1778021000.0,
-      2088502000.0
-    ],
-    "operating_cash_flow": [
-      1600000000.0,
-      1470000000.0,
-      3938000000.0,
-      5046000000.0
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "dividend_frequency": null,
+    "years_paid": null
+  }
 }

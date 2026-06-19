@@ -1,58 +1,28 @@
 {
   "symbol": "AGTHIA",
-  "as_of": "FY2025",
+  "as_of": "2024-12-31",
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "StockAnalysis",
   "source_url": "https://stockanalysis.com/quote/adx/AGTHIA/financials/",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T10:59:58+00:00",
+  "retrieved_at": "2026-06-19T08:25:36+00:00",
   "reported": {
-    "revenue": 4846000000.0,
-    "revenue_prior": 4915000000.0,
-    "net_income": 85520000.0,
-    "net_income_prior": 291270000.0,
-    "net_margin": 0.0176,
-    "net_margin_prior": 0.0593,
-    "ebitda": 678.8,
-    "operating_cash_flow": 656,
-    "fcf": 496,
-    "dividend_per_share": 0.221,
-    "payout_ratio": 2.0,
+    "revenue": 4915,
+    "revenue_prior": 4561,
+    "net_income": 291.27,
+    "net_income_prior": 261.01,
+    "net_margin": null,
+    "net_margin_prior": null,
     "total_debt": null,
+    "ebitda": 621.51,
+    "operating_cash_flow": null,
     "current_ratio": null,
-    "years_paid": 1,
-    "dividend_frequency": "annual",
-    "shares_outstanding": 831160000.0,
-    "total_equity": 2788000000.0,
-    "eps": 0.1
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      4067000000.0,
-      4561000000.0,
-      4915000000.0,
-      4846000000.0
-    ],
-    "net_income": [
-      246790000.0,
-      261010000.0,
-      291270000.0,
-      85520000.0
-    ],
-    "operating_cash_flow": [
-      296700000.0,
-      1018000000.0,
-      656020000.0,
-      433260000.0
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "dividend_per_share": 0.21,
+    "payout_ratio": null,
+    "fcf": 462.31,
+    "cut_history_5y": null,
+    "dividend_frequency": null,
+    "years_paid": null
+  }
 }
