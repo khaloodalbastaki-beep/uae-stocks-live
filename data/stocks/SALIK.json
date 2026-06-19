@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "SALIK",
-    "price": 6.06,
-    "change": -0.04,
-    "change_pct": -0.0065,
+    "price": 5.96,
+    "change": -0.14,
+    "change_pct": -0.0229,
     "volume": 0,
     "market_cap": null,
-    "high_52w": 6.125,
-    "low_52w": 5.794,
+    "high_52w": 6.426,
+    "low_52w": 5.96,
     "spark": [
-      5.909,
-      5.946,
-      5.947,
-      5.906,
-      5.843,
-      5.794,
-      5.829,
-      5.879,
-      5.865,
-      5.94,
-      5.995,
-      6.068,
-      6.012,
-      6.085,
-      6.125,
-      6.059,
-      6.008,
-      6.078,
-      6.009,
-      6.022,
-      5.951,
-      5.992,
-      5.953,
-      5.915,
-      5.902,
-      5.871,
-      5.858,
-      5.829,
-      5.85,
-      6.06
+      6.18,
+      6.247,
+      6.172,
+      6.184,
+      6.148,
+      6.173,
+      6.107,
+      6.126,
+      6.167,
+      6.186,
+      6.189,
+      6.154,
+      6.141,
+      6.207,
+      6.219,
+      6.233,
+      6.196,
+      6.28,
+      6.254,
+      6.197,
+      6.281,
+      6.27,
+      6.265,
+      6.337,
+      6.412,
+      6.411,
+      6.335,
+      6.416,
+      6.426,
+      5.96
     ],
     "prov": {
       "source_type": "official",
       "source_name": "DFM (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-19T11:01:54.577Z",
+      "retrieved_at": "2026-06-19T11:17:55.786Z",
       "url": null,
       "lang": null
     }
@@ -197,11 +197,11 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0365,
-          "points": 60.83333333333333,
+          "raw": 0.0372,
+          "points": 62.0,
           "weight": 0.2,
-          "note": "3.65% yield",
-          "contribution": 12.2
+          "note": "3.72% yield",
+          "contribution": 12.4
         },
         {
           "key": "payout",
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0365,
+    "dividend_yield": 0.0372,
     "payout_ratio": 1.07,
     "fcf_coverage": 0.4,
     "net_debt_pressure": 0.3,
@@ -294,9 +294,9 @@
     "quick_stats": {
       "market_cap": null,
       "volume": 0,
-      "high_52w": 6.125,
-      "low_52w": 5.794,
-      "dividend_yield": 0.0365
+      "high_52w": 6.426,
+      "low_52w": 5.96,
+      "dividend_yield": 0.0372
     },
     "top_catalysts": [
       "Solid growth profile (Growth 75/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "SALIK-0-1781848914",
+      "id": "SALIK-0-1781849875",
       "symbol": "SALIK",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-19T06:01:54+00:00",
+      "published_at": "2026-06-19T06:17:55+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SALIK-1-1781604114",
+      "id": "SALIK-1-1781605075",
       "symbol": "SALIK",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-06-16T10:01:54+00:00",
+      "published_at": "2026-06-16T10:17:55+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "SALIK-5-1780988514",
+      "id": "SALIK-5-1780989475",
       "symbol": "SALIK",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-09T07:01:54+00:00",
+      "published_at": "2026-06-09T07:17:55+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SALIK-4-1780711314",
+      "id": "SALIK-4-1780712275",
       "symbol": "SALIK",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-06T02:01:54+00:00",
+      "published_at": "2026-06-06T02:17:55+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SALIK-7-1776841314",
+      "id": "SALIK-7-1776842275",
       "symbol": "SALIK",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-22T07:01:54+00:00",
+      "published_at": "2026-04-22T07:17:55+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "SALIK-6-1776679314",
+      "id": "SALIK-6-1776680275",
       "symbol": "SALIK",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-20T10:01:54+00:00",
+      "published_at": "2026-04-20T10:17:55+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SALIK-2-1776214914",
+      "id": "SALIK-2-1776215875",
       "symbol": "SALIK",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-15T01:01:54+00:00",
+      "published_at": "2026-04-15T01:17:55+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SALIK-3-1775386914",
+      "id": "SALIK-3-1775387875",
       "symbol": "SALIK",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-04-05T11:01:54+00:00",
+      "published_at": "2026-04-05T11:17:55+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       },
@@ -596,7 +596,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -621,7 +621,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -647,7 +647,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -668,7 +668,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -687,7 +687,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -706,7 +706,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -725,7 +725,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -744,7 +744,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -763,7 +763,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -782,7 +782,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -801,7 +801,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -820,7 +820,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T11:01:54+00:00",
+        "retrieved_at": "2026-06-19T11:17:55+00:00",
         "url": null,
         "lang": null
       }
@@ -850,7 +850,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-19T11:01:54+00:00",
+      "retrieved_at": "2026-06-19T11:17:55+00:00",
       "url": null,
       "lang": null
     }
@@ -894,16 +894,16 @@
     "fair_value": 4.56,
     "fair_low": 4.028,
     "fair_high": 4.629,
-    "price": 6.06,
-    "upside_pct": -0.2476,
+    "price": 5.96,
+    "upside_pct": -0.235,
     "rating": "overvalued",
     "confidence": "low",
-    "summary": "Model fair value AED 4.56 is 25% below the AED 6.06 price — overvalued. Driven mainly by the dividend-discount model; assumes ~6% growth and a 8.5% discount rate, 60% ROE. Low confidence (range AED 4.03–4.63).",
+    "summary": "Model fair value AED 4.56 is 23% below the AED 5.96 price — overvalued. Driven mainly by the dividend-discount model; assumes ~6% growth and a 8.5% discount rate, 60% ROE. Low confidence (range AED 4.03–4.63).",
     "methods": {
       "ddm": 6.645,
       "pb": 0.812,
       "pe": 4.02,
-      "fcf": 0.606
+      "fcf": 0.596
     },
     "assumptions": {
       "discount_rate": 0.085,
@@ -960,12 +960,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-19T11:01:54+00:00",
+        "as_of": "2026-06-19T11:17:55+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T11:01:54+00:00",
+          "retrieved_at": "2026-06-19T11:17:55+00:00",
           "url": null,
           "lang": null
         }
@@ -976,12 +976,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-19T11:01:54+00:00",
+        "as_of": "2026-06-19T11:17:55+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T11:01:54+00:00",
+          "retrieved_at": "2026-06-19T11:17:55+00:00",
           "url": null,
           "lang": null
         }
@@ -992,12 +992,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T11:01:54+00:00",
+        "as_of": "2026-06-19T11:17:55+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T11:01:54+00:00",
+          "retrieved_at": "2026-06-19T11:17:55+00:00",
           "url": null,
           "lang": null
         }
@@ -1008,12 +1008,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T11:01:54+00:00",
+        "as_of": "2026-06-19T11:17:55+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T11:01:54+00:00",
+          "retrieved_at": "2026-06-19T11:17:55+00:00",
           "url": null,
           "lang": null
         }
@@ -1024,12 +1024,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T11:01:54+00:00",
+        "as_of": "2026-06-19T11:17:55+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T11:01:54+00:00",
+          "retrieved_at": "2026-06-19T11:17:55+00:00",
           "url": null,
           "lang": null
         }
@@ -1040,12 +1040,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-19T11:01:54+00:00",
+        "as_of": "2026-06-19T11:17:55+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T11:01:54+00:00",
+          "retrieved_at": "2026-06-19T11:17:55+00:00",
           "url": null,
           "lang": null
         }
@@ -1055,7 +1055,7 @@
       {
         "title": "Dubai headline — global macro update 1",
         "theme": "TOURISM",
-        "published_at": "2026-06-17T22:01:54+00:00",
+        "published_at": "2026-06-17T22:17:55+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 5.05,
@@ -1063,7 +1063,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T11:01:54+00:00",
+          "retrieved_at": "2026-06-19T11:17:55+00:00",
           "url": null,
           "lang": null
         }
@@ -1071,7 +1071,7 @@
       {
         "title": "Dubai headline — global macro update 2",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-19T06:01:54+00:00",
+        "published_at": "2026-06-19T06:17:55+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 1.36,
@@ -1079,7 +1079,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T11:01:54+00:00",
+          "retrieved_at": "2026-06-19T11:17:55+00:00",
           "url": null,
           "lang": null
         }
@@ -1087,7 +1087,7 @@
       {
         "title": "Dubai headline — global macro update 3",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-19T03:01:54+00:00",
+        "published_at": "2026-06-19T03:17:55+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -2.56,
@@ -1095,7 +1095,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T11:01:54+00:00",
+          "retrieved_at": "2026-06-19T11:17:55+00:00",
           "url": null,
           "lang": null
         }
@@ -1103,7 +1103,7 @@
       {
         "title": "Dubai headline — global macro update 4",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-18T23:01:54+00:00",
+        "published_at": "2026-06-18T23:17:55+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 4.15,
@@ -1111,7 +1111,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T11:01:54+00:00",
+          "retrieved_at": "2026-06-19T11:17:55+00:00",
           "url": null,
           "lang": null
         }
@@ -1119,7 +1119,7 @@
       {
         "title": "Dubai headline — global macro update 5",
         "theme": "MARITIME",
-        "published_at": "2026-06-19T08:01:54+00:00",
+        "published_at": "2026-06-19T08:17:55+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 1.35,
@@ -1127,7 +1127,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T11:01:54+00:00",
+          "retrieved_at": "2026-06-19T11:17:55+00:00",
           "url": null,
           "lang": null
         }
@@ -1174,13 +1174,13 @@
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 53.4,
+        "score": 48.5,
         "reasons": [
           "A high-materiality disclosure (78/100) is in the recent flow",
           "Recent disclosure tone skews positive"
         ],
         "risks": [
-          "A surprise filing or a sector-wide move could shift the picture quickly"
+          "Negative price momentum (-2.3% on the session in demo data)"
         ]
       },
       "long": {
@@ -1197,40 +1197,40 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-19T11:01:54+00:00",
+    "generated_at": "2026-06-19T11:17:55+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-18T22:11:29+00:00"
   },
-  "generated_at": "2026-06-19T11:01:54+00:00",
+  "generated_at": "2026-06-19T11:17:55+00:00",
   "peers": {
     "archetype": "toll",
     "self": {
       "symbol": "SALIK",
       "name_en": "Salik Company",
       "archetype": "toll",
-      "pe": 29.3,
-      "pb": 37.29,
+      "pe": 28.8,
+      "pb": 36.68,
       "roe": 0.6,
-      "dy": 0.0365,
-      "upside": -0.2476
+      "dy": 0.0372,
+      "upside": -0.235
     },
     "medians": {
-      "pe": 28.95,
-      "pb": 36.535,
+      "pe": 28.65,
+      "pb": 36.17,
       "roe": 0.6,
       "dy": 0.036,
-      "upside": -0.149
+      "upside": -0.141
     },
     "peers": [
       {
         "symbol": "PARKIN",
         "name_en": "Parkin Company",
         "archetype": "toll",
-        "pe": 28.6,
-        "pb": 35.78,
+        "pe": 28.5,
+        "pb": 35.66,
         "roe": 0.6,
-        "dy": 0.035,
-        "upside": -0.0511
+        "dy": 0.0351,
+        "upside": -0.0479
       }
     ],
     "n": 2
