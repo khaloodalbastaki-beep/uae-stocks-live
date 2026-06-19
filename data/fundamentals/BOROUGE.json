@@ -1,57 +1,28 @@
 {
   "symbol": "BOROUGE",
-  "as_of": "FY2025",
-  "currency": "USD",
-  "source": "FY2025 results (workflow-verified)",
+  "as_of": null,
+  "currency": "AED",
+  "source": "Borouge FY2025 results",
   "source_url": "https://www.borouge.com/en/media/Pages/News/Borouge-FY-Q4-25-Results.aspx",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T10:59:58+00:00",
+  "retrieved_at": "2026-06-19T09:29:39+00:00",
   "reported": {
-    "revenue": 21476780000.0,
-    "net_income": 3999352500.0,
-    "revenue_prior": 22130485000.0,
-    "net_income_prior": 4498812500.0,
-    "ebitda": 2480,
-    "operating_cash_flow": 1570,
-    "fcf": 2310,
-    "total_debt": 2730,
-    "dividend_per_share": 0.162,
-    "payout_ratio": 1.208,
-    "years_paid": 1,
-    "net_margin": 0.1862,
-    "net_margin_prior": 0.2033,
+    "revenue": 21484125000,
+    "revenue_prior": null,
+    "net_income": 4039750000,
+    "net_income_prior": null,
+    "net_margin": 0.19,
+    "net_margin_prior": null,
+    "total_debt": null,
+    "ebitda": 7969325000,
+    "operating_cash_flow": null,
     "current_ratio": null,
-    "shares_outstanding": 29831000000.0,
-    "total_equity": 15116010000.0,
-    "eps": 0.1341
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      22020310000.0,
-      21267447500.0,
-      22130485000.0,
-      21476780000.0
-    ],
-    "net_income": [
-      3992007500.0,
-      3639447500.0,
-      4498812500.0,
-      3999352500.0
-    ],
-    "operating_cash_flow": [
-      7238497500.0,
-      6496652500.0,
-      7025492500.0,
-      7054872500.0
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "dividend_per_share": 0.0162,
+    "payout_ratio": null,
+    "fcf": null,
+    "cut_history_5y": null,
+    "dividend_frequency": "annual",
+    "years_paid": null
+  }
 }

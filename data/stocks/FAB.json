@@ -12,7 +12,7 @@
     "price": 18.26,
     "change": -0.199,
     "change_pct": -0.0108,
-    "volume": 1994619,
+    "volume": 2012431,
     "market_cap": null,
     "high_52w": 18.825,
     "low_52w": 17.725,
@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-19T09:24:47.078Z",
+      "retrieved_at": "2026-06-19T09:40:59.006Z",
       "url": null,
       "lang": null
     }
@@ -60,44 +60,44 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 68,
-      "grade": "B",
+      "score": 21,
+      "grade": "D",
       "subfactors": [
         {
           "key": "rev",
           "label": "Revenue growth (YoY)",
-          "raw": 0.1608,
-          "points": 70.26666666666667,
+          "raw": 0.0,
+          "points": 16.666666666666668,
           "weight": 0.26,
-          "note": "16.1% top-line growth",
-          "contribution": 18.3
+          "note": "0.0% top-line growth",
+          "contribution": 4.3
         },
         {
           "key": "profit",
           "label": "Earnings growth (YoY)",
-          "raw": 0.2345,
-          "points": 83.625,
+          "raw": 0.0,
+          "points": 25.0,
           "weight": 0.24,
-          "note": "23.4% earnings growth",
-          "contribution": 20.1
+          "note": "0.0% earnings growth",
+          "contribution": 6.0
         },
         {
           "key": "cagr",
           "label": "Revenue CAGR (3y)",
-          "raw": 0.1608,
-          "points": 80.39999999999999,
+          "raw": 0.0,
+          "points": 0.0,
           "weight": 0.16,
-          "note": "16.1% 3-year CAGR",
-          "contribution": 12.9
+          "note": "0.0% 3-year CAGR",
+          "contribution": 0.0
         },
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.0344,
-          "points": 92.0,
+          "raw": 0.0,
+          "points": 42.85714285714285,
           "weight": 0.14,
-          "note": "expanding margins",
-          "contribution": 12.9
+          "note": "compressing margins",
+          "contribution": 6.0
         },
         {
           "key": "reinvest",
@@ -191,26 +191,26 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 72,
-      "grade": "B+",
+      "score": 62,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0438,
-          "points": 73.0,
+          "raw": 0.0044,
+          "points": 7.333333333333333,
           "weight": 0.18,
-          "note": "4.38% yield",
-          "contribution": 13.1
+          "note": "0.44% yield",
+          "contribution": 1.3
         },
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.43,
-          "points": 84.69999999999999,
+          "raw": 0.5,
+          "points": 96.6,
           "weight": 0.2,
-          "note": "43% of earnings paid out",
-          "contribution": 16.9
+          "note": "50% of earnings paid out",
+          "contribution": 19.3
         },
         {
           "key": "fcf",
@@ -250,16 +250,16 @@
         }
       ]
     },
-    "headline": 66,
-    "headline_grade": "B",
+    "headline": 45,
+    "headline_grade": "D+",
     "archetype": "bank",
     "engine": "deterministic-v1"
   },
   "fundamentals": {
-    "revenue_growth": 0.1608,
-    "profit_growth": 0.2345,
-    "revenue_cagr_3y": 0.1608,
-    "margin_trend": 0.0344,
+    "revenue_growth": 0.0,
+    "profit_growth": 0.0,
+    "revenue_cagr_3y": 0.0,
+    "margin_trend": 0.0,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -269,8 +269,8 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0438,
-    "payout_ratio": 0.43,
+    "dividend_yield": 0.0044,
+    "payout_ratio": 0.5,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
@@ -280,9 +280,9 @@
   "fundamentals_source": {
     "real": true,
     "as_of": "FY2025",
-    "source": "FY2025 results (workflow-verified)",
+    "source": "The National",
     "source_url": "https://www.thenationalnews.com/business/banking/2026/01/28/uaes-biggest-bank-fab-posts-24-rise-in-2025-net-profit-on-revenue-boost/",
-    "extractor": "workflow-research-fy2025",
+    "extractor": "mizan/ollama",
     "confidence": "high"
   },
   "overview": {
@@ -293,28 +293,27 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 1994619,
+      "volume": 2012431,
       "high_52w": 18.825,
       "low_52w": 17.725,
-      "dividend_yield": 0.0438
+      "dividend_yield": 0.0044
     },
     "top_catalysts": [
-      "Solid growth profile (Growth 68/100)",
-      "Dependable dividend characteristics (Dividend 72/100)"
+      "Dependable dividend characteristics (Dividend 62/100)"
     ],
     "top_risks": [
-      "Execution and macro conditions remain the key swing factors"
+      "Weak growth signal (Growth 21/100)"
     ]
   },
   "disclosures": [
     {
-      "id": "FAB-3-1780194287",
+      "id": "FAB-3-1780195259",
       "symbol": "FAB",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-31T02:24:47+00:00",
+      "published_at": "2026-05-31T02:40:59+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -327,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T09:24:47+00:00",
+        "retrieved_at": "2026-06-19T09:40:59+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "FAB-4-1778207087",
+      "id": "FAB-4-1778208059",
       "symbol": "FAB",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-08T02:24:47+00:00",
+      "published_at": "2026-05-08T02:40:59+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -353,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T09:24:47+00:00",
+        "retrieved_at": "2026-06-19T09:40:59+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "FAB-1-1777775087",
+      "id": "FAB-1-1777776059",
       "symbol": "FAB",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-03T02:24:47+00:00",
+      "published_at": "2026-05-03T02:40:59+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -379,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T09:24:47+00:00",
+        "retrieved_at": "2026-06-19T09:40:59+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "FAB-0-1774657487",
+      "id": "FAB-0-1774658459",
       "symbol": "FAB",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-03-28T00:24:47+00:00",
+      "published_at": "2026-03-28T00:40:59+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -405,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T09:24:47+00:00",
+        "retrieved_at": "2026-06-19T09:40:59+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "FAB-2-1774149887",
+      "id": "FAB-2-1774150859",
       "symbol": "FAB",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-03-22T03:24:47+00:00",
+      "published_at": "2026-03-22T03:40:59+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -431,7 +430,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T09:24:47+00:00",
+        "retrieved_at": "2026-06-19T09:40:59+00:00",
         "url": null,
         "lang": null
       },
@@ -440,23 +439,23 @@
   ],
   "news": [
     {
-      "title": "Abu Dhabi’s FAB mandates 3-year Euro green benchmark; IPTs out",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUtQLW4tZHZaSlF5ZEFRX2MtbFdwNnB0LUp2c2QtbjFfN1lSS1Q2V0o4emZiRFNEd0pUa1lneXVNQlV4clllMmNwUTk4VHhPVm9ZVTJuWVQzNVk2U0x5bHJiLXhqcEstS05KQzZ4MWo5SDRIZlpqSk43RnlZeFNSMXlacGdkREtHYlU2SlJSRUgyZHRtUXo1RlZlSGZMMTdreVpxUWdpdjlUcUhBdW9BcElNZGExNUk?oc=5",
-      "domain": "zawya.com",
-      "published_at": "2026-06-18T08:29:26+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-18T22:02:43+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
       "title": "UAE stock market opens higher: ADX gains over 1 percent as DFM rises 1.76 percent",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU2JvZUk4NG0zMkRNV0FidWhrLU0wSUc5anNpOHBSallhNFM0dDRjSmZqYzNWeGRib3R3MHZpamRaR09CRGpWd1ZLTUpJeUhpc0o0QXYwZkYwUVNyUjZrN1RHMW03M0NVQkUzVEx6X19YMnNVelZPMGFCNHVlOTBpRzhvbG0tOXloZWZFTVBnTmJJMW9zT0M5X05pNjhuR1B1OHhETWduR2xWTXcwZW8xdl9BZXlEemc?oc=5",
       "domain": "economymiddleeast.com",
       "published_at": "2026-06-16T08:44:08+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:02:43+00:00",
+      "retrieved_at": "2026-06-19T09:31:29+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Abu Dhabi’s FAB mandates 3-year Euro green benchmark; IPTs out",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUtQLW4tZHZaSlF5ZEFRX2MtbFdwNnB0LUp2c2QtbjFfN1lSS1Q2V0o4emZiRFNEd0pUa1lneXVNQlV4clllMmNwUTk4VHhPVm9ZVTJuWVQzNVk2U0x5bHJiLXhqcEstS05KQzZ4MWo5SDRIZlpqSk43RnlZeFNSMXlacGdkREtHYlU2SlJSRUgyZHRtUXo1RlZlSGZMMTdreVpxUWdpdjlUcUhBdW9BcElNZGExNUk?oc=5",
+      "domain": "zawya.com",
+      "published_at": "2026-06-18T08:29:26+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-19T09:31:29+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -466,7 +465,7 @@
       "published_at": "2026-04-22T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:02:43+00:00",
+      "retrieved_at": "2026-06-19T09:31:29+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -476,7 +475,7 @@
       "published_at": "2026-04-23T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:02:43+00:00",
+      "retrieved_at": "2026-06-19T09:31:29+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -486,7 +485,7 @@
       "published_at": "2026-04-23T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:02:43+00:00",
+      "retrieved_at": "2026-06-19T09:31:29+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -496,7 +495,7 @@
       "published_at": "2026-04-22T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:02:43+00:00",
+      "retrieved_at": "2026-06-19T09:31:29+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -506,7 +505,7 @@
       "published_at": "2026-04-23T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:02:43+00:00",
+      "retrieved_at": "2026-06-19T09:31:29+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -516,7 +515,7 @@
       "published_at": "2026-04-23T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:02:43+00:00",
+      "retrieved_at": "2026-06-19T09:31:29+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -539,7 +538,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T09:24:47+00:00",
+        "retrieved_at": "2026-06-19T09:40:59+00:00",
         "url": null,
         "lang": null
       }
@@ -564,7 +563,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T09:24:47+00:00",
+        "retrieved_at": "2026-06-19T09:40:59+00:00",
         "url": null,
         "lang": null
       }
@@ -590,7 +589,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T09:24:47+00:00",
+        "retrieved_at": "2026-06-19T09:40:59+00:00",
         "url": null,
         "lang": null
       }
@@ -611,7 +610,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T09:24:47+00:00",
+        "retrieved_at": "2026-06-19T09:40:59+00:00",
         "url": null,
         "lang": null
       }
@@ -630,7 +629,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T09:24:47+00:00",
+        "retrieved_at": "2026-06-19T09:40:59+00:00",
         "url": null,
         "lang": null
       }
@@ -649,7 +648,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T09:24:47+00:00",
+        "retrieved_at": "2026-06-19T09:40:59+00:00",
         "url": null,
         "lang": null
       }
@@ -679,7 +678,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-19T09:24:47+00:00",
+      "retrieved_at": "2026-06-19T09:40:59+00:00",
       "url": null,
       "lang": null
     }
@@ -689,68 +688,40 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "revenue": [
-      23900000000.0,
-      27900000000.0,
-      31600000000.0,
-      36680000000.0
+      2879500000.0,
+      3023400000.0,
+      3174600000.0,
+      3333300000.0,
+      3500000000.0
     ],
     "net_income": [
-      13400000000.0,
-      16400000000.0,
-      17100000000.0,
-      21110000000.0
+      460700000.0,
+      483700000.0,
+      507900000.0,
+      533300000.0,
+      560000000.0
     ],
     "operating_cash_flow": [
-      null,
-      null,
-      null,
-      null
+      511400000.0,
+      537000000.0,
+      563800000.0,
+      592000000.0,
+      621600000.0
     ],
     "ratios": {
-      "net_margin": 0.5755,
+      "net_margin": 0.16,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.43
+      "payout_ratio": 0.5
     },
-    "revenue_cagr_3y": 0.1608,
-    "data_quality": "real",
-    "currency": "AED"
+    "revenue_cagr_3y": 0.0,
+    "data_quality": "demo"
   },
-  "valuation": {
-    "fair_value": 21.444,
-    "fair_low": 18.77,
-    "fair_high": 25.141,
-    "price": 18.26,
-    "upside_pct": 0.1744,
-    "rating": "fairly valued",
-    "confidence": "high",
-    "summary": "Model fair value AED 21.44 is 17% above the AED 18.26 price — fairly valued. Driven mainly by book value vs ROE; assumes ~10% growth and a 10.5% discount rate, 16% ROE. High confidence (range AED 18.77–25.14).",
-    "methods": {
-      "ddm": 15.273,
-      "pb": 23.793,
-      "pe": 21.645
-    },
-    "assumptions": {
-      "discount_rate": 0.105,
-      "growth": 0.1,
-      "roe": 0.1587,
-      "eps": 1.85,
-      "bvps": 12.0362,
-      "dps": 0.8
-    },
-    "method_labels": {
-      "ddm": "Dividend discount (Gordon)",
-      "pb": "Justified P/B (ROE)",
-      "pe": "Earnings multiple",
-      "fcf": "FCF perpetuity"
-    },
-    "basis": "deterministic",
-    "note": "The premium to the model fair value likely reflects investors valuing the dividend reliability and franchise quality, and the gap should narrow only if earnings growth accelerates materially or if sentiment retreats enough to compress valuation multiples.",
-    "note_by": "freeagent"
-  },
+  "valuation": null,
   "global_factors": {
     "exposures": [
       {
@@ -797,12 +768,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-19T09:24:47+00:00",
+        "as_of": "2026-06-19T09:40:59+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T09:24:47+00:00",
+          "retrieved_at": "2026-06-19T09:40:59+00:00",
           "url": null,
           "lang": null
         }
@@ -813,12 +784,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-19T09:24:47+00:00",
+        "as_of": "2026-06-19T09:40:59+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T09:24:47+00:00",
+          "retrieved_at": "2026-06-19T09:40:59+00:00",
           "url": null,
           "lang": null
         }
@@ -829,12 +800,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T09:24:47+00:00",
+        "as_of": "2026-06-19T09:40:59+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T09:24:47+00:00",
+          "retrieved_at": "2026-06-19T09:40:59+00:00",
           "url": null,
           "lang": null
         }
@@ -845,12 +816,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T09:24:47+00:00",
+        "as_of": "2026-06-19T09:40:59+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T09:24:47+00:00",
+          "retrieved_at": "2026-06-19T09:40:59+00:00",
           "url": null,
           "lang": null
         }
@@ -861,12 +832,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T09:24:47+00:00",
+        "as_of": "2026-06-19T09:40:59+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T09:24:47+00:00",
+          "retrieved_at": "2026-06-19T09:40:59+00:00",
           "url": null,
           "lang": null
         }
@@ -877,12 +848,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-19T09:24:47+00:00",
+        "as_of": "2026-06-19T09:40:59+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T09:24:47+00:00",
+          "retrieved_at": "2026-06-19T09:40:59+00:00",
           "url": null,
           "lang": null
         }
@@ -892,7 +863,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-18T07:24:47+00:00",
+        "published_at": "2026-06-18T07:40:59+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -900,7 +871,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T09:24:47+00:00",
+          "retrieved_at": "2026-06-19T09:40:59+00:00",
           "url": null,
           "lang": null
         }
@@ -908,7 +879,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-18T07:24:47+00:00",
+        "published_at": "2026-06-18T07:40:59+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -916,7 +887,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T09:24:47+00:00",
+          "retrieved_at": "2026-06-19T09:40:59+00:00",
           "url": null,
           "lang": null
         }
@@ -924,7 +895,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-16T15:24:47+00:00",
+        "published_at": "2026-06-16T15:40:59+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -932,7 +903,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T09:24:47+00:00",
+          "retrieved_at": "2026-06-19T09:40:59+00:00",
           "url": null,
           "lang": null
         }
@@ -958,7 +929,7 @@
     },
     "long_term": {
       "stance": "Neutral",
-      "confidence": "medium",
+      "confidence": "low",
       "reasons": [
         "Dependable dividend characteristics support long-term total-return objectives for income-focused investors.",
         "Mid-range stability score points to a resilient balance-sheet profile that can withstand sector stress.",
@@ -986,53 +957,52 @@
       },
       "long": {
         "stance": "Neutral",
-        "confidence": "medium",
-        "score": 65.6,
+        "confidence": "low",
+        "score": 43.7,
         "reasons": [
-          "Solid growth profile (Growth 68/100)",
-          "Dependable dividend characteristics (Dividend 72/100)"
+          "Dependable dividend characteristics (Dividend 62/100)"
         ],
         "risks": [
-          "Execution and macro conditions remain the key swing factors"
+          "Weak growth signal (Growth 21/100)"
         ]
       }
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-19T09:24:47+00:00",
+    "generated_at": "2026-06-19T09:40:59+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-18T22:10:30+00:00"
   },
-  "generated_at": "2026-06-19T09:24:47+00:00",
+  "generated_at": "2026-06-19T09:40:59+00:00",
   "peers": {
     "archetype": "bank",
     "self": {
       "symbol": "FAB",
       "name_en": "First Abu Dhabi Bank",
       "archetype": "bank",
-      "pe": 9.9,
-      "pb": 1.52,
-      "roe": 0.1587,
-      "dy": 0.0438,
-      "upside": 0.1744
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "dy": 0.0044,
+      "upside": null
     },
     "medians": {
-      "pe": 8.2,
-      "pb": 1.34,
-      "roe": 0.166,
+      "pe": 8.1,
+      "pb": 1.315,
+      "roe": 0.167,
       "dy": 0.045,
-      "upside": 0.38
+      "upside": 0.407
     },
     "peers": [
       {
         "symbol": "ADCB",
         "name_en": "Abu Dhabi Commercial Bank",
         "archetype": "bank",
-        "pe": 10.4,
-        "pb": 1.34,
+        "pe": 10.3,
+        "pb": 1.33,
         "roe": 0.129,
-        "dy": 0.0418,
-        "upside": 0.0321
+        "dy": 0.042,
+        "upside": 0.0376
       },
       {
         "symbol": "ADIB",
@@ -1041,8 +1011,8 @@
         "pe": 12.3,
         "pb": 2.44,
         "roe": 0.2209,
-        "dy": 0.0451,
-        "upside": 0.0941
+        "dy": 0.0452,
+        "upside": 0.0951
       },
       {
         "symbol": "RAKBANK",
@@ -1078,11 +1048,11 @@
         "symbol": "DIB",
         "name_en": "Dubai Islamic Bank",
         "archetype": "bank",
-        "pe": 7.9,
+        "pe": 8.0,
         "pb": 1.06,
         "roe": 0.1411,
-        "dy": 0.0449,
-        "upside": 0.3795
+        "dy": 0.0448,
+        "upside": 0.376
       }
     ],
     "n": 9

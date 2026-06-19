@@ -1,58 +1,28 @@
 {
   "symbol": "IHC",
-  "as_of": "FY2025",
+  "as_of": null,
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "Zawya",
   "source_url": "https://www.zawya.com/en/press-release/companies-news/ihc-repositions-capital-for-global-scale-generating-aed-1114bln-revenue-and-aed-347bln-net-profit-in-fy-2025-alurij2f",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T10:59:58+00:00",
+  "retrieved_at": "2026-06-19T09:30:27+00:00",
   "reported": {
-    "revenue": 111401000000.0,
-    "revenue_prior": 86315000000.0,
-    "net_income": 21715000000.0,
-    "net_income_prior": 15766000000.0,
+    "revenue": 111.4,
+    "revenue_prior": null,
+    "net_income": 34.7,
+    "net_income_prior": null,
+    "net_margin": null,
+    "net_margin_prior": null,
+    "total_debt": null,
     "ebitda": null,
-    "operating_cash_flow": 19440000000,
-    "fcf": 13830000000,
-    "total_debt": 90090000000,
-    "dividend_per_share": 0.0,
-    "payout_ratio": 0.0,
-    "years_paid": 0,
+    "operating_cash_flow": null,
     "current_ratio": null,
-    "net_margin": 0.1949,
-    "net_margin_prior": 0.1827,
+    "dividend_per_share": null,
+    "payout_ratio": null,
+    "fcf": null,
     "cut_history_5y": null,
-    "shares_outstanding": 2180000000.0,
-    "total_equity": 250700000000.0,
-    "eps": 9.93
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      50946000000.0,
-      60089000000.0,
-      86315000000.0,
-      111401000000.0
-    ],
-    "net_income": [
-      12653000000.0,
-      27523000000.0,
-      15766000000.0,
-      21715000000.0
-    ],
-    "operating_cash_flow": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "dividend_frequency": null,
+    "years_paid": null
+  }
 }

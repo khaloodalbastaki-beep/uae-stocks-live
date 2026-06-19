@@ -295,3 +295,20 @@
 [analyst] TALABAT: narrated by nemotron
 [analyst] TECOM: narrated by nemotron
 [analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 44 eligible): BOROUGE, FAB, FERTIGLB, IHC
+[mizan] BOROUGE: wrote fundamentals (high, None)
+[mizan] FAB: wrote fundamentals (high, FY2025)
+[mizan] FERTIGLB: not found / insufficient (kept modeled)
+[mizan] IHC: wrote fundamentals (high, None)
+[mizan] done: 3/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 38): EMSTEEL, PUREHEALTH, RAKPROP, DANA, EAND, FAB
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] PUREHEALTH: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] PUREHEALTH: 0 articles — kept prior
+[news] RAKPROP: 0 articles — kept prior
+[news] DANA: 8 live articles (Google)
+[news] EAND: 8 live articles (Google)
+[news] FAB: 8 live articles (Google)
+[news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[analyst] nothing stale (all narrated within 24h) — skip
