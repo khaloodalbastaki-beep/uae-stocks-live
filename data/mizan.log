@@ -249,3 +249,27 @@
 [analyst] DTC: narrated by nemotron
 [analyst] DU: narrated by nemotron
 [analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 26 eligible): ADIB, ADNOCDIST, ADNOCDRILL, ADNOCGAS
+[mizan] ADIB: not found / insufficient (kept modeled)
+[mizan] ADNOCDIST: not found / insufficient (kept modeled)
+[mizan] ADNOCDRILL: wrote fundamentals (high, 2025-12-31)
+[mizan] ADNOCGAS: not found / insufficient (kept modeled)
+[mizan] done: 1/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 44): EMSTEEL, PUREHEALTH, RAKPROP, AGTHIA, ALDAR, ALPHADHABI
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] PUREHEALTH: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] PUREHEALTH: 0 articles — kept prior
+[news] RAKPROP: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] RAKPROP: 0 articles — kept prior
+[news] AGTHIA: 5 live articles (Google)
+[news] ALDAR: 8 live articles (Google)
+[news] ALPHADHABI: 6 live articles (Google)
+[news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[analyst] stale batch (4 of 8): EMAARDEV, EMPOWER, GFH, MASHREQ
+[analyst] EMAARDEV: narrated by nemotron
+[analyst] EMPOWER: narrated by nemotron
+[analyst] GFH: narrated by nemotron
+[analyst] MASHREQ: no/invalid output from nemotron — trying next
+[analyst] MASHREQ: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai

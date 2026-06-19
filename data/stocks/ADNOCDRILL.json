@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "ADNOCDRILL",
-    "price": 6.09,
-    "change": -0.05,
-    "change_pct": -0.0081,
-    "volume": 1001581,
+    "price": 6.08,
+    "change": -0.06,
+    "change_pct": -0.0098,
+    "volume": 1046976,
     "market_cap": null,
-    "high_52w": 6.549,
-    "low_52w": 5.914,
+    "high_52w": 6.353,
+    "low_52w": 5.985,
     "spark": [
-      5.916,
-      5.914,
-      5.916,
-      5.964,
-      6.025,
-      5.991,
-      5.972,
-      5.978,
-      5.916,
-      5.978,
-      6.052,
-      6.058,
-      6.073,
-      6.103,
-      6.178,
-      6.25,
-      6.265,
-      6.318,
-      6.288,
-      6.355,
-      6.422,
-      6.397,
-      6.466,
-      6.397,
-      6.411,
-      6.387,
-      6.394,
-      6.465,
-      6.549,
-      6.09
+      6.0,
+      6.011,
+      5.985,
+      6.056,
+      6.019,
+      6.059,
+      6.031,
+      6.094,
+      6.173,
+      6.128,
+      6.212,
+      6.223,
+      6.266,
+      6.228,
+      6.188,
+      6.125,
+      6.095,
+      6.14,
+      6.197,
+      6.132,
+      6.214,
+      6.247,
+      6.216,
+      6.294,
+      6.281,
+      6.353,
+      6.325,
+      6.283,
+      6.218,
+      6.08
     ],
     "prov": {
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-19T07:15:28.652Z",
+      "retrieved_at": "2026-06-19T07:31:45.753Z",
       "url": null,
       "lang": null
     }
@@ -60,44 +60,44 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 56,
-      "grade": "C+",
+      "score": 21,
+      "grade": "D",
       "subfactors": [
         {
           "key": "rev",
           "label": "Revenue growth (YoY)",
-          "raw": 0.2147,
-          "points": 88.23333333333333,
+          "raw": 0.0,
+          "points": 16.666666666666668,
           "weight": 0.26,
-          "note": "21.5% top-line growth",
-          "contribution": 22.9
+          "note": "0.0% top-line growth",
+          "contribution": 4.3
         },
         {
           "key": "profit",
           "label": "Earnings growth (YoY)",
-          "raw": 0.112,
-          "points": 53.0,
+          "raw": 0.0,
+          "points": 25.0,
           "weight": 0.24,
-          "note": "11.2% earnings growth",
-          "contribution": 12.7
+          "note": "0.0% earnings growth",
+          "contribution": 6.0
         },
         {
           "key": "cagr",
           "label": "Revenue CAGR (3y)",
-          "raw": 0.2147,
-          "points": 100.0,
+          "raw": 0.0,
+          "points": 0.0,
           "weight": 0.16,
-          "note": "21.5% 3-year CAGR",
-          "contribution": 16.0
+          "note": "0.0% 3-year CAGR",
+          "contribution": 0.0
         },
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": -0.0274,
-          "points": 3.714285714285711,
+          "raw": 0.0,
+          "points": 42.85714285714285,
           "weight": 0.14,
           "note": "compressing margins",
-          "contribution": 0.5
+          "contribution": 6.0
         },
         {
           "key": "reinvest",
@@ -191,26 +191,26 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 67,
-      "grade": "B",
+      "score": 61,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0377,
-          "points": 62.83333333333333,
+          "raw": 0.0,
+          "points": 0.0,
           "weight": 0.18,
-          "note": "3.77% yield",
-          "contribution": 11.3
+          "note": "0.00% yield",
+          "contribution": 0.0
         },
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.69,
-          "points": 71.10000000000001,
+          "raw": 0.5,
+          "points": 96.6,
           "weight": 0.2,
-          "note": "69% of earnings paid out",
-          "contribution": 14.2
+          "note": "50% of earnings paid out",
+          "contribution": 19.3
         },
         {
           "key": "fcf",
@@ -245,21 +245,21 @@
           "raw": "annual",
           "points": 55.0,
           "weight": 0.1,
-          "note": "annual distribution, 4y streak",
+          "note": "annual distribution, 3y streak",
           "contribution": 5.5
         }
       ]
     },
-    "headline": 60,
-    "headline_grade": "C+",
+    "headline": 45,
+    "headline_grade": "D+",
     "archetype": "oil_services",
     "engine": "deterministic-v1"
   },
   "fundamentals": {
-    "revenue_growth": 0.2147,
-    "profit_growth": 0.112,
-    "revenue_cagr_3y": 0.2147,
-    "margin_trend": -0.0274,
+    "revenue_growth": 0.0,
+    "profit_growth": 0.0,
+    "revenue_cagr_3y": 0.0,
+    "margin_trend": 0.0,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -269,20 +269,20 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0377,
-    "payout_ratio": 0.69,
+    "dividend_yield": 0.0,
+    "payout_ratio": 0.5,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
     "frequency": "annual",
-    "years_paid": 4
+    "years_paid": 3
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "FY2025",
-    "source": "FY2025 results (workflow-verified)",
+    "as_of": "2025-12-31",
+    "source": "The National",
     "source_url": "https://www.thenationalnews.com/business/energy/2026/02/12/adnoc-drilling-delivers-record-2025-profit-as-revenue-surges-amid-expansion-push/",
-    "extractor": "workflow-research-fy2025",
+    "extractor": "mizan/ollama",
     "confidence": "high"
   },
   "overview": {
@@ -293,27 +293,27 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 1001581,
-      "high_52w": 6.549,
-      "low_52w": 5.914,
-      "dividend_yield": 0.0377
+      "volume": 1046976,
+      "high_52w": 6.353,
+      "low_52w": 5.985,
+      "dividend_yield": 0.0
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 67/100)"
+      "Mixed fundamentals; no single pillar stands out"
     ],
     "top_risks": [
-      "Execution and macro conditions remain the key swing factors"
+      "Weak growth signal (Growth 21/100)"
     ]
   },
   "disclosures": [
     {
-      "id": "ADNOCDRILL-4-1780971328",
+      "id": "ADNOCDRILL-4-1780972305",
       "symbol": "ADNOCDRILL",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-09T02:15:28+00:00",
+      "published_at": "2026-06-09T02:31:45+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ADNOCDRILL-7-1779495328",
+      "id": "ADNOCDRILL-7-1779496305",
       "symbol": "ADNOCDRILL",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-05-23T00:15:28+00:00",
+      "published_at": "2026-05-23T00:31:45+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ADNOCDRILL-3-1778652928",
+      "id": "ADNOCDRILL-3-1778653905",
       "symbol": "ADNOCDRILL",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-05-13T06:15:28+00:00",
+      "published_at": "2026-05-13T06:31:45+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ADNOCDRILL-6-1778364928",
+      "id": "ADNOCDRILL-6-1778365905",
       "symbol": "ADNOCDRILL",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-05-09T22:15:28+00:00",
+      "published_at": "2026-05-09T22:31:45+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ADNOCDRILL-1-1777410928",
+      "id": "ADNOCDRILL-1-1777411905",
       "symbol": "ADNOCDRILL",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-28T21:15:28+00:00",
+      "published_at": "2026-04-28T21:31:45+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ADNOCDRILL-0-1775708128",
+      "id": "ADNOCDRILL-0-1775709105",
       "symbol": "ADNOCDRILL",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-09T04:15:28+00:00",
+      "published_at": "2026-04-09T04:31:45+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ADNOCDRILL-2-1775423728",
+      "id": "ADNOCDRILL-2-1775424705",
       "symbol": "ADNOCDRILL",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-05T21:15:28+00:00",
+      "published_at": "2026-04-05T21:31:45+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ADNOCDRILL-5-1774322128",
+      "id": "ADNOCDRILL-5-1774323105",
       "symbol": "ADNOCDRILL",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-03-24T03:15:28+00:00",
+      "published_at": "2026-03-24T03:31:45+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       },
@@ -616,7 +616,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       }
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       }
@@ -667,7 +667,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       }
@@ -688,7 +688,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       }
@@ -707,7 +707,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       }
@@ -726,7 +726,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T07:15:28+00:00",
+        "retrieved_at": "2026-06-19T07:31:45+00:00",
         "url": null,
         "lang": null
       }
@@ -756,7 +756,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-19T07:15:28+00:00",
+      "retrieved_at": "2026-06-19T07:31:45+00:00",
       "url": null,
       "lang": null
     }
@@ -766,68 +766,40 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "revenue": [
-      9805575000.0,
-      11237850000.0,
-      14814865000.0,
-      17995250000.0
+      2879500000.0,
+      3023400000.0,
+      3174600000.0,
+      3333300000.0,
+      3500000000.0
     ],
     "net_income": [
-      2938000000.0,
-      3801038000.0,
-      4788940000.0,
-      5325125000.0
+      460700000.0,
+      483700000.0,
+      507900000.0,
+      533300000.0,
+      560000000.0
     ],
     "operating_cash_flow": [
-      null,
-      null,
-      null,
-      8189675000.0
+      511400000.0,
+      537000000.0,
+      563800000.0,
+      592000000.0,
+      621600000.0
     ],
     "ratios": {
-      "net_margin": 0.2959,
+      "net_margin": 0.16,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.69
+      "payout_ratio": 0.5
     },
-    "revenue_cagr_3y": 0.2147,
-    "data_quality": "real",
-    "currency": "AED"
+    "revenue_cagr_3y": 0.0,
+    "data_quality": "demo"
   },
-  "valuation": {
-    "fair_value": 4.705,
-    "fair_low": 4.294,
-    "fair_high": 5.096,
-    "price": 6.09,
-    "upside_pct": -0.2275,
-    "rating": "overvalued",
-    "confidence": "high",
-    "summary": "Model fair value AED 4.70 is 23% below the AED 6.09 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 11.5% discount rate, 35% ROE. High confidence (range AED 4.29–5.10).",
-    "methods": {
-      "ddm": 3.709,
-      "pb": 4.389,
-      "pe": 5.21
-    },
-    "assumptions": {
-      "discount_rate": 0.115,
-      "growth": 0.1,
-      "roe": 0.35,
-      "eps": 0.334,
-      "bvps": 0.9509,
-      "dps": 0.2296
-    },
-    "method_labels": {
-      "ddm": "Dividend discount (Gordon)",
-      "pb": "Justified P/B (ROE)",
-      "pe": "Earnings multiple",
-      "fcf": "FCF perpetuity"
-    },
-    "basis": "deterministic",
-    "note": "The market appears to price in a stronger growth trajectory and strategic premium than the model captures, and the gap would narrow if upcoming contract awards or cost discipline confirm the higher implicit expectations.",
-    "note_by": "nemotron"
-  },
+  "valuation": null,
   "global_factors": {
     "exposures": [
       {
@@ -856,12 +828,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-19T07:15:28+00:00",
+        "as_of": "2026-06-19T07:31:45+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -872,12 +844,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-19T07:15:28+00:00",
+        "as_of": "2026-06-19T07:31:45+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -888,12 +860,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T07:15:28+00:00",
+        "as_of": "2026-06-19T07:31:45+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -904,12 +876,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T07:15:28+00:00",
+        "as_of": "2026-06-19T07:31:45+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -920,12 +892,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T07:15:28+00:00",
+        "as_of": "2026-06-19T07:31:45+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -936,12 +908,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-19T07:15:28+00:00",
+        "as_of": "2026-06-19T07:31:45+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -951,7 +923,7 @@
       {
         "title": "Energy headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-18T02:15:28+00:00",
+        "published_at": "2026-06-18T02:31:45+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.37,
@@ -959,7 +931,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -967,7 +939,7 @@
       {
         "title": "Energy headline — global macro update 2",
         "theme": "TRADE",
-        "published_at": "2026-06-17T12:15:28+00:00",
+        "published_at": "2026-06-17T12:31:45+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 4.74,
@@ -975,7 +947,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -983,7 +955,7 @@
       {
         "title": "Energy headline — global macro update 3",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-17T12:15:28+00:00",
+        "published_at": "2026-06-17T12:31:45+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 3.45,
@@ -991,7 +963,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -999,7 +971,7 @@
       {
         "title": "Energy headline — global macro update 4",
         "theme": "MARITIME",
-        "published_at": "2026-06-18T22:15:28+00:00",
+        "published_at": "2026-06-18T22:31:45+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 2.16,
@@ -1007,7 +979,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -1015,7 +987,7 @@
       {
         "title": "Energy headline — global macro update 5",
         "theme": "TRADE",
-        "published_at": "2026-06-16T09:15:28+00:00",
+        "published_at": "2026-06-16T09:31:45+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.91,
@@ -1023,7 +995,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -1031,7 +1003,7 @@
       {
         "title": "Energy headline — global macro update 6",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-17T11:15:28+00:00",
+        "published_at": "2026-06-17T11:31:45+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -3.68,
@@ -1039,7 +1011,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T07:15:28+00:00",
+          "retrieved_at": "2026-06-19T07:31:45+00:00",
           "url": null,
           "lang": null
         }
@@ -1086,63 +1058,63 @@
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 47.8,
+        "score": 47.3,
         "reasons": [
           "A high-materiality disclosure (85/100) is in the recent flow"
         ],
         "risks": [
-          "Negative price momentum (-0.8% on the session in demo data)",
+          "Negative price momentum (-1.0% on the session in demo data)",
           "Recent disclosure tone skews cautious/negative"
         ]
       },
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 59.9,
+        "score": 43.8,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 67/100)"
+          "Mixed fundamentals; no single pillar stands out"
         ],
         "risks": [
-          "Execution and macro conditions remain the key swing factors"
+          "Weak growth signal (Growth 21/100)"
         ]
       }
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-19T07:15:28+00:00",
+    "generated_at": "2026-06-19T07:31:45+00:00",
     "narrator": "nemotron",
     "narrated_at": "2026-06-18T22:44:33+00:00"
   },
-  "generated_at": "2026-06-19T07:15:28+00:00",
+  "generated_at": "2026-06-19T07:31:45+00:00",
   "peers": {
     "archetype": "oil_services",
     "self": {
       "symbol": "ADNOCDRILL",
       "name_en": "ADNOC Drilling",
       "archetype": "oil_services",
-      "pe": 18.2,
-      "pb": 6.4,
-      "roe": 0.35,
-      "dy": 0.0377,
-      "upside": -0.2275
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "dy": 0.0,
+      "upside": null
     },
     "medians": {
-      "pe": 13.8,
-      "pb": 4.635,
-      "roe": 0.328,
-      "dy": 0.045,
-      "upside": -0.021
+      "pe": 9.3,
+      "pb": 2.85,
+      "roe": 0.307,
+      "dy": 0.027,
+      "upside": 0.193
     },
     "peers": [
       {
         "symbol": "NMDCENR",
         "name_en": "NMDC Energy",
         "archetype": "oil_services",
-        "pe": 9.4,
-        "pb": 2.87,
+        "pe": 9.3,
+        "pb": 2.85,
         "roe": 0.3066,
-        "dy": 0.0533,
-        "upside": 0.1853
+        "dy": 0.0537,
+        "upside": 0.1932
       }
     ],
     "n": 2
