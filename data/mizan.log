@@ -1919,3 +1919,28 @@ session_id: 20260621_154515_b2540b
 [analyst] DIN: no/invalid output from nemotron — trying next
 [analyst] DIN: narrated by freeagent
 [analyst] done: 3/3 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (1 of 1 eligible): ADNH
+[mizan] ADNH: wrote fundamentals (high, 2024-12-31)
+[mizan] done: 1/1 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 39): EMSTEEL, RAKPROP, PUREHEALTH, ADCB, ADIB, ADNOCDIST
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] RAKPROP: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] RAKPROP: 0 articles — kept prior
+[news] PUREHEALTH: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] PUREHEALTH: 0 articles — kept prior
+[news] ADCB: 2 live articles (Google)
+[news] ADIB: 8 live articles (Google)
+[news] ADNOCDIST: 8 live articles (Google)
+[news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[analyst] stale batch (3 of 3): CBD, DTC, DU
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] CBD: no/invalid output from nemotron — trying next
+[analyst] CBD: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DTC: no/invalid output from nemotron — trying next
+[analyst] DTC: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DU: no/invalid output from nemotron — trying next
+[analyst] DU: narrated by freeagent
+[analyst] done: 3/3 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
