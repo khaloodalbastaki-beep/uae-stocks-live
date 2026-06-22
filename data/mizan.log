@@ -1790,3 +1790,17 @@ session_id: 20260621_154515_b2540b
 [news] EMAARDEV: 8 live articles (Google)
 [news] DU: 1 live articles (Google)
 [news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[analyst] stale batch (4 of 4): BURJEEL, EMSTEEL, FERTIGLB, GHITHA
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] BURJEEL: no/invalid output from nemotron — trying next
+[analyst] BURJEEL: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMSTEEL: no/invalid output from nemotron — trying next
+[analyst] EMSTEEL: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] FERTIGLB: no/invalid output from nemotron — trying next
+[analyst] FERTIGLB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] GHITHA: no/invalid output from nemotron — trying next
+[analyst] GHITHA: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai

@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "AMERICANA",
-    "price": 2.07,
-    "change": 0.02,
-    "change_pct": 0.0098,
-    "volume": 376970,
+    "price": 2.06,
+    "change": 0.01,
+    "change_pct": 0.0049,
+    "volume": 733200,
     "market_cap": null,
-    "high_52w": 2.07,
-    "low_52w": 1.967,
+    "high_52w": 2.175,
+    "low_52w": 2.025,
     "spark": [
-      2.031,
-      2.013,
+      2.025,
       2.034,
-      2.011,
-      1.998,
-      1.98,
-      2.006,
-      2.009,
-      1.985,
-      1.985,
-      1.998,
-      1.997,
-      2.02,
-      2.002,
-      1.979,
-      1.983,
-      1.967,
-      1.973,
-      1.986,
-      1.997,
-      2.0,
-      2.026,
-      2.015,
-      1.996,
-      2.006,
-      2.01,
-      2.011,
-      2.029,
-      2.045,
-      2.07
+      2.028,
+      2.042,
+      2.025,
+      2.033,
+      2.049,
+      2.047,
+      2.075,
+      2.092,
+      2.111,
+      2.118,
+      2.117,
+      2.111,
+      2.119,
+      2.112,
+      2.108,
+      2.087,
+      2.108,
+      2.116,
+      2.11,
+      2.116,
+      2.119,
+      2.135,
+      2.165,
+      2.175,
+      2.164,
+      2.152,
+      2.131,
+      2.06
     ],
     "prov": {
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-22T06:31:15.754Z",
+      "retrieved_at": "2026-06-22T06:47:16.206Z",
       "url": null,
       "lang": null
     }
@@ -197,10 +197,10 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0426,
-          "points": 71.0,
+          "raw": 0.0428,
+          "points": 71.33333333333334,
           "weight": 0.18,
-          "note": "4.26% yield",
+          "note": "4.28% yield",
           "contribution": 12.8
         },
         {
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0426,
+    "dividend_yield": 0.0428,
     "payout_ratio": 0.92,
     "fcf_coverage": 0.43,
     "net_debt_pressure": 0.3,
@@ -293,10 +293,10 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 376970,
-      "high_52w": 2.07,
-      "low_52w": 1.967,
-      "dividend_yield": 0.0426
+      "volume": 733200,
+      "high_52w": 2.175,
+      "low_52w": 2.025,
+      "dividend_yield": 0.0428
     },
     "top_catalysts": [
       "Solid growth profile (Growth 65/100)",
@@ -308,13 +308,13 @@
   },
   "disclosures": [
     {
-      "id": "AMERICANA-6-1781325075",
+      "id": "AMERICANA-6-1781326036",
       "symbol": "AMERICANA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-13T04:31:15+00:00",
+      "published_at": "2026-06-13T04:47:16+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -327,20 +327,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AMERICANA-7-1781058675",
+      "id": "AMERICANA-7-1781059636",
       "symbol": "AMERICANA",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-10T02:31:15+00:00",
+      "published_at": "2026-06-10T02:47:16+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -353,20 +353,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AMERICANA-4-1777599075",
+      "id": "AMERICANA-4-1777600036",
       "symbol": "AMERICANA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-01T01:31:15+00:00",
+      "published_at": "2026-05-01T01:47:16+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -379,20 +379,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AMERICANA-0-1777080675",
+      "id": "AMERICANA-0-1777081636",
       "symbol": "AMERICANA",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-04-25T01:31:15+00:00",
+      "published_at": "2026-04-25T01:47:16+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -405,20 +405,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AMERICANA-1-1776281475",
+      "id": "AMERICANA-1-1776282436",
       "symbol": "AMERICANA",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-15T19:31:15+00:00",
+      "published_at": "2026-04-15T19:47:16+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -431,20 +431,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AMERICANA-3-1775698275",
+      "id": "AMERICANA-3-1775699236",
       "symbol": "AMERICANA",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-09T01:31:15+00:00",
+      "published_at": "2026-04-09T01:47:16+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -457,20 +457,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AMERICANA-5-1775424675",
+      "id": "AMERICANA-5-1775425636",
       "symbol": "AMERICANA",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-05T21:31:15+00:00",
+      "published_at": "2026-04-05T21:47:16+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -483,20 +483,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AMERICANA-2-1775007075",
+      "id": "AMERICANA-2-1775008036",
       "symbol": "AMERICANA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-01T01:31:15+00:00",
+      "published_at": "2026-04-01T01:47:16+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -509,20 +509,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AMERICANA-8-1774740675",
+      "id": "AMERICANA-8-1774741636",
       "symbol": "AMERICANA",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-03-28T23:31:15+00:00",
+      "published_at": "2026-03-28T23:47:16+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -535,7 +535,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       },
@@ -643,7 +643,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       }
@@ -668,7 +668,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       }
@@ -694,7 +694,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:31:15+00:00",
+        "retrieved_at": "2026-06-22T06:47:16+00:00",
         "url": null,
         "lang": null
       }
@@ -725,7 +725,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-22T06:31:15+00:00",
+      "retrieved_at": "2026-06-22T06:47:16+00:00",
       "url": null,
       "lang": null
     }
@@ -769,11 +769,11 @@
     "fair_value": 1.235,
     "fair_low": 1.073,
     "fair_high": 1.399,
-    "price": 2.07,
-    "upside_pct": -0.4031,
+    "price": 2.06,
+    "upside_pct": -0.4002,
     "rating": "overvalued",
     "confidence": "low",
-    "summary": "Model fair value AED 1.24 is 40% below the AED 2.07 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~2% growth and a 10.0% discount rate, 45% ROE. Low confidence (range AED 1.07–1.40).",
+    "summary": "Model fair value AED 1.24 is 40% below the AED 2.06 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~2% growth and a 10.0% discount rate, 45% ROE. Low confidence (range AED 1.07–1.40).",
     "methods": {
       "ddm": 1.093,
       "pb": 1.068,
@@ -844,12 +844,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-22T06:31:15+00:00",
+        "as_of": "2026-06-22T06:47:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:31:15+00:00",
+          "retrieved_at": "2026-06-22T06:47:16+00:00",
           "url": null,
           "lang": null
         }
@@ -860,12 +860,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-22T06:31:15+00:00",
+        "as_of": "2026-06-22T06:47:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:31:15+00:00",
+          "retrieved_at": "2026-06-22T06:47:16+00:00",
           "url": null,
           "lang": null
         }
@@ -876,12 +876,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:31:15+00:00",
+        "as_of": "2026-06-22T06:47:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:31:15+00:00",
+          "retrieved_at": "2026-06-22T06:47:16+00:00",
           "url": null,
           "lang": null
         }
@@ -892,12 +892,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:31:15+00:00",
+        "as_of": "2026-06-22T06:47:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:31:15+00:00",
+          "retrieved_at": "2026-06-22T06:47:16+00:00",
           "url": null,
           "lang": null
         }
@@ -908,12 +908,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:31:15+00:00",
+        "as_of": "2026-06-22T06:47:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:31:15+00:00",
+          "retrieved_at": "2026-06-22T06:47:16+00:00",
           "url": null,
           "lang": null
         }
@@ -924,12 +924,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-22T06:31:15+00:00",
+        "as_of": "2026-06-22T06:47:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:31:15+00:00",
+          "retrieved_at": "2026-06-22T06:47:16+00:00",
           "url": null,
           "lang": null
         }
@@ -939,7 +939,7 @@
       {
         "title": "Wheat headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-21T08:31:15+00:00",
+        "published_at": "2026-06-21T08:47:16+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.79,
@@ -947,7 +947,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:31:15+00:00",
+          "retrieved_at": "2026-06-22T06:47:16+00:00",
           "url": null,
           "lang": null
         }
@@ -955,7 +955,7 @@
       {
         "title": "Wheat headline — global macro update 2",
         "theme": "TOURISM",
-        "published_at": "2026-06-22T04:31:15+00:00",
+        "published_at": "2026-06-22T04:47:16+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -0.42,
@@ -963,7 +963,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:31:15+00:00",
+          "retrieved_at": "2026-06-22T06:47:16+00:00",
           "url": null,
           "lang": null
         }
@@ -971,7 +971,7 @@
       {
         "title": "Wheat headline — global macro update 3",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-19T14:31:15+00:00",
+        "published_at": "2026-06-19T14:47:16+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -5.45,
@@ -979,7 +979,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:31:15+00:00",
+          "retrieved_at": "2026-06-22T06:47:16+00:00",
           "url": null,
           "lang": null
         }
@@ -987,7 +987,7 @@
       {
         "title": "Wheat headline — global macro update 4",
         "theme": "TRADE",
-        "published_at": "2026-06-21T11:31:15+00:00",
+        "published_at": "2026-06-21T11:47:16+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": 0.02,
@@ -995,7 +995,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:31:15+00:00",
+          "retrieved_at": "2026-06-22T06:47:16+00:00",
           "url": null,
           "lang": null
         }
@@ -1003,7 +1003,7 @@
       {
         "title": "Wheat headline — global macro update 5",
         "theme": "TRADE",
-        "published_at": "2026-06-19T08:31:15+00:00",
+        "published_at": "2026-06-19T08:47:16+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -3.44,
@@ -1011,7 +1011,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:31:15+00:00",
+          "retrieved_at": "2026-06-22T06:47:16+00:00",
           "url": null,
           "lang": null
         }
@@ -1056,9 +1056,8 @@
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 58.6,
+        "score": 57.1,
         "reasons": [
-          "Positive price momentum (+1.0% on the session in demo data)",
           "Recent disclosure tone skews positive"
         ],
         "risks": [
@@ -1080,29 +1079,29 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-22T06:31:15+00:00",
+    "generated_at": "2026-06-22T06:47:16+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-22T04:24:13+00:00"
   },
-  "generated_at": "2026-06-22T06:31:15+00:00",
+  "generated_at": "2026-06-22T06:47:16+00:00",
   "peers": {
     "archetype": "consumer",
     "self": {
       "symbol": "AMERICANA",
       "name_en": "Americana Restaurants",
       "archetype": "consumer",
-      "pe": 21.6,
-      "pb": 9.69,
+      "pe": 21.5,
+      "pb": 9.64,
       "roe": 0.4472,
-      "dy": 0.0426,
-      "upside": -0.4031
+      "dy": 0.0428,
+      "upside": -0.4002
     },
     "medians": {
       "pe": 19.0,
-      "pb": 10.55,
+      "pb": 10.57,
       "roe": 0.524,
       "dy": 0.052,
-      "upside": -0.09
+      "upside": -0.093
     },
     "peers": [
       {
@@ -1112,7 +1111,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.1098,
+        "dy": 0.1111,
         "upside": null
       },
       {
@@ -1122,7 +1121,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.0575,
+        "dy": 0.0572,
         "upside": null
       },
       {
@@ -1139,11 +1138,11 @@
         "symbol": "TALABAT",
         "name_en": "Talabat Holding",
         "archetype": "consumer",
-        "pe": 16.4,
-        "pb": 11.41,
+        "pe": 16.5,
+        "pb": 11.5,
         "roe": 0.6,
-        "dy": 0.0525,
-        "upside": 0.2235
+        "dy": 0.052,
+        "upside": 0.2139
       }
     ],
     "n": 5
