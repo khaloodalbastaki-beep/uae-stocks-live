@@ -1774,3 +1774,19 @@ session_id: 20260621_154515_b2540b
 [analyst] EAND: no/invalid output from nemotron — trying next
 [analyst] EAND: narrated by freeagent
 [analyst] done: 3/3 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): EAND, EMSTEEL, GHITHA, JULPHAR
+[mizan] EAND: wrote fundamentals (high, 2025-12-31)
+[mizan] EMSTEEL: wrote fundamentals (high, FY2025)
+[mizan] GHITHA: wrote fundamentals (high, 2024-12-31)
+[mizan] JULPHAR: wrote fundamentals (high, None)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 37): EMSTEEL, RAKPROP, PUREHEALTH, EMAAR, EMAARDEV, DU
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] RAKPROP: 0 articles — kept prior
+[news] PUREHEALTH: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] PUREHEALTH: 0 articles — kept prior
+[news] EMAAR: 8 live articles (Google)
+[news] EMAARDEV: 8 live articles (Google)
+[news] DU: 1 live articles (Google)
+[news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news

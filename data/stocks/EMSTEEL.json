@@ -12,7 +12,7 @@
     "price": 1.16,
     "change": 0.0,
     "change_pct": 0.0,
-    "volume": 0,
+    "volume": 207035,
     "market_cap": null,
     "high_52w": 1.235,
     "low_52w": 1.16,
@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-22T06:15:15.315Z",
+      "retrieved_at": "2026-06-22T06:31:15.754Z",
       "url": null,
       "lang": null
     }
@@ -279,8 +279,8 @@
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": null,
-    "source": "EMSTEEL",
+    "as_of": "FY2025",
+    "source": "EMSTEEL press release",
     "source_url": "https://www.emsteel.com/emsteel-reports-strong-fy-2025-performance-revenue-up-7-to-aed-8-9-billion-and-ebitda-up-34-to-aed-1-2-billion-year-on-year/",
     "extractor": "mizan/ollama",
     "confidence": "high"
@@ -293,7 +293,7 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 0,
+      "volume": 207035,
       "high_52w": 1.235,
       "low_52w": 1.16,
       "dividend_yield": 0.0
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "EMSTEEL-2-1781219715",
+      "id": "EMSTEEL-2-1781220675",
       "symbol": "EMSTEEL",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-11T23:15:15+00:00",
+      "published_at": "2026-06-11T23:31:15+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMSTEEL-4-1781064915",
+      "id": "EMSTEEL-4-1781065875",
       "symbol": "EMSTEEL",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-10T04:15:15+00:00",
+      "published_at": "2026-06-10T04:31:15+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMSTEEL-3-1780449315",
+      "id": "EMSTEEL-3-1780450275",
       "symbol": "EMSTEEL",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-03T01:15:15+00:00",
+      "published_at": "2026-06-03T01:31:15+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMSTEEL-0-1780445715",
+      "id": "EMSTEEL-0-1780446675",
       "symbol": "EMSTEEL",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-03T00:15:15+00:00",
+      "published_at": "2026-06-03T00:31:15+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMSTEEL-5-1776485715",
+      "id": "EMSTEEL-5-1776486675",
       "symbol": "EMSTEEL",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-18T04:15:15+00:00",
+      "published_at": "2026-04-18T04:31:15+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMSTEEL-1-1774764915",
+      "id": "EMSTEEL-1-1774765875",
       "symbol": "EMSTEEL",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-03-29T06:15:15+00:00",
+      "published_at": "2026-03-29T06:31:15+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMSTEEL-6-1774466115",
+      "id": "EMSTEEL-6-1774467075",
       "symbol": "EMSTEEL",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-03-25T19:15:15+00:00",
+      "published_at": "2026-03-25T19:31:15+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -482,7 +482,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
@@ -509,7 +509,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       }
@@ -534,7 +534,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       }
@@ -560,7 +560,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       }
@@ -591,7 +591,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-22T06:15:15+00:00",
+      "retrieved_at": "2026-06-22T06:31:15+00:00",
       "url": null,
       "lang": null
     }
@@ -672,12 +672,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -688,12 +688,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -704,12 +704,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -720,12 +720,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -736,12 +736,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -752,12 +752,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -767,7 +767,7 @@
       {
         "title": "Steel headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-22T04:15:15+00:00",
+        "published_at": "2026-06-22T04:31:15+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 5.88,
@@ -775,7 +775,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -783,7 +783,7 @@
       {
         "title": "Steel headline — global macro update 2",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-20T11:15:15+00:00",
+        "published_at": "2026-06-20T11:31:15+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 4.46,
@@ -791,7 +791,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -799,7 +799,7 @@
       {
         "title": "Steel headline — global macro update 3",
         "theme": "MARITIME",
-        "published_at": "2026-06-21T18:15:15+00:00",
+        "published_at": "2026-06-21T18:31:15+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": 3.34,
@@ -807,7 +807,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -815,7 +815,7 @@
       {
         "title": "Steel headline — global macro update 4",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-20T12:15:15+00:00",
+        "published_at": "2026-06-20T12:31:15+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 4.16,
@@ -823,7 +823,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -836,35 +836,35 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Recent corporate disclosure tone skews positive, suggesting management visibility is improving.",
-        "Stability score is higher than growth, implying near-term earnings predictability is relatively intact.",
-        "Dividend score above mid-point provides shareholders with some income cushion during price weakness.",
-        "The positive disclosure may reduce uncertainty ahead of the next earnings update."
+        "Recent disclosure tone skews positive, supporting near-term sentiment stability.",
+        "Stability and dividend scores provide a buffer against immediate downside.",
+        "No aggressive near-term catalyst is evident, keeping price action balanced.",
+        "The current disclosure cushion limits downside but does not establish strong upside momentum."
       ],
       "risks": [
-        "Negative price momentum signals weak near-term demand and investor interest.",
-        "Growth score below mid-point means expansion-driven catalysts are limited.",
-        "Uncertain macro conditions can quickly erode industrial demand and sentiment.",
-        "Execution visibility remains unclear, leaving delivery upsides at risk."
+        "A surprise filing could quickly reprice the near-term outlook.",
+        "Sector-wide moves can easily override company-specific positive tone.",
+        "A neutral medium stance is delicate and can tip with modest news flow.",
+        "Limited short-term catalyst means volatility could shift sentiment quickly."
       ],
-      "what_would_change_view": "A sustained turnaround in price momentum, backed by concrete evidence that management delivery is beating expectations, would be needed to upgrade the view; continued weakness would reinforce the neutral stance."
+      "what_would_change_view": "A clean follow-up disclosure with sustained positive tone or a sector-wide rotation into industrials would make me more constructive; a negative filing or adverse sector move would shift me negative."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Resilient balance sheet and stronger stability score provide a durable long-term foundation.",
-        "Dividend score above mid-point supports compounding total returns over time.",
-        "The combination of stability and income could attract defensive investors through market cycles.",
-        "Sector positioning in industrial materials may benefit from longer-cycle infrastructure demand."
+        "Mixed fundamentals with no single pillar standing out cap the long-term thesis.",
+        "Dividend and stability offer some floor, but not a growth driver.",
+        "Low confidence reflects an absence of visible long-term re-rating catalysts.",
+        "Industrials exposure alone does not justify a strong stance without earnings growth."
       ],
       "risks": [
-        "Growth score below mid-point suggests the business is not generating enough top-line momentum for attractive long-term returns.",
-        "Execution risk remains the primary swing factor for realizing strategic value.",
-        "Macro and demand conditions could remain headwinds for years, capping rerating potential.",
-        "Any deterioration in balance sheet health would undermine the long-term stability thesis."
+        "Weak growth signal leaves the company vulnerable to structural underperformance.",
+        "If growth remains muted, long-term returns are likely to lag the broader market.",
+        "Reliance on stability and dividends is less sustainable if macro conditions shift.",
+        "Persistent stagnation would reinforce the cautious long-term view."
       ],
-      "what_would_change_view": "A material lift in growth prospects, evidenced by a step-change above mid-point in the growth score, would be required to shift the long-term view; worsening macro or execution trends would keep it neutral."
+      "what_would_change_view": "A credible turnaround in growth—evidenced by sustained capital deployment or order growth—would upgrade the view; a further deterioration in growth or stability would make me outright negative."
     },
     "_signal": {
       "short": {
@@ -892,11 +892,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-22T06:15:15+00:00",
+    "generated_at": "2026-06-22T06:31:15+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-21T06:23:51+00:00"
+    "narrated_at": "2026-06-22T06:30:41+00:00"
   },
-  "generated_at": "2026-06-22T06:15:15+00:00",
+  "generated_at": "2026-06-22T06:31:15+00:00",
   "peers": {
     "archetype": "industrials",
     "self": {
@@ -911,10 +911,10 @@
     },
     "medians": {
       "pe": 4.9,
-      "pb": 1.13,
+      "pb": 1.11,
       "roe": 0.228,
       "dy": 0.024,
-      "upside": 1.813
+      "upside": 1.848
     },
     "peers": [
       {
@@ -922,10 +922,10 @@
         "name_en": "NMDC Group",
         "archetype": "industrials",
         "pe": 4.9,
-        "pb": 1.13,
+        "pb": 1.11,
         "roe": 0.2283,
-        "dy": 0.0472,
-        "upside": 1.8133
+        "dy": 0.0478,
+        "upside": 1.8482
       }
     ],
     "n": 2

@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "EAND",
-    "price": 19.6,
-    "change": 0.0,
-    "change_pct": 0.0,
-    "volume": 0,
+    "price": 19.7,
+    "change": 0.1,
+    "change_pct": 0.0051,
+    "volume": 499979,
     "market_cap": null,
-    "high_52w": 19.698,
-    "low_52w": 18.902,
+    "high_52w": 19.7,
+    "low_52w": 18.542,
     "spark": [
-      19.133,
-      19.38,
-      19.631,
-      19.457,
-      19.459,
-      19.249,
-      19.075,
-      19.01,
-      18.931,
-      18.902,
-      19.087,
+      19.632,
+      19.581,
+      19.464,
+      19.424,
+      19.303,
+      19.401,
+      19.254,
       19.313,
-      19.436,
-      19.363,
-      19.285,
-      19.465,
-      19.529,
+      19.386,
+      19.442,
+      19.352,
+      19.507,
+      19.678,
+      19.517,
+      19.422,
+      19.353,
+      19.233,
       19.397,
-      19.178,
-      19.051,
-      19.04,
-      19.249,
-      19.209,
-      19.149,
-      19.299,
-      19.519,
-      19.358,
-      19.579,
-      19.698,
-      19.6
+      19.206,
+      19.18,
+      19.029,
+      18.873,
+      18.786,
+      18.915,
+      18.774,
+      18.686,
+      18.553,
+      18.573,
+      18.542,
+      19.7
     ],
     "prov": {
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-22T06:15:15.315Z",
+      "retrieved_at": "2026-06-22T06:31:15.754Z",
       "url": null,
       "lang": null
     }
@@ -93,8 +93,8 @@
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.015,
-          "points": 64.28571428571428,
+          "raw": 0.0151,
+          "points": 64.42857142857143,
           "weight": 0.14,
           "note": "expanding margins",
           "contribution": 9.0
@@ -191,8 +191,8 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 47,
-      "grade": "D+",
+      "score": 62,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
@@ -206,11 +206,11 @@
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.05,
-          "points": 20.099999999999994,
+          "raw": 0.5,
+          "points": 96.6,
           "weight": 0.2,
-          "note": "5% of earnings paid out",
-          "contribution": 4.0
+          "note": "50% of earnings paid out",
+          "contribution": 19.3
         },
         {
           "key": "fcf",
@@ -250,7 +250,7 @@
         }
       ]
     },
-    "headline": 64,
+    "headline": 68,
     "headline_grade": "B",
     "archetype": "telecom",
     "engine": "deterministic-v1"
@@ -259,7 +259,7 @@
     "revenue_growth": 0.2314,
     "profit_growth": 0.3333,
     "revenue_cagr_3y": 0.2314,
-    "margin_trend": 0.015,
+    "margin_trend": 0.0151,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -270,7 +270,7 @@
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
     "dividend_yield": 0.0046,
-    "payout_ratio": 0.05,
+    "payout_ratio": 0.5,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
@@ -280,7 +280,7 @@
   "fundamentals_source": {
     "real": true,
     "as_of": "2025-12-31",
-    "source": "e& press release",
+    "source": "e&",
     "source_url": "https://www.eand.com/en/news/24-feb-26-eand-delivers-record-revenue-and-net-profit-in-FY-2025.html",
     "extractor": "mizan/ollama",
     "confidence": "high"
@@ -293,13 +293,14 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 0,
-      "high_52w": 19.698,
-      "low_52w": 18.902,
+      "volume": 499979,
+      "high_52w": 19.7,
+      "low_52w": 18.542,
       "dividend_yield": 0.0046
     },
     "top_catalysts": [
-      "Solid growth profile (Growth 78/100)"
+      "Solid growth profile (Growth 78/100)",
+      "Dependable dividend characteristics (Dividend 62/100)"
     ],
     "top_risks": [
       "Execution and macro conditions remain the key swing factors"
@@ -307,13 +308,13 @@
   },
   "disclosures": [
     {
-      "id": "EAND-5-1781583315",
+      "id": "EAND-5-1781584275",
       "symbol": "EAND",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-06-16T04:15:15+00:00",
+      "published_at": "2026-06-16T04:31:15+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -326,20 +327,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EAND-4-1781118915",
+      "id": "EAND-4-1781119875",
       "symbol": "EAND",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-10T19:15:15+00:00",
+      "published_at": "2026-06-10T19:31:15+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -352,20 +353,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EAND-3-1780377315",
+      "id": "EAND-3-1780378275",
       "symbol": "EAND",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-02T05:15:15+00:00",
+      "published_at": "2026-06-02T05:31:15+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -378,20 +379,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EAND-2-1776654915",
+      "id": "EAND-2-1776655875",
       "symbol": "EAND",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-20T03:15:15+00:00",
+      "published_at": "2026-04-20T03:31:15+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -404,20 +405,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EAND-0-1775960115",
+      "id": "EAND-0-1775961075",
       "symbol": "EAND",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-12T02:15:15+00:00",
+      "published_at": "2026-04-12T02:31:15+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -430,20 +431,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EAND-1-1775024115",
+      "id": "EAND-1-1775025075",
       "symbol": "EAND",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-01T06:15:15+00:00",
+      "published_at": "2026-04-01T06:31:15+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -456,7 +457,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       },
@@ -564,7 +565,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       }
@@ -589,7 +590,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       }
@@ -615,7 +616,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:15:15+00:00",
+        "retrieved_at": "2026-06-22T06:31:15+00:00",
         "url": null,
         "lang": null
       }
@@ -646,7 +647,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-22T06:15:15+00:00",
+      "retrieved_at": "2026-06-22T06:31:15+00:00",
       "url": null,
       "lang": null
     }
@@ -667,24 +668,24 @@
       3500000000.0
     ],
     "net_income": [
-      266400000.0,
-      342100000.0,
-      438600000.0,
-      561400000.0,
-      717500000.0
+      266500000.0,
+      342400000.0,
+      439000000.0,
+      562100000.0,
+      718600000.0
     ],
     "operating_cash_flow": [
-      295700000.0,
-      379700000.0,
-      486800000.0,
-      623100000.0,
-      796400000.0
+      295900000.0,
+      380000000.0,
+      487300000.0,
+      623900000.0,
+      797600000.0
     ],
     "ratios": {
-      "net_margin": 0.205,
+      "net_margin": 0.2053,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.05
+      "payout_ratio": 0.5
     },
     "revenue_cagr_3y": 0.2314,
     "data_quality": "demo"
@@ -727,12 +728,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -743,12 +744,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -759,12 +760,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -775,12 +776,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -791,12 +792,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -807,12 +808,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-22T06:15:15+00:00",
+        "as_of": "2026-06-22T06:31:15+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -822,7 +823,7 @@
       {
         "title": "Us headline — global macro update 1",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-21T20:15:15+00:00",
+        "published_at": "2026-06-21T20:31:15+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -1.29,
@@ -830,7 +831,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -838,7 +839,7 @@
       {
         "title": "Us headline — global macro update 2",
         "theme": "ENERGY",
-        "published_at": "2026-06-21T21:15:15+00:00",
+        "published_at": "2026-06-21T21:31:15+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 2.88,
@@ -846,7 +847,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -854,7 +855,7 @@
       {
         "title": "Us headline — global macro update 3",
         "theme": "TOURISM",
-        "published_at": "2026-06-20T23:15:15+00:00",
+        "published_at": "2026-06-20T23:31:15+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -5.76,
@@ -862,7 +863,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:15:15+00:00",
+          "retrieved_at": "2026-06-22T06:31:15+00:00",
           "url": null,
           "lang": null
         }
@@ -888,7 +889,7 @@
       "what_would_change_view": "A decisive break above recent negative price momentum on improving breadth, or an upgrade in stability or dividend breadcrumbs."
     },
     "long_term": {
-      "stance": "Neutral",
+      "stance": "Bullish",
       "confidence": "medium",
       "reasons": [
         "Growth profile remains the strongest score in the house range",
@@ -908,7 +909,7 @@
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 55.7,
+        "score": 57.2,
         "reasons": [
           "Recent disclosure tone skews positive"
         ],
@@ -917,11 +918,12 @@
         ]
       },
       "long": {
-        "stance": "Neutral",
+        "stance": "Bullish",
         "confidence": "medium",
-        "score": 64.7,
+        "score": 68.0,
         "reasons": [
-          "Solid growth profile (Growth 78/100)"
+          "Solid growth profile (Growth 78/100)",
+          "Dependable dividend characteristics (Dividend 62/100)"
         ],
         "risks": [
           "Execution and macro conditions remain the key swing factors"
@@ -930,11 +932,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-22T06:15:15+00:00",
+    "generated_at": "2026-06-22T06:31:15+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-22T05:27:31+00:00"
   },
-  "generated_at": "2026-06-22T06:15:15+00:00",
+  "generated_at": "2026-06-22T06:31:15+00:00",
   "peers": {
     "archetype": "telecom",
     "self": {
@@ -951,7 +953,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.006,
+      "dy": 0.005,
       "upside": null
     },
     "peers": [
@@ -962,7 +964,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.0076,
+        "dy": 0.0056,
         "upside": null
       }
     ],
