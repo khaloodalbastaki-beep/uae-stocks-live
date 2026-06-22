@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "RAKBANK",
-    "price": 9.25,
-    "change": 0.0,
-    "change_pct": 0.0,
-    "volume": 585,
+    "price": 9.24,
+    "change": -0.01,
+    "change_pct": -0.0011,
+    "volume": 684,
     "market_cap": null,
-    "high_52w": 9.25,
-    "low_52w": 8.901,
+    "high_52w": 9.879,
+    "low_52w": 9.003,
     "spark": [
-      9.053,
-      9.109,
-      9.036,
-      9.143,
-      9.144,
-      9.132,
-      9.061,
-      9.135,
-      9.141,
-      9.042,
-      9.131,
-      9.179,
-      9.169,
-      9.104,
-      9.101,
-      9.193,
-      9.111,
-      9.122,
-      9.1,
-      9.106,
-      9.005,
-      8.901,
-      8.915,
-      9.036,
-      9.062,
-      9.071,
-      9.164,
-      9.105,
-      9.114,
-      9.25
+      9.067,
+      9.003,
+      9.128,
+      9.185,
+      9.196,
+      9.161,
+      9.15,
+      9.273,
+      9.393,
+      9.492,
+      9.538,
+      9.45,
+      9.55,
+      9.505,
+      9.607,
+      9.61,
+      9.534,
+      9.631,
+      9.623,
+      9.718,
+      9.789,
+      9.879,
+      9.847,
+      9.81,
+      9.77,
+      9.778,
+      9.758,
+      9.667,
+      9.571,
+      9.24
     ],
     "prov": {
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-22T06:47:16.206Z",
+      "retrieved_at": "2026-06-22T07:03:18.173Z",
       "url": null,
       "lang": null
     }
@@ -197,10 +197,10 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0681,
-          "points": 95.14,
+          "raw": 0.0682,
+          "points": 95.08,
           "weight": 0.18,
-          "note": "6.81% yield",
+          "note": "6.82% yield",
           "contribution": 17.1
         },
         {
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0681,
+    "dividend_yield": 0.0682,
     "payout_ratio": 0.49,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -293,10 +293,10 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 585,
-      "high_52w": 9.25,
-      "low_52w": 8.901,
-      "dividend_yield": 0.0681
+      "volume": 684,
+      "high_52w": 9.879,
+      "low_52w": 9.003,
+      "dividend_yield": 0.0682
     },
     "top_catalysts": [
       "Dependable dividend characteristics (Dividend 78/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "RAKBANK-8-1782020836",
+      "id": "RAKBANK-8-1782021798",
       "symbol": "RAKBANK",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-21T05:47:16+00:00",
+      "published_at": "2026-06-21T06:03:18+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "RAKBANK-3-1781304436",
+      "id": "RAKBANK-3-1781305398",
       "symbol": "RAKBANK",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-12T22:47:16+00:00",
+      "published_at": "2026-06-12T23:03:18+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "RAKBANK-2-1781246836",
+      "id": "RAKBANK-2-1781247798",
       "symbol": "RAKBANK",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-06-12T06:47:16+00:00",
+      "published_at": "2026-06-12T07:03:18+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "RAKBANK-1-1781214436",
+      "id": "RAKBANK-1-1781215398",
       "symbol": "RAKBANK",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-11T21:47:16+00:00",
+      "published_at": "2026-06-11T22:03:18+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "RAKBANK-4-1780800436",
+      "id": "RAKBANK-4-1780801398",
       "symbol": "RAKBANK",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-07T02:47:16+00:00",
+      "published_at": "2026-06-07T03:03:18+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "RAKBANK-6-1779140836",
+      "id": "RAKBANK-6-1779141798",
       "symbol": "RAKBANK",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-05-18T21:47:16+00:00",
+      "published_at": "2026-05-18T22:03:18+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "RAKBANK-0-1778222836",
+      "id": "RAKBANK-0-1778223798",
       "symbol": "RAKBANK",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-08T06:47:16+00:00",
+      "published_at": "2026-05-08T07:03:18+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "RAKBANK-7-1775796436",
+      "id": "RAKBANK-7-1775797398",
       "symbol": "RAKBANK",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-04-10T04:47:16+00:00",
+      "published_at": "2026-04-10T05:03:18+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -508,20 +508,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "RAKBANK-5-1775011636",
+      "id": "RAKBANK-5-1775012598",
       "symbol": "RAKBANK",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-01T02:47:16+00:00",
+      "published_at": "2026-04-01T03:03:18+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -534,7 +534,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       },
@@ -602,7 +602,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       }
@@ -627,7 +627,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       }
@@ -653,7 +653,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       }
@@ -674,7 +674,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       }
@@ -693,7 +693,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       }
@@ -712,7 +712,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T06:47:16+00:00",
+        "retrieved_at": "2026-06-22T07:03:18+00:00",
         "url": null,
         "lang": null
       }
@@ -742,7 +742,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-22T06:47:16+00:00",
+      "retrieved_at": "2026-06-22T07:03:18+00:00",
       "url": null,
       "lang": null
     }
@@ -786,11 +786,11 @@
     "fair_value": 15.473,
     "fair_low": 13.528,
     "fair_high": 18.167,
-    "price": 9.25,
-    "upside_pct": 0.6728,
+    "price": 9.24,
+    "upside_pct": 0.6746,
     "rating": "undervalued",
     "confidence": "high",
-    "summary": "Model fair value AED 15.47 is 67% above the AED 9.25 price — undervalued. Driven mainly by book value vs ROE; assumes ~10% growth and a 10.5% discount rate, 18% ROE. High confidence (range AED 13.53–18.17).",
+    "summary": "Model fair value AED 15.47 is 67% above the AED 9.24 price — undervalued. Driven mainly by book value vs ROE; assumes ~10% growth and a 10.5% discount rate, 18% ROE. High confidence (range AED 13.53–18.17).",
     "methods": {
       "ddm": 12.027,
       "pb": 17.079,
@@ -851,12 +851,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-22T06:47:16+00:00",
+        "as_of": "2026-06-22T07:03:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:47:16+00:00",
+          "retrieved_at": "2026-06-22T07:03:18+00:00",
           "url": null,
           "lang": null
         }
@@ -867,12 +867,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-22T06:47:16+00:00",
+        "as_of": "2026-06-22T07:03:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:47:16+00:00",
+          "retrieved_at": "2026-06-22T07:03:18+00:00",
           "url": null,
           "lang": null
         }
@@ -883,12 +883,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:47:16+00:00",
+        "as_of": "2026-06-22T07:03:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:47:16+00:00",
+          "retrieved_at": "2026-06-22T07:03:18+00:00",
           "url": null,
           "lang": null
         }
@@ -899,12 +899,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:47:16+00:00",
+        "as_of": "2026-06-22T07:03:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:47:16+00:00",
+          "retrieved_at": "2026-06-22T07:03:18+00:00",
           "url": null,
           "lang": null
         }
@@ -915,12 +915,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T06:47:16+00:00",
+        "as_of": "2026-06-22T07:03:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:47:16+00:00",
+          "retrieved_at": "2026-06-22T07:03:18+00:00",
           "url": null,
           "lang": null
         }
@@ -931,12 +931,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-22T06:47:16+00:00",
+        "as_of": "2026-06-22T07:03:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:47:16+00:00",
+          "retrieved_at": "2026-06-22T07:03:18+00:00",
           "url": null,
           "lang": null
         }
@@ -946,7 +946,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-21T04:47:16+00:00",
+        "published_at": "2026-06-21T05:03:18+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -954,7 +954,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:47:16+00:00",
+          "retrieved_at": "2026-06-22T07:03:18+00:00",
           "url": null,
           "lang": null
         }
@@ -962,7 +962,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-21T04:47:16+00:00",
+        "published_at": "2026-06-21T05:03:18+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -970,7 +970,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:47:16+00:00",
+          "retrieved_at": "2026-06-22T07:03:18+00:00",
           "url": null,
           "lang": null
         }
@@ -978,7 +978,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-19T12:47:16+00:00",
+        "published_at": "2026-06-19T13:03:18+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -986,7 +986,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T06:47:16+00:00",
+          "retrieved_at": "2026-06-22T07:03:18+00:00",
           "url": null,
           "lang": null
         }
@@ -1025,7 +1025,7 @@
       "short": {
         "stance": "Neutral",
         "confidence": "high",
-        "score": 62.2,
+        "score": 61.9,
         "reasons": [
           "A high-materiality disclosure (85/100) is in the recent flow",
           "Recent disclosure tone skews positive"
@@ -1048,11 +1048,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-22T06:47:16+00:00",
+    "generated_at": "2026-06-22T07:03:18+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-21T08:32:30+00:00"
   },
-  "generated_at": "2026-06-22T06:47:16+00:00",
+  "generated_at": "2026-06-22T07:03:18+00:00",
   "peers": {
     "archetype": "bank",
     "self": {
@@ -1062,12 +1062,12 @@
       "pe": 7.2,
       "pb": 1.31,
       "roe": 0.1831,
-      "dy": 0.0681,
-      "upside": 0.6728
+      "dy": 0.0682,
+      "upside": 0.6746
     },
     "medians": {
       "pe": 8.4,
-      "pb": 1.34,
+      "pb": 1.33,
       "roe": 0.166,
       "dy": 0.032,
       "upside": 0.31
@@ -1077,21 +1077,21 @@
         "symbol": "ADCB",
         "name_en": "Abu Dhabi Commercial Bank",
         "archetype": "bank",
-        "pe": 10.4,
-        "pb": 1.34,
+        "pe": 10.3,
+        "pb": 1.33,
         "roe": 0.129,
-        "dy": 0.0418,
-        "upside": 0.0335
+        "dy": 0.0423,
+        "upside": 0.0446
       },
       {
         "symbol": "ADIB",
         "name_en": "Abu Dhabi Islamic Bank",
         "archetype": "bank",
         "pe": 12.5,
-        "pb": 2.48,
+        "pb": 2.47,
         "roe": 0.2209,
         "dy": 0.0445,
-        "upside": 0.0781
+        "upside": 0.0791
       },
       {
         "symbol": "FAB",
@@ -1127,11 +1127,11 @@
         "symbol": "DIB",
         "name_en": "Dubai Islamic Bank",
         "archetype": "bank",
-        "pe": 7.9,
+        "pe": 8.0,
         "pb": 1.06,
         "roe": 0.1411,
         "dy": 0.0449,
-        "upside": 0.3795
+        "upside": 0.3777
       }
     ],
     "n": 9
