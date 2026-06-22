@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "NMDC",
-    "price": 21.48,
-    "change": 0.28,
-    "change_pct": 0.0132,
-    "volume": 152580,
+    "price": 21.24,
+    "change": 0.04,
+    "change_pct": 0.0019,
+    "volume": 167172,
     "market_cap": null,
-    "high_52w": 22.156,
-    "low_52w": 21.045,
+    "high_52w": 23.473,
+    "low_52w": 21.017,
     "spark": [
-      21.045,
-      21.277,
-      21.468,
-      21.74,
-      21.581,
-      21.408,
-      21.406,
-      21.598,
-      21.782,
-      21.677,
-      21.849,
-      21.66,
-      21.534,
-      21.384,
-      21.184,
-      21.244,
-      21.391,
-      21.56,
-      21.767,
-      21.802,
-      21.908,
-      22.156,
-      21.919,
-      21.937,
-      21.763,
-      21.725,
-      22.015,
-      21.812,
-      21.705,
-      21.48
+      21.017,
+      21.112,
+      21.147,
+      21.442,
+      21.558,
+      21.68,
+      21.789,
+      22.039,
+      21.984,
+      21.884,
+      21.853,
+      22.1,
+      22.057,
+      22.193,
+      22.436,
+      22.471,
+      22.236,
+      22.301,
+      22.565,
+      22.842,
+      23.158,
+      23.398,
+      23.276,
+      23.042,
+      23.31,
+      23.375,
+      23.433,
+      23.356,
+      23.473,
+      21.24
     ],
     "prov": {
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-22T07:35:48.683Z",
+      "retrieved_at": "2026-06-22T07:52:11.760Z",
       "url": null,
       "lang": null
     }
@@ -197,11 +197,11 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0466,
-          "points": 77.66666666666667,
+          "raw": 0.0471,
+          "points": 78.5,
           "weight": 0.18,
-          "note": "4.66% yield",
-          "contribution": 14.0
+          "note": "4.71% yield",
+          "contribution": 14.1
         },
         {
           "key": "payout",
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0466,
+    "dividend_yield": 0.0471,
     "payout_ratio": 0.23,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -293,10 +293,10 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 152580,
-      "high_52w": 22.156,
-      "low_52w": 21.045,
-      "dividend_yield": 0.0466
+      "volume": 167172,
+      "high_52w": 23.473,
+      "low_52w": 21.017,
+      "dividend_yield": 0.0471
     },
     "top_catalysts": [
       "Dependable dividend characteristics (Dividend 64/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "NMDC-0-1781840148",
+      "id": "NMDC-0-1781841131",
       "symbol": "NMDC",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-19T03:35:48+00:00",
+      "published_at": "2026-06-19T03:52:11+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T07:35:48+00:00",
+        "retrieved_at": "2026-06-22T07:52:11+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-2-1781231748",
+      "id": "NMDC-2-1781232731",
       "symbol": "NMDC",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-12T02:35:48+00:00",
+      "published_at": "2026-06-12T02:52:11+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T07:35:48+00:00",
+        "retrieved_at": "2026-06-22T07:52:11+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-3-1780713348",
+      "id": "NMDC-3-1780714331",
       "symbol": "NMDC",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-06T02:35:48+00:00",
+      "published_at": "2026-06-06T02:52:11+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T07:35:48+00:00",
+        "retrieved_at": "2026-06-22T07:52:11+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-5-1779838548",
+      "id": "NMDC-5-1779839531",
       "symbol": "NMDC",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-26T23:35:48+00:00",
+      "published_at": "2026-05-26T23:52:11+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T07:35:48+00:00",
+        "retrieved_at": "2026-06-22T07:52:11+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-6-1777527348",
+      "id": "NMDC-6-1777528331",
       "symbol": "NMDC",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-30T05:35:48+00:00",
+      "published_at": "2026-04-30T05:52:11+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T07:35:48+00:00",
+        "retrieved_at": "2026-06-22T07:52:11+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-1-1777091748",
+      "id": "NMDC-1-1777092731",
       "symbol": "NMDC",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-25T04:35:48+00:00",
+      "published_at": "2026-04-25T04:52:11+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T07:35:48+00:00",
+        "retrieved_at": "2026-06-22T07:52:11+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-4-1776123348",
+      "id": "NMDC-4-1776124331",
       "symbol": "NMDC",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-13T23:35:48+00:00",
+      "published_at": "2026-04-13T23:52:11+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -482,7 +482,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T07:35:48+00:00",
+        "retrieved_at": "2026-06-22T07:52:11+00:00",
         "url": null,
         "lang": null
       },
@@ -590,7 +590,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T07:35:48+00:00",
+        "retrieved_at": "2026-06-22T07:52:11+00:00",
         "url": null,
         "lang": null
       }
@@ -615,7 +615,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T07:35:48+00:00",
+        "retrieved_at": "2026-06-22T07:52:11+00:00",
         "url": null,
         "lang": null
       }
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T07:35:48+00:00",
+        "retrieved_at": "2026-06-22T07:52:11+00:00",
         "url": null,
         "lang": null
       }
@@ -672,7 +672,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-22T07:35:48+00:00",
+      "retrieved_at": "2026-06-22T07:52:11+00:00",
       "url": null,
       "lang": null
     }
@@ -716,11 +716,11 @@
     "fair_value": 59.642,
     "fair_low": 54.714,
     "fair_high": 65.569,
-    "price": 21.48,
-    "upside_pct": 1.7766,
+    "price": 21.24,
+    "upside_pct": 1.808,
     "rating": "undervalued",
     "confidence": "low",
-    "summary": "Model fair value AED 59.64 is 178% above the AED 21.48 price — undervalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 11.0% discount rate, 23% ROE. Low confidence (range AED 54.71–65.57).",
+    "summary": "Model fair value AED 59.64 is 181% above the AED 21.24 price — undervalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 11.0% discount rate, 23% ROE. Low confidence (range AED 54.71–65.57).",
     "methods": {
       "ddm": 17.5,
       "pb": 55.891,
@@ -741,7 +741,7 @@
       "fcf": "FCF perpetuity"
     },
     "basis": "deterministic",
-    "note": "The market may be pricing the stock well below the model fair value because it is discounting execution risks, macro uncertainty, and the cautious tone of the recent high-materiality disclosure; closing the gap would likely require visible improvement in operational execution and a clearer regulatory or demand outlook that validates the more optimistic valuation methods.",
+    "note": "The market may price the shares well below model fair value because near-term disclosure caution and execution uncertainty are currently dominating sentiment, while the model attributes higher value to the dividend profile and underlying fundamentals over a longer horizon; closing the gap would likely require a durable improvement in those near-term headwinds rather than a single positive data point",
     "note_by": "freeagent"
   },
   "global_factors": {
@@ -781,12 +781,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-22T07:35:48+00:00",
+        "as_of": "2026-06-22T07:52:11+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T07:35:48+00:00",
+          "retrieved_at": "2026-06-22T07:52:11+00:00",
           "url": null,
           "lang": null
         }
@@ -797,12 +797,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-22T07:35:48+00:00",
+        "as_of": "2026-06-22T07:52:11+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T07:35:48+00:00",
+          "retrieved_at": "2026-06-22T07:52:11+00:00",
           "url": null,
           "lang": null
         }
@@ -813,12 +813,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T07:35:48+00:00",
+        "as_of": "2026-06-22T07:52:11+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T07:35:48+00:00",
+          "retrieved_at": "2026-06-22T07:52:11+00:00",
           "url": null,
           "lang": null
         }
@@ -829,12 +829,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T07:35:48+00:00",
+        "as_of": "2026-06-22T07:52:11+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T07:35:48+00:00",
+          "retrieved_at": "2026-06-22T07:52:11+00:00",
           "url": null,
           "lang": null
         }
@@ -845,12 +845,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T07:35:48+00:00",
+        "as_of": "2026-06-22T07:52:11+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T07:35:48+00:00",
+          "retrieved_at": "2026-06-22T07:52:11+00:00",
           "url": null,
           "lang": null
         }
@@ -861,12 +861,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-22T07:35:48+00:00",
+        "as_of": "2026-06-22T07:52:11+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T07:35:48+00:00",
+          "retrieved_at": "2026-06-22T07:52:11+00:00",
           "url": null,
           "lang": null
         }
@@ -876,7 +876,7 @@
       {
         "title": "Uae headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-19T21:35:48+00:00",
+        "published_at": "2026-06-19T21:52:11+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 5.7,
@@ -884,7 +884,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T07:35:48+00:00",
+          "retrieved_at": "2026-06-22T07:52:11+00:00",
           "url": null,
           "lang": null
         }
@@ -892,7 +892,7 @@
       {
         "title": "Uae headline — global macro update 2",
         "theme": "TRADE",
-        "published_at": "2026-06-19T14:35:48+00:00",
+        "published_at": "2026-06-19T14:52:11+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": 5.23,
@@ -900,7 +900,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T07:35:48+00:00",
+          "retrieved_at": "2026-06-22T07:52:11+00:00",
           "url": null,
           "lang": null
         }
@@ -908,7 +908,7 @@
       {
         "title": "Uae headline — global macro update 3",
         "theme": "MARITIME",
-        "published_at": "2026-06-20T07:35:48+00:00",
+        "published_at": "2026-06-20T07:52:11+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -4.65,
@@ -916,7 +916,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T07:35:48+00:00",
+          "retrieved_at": "2026-06-22T07:52:11+00:00",
           "url": null,
           "lang": null
         }
@@ -924,7 +924,7 @@
       {
         "title": "Uae headline — global macro update 4",
         "theme": "ENERGY",
-        "published_at": "2026-06-20T21:35:48+00:00",
+        "published_at": "2026-06-20T21:52:11+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 2.8,
@@ -932,7 +932,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T07:35:48+00:00",
+          "retrieved_at": "2026-06-22T07:52:11+00:00",
           "url": null,
           "lang": null
         }
@@ -945,43 +945,41 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "The high-materiality recent disclosure introduces near-term uncertainty that could keep sentiment cautious until the full impact is digested",
-        "Dependable dividend characteristics provide a baseline floor of support for holders even if the stock drifts sideways",
-        "Mixed model valuation (weighted between conservative dividend-based and stronger book/earnings approaches) leaves limited near-term catalyst to close the wide gap to the highest estimate",
-        "Negative recent price momentum suggests the market is currently processing more negative than positive information"
+        "Positive price momentum indicates near-term buyer interest",
+        "A high-materiality disclosure is in the recent flow, meaning investors are evaluating fresh company-specific information",
+        "Model fair value sits well above the current price, implying unappreciated upside if near-term catalysts emerge"
       ],
       "risks": [
-        "The recent high-materiality disclosure may contain forward-looking caution that could weigh on the share price until management provides clearer guidance",
-        "Negative price momentum could extend if broader market conditions turn risk-off, leaving the stock to drift lower without a catalyst",
-        "Execution delays or cost overruns on current projects could further undermine confidence given the cautious disclosure tone",
-        "Short-term trading sentiment may remain weak until the disclosure is fully absorbed and offset by positive operational updates"
+        "Tone of the recent disclosure skews cautious or negative, which could suppress sentiment",
+        "Growth and stability scores are only middling, pointing to limited near-term fundamental acceleration",
+        "Low confidence in the model valuation leaves room for the gap to persist or widen if inputs degrade",
+        "Material news flows often precede volatile trading until a clear narrative settles"
       ],
-      "what_would_change_view": "A credible management update that reverses the cautious disclosure tone and restores positive price momentum would shift the short-term view toward constructive"
+      "what_would_change_view": "A credible positive update from management that reverses the cautious tone, supported by continued price strength and a stabilising disclosure flow, would upgrade the stance"
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "The moderate growth and stability scores indicate the company operates in a predictable but not rapidly expanding segment, offering steady but not exceptional upside",
-        "Dependable dividend characteristics (supported by the highest house score) suggest a shareholder-return focus that can attract income-oriented investors over time",
-        "The wide dispersion in model valuations implies that the company's long-term worth is highly sensitive to assumptions about growth durability and capital returns, keeping the base case neutral",
-        "If execution stabilizes and macro conditions improve, the lower-valued models may prove conservative, giving the stock room to re-rate"
+        "Dependable dividend characteristics stand out as the strongest attribute in the house scores",
+        "Stability score suggests the business does not exhibit extreme operational volatility",
+        "The model sees meaningful upside to fair value if the current environment normalises",
+        "Wide model-implied cushion provides a margin of safety if execution can be sustained"
       ],
       "risks": [
-        "Execution and macro conditions remain the key swing factors — any prolonged slowdown in the company's core markets could cap long-term growth and compress valuations",
-        "The high-materiality disclosure may signal structural or regulatory headwinds that persist beyond the short term",
-        "Dividend sustainability could be pressured if earnings growth does not keep pace with payout expectations",
-        "Lower confidence in the model fair value means the current deep discount may reflect real fundamental risks that the model has not fully priced"
+        "Execution risk remains a key swing factor for the industrial business",
+        "Macro conditions could pressure top-line growth or margins",
+        "Long-term confidence is low, reflecting structural uncertainty in closing the gap",
+        "Neutral long-term stance indicates no strong visible catalyst on the horizon"
       ],
-      "what_would_change_view": "Sustained improvement in execution metrics and macro resilience that narrows the spread between the low and high model estimates would shift the long-term view toward positive"
+      "what_would_change_view": "Sustained order-book or cash-generation improvement that upgrades the growth and stability profiles, and persists through macro cycles, would shift the view to positive"
     },
     "_signal": {
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 49.8,
+        "score": 46.4,
         "reasons": [
-          "Positive price momentum (+1.3% on the session in demo data)",
           "A high-materiality disclosure (82/100) is in the recent flow"
         ],
         "risks": [
@@ -1002,11 +1000,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-22T07:35:48+00:00",
+    "generated_at": "2026-06-22T07:52:11+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-21T07:29:06+00:00"
+    "narrated_at": "2026-06-22T07:36:07+00:00"
   },
-  "generated_at": "2026-06-22T07:35:48+00:00",
+  "generated_at": "2026-06-22T07:52:11+00:00",
   "peers": {
     "archetype": "industrials",
     "self": {
@@ -1014,17 +1012,17 @@
       "name_en": "NMDC Group",
       "archetype": "industrials",
       "pe": 5.0,
-      "pb": 1.14,
+      "pb": 1.13,
       "roe": 0.2283,
-      "dy": 0.0466,
-      "upside": 1.7766
+      "dy": 0.0471,
+      "upside": 1.808
     },
     "medians": {
       "pe": 5.0,
-      "pb": 1.14,
+      "pb": 1.13,
       "roe": 0.228,
-      "dy": 0.023,
-      "upside": 1.777
+      "dy": 0.024,
+      "upside": 1.808
     },
     "peers": [
       {
