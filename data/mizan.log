@@ -1944,3 +1944,28 @@ session_id: 20260621_154515_b2540b
 [analyst] DU: no/invalid output from nemotron — trying next
 [analyst] DU: narrated by freeagent
 [analyst] done: 3/3 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 39): EMSTEEL, RAKPROP, PUREHEALTH, ADNOCDRILL, ADNH, ADNOCGAS
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] RAKPROP: 0 articles — kept prior
+[news] PUREHEALTH: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] PUREHEALTH: 0 articles — kept prior
+[news] ADNOCDRILL: 8 live articles (Google)
+[news] ADNH: 3 live articles (Google)
+[news] ADNOCGAS: 8 live articles (Google)
+[news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[analyst] stale batch (4 of 4): EMAARDEV, GFH, MASHREQ, EMPOWER
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMAARDEV: no/invalid output from nemotron — trying next
+[analyst] EMAARDEV: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] GFH: no/invalid output from nemotron — trying next
+[analyst] GFH: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] MASHREQ: no/invalid output from nemotron — trying next
+[analyst] MASHREQ: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMPOWER: no/invalid output from nemotron — trying next
+[analyst] EMPOWER: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
