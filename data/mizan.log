@@ -1763,3 +1763,14 @@ session_id: 20260621_154515_b2540b
 [news] DIN: 4 live articles (Google)
 [news] DTC: 8 live articles (Google)
 [news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[analyst] stale batch (3 of 3): BOROUGE, DANA, EAND
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] BOROUGE: no/invalid output from nemotron — trying next
+[analyst] BOROUGE: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DANA: no/invalid output from nemotron — trying next
+[analyst] DANA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EAND: no/invalid output from nemotron — trying next
+[analyst] EAND: narrated by freeagent
+[analyst] done: 3/3 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
