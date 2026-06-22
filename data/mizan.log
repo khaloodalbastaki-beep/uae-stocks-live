@@ -1747,3 +1747,19 @@ session_id: 20260621_154515_b2540b
 [analyst] AMERICANA: no/invalid output from nemotron — trying next
 [analyst] AMERICANA: narrated by freeagent
 [analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): ADNOCLS, ALPHADHABI, BURJEEL, DANA
+[mizan] ADNOCLS: not found / insufficient (kept modeled)
+[mizan] ALPHADHABI: wrote fundamentals (high, 2025-12-31)
+[mizan] BURJEEL: not found / insufficient (kept modeled)
+[mizan] DANA: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 36): EMSTEEL, RAKPROP, PUREHEALTH, DIB, DIN, DTC
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] RAKPROP: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] RAKPROP: 0 articles — kept prior
+[news] PUREHEALTH: 0 articles — kept prior
+[news] DIB: 7 live articles (Google)
+[news] DIN: 4 live articles (Google)
+[news] DTC: 8 live articles (Google)
+[news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
