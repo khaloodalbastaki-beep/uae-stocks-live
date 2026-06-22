@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "DFM (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-22T10:33:25.899Z",
+      "retrieved_at": "2026-06-22T10:49:26.975Z",
       "url": null,
       "lang": null
     }
@@ -60,7 +60,7 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 49,
+      "score": 48,
       "grade": "C",
       "subfactors": [
         {
@@ -93,11 +93,11 @@
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.017,
-          "points": 67.14285714285714,
+          "raw": 0.0165,
+          "points": 66.42857142857143,
           "weight": 0.14,
           "note": "expanding margins",
-          "contribution": 9.4
+          "contribution": 9.3
         },
         {
           "key": "reinvest",
@@ -191,17 +191,17 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 75,
+      "score": 74,
       "grade": "B+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0465,
-          "points": 77.5,
+          "raw": 0.0458,
+          "points": 76.33333333333334,
           "weight": 0.18,
-          "note": "4.65% yield",
-          "contribution": 13.9
+          "note": "4.58% yield",
+          "contribution": 13.7
         },
         {
           "key": "payout",
@@ -259,7 +259,7 @@
     "revenue_growth": 0.0814,
     "profit_growth": 0.1824,
     "revenue_cagr_3y": 0.0814,
-    "margin_trend": 0.017,
+    "margin_trend": 0.0165,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0465,
+    "dividend_yield": 0.0458,
     "payout_ratio": 0.5,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -296,10 +296,10 @@
       "volume": 0,
       "high_52w": 2.224,
       "low_52w": 2.128,
-      "dividend_yield": 0.0465
+      "dividend_yield": 0.0458
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 75/100)"
+      "Dependable dividend characteristics (Dividend 74/100)"
     ],
     "top_risks": [
       "Execution and macro conditions remain the key swing factors"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "GFH-2-1780882406",
+      "id": "GFH-2-1780883367",
       "symbol": "GFH",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-08T01:33:26+00:00",
+      "published_at": "2026-06-08T01:49:27+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T10:33:26+00:00",
+        "retrieved_at": "2026-06-22T10:49:27+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "GFH-1-1778380406",
+      "id": "GFH-1-1778381367",
       "symbol": "GFH",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-10T02:33:26+00:00",
+      "published_at": "2026-05-10T02:49:27+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T10:33:26+00:00",
+        "retrieved_at": "2026-06-22T10:49:27+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "GFH-0-1776666806",
+      "id": "GFH-0-1776667767",
       "symbol": "GFH",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-20T06:33:26+00:00",
+      "published_at": "2026-04-20T06:49:27+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T10:33:26+00:00",
+        "retrieved_at": "2026-06-22T10:49:27+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "GFH-3-1776652406",
+      "id": "GFH-3-1776653367",
       "symbol": "GFH",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-04-20T02:33:26+00:00",
+      "published_at": "2026-04-20T02:49:27+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -404,7 +404,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T10:33:26+00:00",
+        "retrieved_at": "2026-06-22T10:49:27+00:00",
         "url": null,
         "lang": null
       },
@@ -452,7 +452,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T10:33:26+00:00",
+        "retrieved_at": "2026-06-22T10:49:27+00:00",
         "url": null,
         "lang": null
       }
@@ -477,7 +477,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T10:33:26+00:00",
+        "retrieved_at": "2026-06-22T10:49:27+00:00",
         "url": null,
         "lang": null
       }
@@ -503,7 +503,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-22T10:33:26+00:00",
+        "retrieved_at": "2026-06-22T10:49:27+00:00",
         "url": null,
         "lang": null
       }
@@ -534,7 +534,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-22T10:33:26+00:00",
+      "retrieved_at": "2026-06-22T10:49:27+00:00",
       "url": null,
       "lang": null
     }
@@ -555,21 +555,21 @@
       3500000000.0
     ],
     "net_income": [
-      453000000.0,
-      513400000.0,
-      580600000.0,
-      655400000.0,
-      738500000.0
+      451700000.0,
+      511300000.0,
+      577600000.0,
+      651400000.0,
+      733200000.0
     ],
     "operating_cash_flow": [
-      502800000.0,
-      569900000.0,
-      644500000.0,
-      727500000.0,
-      819700000.0
+      501400000.0,
+      567600000.0,
+      641200000.0,
+      723000000.0,
+      813900000.0
     ],
     "ratios": {
-      "net_margin": 0.211,
+      "net_margin": 0.2095,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
       "payout_ratio": 0.5
@@ -606,12 +606,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-22T10:33:25+00:00",
+        "as_of": "2026-06-22T10:49:27+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T10:33:25+00:00",
+          "retrieved_at": "2026-06-22T10:49:27+00:00",
           "url": null,
           "lang": null
         }
@@ -622,12 +622,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-22T10:33:25+00:00",
+        "as_of": "2026-06-22T10:49:27+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T10:33:25+00:00",
+          "retrieved_at": "2026-06-22T10:49:27+00:00",
           "url": null,
           "lang": null
         }
@@ -638,12 +638,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T10:33:25+00:00",
+        "as_of": "2026-06-22T10:49:27+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T10:33:25+00:00",
+          "retrieved_at": "2026-06-22T10:49:27+00:00",
           "url": null,
           "lang": null
         }
@@ -654,12 +654,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T10:33:25+00:00",
+        "as_of": "2026-06-22T10:49:27+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T10:33:25+00:00",
+          "retrieved_at": "2026-06-22T10:49:27+00:00",
           "url": null,
           "lang": null
         }
@@ -670,12 +670,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-22T10:33:25+00:00",
+        "as_of": "2026-06-22T10:49:27+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T10:33:25+00:00",
+          "retrieved_at": "2026-06-22T10:49:27+00:00",
           "url": null,
           "lang": null
         }
@@ -686,12 +686,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-22T10:33:25+00:00",
+        "as_of": "2026-06-22T10:49:27+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T10:33:25+00:00",
+          "retrieved_at": "2026-06-22T10:49:27+00:00",
           "url": null,
           "lang": null
         }
@@ -701,7 +701,7 @@
       {
         "title": "Uae headline — global macro update 1",
         "theme": "MARITIME",
-        "published_at": "2026-06-22T09:33:26+00:00",
+        "published_at": "2026-06-22T09:49:27+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": -3.59,
@@ -709,7 +709,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T10:33:26+00:00",
+          "retrieved_at": "2026-06-22T10:49:27+00:00",
           "url": null,
           "lang": null
         }
@@ -717,7 +717,7 @@
       {
         "title": "Uae headline — global macro update 2",
         "theme": "TOURISM",
-        "published_at": "2026-06-19T22:33:26+00:00",
+        "published_at": "2026-06-19T22:49:27+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -2.92,
@@ -725,7 +725,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T10:33:26+00:00",
+          "retrieved_at": "2026-06-22T10:49:27+00:00",
           "url": null,
           "lang": null
         }
@@ -733,7 +733,7 @@
       {
         "title": "Uae headline — global macro update 3",
         "theme": "ENERGY",
-        "published_at": "2026-06-21T10:33:26+00:00",
+        "published_at": "2026-06-21T10:49:27+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.7,
@@ -741,7 +741,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T10:33:26+00:00",
+          "retrieved_at": "2026-06-22T10:49:27+00:00",
           "url": null,
           "lang": null
         }
@@ -749,7 +749,7 @@
       {
         "title": "Uae headline — global macro update 4",
         "theme": "TRADE",
-        "published_at": "2026-06-19T14:33:26+00:00",
+        "published_at": "2026-06-19T14:49:27+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -0.29,
@@ -757,7 +757,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T10:33:26+00:00",
+          "retrieved_at": "2026-06-22T10:49:27+00:00",
           "url": null,
           "lang": null
         }
@@ -765,7 +765,7 @@
       {
         "title": "Uae headline — global macro update 5",
         "theme": "TOURISM",
-        "published_at": "2026-06-21T18:33:26+00:00",
+        "published_at": "2026-06-21T18:49:27+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.65,
@@ -773,7 +773,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-22T10:33:26+00:00",
+          "retrieved_at": "2026-06-22T10:49:27+00:00",
           "url": null,
           "lang": null
         }
@@ -832,9 +832,9 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 58.7,
+        "score": 58.0,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 75/100)"
+          "Dependable dividend characteristics (Dividend 74/100)"
         ],
         "risks": [
           "Execution and macro conditions remain the key swing factors"
@@ -843,11 +843,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-22T10:33:26+00:00",
+    "generated_at": "2026-06-22T10:49:27+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-21T12:48:19+00:00"
   },
-  "generated_at": "2026-06-22T10:33:26+00:00",
+  "generated_at": "2026-06-22T10:49:27+00:00",
   "peers": {
     "archetype": "investment",
     "self": {
@@ -857,7 +857,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.0465,
+      "dy": 0.0458,
       "upside": null
     },
     "medians": {
