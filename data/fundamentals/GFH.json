@@ -1,58 +1,28 @@
 {
   "symbol": "GFH",
-  "as_of": "FY2025",
+  "as_of": "2025-12-31",
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "Zawya",
   "source_url": "https://www.zawya.com/en/special-coverage/corporate-earnings/gfh-posts-solid-2025-results-net-profit-surges-182-to-140mln-gw2cuok5",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T12:17:56+00:00",
+  "retrieved_at": "2026-06-21T13:49:46+00:00",
   "reported": {
-    "revenue": 2642510650.0,
-    "revenue_prior": 2481949950.0,
-    "net_income": 514554475.0,
-    "net_income_prior": 435191250.0,
-    "operating_cash_flow": null,
+    "revenue": 2642.51,
+    "revenue_prior": 2443.54,
+    "net_income": 514.55,
+    "net_income_prior": 435.19,
+    "net_margin": 0.195,
+    "net_margin_prior": 0.178,
+    "total_debt": null,
     "ebitda": null,
-    "net_margin": 0.1947,
-    "net_margin_prior": 0.1753,
-    "current_ratio": 0.38,
-    "total_debt": 25128.76,
+    "operating_cash_flow": null,
+    "current_ratio": null,
+    "dividend_per_share": 0.1,
+    "payout_ratio": null,
     "fcf": null,
-    "dividend_per_share": 0.098423,
-    "dividend_frequency": "semi-annual",
-    "payout_ratio": 0.684,
-    "years_paid": 25,
-    "shares_outstanding": 3619933000.0,
-    "total_equity": 3748777825.0,
-    "eps": 0.143962
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      1622032750.0,
-      1774625950.0,
-      2481949950.0,
-      2642510650.0
-    ],
-    "net_income": [
-      331443125.0,
-      377752150.0,
-      435191250.0,
-      514554475.0
-    ],
-    "operating_cash_flow": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "cut_history_5y": null,
+    "dividend_frequency": "annual",
+    "years_paid": null
+  }
 }

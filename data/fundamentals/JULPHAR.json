@@ -1,59 +1,28 @@
 {
   "symbol": "JULPHAR",
-  "as_of": "FY2025",
+  "as_of": null,
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "Julphar press release",
   "source_url": "https://www.julphar.net/en/julphar-delivers-strong-fy2025-results-with-accelerated-growth-and-improved-profitability",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T12:17:56+00:00",
+  "retrieved_at": "2026-06-21T09:35:27+00:00",
   "reported": {
-    "revenue": 1075500000.0,
-    "revenue_prior": 992200000.0,
-    "net_income": 173300000.0,
-    "net_income_prior": 44900000.0,
-    "net_margin": 0.1611,
-    "net_margin_prior": 0.0453,
-    "current_ratio": 2.26,
-    "total_debt": 971,
-    "dividend_per_share": 0.0,
+    "revenue": 1075500000,
+    "revenue_prior": null,
+    "net_income": 173300000,
+    "net_income_prior": 44900000,
+    "net_margin": 0.161,
+    "net_margin_prior": null,
+    "total_debt": null,
+    "ebitda": 109400000,
+    "operating_cash_flow": null,
+    "current_ratio": null,
+    "dividend_per_share": null,
     "payout_ratio": null,
-    "dividend_frequency": null,
-    "ebitda": 144.7,
     "fcf": null,
-    "operating_cash_flow": 245,
-    "years_paid": null,
     "cut_history_5y": null,
-    "shares_outstanding": 1155000000.0,
-    "total_equity": 959800000.0,
-    "eps": 0.15
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      1616000000.0,
-      1278000000.0,
-      992200000.0,
-      1075500000.0
-    ],
-    "net_income": [
-      -29400000.0,
-      -99100000.0,
-      44900000.0,
-      173300000.0
-    ],
-    "operating_cash_flow": [
-      19300000.0,
-      93600000.0,
-      190000000.0,
-      120900000.0
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "dividend_frequency": null,
+    "years_paid": null
+  }
 }

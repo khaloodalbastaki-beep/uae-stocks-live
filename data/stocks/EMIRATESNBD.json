@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "EMIRATESNBD",
-    "price": 30.98,
-    "change": -1.419,
-    "change_pct": -0.0438,
-    "volume": 0,
-    "market_cap": null,
-    "high_52w": 33.403,
-    "low_52w": 30.98,
+    "price": 23.04,
+    "change": 0.04,
+    "change_pct": 0.0019,
+    "volume": 8529721,
+    "market_cap": 151542000000.0,
+    "high_52w": 25.25,
+    "low_52w": 19.57,
     "spark": [
-      31.765,
-      32.168,
-      32.016,
-      32.222,
-      31.877,
-      31.911,
-      32.344,
-      32.273,
-      31.905,
-      32.085,
-      32.328,
-      32.687,
-      32.492,
-      32.417,
-      32.086,
-      32.435,
-      32.388,
-      32.278,
-      32.635,
-      32.365,
-      32.562,
-      32.917,
-      32.553,
-      32.78,
-      33.012,
-      32.791,
-      33.192,
-      33.403,
-      33.149,
-      30.98
+      22.561,
+      22.315,
+      21.989,
+      22.083,
+      21.75,
+      22.095,
+      22.103,
+      22.448,
+      22.211,
+      22.379,
+      21.965,
+      22.104,
+      22.092,
+      22.53,
+      22.88,
+      23.381,
+      23.094,
+      22.941,
+      22.647,
+      22.469,
+      22.55,
+      22.793,
+      23.148,
+      22.862,
+      22.924,
+      22.547,
+      22.625,
+      22.504,
+      22.746,
+      23.04
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "DFM (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-06-19T12:54:26.604Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-06-22T05:10:52+00:00",
       "url": null,
       "lang": null
     }
@@ -191,17 +191,17 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 63,
-      "grade": "C+",
+      "score": 66,
+      "grade": "B",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0323,
-          "points": 53.83333333333334,
+          "raw": 0.0434,
+          "points": 72.33333333333334,
           "weight": 0.18,
-          "note": "3.23% yield",
-          "contribution": 9.7
+          "note": "4.34% yield",
+          "contribution": 13.0
         },
         {
           "key": "payout",
@@ -250,7 +250,7 @@
         }
       ]
     },
-    "headline": 51,
+    "headline": 52,
     "headline_grade": "C",
     "archetype": "bank",
     "engine": "deterministic-v1"
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0323,
+    "dividend_yield": 0.0434,
     "payout_ratio": 0.27,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -292,14 +292,14 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 0,
-      "high_52w": 33.403,
-      "low_52w": 30.98,
-      "dividend_yield": 0.0323
+      "market_cap": 151542000000.0,
+      "volume": 8529721,
+      "high_52w": 25.25,
+      "low_52w": 19.57,
+      "dividend_yield": 0.0434
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 63/100)"
+      "Dependable dividend characteristics (Dividend 66/100)"
     ],
     "top_risks": [
       "Weak growth signal (Growth 37/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "EMIRATESNBD-2-1781513666",
+      "id": "EMIRATESNBD-2-1781745052",
       "symbol": "EMIRATESNBD",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-15T08:54:26+00:00",
+      "published_at": "2026-06-18T01:10:52+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMIRATESNBD-1-1781236466",
+      "id": "EMIRATESNBD-1-1781467852",
       "symbol": "EMIRATESNBD",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-12T03:54:26+00:00",
+      "published_at": "2026-06-14T20:10:52+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMIRATESNBD-0-1780487666",
+      "id": "EMIRATESNBD-0-1780719052",
       "symbol": "EMIRATESNBD",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-03T11:54:26+00:00",
+      "published_at": "2026-06-06T04:10:52+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMIRATESNBD-4-1776664466",
+      "id": "EMIRATESNBD-4-1776895852",
       "symbol": "EMIRATESNBD",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-20T05:54:26+00:00",
+      "published_at": "2026-04-22T22:10:52+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMIRATESNBD-3-1775807666",
+      "id": "EMIRATESNBD-3-1776039052",
       "symbol": "EMIRATESNBD",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-10T07:54:26+00:00",
+      "published_at": "2026-04-13T00:10:52+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -430,7 +430,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
@@ -439,53 +439,23 @@
   ],
   "news": [
     {
+      "title": "Emirates NBD takes control of RBL Bank after securing 60% stake",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcGlUSWJGNkNiYWNqVC04OW1lN0lfRHRodEIyLWt0WW5UcXlIbWVMTWVXazVPYjU0Y0d1cVIwbFJvSkEwSnZMOXM2a05rZG5pRHV6dzFBSU9aWlZSZGhKNmJaMVJvem5sTXE5V1duLUJ6SGRHdU1kN2c4NUhsLTVQb1F1aWtyZ183WkxDV1Z2bUpNcDc2RWpsNDhmeDJRYzZnWDlfQjVhTVBoc0plVHNv?oc=5",
+      "domain": "enterpriseam.com",
+      "published_at": "2026-06-19T00:00:00+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-21T15:55:02+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
       "title": "Emirates NBD Bank Completes Acquisition Of 60% Stake In RBL Bank Limited",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOamhvZDR6bDBwdkY4OHBNWVZkMmdCdlRnOVRtakRheFhpSjRuczhTbXdSdUJUS3BDQTc2azAweHNraE53OTFhN21BQUJCN1pVbVFGNTczZXdoNXc1TDU2UmtlY1RxeHFIZ2VhSFpFRDF1bFltVWplZy1MZFdlTTVfUWdBSk9ta0FMdGZESFd6SWpmZEw3UGY0MHhjX1g1R2tlVU9BVHpOeDR1UUhPLVZCNkxSVkY5LTJuQlBnWUtMT2hOWnQtOGNsQVBPWjdpVGpXMGZyU0tUVlA?oc=5",
       "domain": "tradingview.com",
       "published_at": "2026-06-18T05:55:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:35+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Emirates NBD shares gain after upping RBL Bank holding to 60%",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ09wVnZIdE5KWk9oOUlmRmszYnRObHp0N2pnWW9VbzZpczlsNVB6LXJ4SE9tWjA5SGt0eVlYU1kzUGV5b3BQbFhwOEhqeE5aUjF1SmVRSTZncjBFaTVXUlN5SE42TEpGM09uTkM5R194ZmE3cUpXeHpoYjFraHViSXR1YkZ1VXRKTmx6QTZvNkJvMG13WVZjb01Gc2psMkZwOVExdEpoYUZ0Zw?oc=5",
-      "domain": "agbi.com",
-      "published_at": "2026-06-18T12:27:11+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:35+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Emirates NBD Completes Acquisition Of Majority Stake In RBL Bank With $2.75 Billion Investment",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcVlueFBFbm1WS0FkU01ZX3ZOdmlINlpDcFM0WFdWWVU4dElVNmkxS1JqS2NndGRnNlEzaU9yTVdGV2lXUmVUUEZ1NnMxVDNKVkphQXJmWGhDbmhZc1NGTkM0anFiM3VEYmJTNDV5TjJ4WDYxQzZXYkZmTzNWZ0wtd09tOGhTbHhMQ1JZR29wYVlmeENVdUVBajlIaFk4dlRtQThtMUpHVVI4OTFrMzNsRm9HYkJIeld3NExhaVdlczBjZU43ZnFNcDdoX0NYU3I1YkFmWdIB3AFBVV95cUxQRnl0MWtUaGJwc0lBQmRIZlZOa3ZGRlRxYVdJZUtCSUIzVmJOSlV2ZlJmZFFzNG4zMUJBU1dKZjNFYnNvdVAzYkZxcm4zV2ZRSlRFTWVtVDNVbW03Ulp0NXZ6RXRNaGZ5WWppRDhBMXFpeW5WTF93dkRKSXRJMUpVSVpZMDdsT2tJc1ozWGJOd0MzV1FiRWlDRFFHdzVnU3RjcEVvQnlqWFk0TkowekhaWnk4eDVRZE92OHUwclhXTEdlVXZ2MHB0R20xWm9PWHVfSnA1dW44c0I0Wngz?oc=5",
-      "domain": "ndtvprofit.com",
-      "published_at": "2026-06-18T12:20:58+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:35+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Emirates NBD completes acquisition of 60% majority stake in RBL Bank",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSEJLWEw0VW04MFJ3YWxXMFFVTGRpUGNIeDdlQkVVTm9YOG9NazdHamRsYTdJU1FHUUZyRGNkTHZKclZ5Yk5Bbm5jYzRQeFdJVWZPNFRwZ2dhaDRUVTJkZmd5S3cxX28tZlAyUjVNbmozYUVSRnBHSXo5enZqb251RGtmdktRaUkxaFduZFEwNmEydjBnM1BBaGRGd0xPdUlBeUZGR3p5eWxnbS1kWGZRWk1ndVU4ZkhCWTFWQnhDTzFnTGcxUy16Qk5n0gHPAUFVX3lxTE96OHdFOVpCSndOWnFQdkVpeTVFTWRpZ0pLLWlpVXR4clVkNVFxOVA2Sk9iUkZwRlgwaUhYcVJ1TTlZQlViNkM0bTVNeVI5WUJDYjBBYXVMb3RVcTlKTV93S3U0MEFEazFfbEFHU1BmYjFZaGw4TDdab1lIOEhiQTM1WTlDYlcyZ2RneDcxUFg3VHcyVERqVk11NWRoNG1BUUFzVU1XdVU5RXBzN3d2ejRJWnY0WmlGRl91c3RodWZ0YzU4Vm1TeldWeEZsbjQwWQ?oc=5",
-      "domain": "business-standard.com",
-      "published_at": "2026-06-18T07:41:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:35+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Emirates NBD completes acquisition of 60 percent stake in RBL Bank for $2.75 billion",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeDkyV1BqUFFRWjJZd1ZZZjlRNzM4R3Bhcl9GZlBLOEpyNzRWY1ZrcWN1amtQLXdXWHRPMkliVGhpandqczBFREpMOXktcDZxWS0xdUFnUWVUR3pVZG9KLV9RbVJUQThpcFNLeVF2YzkyVDhyeFhNQmFxRnNNbERQcXVTU3VIRDZKNkVROGdhSWRweUlZMHk3RUluNEg2WXpFdGtIQ1M5ZC1LSHRLcmdILWlPOA?oc=5",
-      "domain": "economymiddleeast.com",
-      "published_at": "2026-06-18T10:47:43+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:35+00:00",
+      "retrieved_at": "2026-06-21T15:55:02+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -495,7 +465,47 @@
       "published_at": "2026-05-18T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:35+00:00",
+      "retrieved_at": "2026-06-21T15:55:02+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Emirates NBD shares gain after upping RBL Bank holding to 60%",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ09wVnZIdE5KWk9oOUlmRmszYnRObHp0N2pnWW9VbzZpczlsNVB6LXJ4SE9tWjA5SGt0eVlYU1kzUGV5b3BQbFhwOEhqeE5aUjF1SmVRSTZncjBFaTVXUlN5SE42TEpGM09uTkM5R194ZmE3cUpXeHpoYjFraHViSXR1YkZ1VXRKTmx6QTZvNkJvMG13WVZjb01Gc2psMkZwOVExdEpoYUZ0Zw?oc=5",
+      "domain": "agbi.com",
+      "published_at": "2026-06-18T12:27:11+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-21T15:55:02+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Emirates NBD completes acquisition of majority stake in RBL Bank",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLTM2c1pJT1JzR2h5MjZ1MGowQ05XRGV2OUpkSndJWFFxMGpxczMtWE8tWWl4Z0lXdG4yMTZQWjJKYm1fSnRRaWxoSDNnNGRqd1ZZTFVibmlJRTByelAyUjRsTVFjRXIxc2dLUV84QmNTNmM0Y0hsR0stY0pELVFSWW5XbXlrZ1Y1M3pLVTFsQ0hBamRMM3lLVFZ4ck9QVkduUTk5d2pILXVKVlpxY3Njckx4TWNicjdDUTRwaWt5T2ZYUktqUUVFSHEwZzBtZXN2UnJsNjRTc0XSAd4BQVVfeXFMTXJ2RUFsaEhwbVlaaXdLYk9nVnlhMkEyUEVQcDZEUFBBSjZSUUhXa0c2aGlNN1VUSkd4dzhwaUs0WEFVWmNQcGRMWExSR2VRUnEtUGRPQWNaWFhONXFkSklNcF9WTktBemItOEFBdDB5aWYzQ0QwRXFHaUlOXzU0ZkhRXzhLYmdVZTRvRVQydzdQUHA0X2lSZGh3Y3RSMVNScExyX1RVeXdSTmJ0VUFSMFMwNGRpdHVrX29oNEJTSTcxSkp0OEd5VXJqTGhHVEJVd2RzTGJfUTd4a1hMLW53?oc=5",
+      "domain": "legal.economictimes.indiatimes.com",
+      "published_at": "2026-06-18T17:35:37+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-21T15:55:02+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "RBL Bank Issue Shares Worth INR260.2 Billion to Emirates NBD",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWlZTaUVCT0Q2bzM3aUxrZTBrd2QxVkJMYm91TmlLOXRsZFVxN1E1SmtDaFdSMndKT2RnWHROcGVJVlBSSDZiTm5ZMFNPTllaRDJ3X3hBVEEzVjN0MUcyS1lNREV3cW9LZ05uS3pqMFdMYUlUb3lsanhnMXZVVE1CY05kTWhydzBONXM5eHhlVkY5bW9XZzEyMDhTWVpiQWwzM3dWRHYtZ0FIWUg5OEdobnlnVQ?oc=5",
+      "domain": "marketscreener.com",
+      "published_at": "2026-06-18T10:18:17+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-21T15:55:02+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Emirates NBD buys majority stake in RBL Bank for $2.75 bn",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVzZ3TUdtUDVabmpWTnhPMUVVZ2VMTmx5QjRzc3NvMkVOUlg0T25ZRnNEdVh2cXFYZmFWRFd2VWRHM1h1TGl0LVpob09BVHFIMnRBTGxFZ2VtUno0OVR0MVQ5LVRXVHlWX1lCVS1vaC1DZ1RHREQ1MXZhYjRtSnlaSDZ5bWJuaXNydmx6emlFRnZ1ODQ5RjRmNnVEWmkwVm1tcDc3eGk2aEdUVndEdnJxTzdaV01rQXozUnpGSFBkR1BXeG_SAcYBQVVfeXFMUE9VWWg0RzdSM2szTkduSGlqdElpUlUzeV9fdlBxV0J5TTF6MXJmdUVJcXlaODNfOXZmVWZjbkNQOV9OaVRQVUE1d3gycXFEWTdVa1JIXzNGQU51SXR0S1VZQlFlbFJ2UUlGT0hvTFBTaGFmUEZwNHhrSnZZaDdycmNuUUFvXzg1TGZqNEN3OU1ldGp3S2Z2UDNYRE5iN1g3SEtVSjYyYUtPT0lHcUlvdnpSa3VrXzdZTGRSaHdIaDRjR1AtN1ln?oc=5",
+      "domain": "rediff.com",
+      "published_at": "2026-06-18T15:49:01+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-21T15:55:02+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -505,17 +515,7 @@
       "published_at": "2026-06-18T06:48:02+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:35+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Emirates NBD’s $3 billion investment in RBL Bank to underscore long-term commitment to India: CEO Shayne...",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNNUxvMzBSYXd5QWllVEc3eGxzcHVIcy1EWERDaEQ1UUl0amlCNXB2Sko2djJSWS1TeEJ6R3VlZk13MWNyQTVLUGlnV2l6ZHF6NVBISWhpX3hDR20wSW9tQUFIWGlhejQ0YXpBRTJ6VlhfYzJfV2NVbnRrX0h3NjBRWXgycTNaTHNaakFNaFdhMHFmZ1J5Z0NIRFZGaTBRLXJJekl2cnFzTVFvVGk5VUJJU0p6NW5PdE5aR3pQMmgzWkxVd1RDVTdMY29Nc1duTmd4ZmRvaDEwemF2VTJ4MlNyYk1jOE9iRVZIRWVCX3lJbTI4MEh1RzJ5WTVJUnlaOWlpYVVVSTdDc9IBhwJBVV95cUxNNUxvMzBSYXd5QWllVEc3eGxzcHVIcy1EWERDaEQ1UUl0amlCNXB2Sko2djJSWS1TeEJ6R3VlZk13MWNyQTVLUGlnV2l6ZHF6NVBISWhpX3hDR20wSW9tQUFIWGlhejQ0YXpBRTJ6VlhfYzJfV2NVbnRrX0h3NjBRWXgycTNaTHNaakFNaFdhMHFmZ1J5Z0NIRFZGaTBRLXJJekl2cnFzTVFvVGk5VUJJU0p6NW5PdE5aR3pQMmgzWkxVd1RDVTdMY29Nc1duTmd4ZmRvaDEwemF2VTJ4MlNyYk1jOE9iRVZIRWVCX3lJbTI4MEh1RzJ5WTVJUnlaOWlpYVVVSTdDcw?oc=5",
-      "domain": "moneycontrol.com",
-      "published_at": "2026-06-18T15:21:37+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:35+00:00",
+      "retrieved_at": "2026-06-21T15:55:02+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -523,7 +523,7 @@
     {
       "symbol": "EMIRATESNBD",
       "kind": "board",
-      "date": "2026-06-30",
+      "date": "2026-07-03",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -538,7 +538,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -546,7 +546,7 @@
     {
       "symbol": "EMIRATESNBD",
       "kind": "agm",
-      "date": "2026-08-23",
+      "date": "2026-08-26",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -563,7 +563,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -571,7 +571,7 @@
     {
       "symbol": "EMIRATESNBD",
       "kind": "board",
-      "date": "2026-05-09",
+      "date": "2026-05-12",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -589,7 +589,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -600,17 +600,17 @@
       "symbol": "EMIRATESNBD",
       "amount": 1.6151,
       "currency": "AED",
-      "agm_date": "2026-07-23",
-      "entitlement_date": "2026-08-12",
-      "ex_date": "2026-08-11",
-      "payment_date": "2026-09-01",
+      "agm_date": "2026-07-26",
+      "entitlement_date": "2026-08-15",
+      "ex_date": "2026-08-14",
+      "payment_date": "2026-09-04",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -619,17 +619,17 @@
       "symbol": "EMIRATESNBD",
       "amount": 1.6151,
       "currency": "AED",
-      "agm_date": "2026-05-16",
-      "entitlement_date": "2026-06-03",
-      "ex_date": "2026-06-02",
-      "payment_date": "2026-06-19",
+      "agm_date": "2026-05-19",
+      "entitlement_date": "2026-06-06",
+      "ex_date": "2026-06-05",
+      "payment_date": "2026-06-22",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -638,17 +638,17 @@
       "symbol": "EMIRATESNBD",
       "amount": 1.6151,
       "currency": "AED",
-      "agm_date": "2025-05-28",
-      "entitlement_date": "2025-06-15",
-      "ex_date": "2025-06-14",
-      "payment_date": "2025-07-01",
+      "agm_date": "2025-05-31",
+      "entitlement_date": "2025-06-18",
+      "ex_date": "2025-06-17",
+      "payment_date": "2025-07-04",
       "frequency": "annual",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -678,7 +678,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-19T12:54:26+00:00",
+      "retrieved_at": "2026-06-22T05:10:52+00:00",
       "url": null,
       "lang": null
     }
@@ -722,11 +722,11 @@
     "fair_value": 40.974,
     "fair_low": 40.864,
     "fair_high": 47.936,
-    "price": 30.98,
-    "upside_pct": 0.3226,
+    "price": 23.04,
+    "upside_pct": 0.7784,
     "rating": "undervalued",
     "confidence": "medium",
-    "summary": "Model fair value AED 40.97 is 32% above the AED 30.98 price — undervalued. Driven mainly by book value vs ROE; assumes ~10% growth and a 10.5% discount rate, 17% ROE. Medium confidence (range AED 40.86–47.94).",
+    "summary": "Model fair value AED 40.97 is 78% above the AED 23.04 price — undervalued. Driven mainly by book value vs ROE; assumes ~10% growth and a 10.5% discount rate, 17% ROE. Medium confidence (range AED 40.86–47.94).",
     "methods": {
       "ddm": 19.091,
       "pb": 48.267,
@@ -747,7 +747,7 @@
       "fcf": "FCF perpetuity"
     },
     "basis": "deterministic",
-    "note": "The market appears to be pricing the stock below the model fair value, likely penalising the weak growth reading and the cautious disclosure tone; a reacceleration of growth or a sustained improvement in disclosure tone that reframes the bank’s stability and dividend appeal could narrow the gap.",
+    "note": "The market is pricing the bank more like a slow-growth, risky credit than its diversified franchise implies; clearing the disclosure overhang, stabilizing growth, and maintaining the dividend track record could close the gap to the model fair value.",
     "note_by": "freeagent"
   },
   "global_factors": {
@@ -796,12 +796,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -812,12 +812,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -828,12 +828,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -844,12 +844,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -860,12 +860,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -876,12 +876,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -891,7 +891,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-18T10:54:26+00:00",
+        "published_at": "2026-06-21T03:10:52+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -899,7 +899,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -907,7 +907,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-18T10:54:26+00:00",
+        "published_at": "2026-06-21T03:10:52+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -915,7 +915,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -923,7 +923,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-16T18:54:26+00:00",
+        "published_at": "2026-06-19T11:10:52+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -931,7 +931,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -941,47 +941,57 @@
   },
   "ai_analysis": {
     "short_term": {
-      "stance": "Cautious",
-      "confidence": "high",
+      "stance": "Neutral",
+      "confidence": "medium",
       "reasons": [
-        "Positive price momentum on the latest session signals strong near-term market conviction",
-        "A high-materiality disclosure in the recent flow could act as a near-term catalyst"
+        "A recent high-materiality disclosure (89/100) dominates the near-term flow and keeps sentiment fragile.",
+        "Negative price momentum on the session reinforces caution for the short-term horizon.",
+        "The disclosure tone skews cautious/negative, pointing to potential near-term operational or capital concerns.",
+        "Moderate stability (59/100) offers limited offset to the current caution signal."
       ],
       "risks": [
-        "The recent disclosure skews cautiously negative, which may weigh on sentiment"
+        "Continued negative price momentum could extend the near-term drawdown.",
+        "Disclosure overhang may not clear quickly, sustaining investor uncertainty.",
+        "Cautious/negative tone could trigger analyst downgrades or sector outflow.",
+        "Regional or sector rotation may amplify weakness beyond the stock-specific factor."
       ],
-      "what_would_change_view": "A sustained negative follow-through from the recent disclosure or a sharp reversal of the recent price momentum would undermine the bullish view; confirmation of positive follow-through on the disclosure would strengthen it."
+      "what_would_change_view": "A material next disclosure that shifts tone from cautious/negative to neutral or positive would allow the short-term stance to move from Cautious toward Neutral."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Mixed fundamentals with no single pillar standing out suggest an undifferentiated long-term profile"
+        "Dependable dividend characteristics (dividend score 63/100) provide a durable income anchor over the long term.",
+        "Reasonable stability (59/100) suggests the franchise can absorb cyclical shocks.",
+        "Multi-method valuation indicates the model fair value sits well above the market price, implying long-term fundamentals are not fully priced.",
+        "The divergence between the income-based and asset/earnings-based estimates leaves meaningful room for rerating if growth concerns abate."
       ],
       "risks": [
-        "Weak growth signal — the house growth score sits well below the midpoint — implies constrained earnings expansion potential"
+        "Weak growth signal (growth score 37/100) limits the investable thesis and could keep the stock out of favor.",
+        "Low confidence in the long-term view means the Neutral stance can quickly turn negative if execution slips.",
+        "Capital or balance-sheet pressure could threaten the dependable dividend profile over time.",
+        "Growth recovery may take longer than expected, delaying any convergence to the model fair value."
       ],
-      "what_would_change_view": "A material improvement in the growth pillar that re-ranks it as the dominant driver would shift the stance constructive; further stagnation or deterioration in the growth score would reinforce the neutral read."
+      "what_would_change_view": "Sustained improvement in the growth score—backed by multiple quarters of revenue and balance-sheet expansion—would be required to shift the long-term view from Neutral to Positive."
     },
     "_signal": {
       "short": {
-        "stance": "Cautious",
-        "confidence": "high",
-        "score": 33.5,
+        "stance": "Neutral",
+        "confidence": "medium",
+        "score": 47.2,
         "reasons": [
           "A high-materiality disclosure (89/100) is in the recent flow"
         ],
         "risks": [
-          "Negative price momentum (-4.4% on the session in demo data)",
           "Recent disclosure tone skews cautious/negative"
         ]
       },
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 50.6,
+        "score": 51.3,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 63/100)"
+          "Dependable dividend characteristics (Dividend 66/100)"
         ],
         "risks": [
           "Weak growth signal (Growth 37/100)"
@@ -990,29 +1000,29 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-19T12:54:26+00:00",
+    "generated_at": "2026-06-22T05:10:52+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-18T22:10:49+00:00"
+    "narrated_at": "2026-06-22T00:05:27+00:00"
   },
-  "generated_at": "2026-06-19T12:54:26+00:00",
+  "generated_at": "2026-06-22T05:10:52+00:00",
   "peers": {
     "archetype": "bank",
     "self": {
       "symbol": "EMIRATESNBD",
       "name_en": "Emirates NBD",
       "archetype": "bank",
-      "pe": 8.4,
-      "pb": 1.36,
+      "pe": 6.2,
+      "pb": 1.01,
       "roe": 0.1661,
-      "dy": 0.0323,
-      "upside": 0.3226
+      "dy": 0.0434,
+      "upside": 0.7784
     },
     "medians": {
-      "pe": 8.2,
-      "pb": 1.33,
+      "pe": 7.7,
+      "pb": 1.31,
       "roe": 0.166,
-      "dy": 0.045,
-      "upside": 0.385
+      "dy": 0.042,
+      "upside": 0.433
     },
     "peers": [
       {
@@ -1059,21 +1069,21 @@
         "symbol": "SIB",
         "name_en": "Sharjah Islamic Bank",
         "archetype": "bank",
-        "pe": 7.9,
-        "pb": 1.17,
-        "roe": 0.1578,
-        "dy": 0.0667,
-        "upside": 0.5373
+        "pe": null,
+        "pb": null,
+        "roe": null,
+        "dy": 0.0,
+        "upside": null
       },
       {
         "symbol": "CBD",
         "name_en": "Commercial Bank of Dubai",
         "archetype": "bank",
-        "pe": 8.2,
-        "pb": 1.42,
-        "roe": 0.1802,
-        "dy": 0.0634,
-        "upside": 0.505
+        "pe": null,
+        "pb": null,
+        "roe": null,
+        "dy": 0.0,
+        "upside": null
       }
     ],
     "n": 9

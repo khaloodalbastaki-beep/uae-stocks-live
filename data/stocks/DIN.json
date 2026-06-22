@@ -52,7 +52,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-19T12:54:26+00:00",
+      "retrieved_at": "2026-06-22T05:10:52+00:00",
       "url": null,
       "lang": null
     }
@@ -191,7 +191,7 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 61,
+      "score": 56,
       "grade": "C+",
       "subfactors": [
         {
@@ -206,11 +206,11 @@
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.5,
-          "points": 96.6,
+          "raw": 0.37,
+          "points": 74.5,
           "weight": 0.2,
-          "note": "50% of earnings paid out",
-          "contribution": 19.3
+          "note": "37% of earnings paid out",
+          "contribution": 14.9
         },
         {
           "key": "fcf",
@@ -245,12 +245,12 @@
           "raw": "annual",
           "points": 55.0,
           "weight": 0.1,
-          "note": "annual distribution, 5y streak",
+          "note": "annual distribution, 3y streak",
           "contribution": 5.5
         }
       ]
     },
-    "headline": 45,
+    "headline": 43,
     "headline_grade": "D+",
     "archetype": "insurance",
     "engine": "deterministic-v1"
@@ -270,20 +270,20 @@
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
     "dividend_yield": 0.0,
-    "payout_ratio": 0.5,
+    "payout_ratio": 0.37,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
     "frequency": "annual",
-    "years_paid": 5
+    "years_paid": 3
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "2026-06-18",
+    "as_of": null,
     "source": "Investing.com",
     "source_url": "https://www.investing.com/equities/dubai-insurance",
-    "extractor": "research-grounded/Explore (seed-2)",
-    "confidence": "medium"
+    "extractor": "mizan/ollama",
+    "confidence": "high"
   },
   "overview": {
     "business_summary_en": "Dubai Insurance is a UAE insurer, listed on DFM in the Insurance sector.",
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "DIN-3-1781697266",
+      "id": "DIN-3-1781928652",
       "symbol": "DIN",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-06-17T11:54:26+00:00",
+      "published_at": "2026-06-20T04:10:52+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIN-4-1781492066",
+      "id": "DIN-4-1781723452",
       "symbol": "DIN",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-15T02:54:26+00:00",
+      "published_at": "2026-06-17T19:10:52+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DIN-0-1779105266",
+      "id": "DIN-0-1779336652",
       "symbol": "DIN",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-05-18T11:54:26+00:00",
+      "published_at": "2026-05-21T04:10:52+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIN-6-1777182866",
+      "id": "DIN-6-1777414252",
       "symbol": "DIN",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-26T05:54:26+00:00",
+      "published_at": "2026-04-28T22:10:52+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DIN-1-1776232466",
+      "id": "DIN-1-1776463852",
       "symbol": "DIN",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-15T05:54:26+00:00",
+      "published_at": "2026-04-17T22:10:52+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIN-2-1775120066",
+      "id": "DIN-2-1775351452",
       "symbol": "DIN",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-04-02T08:54:26+00:00",
+      "published_at": "2026-04-05T01:10:52+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DIN-7-1774788866",
+      "id": "DIN-7-1775020252",
       "symbol": "DIN",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-03-29T12:54:26+00:00",
+      "published_at": "2026-04-01T05:10:52+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DIN-5-1774252466",
+      "id": "DIN-5-1774483852",
       "symbol": "DIN",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-03-23T07:54:26+00:00",
+      "published_at": "2026-03-26T00:10:52+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
@@ -523,7 +523,17 @@
       "published_at": "2026-05-21T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:20+00:00",
+      "retrieved_at": "2026-06-21T13:51:27+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "AM Best affirms Dubai Insurance Company's rating",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNczMxaURxMkZKNm1SR1p6UUc5bE9lZjZxYmU2UThNb18wcVFDdHBiZ1lqSHBIWTFEajhaSUQzWkR1d3ZpUFFYREtRcTdYbE8xd0N2ckstZlUtajJlWEh1NVBsX01mQzAyb05kLTNCeGRuNnlsVTVBSEJOVW1YWWxoOWZKVHpnNHFvZDNF?oc=5",
+      "domain": "atlas-mag.net",
+      "published_at": "2026-06-06T01:57:47+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-21T13:51:27+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -533,7 +543,7 @@
       "published_at": "2026-05-18T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:20+00:00",
+      "retrieved_at": "2026-06-21T13:51:27+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -543,27 +553,7 @@
       "published_at": "2026-06-08T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:20+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Orient Insurance reports AED 341 million net profit after tax in Q1 2026, up 9% from Q1 2025",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNelZGRHpJcFhjbzl4dUtHN2VsY0tKNjFqclRseHBxeXU1MkJoc0tUX3BJZHpPRkMtYktPSGNTTFFXbUkzM2VrM1A3cURXSGZkU1JHazlsdnZJTVVyNG5McnVFMjZNQlplbktWTGF6NkNrY0NMLUlTT1FQbzk1VHk2Q21iYXFDSWFGbGEwcTUwNmx0TWFyRmVFQ3lxMW9JbVhjTHZEcEJsT21oUzgzTFJSdVRFWDVFU2NGMmN2UWZtZndscGpfM29KaUI2aDZvcmUtUXhkM0dOTmpBZTJFN2V2cUdRekRkR0NN?oc=5",
-      "domain": "zawya.com",
-      "published_at": "2026-05-11T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:20+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Dubai Loop awards Parsons contract to support underground transport project",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOU1aeHZfLWxjNDBSeHZNazRxdUxRbllpWk9rN0Z3bTlrU0NXc3BIaUhyTmJuUWpEWVJ1X0dTMGxWNVowTjdzMlNWMFdpcGNUbm5HY0xKQnMwS1FEV3JRZVlmVk9OM1V4UEI2YVNuM0Q3SEZZV0dzY29VMEd4VVFXOGxxQ3JiU0lhck9XeE9BQ1JOdEg3YlJjd1gtMFg4TVlvU2xNOE9R?oc=5",
-      "domain": "gulfbusiness.com",
-      "published_at": "2026-05-06T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:20+00:00",
+      "retrieved_at": "2026-06-21T13:51:27+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -571,7 +561,7 @@
     {
       "symbol": "DIN",
       "kind": "board",
-      "date": "2026-07-18",
+      "date": "2026-07-21",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -586,7 +576,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -594,7 +584,7 @@
     {
       "symbol": "DIN",
       "kind": "agm",
-      "date": "2026-08-04",
+      "date": "2026-08-07",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -611,7 +601,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -619,7 +609,7 @@
     {
       "symbol": "DIN",
       "kind": "board",
-      "date": "2026-01-05",
+      "date": "2026-01-08",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -637,7 +627,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -648,17 +638,17 @@
       "symbol": "DIN",
       "amount": 0.4037,
       "currency": "AED",
-      "agm_date": "2026-07-02",
-      "entitlement_date": "2026-07-22",
-      "ex_date": "2026-07-21",
-      "payment_date": "2026-08-11",
+      "agm_date": "2026-07-05",
+      "entitlement_date": "2026-07-25",
+      "ex_date": "2026-07-24",
+      "payment_date": "2026-08-14",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -667,17 +657,17 @@
       "symbol": "DIN",
       "amount": 0.4037,
       "currency": "AED",
-      "agm_date": "2026-05-16",
-      "entitlement_date": "2026-06-03",
-      "ex_date": "2026-06-02",
-      "payment_date": "2026-06-19",
+      "agm_date": "2026-05-19",
+      "entitlement_date": "2026-06-06",
+      "ex_date": "2026-06-05",
+      "payment_date": "2026-06-22",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -686,17 +676,17 @@
       "symbol": "DIN",
       "amount": 0.4037,
       "currency": "AED",
-      "agm_date": "2025-05-18",
-      "entitlement_date": "2025-06-05",
-      "ex_date": "2025-06-04",
-      "payment_date": "2025-06-21",
+      "agm_date": "2025-05-21",
+      "entitlement_date": "2025-06-08",
+      "ex_date": "2025-06-07",
+      "payment_date": "2025-06-24",
       "frequency": "annual",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -726,77 +716,50 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-19T12:54:26+00:00",
+      "retrieved_at": "2026-06-22T05:10:52+00:00",
       "url": null,
       "lang": null
     }
   },
   "financials": {
     "years": [
-      2021,
       2022,
       2023,
-      2024
+      2024,
+      2025,
+      2026
     ],
     "revenue": [
-      375150000.0,
-      413060000.0,
-      903590000.0,
-      1258000000.0
+      9246500000.0,
+      9708800000.0,
+      10194300000.0,
+      10704000000.0,
+      11239200000.0
     ],
     "net_income": [
-      80570000.0,
-      90040000.0,
-      141890000.0,
-      132300000.0
+      1479400000.0,
+      1553400000.0,
+      1631100000.0,
+      1712600000.0,
+      1798300000.0
     ],
     "operating_cash_flow": [
-      null,
-      null,
-      null,
-      null
+      1642200000.0,
+      1724300000.0,
+      1810500000.0,
+      1901000000.0,
+      1996100000.0
     ],
     "ratios": {
-      "net_margin": 0.1052,
+      "net_margin": 0.16,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.5
+      "payout_ratio": 0.37
     },
     "revenue_cagr_3y": 0.0,
-    "data_quality": "real",
-    "currency": "AED"
+    "data_quality": "demo"
   },
-  "valuation": {
-    "fair_value": 17.112,
-    "fair_low": 14.962,
-    "fair_high": 20.153,
-    "price": 6.5,
-    "upside_pct": 1.6327,
-    "rating": "undervalued",
-    "confidence": "low",
-    "summary": "Model fair value AED 17.11 is 163% above the AED 6.50 price — undervalued. Driven mainly by book value vs ROE; assumes ~10% growth and a 10.0% discount rate, 14% ROE. Low confidence (range AED 14.96–20.15).",
-    "methods": {
-      "pb": 17.084,
-      "pe": 17.16
-    },
-    "assumptions": {
-      "discount_rate": 0.1,
-      "growth": 0.1,
-      "roe": 0.1411,
-      "eps": 1.32,
-      "bvps": 9.3763,
-      "dps": 1.0
-    },
-    "method_labels": {
-      "ddm": "Dividend discount (Gordon)",
-      "pb": "Justified P/B (ROE)",
-      "pe": "Earnings multiple",
-      "fcf": "FCF perpetuity"
-    },
-    "basis": "deterministic",
-    "note": "The model sees deep undervaluation but low confidence, so the market is likely pricing in the weak growth outlook and uncertainty around whether the positive disclosure tone translates into sustainable earnings improvement; a re-rating would need visible growth execution or a sector tailwind that lifts all insurance names",
-    "note_by": "nemotron"
-  },
+  "valuation": null,
   "global_factors": {
     "exposures": [
       {
@@ -825,12 +788,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -841,12 +804,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -857,12 +820,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -873,12 +836,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -889,12 +852,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -905,12 +868,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -920,7 +883,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-18T10:54:26+00:00",
+        "published_at": "2026-06-21T03:10:52+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -928,7 +891,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -936,7 +899,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-18T10:54:26+00:00",
+        "published_at": "2026-06-21T03:10:52+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -944,7 +907,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -952,7 +915,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-16T18:54:26+00:00",
+        "published_at": "2026-06-19T11:10:52+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -960,7 +923,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -973,31 +936,30 @@
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Recent disclosure tone has shifted positively, suggesting management feels reasonably confident about near-term developments",
-        "Stability and dividend pillars score respectably, providing a buffer against sharp downside",
-        "No immediate red flags in the signal notes to justify a bearish lean"
+        "Recent company disclosures skew positive, which may support short-term relative performance within the insurance peer set.",
+        "Dividend and stability scores sit in a moderate range, so near-term downside may be bounded for income-focused positions."
       ],
       "risks": [
-        "A surprise filing or sector-wide move could shift the picture quickly, per the explicit risk note",
-        "Low conviction overall — the positive tone is recent and not yet backed by a standout fundamental pillar",
-        "Growth score remains very weak at 21, limiting upside catalysts in the near term"
+        "A surprise filing or regulatory update could quickly disrupt the current trailing narrative.",
+        "Sector-wide headwinds could drag the stock even if company-specific news remains benign.",
+        "Low growth score leaves little catalyst for the market to reprice shares higher in the near term."
       ],
-      "what_would_change_view": "A sustained improvement in disclosure substance backed by visible growth inflection, or a negative surprise that confirms the fragility of the current tone"
+      "what_would_change_view": "A sustained upgrade in growth score or removal of the near-term disclosure uncertainty would argue for moving away from Neutral (low)."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Mixed fundamentals with no single pillar standing out — the profile is balanced rather than broken",
-        "Stability (60) and dividend (61) scores indicate a resilient business model with shareholder-friendly tendencies",
-        "The insurance franchise provides a recurring earnings base that supports long-term compounding"
+        "Stability score in the 60s suggests the business model is not under immediate stress over longer horizons.",
+        "Dividend track record above 60 supports a baseline income thesis for buy-and-hold investors.",
+        "Mixed fundamentals mean no severe structural flaw is apparent, keeping outright bearishness at bay."
       ],
       "risks": [
-        "Weak growth signal (Growth 21/100) suggests structural headwinds or a mature market position with limited expansion runway",
-        "No standout competitive advantage visible in the pillars to drive outperformance over a full cycle",
-        "Low confidence in the fair-value estimate means the valuation anchor is unreliable for long-horizon planning"
+        "Weak growth score (Growth 21/100) creates an earnings ceiling that could widen the discount to intrinsic value over time.",
+        "Absence of a standout fundamental pillar increases the chance of sideways price action for an extended period.",
+        "Competitive or regulatory pressure from a sector-wide shift could erode the current stability profile."
       ],
-      "what_would_change_view": "A clear growth catalyst — new lines, geographic expansion, or a step-change in underwriting margins — that lifts the growth score materially above current levels"
+      "what_would_change_view": "A material improvement in the growth score above current levels would be the clearest trigger to upgrade the long-term stance; deterioration in stability or dividend trends would do the opposite."
     },
     "_signal": {
       "short": {
@@ -1014,7 +976,7 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 43.8,
+        "score": 42.7,
         "reasons": [
           "Mixed fundamentals; no single pillar stands out"
         ],
@@ -1025,29 +987,29 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-19T12:54:26+00:00",
-    "narrator": "nemotron",
-    "narrated_at": "2026-06-19T06:17:53+00:00"
+    "generated_at": "2026-06-22T05:10:52+00:00",
+    "narrator": "freeagent",
+    "narrated_at": "2026-06-21T10:41:26+00:00"
   },
-  "generated_at": "2026-06-19T12:54:26+00:00",
+  "generated_at": "2026-06-22T05:10:52+00:00",
   "peers": {
     "archetype": "insurance",
     "self": {
       "symbol": "DIN",
       "name_en": "Dubai Insurance",
       "archetype": "insurance",
-      "pe": 4.9,
-      "pb": 0.69,
-      "roe": 0.1411,
+      "pe": null,
+      "pb": null,
+      "roe": null,
       "dy": 0.0,
-      "upside": 1.6327
+      "upside": null
     },
     "medians": {
-      "pe": 4.9,
-      "pb": 0.69,
-      "roe": 0.141,
+      "pe": null,
+      "pb": null,
+      "roe": null,
       "dy": 0.0,
-      "upside": 1.633
+      "upside": null
     },
     "peers": [],
     "n": 1

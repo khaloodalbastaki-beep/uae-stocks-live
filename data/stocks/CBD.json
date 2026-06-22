@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "CBD",
-    "price": 9.24,
-    "change": -0.21,
-    "change_pct": -0.0222,
-    "volume": 0,
-    "market_cap": null,
-    "high_52w": 9.849,
-    "low_52w": 9.24,
+    "price": 8.84,
+    "change": -0.06,
+    "change_pct": -0.0063,
+    "volume": 13957076,
+    "market_cap": 67338000000.0,
+    "high_52w": 9.55,
+    "low_52w": 7.36,
     "spark": [
-      9.451,
-      9.428,
-      9.419,
-      9.417,
-      9.491,
-      9.621,
-      9.695,
-      9.803,
-      9.749,
-      9.831,
-      9.786,
-      9.849,
-      9.738,
-      9.709,
-      9.68,
-      9.6,
-      9.728,
-      9.71,
-      9.688,
-      9.639,
-      9.631,
-      9.516,
-      9.572,
-      9.628,
-      9.557,
-      9.5,
-      9.559,
-      9.626,
-      9.719,
-      9.24
+      8.473,
+      8.341,
+      8.421,
+      8.496,
+      8.531,
+      8.505,
+      8.442,
+      8.404,
+      8.499,
+      8.4,
+      8.464,
+      8.428,
+      8.552,
+      8.407,
+      8.443,
+      8.518,
+      8.481,
+      8.546,
+      8.511,
+      8.505,
+      8.411,
+      8.45,
+      8.343,
+      8.334,
+      8.213,
+      8.173,
+      8.329,
+      8.367,
+      8.319,
+      8.84
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "DFM (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-06-19T12:54:26.604Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-06-22T05:10:52+00:00",
       "url": null,
       "lang": null
     }
@@ -60,44 +60,44 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 51,
-      "grade": "C",
+      "score": 21,
+      "grade": "D",
       "subfactors": [
         {
           "key": "rev",
           "label": "Revenue growth (YoY)",
-          "raw": 0.0781,
-          "points": 42.699999999999996,
+          "raw": 0.0,
+          "points": 16.666666666666668,
           "weight": 0.26,
-          "note": "7.8% top-line growth",
-          "contribution": 11.1
+          "note": "0.0% top-line growth",
+          "contribution": 4.3
         },
         {
           "key": "profit",
           "label": "Earnings growth (YoY)",
-          "raw": 0.1589,
-          "points": 64.725,
+          "raw": 0.0,
+          "points": 25.0,
           "weight": 0.24,
-          "note": "15.9% earnings growth",
-          "contribution": 15.5
+          "note": "0.0% earnings growth",
+          "contribution": 6.0
         },
         {
           "key": "cagr",
           "label": "Revenue CAGR (3y)",
-          "raw": 0.0781,
-          "points": 39.050000000000004,
+          "raw": 0.0,
+          "points": 0.0,
           "weight": 0.16,
-          "note": "7.8% 3-year CAGR",
-          "contribution": 6.2
+          "note": "0.0% 3-year CAGR",
+          "contribution": 0.0
         },
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.0412,
-          "points": 100.0,
+          "raw": 0.0,
+          "points": 42.85714285714285,
           "weight": 0.14,
-          "note": "expanding margins",
-          "contribution": 14.0
+          "note": "compressing margins",
+          "contribution": 6.0
         },
         {
           "key": "reinvest",
@@ -191,26 +191,26 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 79,
-      "grade": "B+",
+      "score": 61,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0634,
-          "points": 97.96,
+          "raw": 0.0,
+          "points": 0.0,
           "weight": 0.18,
-          "note": "6.34% yield",
-          "contribution": 17.6
+          "note": "0.00% yield",
+          "contribution": 0.0
         },
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.52,
-          "points": 100.0,
+          "raw": 0.5,
+          "points": 96.6,
           "weight": 0.2,
-          "note": "52% of earnings paid out",
-          "contribution": 20.0
+          "note": "50% of earnings paid out",
+          "contribution": 19.3
         },
         {
           "key": "fcf",
@@ -250,16 +250,16 @@
         }
       ]
     },
-    "headline": 61,
-    "headline_grade": "C+",
+    "headline": 44,
+    "headline_grade": "D+",
     "archetype": "bank",
     "engine": "deterministic-v1"
   },
   "fundamentals": {
-    "revenue_growth": 0.0781,
-    "profit_growth": 0.1589,
-    "revenue_cagr_3y": 0.0781,
-    "margin_trend": 0.0412,
+    "revenue_growth": 0.0,
+    "profit_growth": 0.0,
+    "revenue_cagr_3y": 0.0,
+    "margin_trend": 0.0,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -269,8 +269,8 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0634,
-    "payout_ratio": 0.52,
+    "dividend_yield": 0.0,
+    "payout_ratio": 0.5,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
@@ -279,10 +279,10 @@
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "FY2025",
-    "source": "FY2025 results (workflow-verified)",
+    "as_of": "2025-12-31",
+    "source": "Focus",
     "source_url": "https://focus.hidubai.com/commercial-bank-of-dubai-posts-record-fy2025-profit-as-net-loans-exceed-aed-100b/",
-    "extractor": "workflow-research-fy2025",
+    "extractor": "mizan/ollama",
     "confidence": "high"
   },
   "overview": {
@@ -292,28 +292,28 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 0,
-      "high_52w": 9.849,
-      "low_52w": 9.24,
-      "dividend_yield": 0.0634
+      "market_cap": 67338000000.0,
+      "volume": 13957076,
+      "high_52w": 9.55,
+      "low_52w": 7.36,
+      "dividend_yield": 0.0
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 79/100)"
+      "Mixed fundamentals; no single pillar stands out"
     ],
     "top_risks": [
-      "Execution and macro conditions remain the key swing factors"
+      "Weak growth signal (Growth 21/100)"
     ]
   },
   "disclosures": [
     {
-      "id": "CBD-1-1781787266",
+      "id": "CBD-1-1782018652",
       "symbol": "CBD",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-18T12:54:26+00:00",
+      "published_at": "2026-06-21T05:10:52+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "CBD-4-1780739666",
+      "id": "CBD-4-1780971052",
       "symbol": "CBD",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-06T09:54:26+00:00",
+      "published_at": "2026-06-09T02:10:52+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "CBD-0-1780307666",
+      "id": "CBD-0-1780539052",
       "symbol": "CBD",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-01T09:54:26+00:00",
+      "published_at": "2026-06-04T02:10:52+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "CBD-5-1780278866",
+      "id": "CBD-5-1780510252",
       "symbol": "CBD",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-01T01:54:26+00:00",
+      "published_at": "2026-06-03T18:10:52+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "CBD-2-1777964066",
+      "id": "CBD-2-1778195452",
       "symbol": "CBD",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-05T06:54:26+00:00",
+      "published_at": "2026-05-07T23:10:52+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "CBD-3-1777794866",
+      "id": "CBD-3-1778026252",
       "symbol": "CBD",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-03T07:54:26+00:00",
+      "published_at": "2026-05-06T00:10:52+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -456,7 +456,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
@@ -465,43 +465,13 @@
   ],
   "news": [
     {
-      "title": "National Bank of Ras Al-Khaimah (P.S.C.) And 2 Other Prominent Middle Eastern Dividend Stocks",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcFNCOWdKR3ZSOWViNHZZRG5jcHlXd2liMWdrXzN2ajNYUWJHZW8wcXhRNlNXWFFKSkk0X0hiamhsRVg5aF9ENFI0ZzA0Q2Q1M3g4UTh1R2lELXZiYXlSdVhwbmpTd1Z1TDdDWTZ4eEV5WUgxVmJ4YkJWeTNxUUpDLUo0N1ItMFBRQ0p3c0R6V3hvQ0JzZkFKbA?oc=5",
-      "domain": "finance.yahoo.com",
-      "published_at": "2026-05-31T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-18T22:03:54+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
       "title": "United Arab Bank shines, Commercial Bank of Dubai steadies the ship, du on solid footing in 1Q",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNWhWblltN2RyZ0JxQVIyZUQwUjBxTlN5cEdxRFdlc2ZMTmtYRVBleE4tdG4teTIxZ0pnMXJ1SmdaOFlwZnFrc05BamJmbW41SXFJaFJrMllrcGtsR2VtYnpFWlBubXA4am5Ka1dYM2tqaUJhNGZIT1V0ME1RNGkzcFhYV3M2LVQ0Z3VVZGlNSGo5SlQ4d3NXUHBYY1RnbURGeVpSN2czODBVWGpzTXFNR283bnBlSFNWb2NvSTA0T2YyZ2JFZTBzU185d1haQQ?oc=5",
       "domain": "enterpriseam.com",
       "published_at": "2026-04-23T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:03:54+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Commercial Bank of Dubai’s Q1 2026 net profit inches up to $225.9mln",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSXJLNFZmSEpQdy1fZTN0b19idWtpaEU2QkgzekJ2aWRudF9odUtZdjZMRFNwNENlbEl5a291VzZxN1BqWjlYYzFQTDhQeDVpdjdyRTFRU244UUFpY01STzRQSEdpMkVuYlg0UEx2ZTdQTHUwS0d0QTBPVkkxdmJzWXMwcE43cDB5ckl4QTVzeVh5d3VVZWdOaEk4cVVBc2hnSlRlQ2prblA2Sk9qVUNNMjRTa29BVldzdGZ6YmRzRmtDdw?oc=5",
-      "domain": "zawya.com",
-      "published_at": "2026-04-22T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-18T22:03:54+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Commercial Bank of Dubai Q1 net profit hits Dh830 million",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdXBjN0RnUTVnS0ZuUVZLTVFTZUMwaTVrZVEyZ19sVlJBbDA0WVJyaThRWG9ZQUxRT3lXV0lraWFEeTBpSVk5M0ZNTTFKa0ZDck13RDhUNWdHT2F6TFpaRmVFaGNSZDhnMXBOX0VPZF9VWnVNUkZpVVVZRmJ2UUZEV0w0SklLRUQzMnZmcjdDOUtnVS1Gc091VUlBVnV1WW9vX0ltSjF30gGuAUFVX3lxTE94dEV5WEYzVzU1VkVUeFZkQU9HWFZ0cW1HUGd3NnVHWUMxRE5GTWZOcUd0TFlwdDVNclJOTV9Hd3dCM1lmc3MyOFBkQXNZTVU4Mi1nOGtqdmxqNXFieWpJZ2JTbGlOUi1TX28wVVJ3NVliUGFxRkNHVjI3YWdQcVNHb0t4dmNQanl3R29OeGFxcE9rYkR0eG1lR2xVb2JLX0h6Q2NfdmR5dm9mV3J0dw?oc=5",
-      "domain": "khaleejtimes.com",
-      "published_at": "2026-04-22T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-18T22:03:54+00:00",
+      "retrieved_at": "2026-06-22T04:22:29+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -511,7 +481,7 @@
       "published_at": "2026-04-24T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:03:54+00:00",
+      "retrieved_at": "2026-06-22T04:22:29+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -519,7 +489,7 @@
     {
       "symbol": "CBD",
       "kind": "board",
-      "date": "2026-07-12",
+      "date": "2026-07-15",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -534,7 +504,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -542,7 +512,7 @@
     {
       "symbol": "CBD",
       "kind": "agm",
-      "date": "2026-07-25",
+      "date": "2026-07-28",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -559,7 +529,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -567,7 +537,7 @@
     {
       "symbol": "CBD",
       "kind": "board",
-      "date": "2026-01-02",
+      "date": "2026-01-05",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -585,7 +555,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -596,17 +566,17 @@
       "symbol": "CBD",
       "amount": 0.2714,
       "currency": "AED",
-      "agm_date": "2026-06-30",
-      "entitlement_date": "2026-07-20",
-      "ex_date": "2026-07-19",
-      "payment_date": "2026-08-09",
+      "agm_date": "2026-07-03",
+      "entitlement_date": "2026-07-23",
+      "ex_date": "2026-07-22",
+      "payment_date": "2026-08-12",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -615,17 +585,17 @@
       "symbol": "CBD",
       "amount": 0.2714,
       "currency": "AED",
-      "agm_date": "2026-05-28",
-      "entitlement_date": "2026-06-15",
-      "ex_date": "2026-06-14",
-      "payment_date": "2026-07-01",
+      "agm_date": "2026-05-31",
+      "entitlement_date": "2026-06-18",
+      "ex_date": "2026-06-17",
+      "payment_date": "2026-07-04",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -634,17 +604,17 @@
       "symbol": "CBD",
       "amount": 0.2714,
       "currency": "AED",
-      "agm_date": "2025-11-13",
-      "entitlement_date": "2025-12-01",
-      "ex_date": "2025-11-30",
-      "payment_date": "2025-12-17",
+      "agm_date": "2025-11-16",
+      "entitlement_date": "2025-12-04",
+      "ex_date": "2025-12-03",
+      "payment_date": "2025-12-20",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -653,17 +623,17 @@
       "symbol": "CBD",
       "amount": 0.2714,
       "currency": "AED",
-      "agm_date": "2025-05-19",
-      "entitlement_date": "2025-06-06",
-      "ex_date": "2025-06-05",
-      "payment_date": "2025-06-22",
+      "agm_date": "2025-05-22",
+      "entitlement_date": "2025-06-09",
+      "ex_date": "2025-06-08",
+      "payment_date": "2025-06-25",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -672,17 +642,17 @@
       "symbol": "CBD",
       "amount": 0.2714,
       "currency": "AED",
-      "agm_date": "2024-11-17",
-      "entitlement_date": "2024-12-05",
-      "ex_date": "2024-12-04",
-      "payment_date": "2024-12-21",
+      "agm_date": "2024-11-20",
+      "entitlement_date": "2024-12-08",
+      "ex_date": "2024-12-07",
+      "payment_date": "2024-12-24",
       "frequency": "semi",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -712,7 +682,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-19T12:54:26+00:00",
+      "retrieved_at": "2026-06-22T05:10:52+00:00",
       "url": null,
       "lang": null
     }
@@ -722,68 +692,40 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "revenue": [
-      3810000000.0,
-      4930000000.0,
-      5490000000.0,
-      5919000000.0
+      19389700000.0,
+      20359200000.0,
+      21377100000.0,
+      22446000000.0,
+      23568300000.0
     ],
     "net_income": [
-      1825000000.0,
-      2650000000.0,
-      3020000000.0,
-      3500000000.0
+      3102400000.0,
+      3257500000.0,
+      3420300000.0,
+      3591400000.0,
+      3770900000.0
     ],
     "operating_cash_flow": [
-      null,
-      null,
-      null,
-      null
+      3443600000.0,
+      3615800000.0,
+      3796600000.0,
+      3986400000.0,
+      4185700000.0
     ],
     "ratios": {
-      "net_margin": 0.5913,
+      "net_margin": 0.16,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.52
+      "payout_ratio": 0.5
     },
-    "revenue_cagr_3y": 0.0781,
-    "data_quality": "real",
-    "currency": "AED"
+    "revenue_cagr_3y": 0.0,
+    "data_quality": "demo"
   },
-  "valuation": {
-    "fair_value": 13.906,
-    "fair_low": 12.148,
-    "fair_high": 16.344,
-    "price": 9.24,
-    "upside_pct": 0.505,
-    "rating": "undervalued",
-    "confidence": "high",
-    "summary": "Model fair value AED 13.91 is 51% above the AED 9.24 price — undervalued. Driven mainly by book value vs ROE; assumes ~10% growth and a 10.5% discount rate, 18% ROE. High confidence (range AED 12.15–16.34).",
-    "methods": {
-      "ddm": 11.191,
-      "pb": 15.404,
-      "pe": 13.221
-    },
-    "assumptions": {
-      "discount_rate": 0.105,
-      "growth": 0.1,
-      "roe": 0.1802,
-      "eps": 1.13,
-      "bvps": 6.5065,
-      "dps": 0.5862
-    },
-    "method_labels": {
-      "ddm": "Dividend discount (Gordon)",
-      "pb": "Justified P/B (ROE)",
-      "pe": "Earnings multiple",
-      "fcf": "FCF perpetuity"
-    },
-    "basis": "deterministic",
-    "note": "The market may discount the model fair value due to UAE banking sector cyclicality and execution uncertainty, with the gap closing if management delivers consistent earnings growth and maintains dividend discipline through the cycle",
-    "note_by": "nemotron"
-  },
+  "valuation": null,
   "global_factors": {
     "exposures": [
       {
@@ -812,12 +754,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -828,12 +770,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -844,12 +786,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -860,12 +802,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -876,12 +818,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -892,12 +834,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -907,7 +849,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-18T10:54:26+00:00",
+        "published_at": "2026-06-21T03:10:52+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -915,7 +857,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -923,7 +865,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-18T10:54:26+00:00",
+        "published_at": "2026-06-21T03:10:52+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -931,7 +873,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -939,7 +881,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-16T18:54:26+00:00",
+        "published_at": "2026-06-19T11:10:52+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -947,7 +889,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -957,89 +899,89 @@
   },
   "ai_analysis": {
     "short_term": {
-      "stance": "Neutral",
+      "stance": "Bullish",
       "confidence": "high",
       "reasons": [
-        "High-materiality disclosure (95/100) in recent flow signals a positive catalyst",
-        "Recent disclosure tone skews positive, reflecting management confidence",
-        "Strong dividend score (79/100) supports near-term income appeal",
-        "Model fair value materially above current price implies significant upside"
+        "A high-materiality disclosure has recently entered the flow, and its positive tone gives the market a near-term narrative to price.",
+        "The positive disclosure skew in the recent flow suggests management may be guiding toward a more favorable operating picture near term.",
+        "The bank's dependable dividend profile provides a baseline floor for investor patience while near-term catalysts resolve.",
+        "The combination of a material recent disclosure and moderate stability suggests limited downside if sentiment improves."
       ],
       "risks": [
-        "Surprise filing could rapidly alter the picture",
-        "Sector-wide move could shift sentiment quickly",
-        "Modest growth score (51/100) limits explosive upside potential",
-        "Moderate stability score (59/100) suggests only adequate resilience"
+        "Negative price momentum shows near-term demand is currently weak.",
+        "The high-materiality disclosure carries execution risk—even a positive tone can be revised or reframed by the market.",
+        "Banking-sector rotations or Dubai market flow shifts can override company-specific sentiment.",
+        "Macro conditions remain a swing factor that could quickly turn the narrative."
       ],
-      "what_would_change_view": "A negative high-materiality disclosure or sector-wide deterioration that undermines the positive disclosure tone"
+      "what_would_change_view": "A confirmed turnaround in price momentum, supported by sustained positive disclosure tone and broadening analyst coverage, would shift the short-term stance toward positive."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Dependable dividend characteristics (79/100) provide a long-term income floor",
-        "Adequate stability score (59/100) suggests franchise resilience through cycles",
-        "Price-to-book valuation implies solid asset backing",
-        "Dividend discount valuation supports sustainable payout value"
+        "Dependable dividend characteristics (Dividend 79/100) create a long-term income floor that supports valuation.",
+        "Stability at 59/100 and Growth at 51/100 provide a foundational mid-range profile for steady-state earnings generation.",
+        "Model fair value above the market price implies a fundamental re-rating is achievable if execution improves.",
+        "The bank's sector positioning provides a baseline for recurring cash flows over time."
       ],
       "risks": [
-        "Execution and macro conditions remain the key swing factors",
-        "Low growth score (51/100) indicates limited structural growth drivers",
-        "Moderate stability leaves room for cyclical pressure on returns",
-        "Dividend sustainability depends on execution in a challenging macro environment"
+        "Execution and macro conditions remain the key swing factors in whether the bank can bridge the valuation gap.",
+        "Growth at 51/100 is not high enough to guarantee above-peer progress without sustained favorable conditions.",
+        "Macroeconomic or regulatory headwinds in the UAE banking sector could compress margins and delay re-rating.",
+        "Credit-cycle dynamics or capital-requirement changes could weigh on the bank's long-term stability and dividend capacity."
       ],
-      "what_would_change_view": "Sustained improvement in growth metrics or clear execution on strategic initiatives that lift franchise quality above current expectations"
+      "what_would_change_view": "A sustained uplift in growth execution and stable macro conditions that reinforce dividend coverage would shift the long-term stance toward constructive."
     },
     "_signal": {
       "short": {
-        "stance": "Neutral",
+        "stance": "Bullish",
         "confidence": "high",
-        "score": 64.7,
+        "score": 69.5,
         "reasons": [
           "A high-materiality disclosure (95/100) is in the recent flow",
           "Recent disclosure tone skews positive"
         ],
         "risks": [
-          "Negative price momentum (-2.2% on the session in demo data)"
+          "A surprise filing or a sector-wide move could shift the picture quickly"
         ]
       },
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 60.0,
+        "score": 43.5,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 79/100)"
+          "Mixed fundamentals; no single pillar stands out"
         ],
         "risks": [
-          "Execution and macro conditions remain the key swing factors"
+          "Weak growth signal (Growth 21/100)"
         ]
       }
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-19T12:54:26+00:00",
-    "narrator": "nemotron",
-    "narrated_at": "2026-06-19T05:15:25+00:00"
+    "generated_at": "2026-06-22T05:10:52+00:00",
+    "narrator": "freeagent",
+    "narrated_at": "2026-06-21T11:43:57+00:00"
   },
-  "generated_at": "2026-06-19T12:54:26+00:00",
+  "generated_at": "2026-06-22T05:10:52+00:00",
   "peers": {
     "archetype": "bank",
     "self": {
       "symbol": "CBD",
       "name_en": "Commercial Bank of Dubai",
       "archetype": "bank",
-      "pe": 8.2,
-      "pb": 1.42,
-      "roe": 0.1802,
-      "dy": 0.0634,
-      "upside": 0.505
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "dy": 0.0,
+      "upside": null
     },
     "medians": {
-      "pe": 8.2,
-      "pb": 1.33,
+      "pe": 7.7,
+      "pb": 1.31,
       "roe": 0.166,
-      "dy": 0.045,
-      "upside": 0.385
+      "dy": 0.042,
+      "upside": 0.433
     },
     "peers": [
       {
@@ -1086,21 +1028,21 @@
         "symbol": "SIB",
         "name_en": "Sharjah Islamic Bank",
         "archetype": "bank",
-        "pe": 7.9,
-        "pb": 1.17,
-        "roe": 0.1578,
-        "dy": 0.0667,
-        "upside": 0.5373
+        "pe": null,
+        "pb": null,
+        "roe": null,
+        "dy": 0.0,
+        "upside": null
       },
       {
         "symbol": "DIB",
         "name_en": "Dubai Islamic Bank",
         "archetype": "bank",
-        "pe": 7.9,
-        "pb": 1.06,
+        "pe": 7.7,
+        "pb": 1.02,
         "roe": 0.1411,
-        "dy": 0.0451,
-        "upside": 0.3848
+        "dy": 0.0467,
+        "upside": 0.4328
       }
     ],
     "n": 9

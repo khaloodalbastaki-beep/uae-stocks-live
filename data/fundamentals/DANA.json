@@ -1,59 +1,28 @@
 {
   "symbol": "DANA",
-  "as_of": "FY2025",
+  "as_of": "2025-12-31",
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "Zawya",
   "source_url": "https://www.zawya.com/en/capital-markets/equities/dana-gas-reports-130mln-net-profit-for-fy2025-qlsv9tgv",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T12:17:56+00:00",
+  "retrieved_at": "2026-06-21T08:30:27+00:00",
   "reported": {
-    "revenue": 1280000000.0,
-    "revenue_prior": 1630000000.0,
-    "net_income": 476000000.0,
-    "net_income_prior": 553000000.0,
+    "revenue": 1280000000,
+    "revenue_prior": null,
+    "net_income": 476000000,
+    "net_income_prior": 553000000,
     "net_margin": 0.3719,
-    "net_margin_prior": 0.3393,
-    "dividend_per_share": 0.055,
-    "payout_ratio": 0.809,
-    "total_debt": 934,
-    "ebitda": 797,
-    "operating_cash_flow": 1200,
+    "net_margin_prior": null,
+    "total_debt": null,
+    "ebitda": null,
+    "operating_cash_flow": null,
     "current_ratio": null,
+    "dividend_per_share": null,
+    "payout_ratio": null,
     "fcf": null,
-    "years_paid": 1,
-    "dividend_frequency": "annual",
     "cut_history_5y": null,
-    "shares_outstanding": 6995373373.0,
-    "total_equity": 9353000000.0,
-    "eps": 0.068
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      1940000000.0,
-      1550000000.0,
-      1630000000.0,
-      1280000000.0
-    ],
-    "net_income": [
-      667000000.0,
-      586000000.0,
-      553000000.0,
-      476000000.0
-    ],
-    "operating_cash_flow": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "dividend_frequency": null,
+    "years_paid": null
+  }
 }

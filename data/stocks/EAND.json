@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-19T12:54:26.604Z",
+      "retrieved_at": "2026-06-22T05:10:51.922Z",
       "url": null,
       "lang": null
     }
@@ -93,8 +93,8 @@
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.0151,
-          "points": 64.42857142857143,
+          "raw": 0.015,
+          "points": 64.28571428571428,
           "weight": 0.14,
           "note": "expanding margins",
           "contribution": 9.0
@@ -191,35 +191,35 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 65,
-      "grade": "B",
+      "score": 47,
+      "grade": "D+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0459,
-          "points": 76.50000000000001,
+          "raw": 0.0046,
+          "points": 7.666666666666668,
           "weight": 0.18,
-          "note": "4.59% yield",
-          "contribution": 13.8
+          "note": "0.46% yield",
+          "contribution": 1.4
         },
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.55,
-          "points": 94.89999999999999,
+          "raw": 0.05,
+          "points": 20.099999999999994,
           "weight": 0.2,
-          "note": "55% of earnings paid out",
-          "contribution": 19.0
+          "note": "5% of earnings paid out",
+          "contribution": 4.0
         },
         {
           "key": "fcf",
           "label": "Free-cash-flow coverage",
-          "raw": 0.45,
-          "points": 0.0,
+          "raw": 1.2,
+          "points": 42.85714285714286,
           "weight": 0.22,
-          "note": "thin / uncovered coverage",
-          "contribution": 0.0
+          "note": "comfortably covered",
+          "contribution": 9.4
         },
         {
           "key": "debt",
@@ -250,7 +250,7 @@
         }
       ]
     },
-    "headline": 68,
+    "headline": 64,
     "headline_grade": "B",
     "archetype": "telecom",
     "engine": "deterministic-v1"
@@ -259,7 +259,7 @@
     "revenue_growth": 0.2314,
     "profit_growth": 0.3333,
     "revenue_cagr_3y": 0.2314,
-    "margin_trend": 0.0151,
+    "margin_trend": 0.015,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -269,9 +269,9 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0459,
-    "payout_ratio": 0.55,
-    "fcf_coverage": 0.45,
+    "dividend_yield": 0.0046,
+    "payout_ratio": 0.05,
+    "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
     "frequency": "annual",
@@ -279,10 +279,10 @@
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "FY2025",
-    "source": "FY2025 results (workflow-verified)",
+    "as_of": "2025-12-31",
+    "source": "e& press release",
     "source_url": "https://www.eand.com/en/news/24-feb-26-eand-delivers-record-revenue-and-net-profit-in-FY-2025.html",
-    "extractor": "workflow-research-fy2025",
+    "extractor": "mizan/ollama",
     "confidence": "high"
   },
   "overview": {
@@ -296,11 +296,10 @@
       "volume": 11016070,
       "high_52w": 20.1,
       "low_52w": 19.287,
-      "dividend_yield": 0.0459
+      "dividend_yield": 0.0046
     },
     "top_catalysts": [
-      "Solid growth profile (Growth 78/100)",
-      "Dependable dividend characteristics (Dividend 65/100)"
+      "Solid growth profile (Growth 78/100)"
     ],
     "top_risks": [
       "Execution and macro conditions remain the key swing factors"
@@ -308,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "EAND-5-1781348066",
+      "id": "EAND-5-1781579452",
       "symbol": "EAND",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-06-13T10:54:26+00:00",
+      "published_at": "2026-06-16T03:10:52+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -327,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EAND-4-1780883666",
+      "id": "EAND-4-1781115052",
       "symbol": "EAND",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-08T01:54:26+00:00",
+      "published_at": "2026-06-10T18:10:52+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -353,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EAND-3-1780142066",
+      "id": "EAND-3-1780373452",
       "symbol": "EAND",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-30T11:54:26+00:00",
+      "published_at": "2026-06-02T04:10:52+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -379,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EAND-2-1776419666",
+      "id": "EAND-2-1776651052",
       "symbol": "EAND",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-17T09:54:26+00:00",
+      "published_at": "2026-04-20T02:10:52+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -405,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EAND-0-1775724866",
+      "id": "EAND-0-1775956252",
       "symbol": "EAND",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-09T08:54:26+00:00",
+      "published_at": "2026-04-12T01:10:52+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -431,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EAND-1-1774788866",
+      "id": "EAND-1-1775020252",
       "symbol": "EAND",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-03-29T12:54:26+00:00",
+      "published_at": "2026-04-01T05:10:52+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -457,7 +456,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
@@ -472,7 +471,7 @@
       "published_at": "2026-06-02T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-19T09:31:25+00:00",
+      "retrieved_at": "2026-06-21T23:01:57+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -482,7 +481,7 @@
       "published_at": "2026-06-01T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-19T09:31:25+00:00",
+      "retrieved_at": "2026-06-21T23:01:57+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -492,27 +491,17 @@
       "published_at": "2026-05-31T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-19T09:31:25+00:00",
+      "retrieved_at": "2026-06-21T23:01:57+00:00",
       "feed_source": "Google News (live media)"
     },
     {
-      "title": "e&, Uber strike deal over 12.5% Careem stake",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZktpTWlmOGdvbEVudC1VSGNGYlpoV1c5Zk9PaFA3Ulc0elpiRm93MlpxeUYtVkFaWjdMbEVUdU1IQ0FEM1AySEZzWFRxeHNkQ2pfOUE2RUxzX2lOSE9wRjR1cEQ0STBfSVlpbEhGYnNfSjBjM2NYN2I2VkdfQzZuRDY3Q0RYSGlR?oc=5",
-      "domain": "gulfbusiness.com",
-      "published_at": "2026-06-15T03:22:51+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-19T09:31:25+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "ZAWYA: VIDEO: UAE’s e& to sell part of Careem stake to Uber for $100mln",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQd1VRb3ZFNUpCUGw1RF9xQmRVWmloNnpQZ1A4VmpvOWx0TWNXRnBRd2IzNmxRQlFfRlNiU25HNE5FaWRib1BqTWd5Mm5YbVpZTlhzNG5yYWR4R05xdUVnTGhGWExkN0k2VjJDUFRzS0gxTXdEZXhlcnZWdGxJQmlmdzZhSUQyZlBCTmFwSVlGRzBwVDVDbEstWnlkR1pLbzA3TlQ2QlJqMmJYbVd3aXJ5RnlCMlJvbDlMZF9jcWZPemNNam5uZnBqTnlORWx1ZlRSaWVSTGVlQVNQOTA?oc=5",
+      "title": "e& Divests 12.5% Stake In Careem Technologies To Uber",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZzZQbEg5T21qaHpXQ3JsbjhWMUhfR0Fha1hUU1RTN24yNGFiYlQxMjhTZUd6bm5TMWV3SzR1UmktUGFDTV9fdF9RN05mX3NZN01KektjX3l0SzF3OTJwMnZKdUt4OFBuMXhZcGVBY0xmb25HVlhqMmpDOVR4dGRFQi1adExhTUdGV21KS3lCcVYwdnYxT2xLeEEwakZHQkF6R21FUU5SaXZjXzlsd2d3VG5xME9zd2RXQmFSaVNR?oc=5",
       "domain": "tradingview.com",
-      "published_at": "2026-06-03T11:33:48+00:00",
+      "published_at": "2026-05-31T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-19T09:31:25+00:00",
+      "retrieved_at": "2026-06-21T23:01:57+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -522,27 +511,37 @@
       "published_at": "2026-06-02T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-19T09:31:25+00:00",
+      "retrieved_at": "2026-06-21T23:01:57+00:00",
       "feed_source": "Google News (live media)"
     },
     {
-      "title": "E& divests 12.5% stake in Careem Technologies to Uber",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYVJiZnZWLVZ6MHZGQzJEN2ZNby1YUVpDaC1ubFBKRXhiNGZXbW1HVm9PNnUwUzhFdkNvMlI2MTZ4YzdLTkpCRE5henlmRXc2RklDSE1vTFVseHYxMDZwTGMyT190YWI5RS1xV1FabU9nWDRSVFg0dFVyWlVIWF91eGhsWFRTUTV4WVptSFJHNDZsU3lNcmVYRUdFZGZWNm5XVzkxYXJfVQ?oc=5",
+      "title": "e& Sells 12.5% Stake in Careem Technologies to Uber for $100 Million | 2026 Update - News and Statistics",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNUhhN2xISUNjZGlkUVZ2a2NRbTdPeHRXUFhvVVdSM0xrTUVhOU9Oakh3ZzRIS3Z0a1dVdlpzRmtWdy11YVNTeW1mcDRWSHEtQWJOcDh5QkdqcldYajktQkk1b3hIbEFFT2hHNURXdFVnUVFSdm9nb2s1NXQ2dVhwNVNyQ0wwYnhrYzN4SVlmejh3dHQ0OFVJdWhB?oc=5",
+      "domain": "indexbox.io",
+      "published_at": "2026-06-01T11:40:00+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-21T23:01:57+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Emirati Telco e& to Sell $100 Million Careem Stake to Uber",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPek1mWWVDZmowWGRfMENnMGFwbTU0WFE5czI3VU5MZ3VUVEQtbXFrbURUYUc5OVlTRWVvUWh4U0VGdmlsYkE5N2Q1UEhQNGN5dkFmd1RTVW5WNnlFYkYzd0R4dlZUckdxWFdHTEhMTmJDWjRCQThyeHVUYnhRRjFnZ0g3T3pfOTd6NFd6UlRwMWNPZVZnUlhWQ0RCRWxsVEJOT0xLYnhRUmlOZzJIM0E?oc=5",
       "domain": "marketscreener.com",
       "published_at": "2026-06-01T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-19T09:31:25+00:00",
+      "retrieved_at": "2026-06-21T23:01:57+00:00",
       "feed_source": "Google News (live media)"
     },
     {
-      "title": "Uber acquires controlling stake in UAE's Careem from e& in $100 million deal",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdW9SVnpmMlRUanpuT21CdTlQeFU3NnQtOWN0NDVwV05TTmloc1JJYmY2dl9KckoxVW8ycW56RnlrQlY2MlhHb3Vtc3JSb1FsMWVUTmo4U0pvc1l1U0VvLU1hejVzd0dkOUFjV3ZpdDBjQVNGN1VIRTVHY0otSTJKajVzRk5SOGM5NXpjelBtMXRrcTdkNloxNU11M25feGc1alNZZ3lxcVJoRXJGQXJjWXViT0F3TFBfYmVteWZmSmU?oc=5",
-      "domain": "thenationalnews.com",
-      "published_at": "2026-06-01T07:00:00+00:00",
+      "title": "Uber buys additional stake in Careem Technologies in $100 million deal",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNHBUTUh4eW9qeEN5YmF1VXQ5T3lKQ1NrWjZIZ1d1NklsWjRsNi1kZ2hzVVgxVHMxZzZ5UnVIN0w0OEpjZDhtczlHRjV5SkNoNmstUUxHQTYyMUU1UGZjd2pEYmRnMHJkdlA4RDhpZWFKR29PWnlBUVlPaGdLaU4xNHo1by1RTF9DaEo4YU1WUFJUak9jZl9WenZTUTBFV1FQa21v?oc=5",
+      "domain": "fastcompanyme.com",
+      "published_at": "2026-06-03T15:37:01+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-19T09:31:25+00:00",
+      "retrieved_at": "2026-06-21T23:01:57+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -550,7 +549,7 @@
     {
       "symbol": "EAND",
       "kind": "board",
-      "date": "2026-06-26",
+      "date": "2026-06-29",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -565,7 +564,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -573,7 +572,7 @@
     {
       "symbol": "EAND",
       "kind": "agm",
-      "date": "2026-08-19",
+      "date": "2026-08-22",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -590,7 +589,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -598,7 +597,7 @@
     {
       "symbol": "EAND",
       "kind": "board",
-      "date": "2026-01-19",
+      "date": "2026-01-22",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -616,7 +615,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -647,7 +646,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-19T12:54:26+00:00",
+      "retrieved_at": "2026-06-22T05:10:52+00:00",
       "url": null,
       "lang": null
     }
@@ -657,69 +656,40 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "revenue": [
-      52400000000.0,
-      53800000000.0,
-      59200000000.0,
-      72900000000.0
+      1522200000.0,
+      1874400000.0,
+      2308200000.0,
+      2842300000.0,
+      3500000000.0
     ],
     "net_income": [
-      10000000000.0,
-      10300000000.0,
-      10800000000.0,
-      14400000000.0
+      266400000.0,
+      342100000.0,
+      438600000.0,
+      561400000.0,
+      717500000.0
     ],
     "operating_cash_flow": [
-      null,
-      null,
-      null,
-      26051430000.0
+      295700000.0,
+      379700000.0,
+      486800000.0,
+      623100000.0,
+      796400000.0
     ],
     "ratios": {
-      "net_margin": 0.1975,
+      "net_margin": 0.205,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.55
+      "payout_ratio": 0.05
     },
     "revenue_cagr_3y": 0.2314,
-    "data_quality": "real",
-    "currency": "AED"
+    "data_quality": "demo"
   },
-  "valuation": {
-    "fair_value": 26.895,
-    "fair_low": 22.904,
-    "fair_high": 29.517,
-    "price": 19.6,
-    "upside_pct": 0.3722,
-    "rating": "undervalued",
-    "confidence": "high",
-    "summary": "Model fair value AED 26.89 is 37% above the AED 19.60 price — undervalued. Driven mainly by the dividend-discount model; assumes ~10% growth and a 9.0% discount rate, 23% ROE. High confidence (range AED 22.90–29.52).",
-    "methods": {
-      "ddm": 23.625,
-      "pb": 32.518,
-      "pe": 27.885,
-      "fcf": 19.619
-    },
-    "assumptions": {
-      "discount_rate": 0.09,
-      "growth": 0.1,
-      "roe": 0.2332,
-      "eps": 1.65,
-      "bvps": 7.1018,
-      "dps": 0.9
-    },
-    "method_labels": {
-      "ddm": "Dividend discount (Gordon)",
-      "pb": "Justified P/B (ROE)",
-      "pe": "Earnings multiple",
-      "fcf": "FCF perpetuity"
-    },
-    "basis": "deterministic",
-    "note": "The market appears to discount the shares on near-term earnings uncertainty and sector rotation, while the gap could narrow if upcoming results confirm the growth trajectory and dividend sustainability",
-    "note_by": "nemotron"
-  },
+  "valuation": null,
   "global_factors": {
     "exposures": [
       {
@@ -757,12 +727,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -773,12 +743,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -789,12 +759,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -805,12 +775,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -821,12 +791,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -837,12 +807,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -852,7 +822,7 @@
       {
         "title": "Us headline — global macro update 1",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-19T02:54:26+00:00",
+        "published_at": "2026-06-21T19:10:52+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -1.29,
@@ -860,7 +830,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -868,7 +838,7 @@
       {
         "title": "Us headline — global macro update 2",
         "theme": "ENERGY",
-        "published_at": "2026-06-19T03:54:26+00:00",
+        "published_at": "2026-06-21T20:10:52+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 2.88,
@@ -876,7 +846,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -884,7 +854,7 @@
       {
         "title": "Us headline — global macro update 3",
         "theme": "TOURISM",
-        "published_at": "2026-06-18T05:54:26+00:00",
+        "published_at": "2026-06-20T22:10:52+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -5.76,
@@ -892,7 +862,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -905,35 +875,35 @@
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Positive price momentum observed in the most recent session",
-        "Recent disclosure tone skews constructive",
-        "Growth score of 78 signals underlying business expansion",
-        "Dividend score of 64 reflects ongoing shareholder returns"
+        "Recent disclosure tone skews positive",
+        "Growth score remains elevated, supporting near-term business momentum",
+        "Moderate stability score offers a buffer against sector volatility",
+        "Dividend profile provides a modest income floor"
       ],
       "risks": [
-        "A surprise filing could rapidly alter the picture",
-        "Sector-wide moves may overwhelm company-specific factors",
-        "Stability score of 60 points to moderate earnings volatility",
-        "Near-term price action may diverge from fundamentals"
+        "Negative price momentum in the latest session",
+        "Macro or sector headwinds could dampen sentiment",
+        "Execution delays around near-term initiatives",
+        "Regulatory or competitive surprises"
       ],
-      "what_would_change_view": "A material negative earnings surprise, adverse regulatory development, or sustained sector downturn would shift the stance negative"
+      "what_would_change_view": "A move to positive short-term view would require sustained upward price follow-through and continued upbeat disclosure tone; a shift to negative would be triggered by accelerating downside momentum or fresh adverse catalysts."
     },
     "long_term": {
-      "stance": "Bullish",
+      "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Solid growth profile (78/100) supports multi-year expansion",
-        "Dependable dividend characteristics (64/100) provide income resilience",
-        "Telecom infrastructure assets offer a defensive moat",
-        "UAE macroeconomic tailwinds underpin structural demand"
+        "Solid growth profile (Growth 78/100)",
+        "Dependable dividend characteristics (Dividend 65/100)",
+        "Broad intrinsic-case gap relative to model estimates",
+        "Moderate stability score underwrites downside resilience"
       ],
       "risks": [
-        "Execution risk on strategic initiatives and digital transformation",
-        "Macro conditions including oil prices and regional growth trajectory",
-        "Stability score of 60 suggests some earnings unpredictability",
-        "Competitive intensity in regional telco markets"
+        "Execution and macro conditions remain the key swing factors",
+        "Structural competitive pressures within the telecom sector",
+        "Capital allocation decisions could affect growth trajectory",
+        "Regulatory or currency headwinds over longer horizons"
       ],
-      "what_would_change_view": "Deterioration in the UAE macro backdrop, failed execution on growth initiatives, or a reversal in dividend policy would shift the stance neutral or negative"
+      "what_would_change_view": "The bullish stance would shift to neutral if execution visibility deteriorates materially or macro conditions worsen persistently; confirmation on growth initiatives and macro stability would reinforce the view."
     },
     "_signal": {
       "short": {
@@ -948,12 +918,11 @@
         ]
       },
       "long": {
-        "stance": "Bullish",
+        "stance": "Neutral",
         "confidence": "medium",
-        "score": 68.7,
+        "score": 64.7,
         "reasons": [
-          "Solid growth profile (Growth 78/100)",
-          "Dependable dividend characteristics (Dividend 65/100)"
+          "Solid growth profile (Growth 78/100)"
         ],
         "risks": [
           "Execution and macro conditions remain the key swing factors"
@@ -962,29 +931,29 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-19T12:54:26+00:00",
-    "narrator": "nemotron",
-    "narrated_at": "2026-06-19T01:02:19+00:00"
+    "generated_at": "2026-06-22T05:10:52+00:00",
+    "narrator": "freeagent",
+    "narrated_at": "2026-06-21T05:20:57+00:00"
   },
-  "generated_at": "2026-06-19T12:54:26+00:00",
+  "generated_at": "2026-06-22T05:10:52+00:00",
   "peers": {
     "archetype": "telecom",
     "self": {
       "symbol": "EAND",
       "name_en": "e& (Emirates Telecom Group)",
       "archetype": "telecom",
-      "pe": 11.9,
-      "pb": 2.76,
-      "roe": 0.2332,
-      "dy": 0.0459,
-      "upside": 0.3722
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "dy": 0.0046,
+      "upside": null
     },
     "medians": {
-      "pe": 11.9,
-      "pb": 2.76,
-      "roe": 0.233,
-      "dy": 0.051,
-      "upside": 0.372
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "dy": 0.006,
+      "upside": null
     },
     "peers": [
       {
@@ -994,7 +963,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.0557,
+        "dy": 0.0076,
         "upside": null
       }
     ],

@@ -1,59 +1,28 @@
 {
   "symbol": "EMSTEEL",
-  "as_of": "FY2025",
+  "as_of": null,
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "EMSTEEL",
   "source_url": "https://www.emsteel.com/emsteel-reports-strong-fy-2025-performance-revenue-up-7-to-aed-8-9-billion-and-ebitda-up-34-to-aed-1-2-billion-year-on-year/",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T12:17:56+00:00",
+  "retrieved_at": "2026-06-21T09:34:38+00:00",
   "reported": {
-    "revenue": 8900000000.0,
-    "revenue_prior": 8337315000.0,
-    "net_income": 481000000.0,
-    "net_income_prior": 392392000.0,
-    "net_margin": 0.054,
-    "net_margin_prior": 0.0471,
-    "ebitda": 892,
-    "operating_cash_flow": null,
-    "fcf": null,
+    "revenue": 8900000000,
+    "revenue_prior": null,
+    "net_income": 481000000,
+    "net_income_prior": null,
+    "net_margin": null,
+    "net_margin_prior": null,
     "total_debt": null,
-    "current_ratio": 2.86,
-    "dividend_per_share": 0.0,
+    "ebitda": 1200000000,
+    "operating_cash_flow": null,
+    "current_ratio": null,
+    "dividend_per_share": null,
     "payout_ratio": null,
-    "dividend_frequency": null,
-    "years_paid": null,
+    "fcf": null,
     "cut_history_5y": null,
-    "shares_outstanding": 6850000000.0,
-    "total_equity": 8720487000.0,
-    "eps": 0.07
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      9500000000.0,
-      8899393000.0,
-      8337315000.0,
-      8900000000.0
-    ],
-    "net_income": [
-      508500000.0,
-      601916000.0,
-      392392000.0,
-      481000000.0
-    ],
-    "operating_cash_flow": [
-      null,
-      1445653000.0,
-      672564000.0,
-      null
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "dividend_frequency": null,
+    "years_paid": null
+  }
 }

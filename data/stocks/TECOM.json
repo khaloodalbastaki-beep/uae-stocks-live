@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "TECOM",
-    "price": 3.57,
-    "change": -0.11,
-    "change_pct": -0.0298,
-    "volume": 0,
-    "market_cap": null,
-    "high_52w": 3.698,
-    "low_52w": 3.504,
+    "price": 4.19,
+    "change": 0.09,
+    "change_pct": 0.0219,
+    "volume": 6046202,
+    "market_cap": 22080000000.0,
+    "high_52w": 5.16,
+    "low_52w": 3.64,
     "spark": [
-      3.624,
-      3.654,
-      3.698,
-      3.682,
-      3.65,
-      3.664,
-      3.637,
-      3.661,
-      3.672,
-      3.633,
-      3.615,
-      3.662,
-      3.645,
-      3.639,
-      3.598,
-      3.583,
-      3.552,
-      3.54,
-      3.574,
-      3.56,
-      3.545,
-      3.511,
-      3.526,
-      3.507,
-      3.504,
-      3.508,
-      3.534,
-      3.536,
-      3.529,
-      3.57
+      4.039,
+      4.068,
+      4.12,
+      4.176,
+      4.266,
+      4.359,
+      4.349,
+      4.302,
+      4.331,
+      4.358,
+      4.376,
+      4.353,
+      4.312,
+      4.359,
+      4.39,
+      4.463,
+      4.51,
+      4.54,
+      4.468,
+      4.494,
+      4.579,
+      4.655,
+      4.721,
+      4.781,
+      4.746,
+      4.667,
+      4.591,
+      4.59,
+      4.667,
+      4.19
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "DFM (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-06-19T12:54:26.604Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-06-22T05:10:52+00:00",
       "url": null,
       "lang": null
     }
@@ -60,44 +60,44 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 72,
-      "grade": "B+",
+      "score": 60,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "rev",
           "label": "Revenue growth (YoY)",
-          "raw": 0.1908,
-          "points": 80.26666666666668,
+          "raw": 0.1898,
+          "points": 79.93333333333335,
           "weight": 0.22,
-          "note": "19.1% top-line growth",
-          "contribution": 17.7
+          "note": "19.0% top-line growth",
+          "contribution": 17.6
         },
         {
           "key": "profit",
           "label": "Earnings growth (YoY)",
-          "raw": 0.75,
-          "points": 100.0,
+          "raw": 0.2036,
+          "points": 75.89999999999999,
           "weight": 0.24,
-          "note": "75.0% earnings growth",
-          "contribution": 24.0
+          "note": "20.4% earnings growth",
+          "contribution": 18.2
         },
         {
           "key": "cagr",
           "label": "Revenue CAGR (3y)",
-          "raw": 0.1908,
-          "points": 95.39999999999999,
+          "raw": 0.1898,
+          "points": 94.89999999999999,
           "weight": 0.16,
-          "note": "19.1% 3-year CAGR",
-          "contribution": 15.3
+          "note": "19.0% 3-year CAGR",
+          "contribution": 15.2
         },
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.2348,
-          "points": 100.0,
+          "raw": 0.006,
+          "points": 51.42857142857142,
           "weight": 0.14,
           "note": "expanding margins",
-          "contribution": 14.0
+          "contribution": 7.2
         },
         {
           "key": "reinvest",
@@ -121,17 +121,17 @@
     },
     "stability": {
       "pillar": "stability",
-      "score": 66,
-      "grade": "B",
+      "score": 59,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "lev",
           "label": "Leverage (net debt / EBITDA)",
-          "raw": 0.92,
-          "points": 90.66666666666667,
+          "raw": 2.0,
+          "points": 66.66666666666667,
           "weight": 0.24,
-          "note": "conservative balance sheet",
-          "contribution": 21.8
+          "note": "leveraged",
+          "contribution": 16.0
         },
         {
           "key": "liq",
@@ -145,11 +145,11 @@
         {
           "key": "ocf",
           "label": "Operating cash-flow consistency",
-          "raw": 0.76,
-          "points": 65.71428571428572,
+          "raw": 0.7,
+          "points": 57.14285714285714,
           "weight": 0.18,
-          "note": "steady cash generation",
-          "contribution": 11.8
+          "note": "lumpy cash flow",
+          "contribution": 10.3
         },
         {
           "key": "vol",
@@ -191,26 +191,26 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 72,
-      "grade": "B+",
+      "score": 63,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0504,
-          "points": 84.00000000000001,
+          "raw": 0.0,
+          "points": 0.0,
           "weight": 0.18,
-          "note": "5.04% yield",
-          "contribution": 15.1
+          "note": "0.00% yield",
+          "contribution": 0.0
         },
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.43,
-          "points": 84.69999999999999,
+          "raw": 0.5,
+          "points": 96.6,
           "weight": 0.2,
-          "note": "43% of earnings paid out",
-          "contribution": 16.9
+          "note": "50% of earnings paid out",
+          "contribution": 19.3
         },
         {
           "key": "fcf",
@@ -242,47 +242,47 @@
         {
           "key": "freq",
           "label": "Frequency & regularity",
-          "raw": "Semi-annual",
-          "points": 40.0,
+          "raw": "semi",
+          "points": 75.0,
           "weight": 0.1,
-          "note": "Semi-annual distribution, 4y streak",
-          "contribution": 4.0
+          "note": "semi distribution, 3y streak",
+          "contribution": 7.5
         }
       ]
     },
-    "headline": 70,
-    "headline_grade": "B",
+    "headline": 60,
+    "headline_grade": "C+",
     "archetype": "developer",
     "engine": "deterministic-v1"
   },
   "fundamentals": {
-    "revenue_growth": 0.1908,
-    "profit_growth": 0.75,
-    "revenue_cagr_3y": 0.1908,
-    "margin_trend": 0.2348,
+    "revenue_growth": 0.1898,
+    "profit_growth": 0.2036,
+    "revenue_cagr_3y": 0.1898,
+    "margin_trend": 0.006,
     "reinvestment": 0.5,
     "catalysts": 0,
-    "net_debt_to_ebitda": 0.92,
+    "net_debt_to_ebitda": 2.0,
     "current_ratio": 1.3,
-    "ocf_consistency": 0.76,
+    "ocf_consistency": 0.7,
     "price_volatility": 0.3,
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0504,
-    "payout_ratio": 0.43,
+    "dividend_yield": 0.0,
+    "payout_ratio": 0.5,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
-    "frequency": "Semi-annual",
-    "years_paid": 4
+    "frequency": "semi",
+    "years_paid": 3
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "FY2025",
-    "source": "FY2025 results (workflow-verified)",
+    "as_of": "2025-12-31",
+    "source": "TECOM press release",
     "source_url": "https://tecomgroup.ae/press-release/tecom-group-achieves-record-revenues-of-aed-2-9-billion-in-2025-as-recurring-net-profit-increases-by-20-the-fourth-consecutive-year-of-strong-growth-and-outstanding-performance",
-    "extractor": "workflow-research-fy2025",
+    "extractor": "mizan/ollama",
     "confidence": "high"
   },
   "overview": {
@@ -292,16 +292,14 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 0,
-      "high_52w": 3.698,
-      "low_52w": 3.504,
-      "dividend_yield": 0.0504
+      "market_cap": 22080000000.0,
+      "volume": 6046202,
+      "high_52w": 5.16,
+      "low_52w": 3.64,
+      "dividend_yield": 0.0
     },
     "top_catalysts": [
-      "Solid growth profile (Growth 72/100)",
-      "Resilient balance sheet / stability (Stability 66/100)",
-      "Dependable dividend characteristics (Dividend 72/100)"
+      "Dependable dividend characteristics (Dividend 63/100)"
     ],
     "top_risks": [
       "Execution and macro conditions remain the key swing factors"
@@ -309,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "TECOM-0-1781769266",
+      "id": "TECOM-0-1782000652",
       "symbol": "TECOM",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-18T07:54:26+00:00",
+      "published_at": "2026-06-21T00:10:52+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -328,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TECOM-1-1779616466",
+      "id": "TECOM-1-1779847852",
       "symbol": "TECOM",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-05-24T09:54:26+00:00",
+      "published_at": "2026-05-27T02:10:52+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -354,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TECOM-3-1779076466",
+      "id": "TECOM-3-1779307852",
       "symbol": "TECOM",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-05-18T03:54:26+00:00",
+      "published_at": "2026-05-20T20:10:52+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -380,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TECOM-2-1776689666",
+      "id": "TECOM-2-1776921052",
       "symbol": "TECOM",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-20T12:54:26+00:00",
+      "published_at": "2026-04-23T05:10:52+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -406,7 +404,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       },
@@ -415,23 +413,23 @@
   ],
   "news": [
     {
-      "title": "TECOM Group sustains strong momentum in Q1 2026 with 12% net profit growth, driven by its diversified business, resilient operating model, and robust customer base",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xaHpNOVI3a2pvMllNWnZZVDM2U3JMS1NSWGRnSllHbUo5Qm9uQU1DTE04UFRWbmZaR1QxQWpQaUZMUjVldWRDWDhpOVc3VU53SE9HNmR1SDd6X3RyV0pITjVubw?oc=5",
-      "domain": "mediaoffice.ae",
+      "title": "TECOM Group net profit grows 12 percent to $109.73 million in Q1 2026 on strategic investments, high occupancy rates",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOb3MtdTBJYk1HOG5NSVdkUExsRV9GVU50QktZRzFOQWpOSnFaOTRWSmh4dFdMT3V3Tlpna0szd0ttd2tITmExZ3NyZXgxZkwzRWRnS2Z6WmllSlpTN0FDQ2JvQldqRlVYZ1pyejFGZjRPbzV4QldxczlxQlNfVU55Nk95QXJfVG9faHlzdk1BTldiemNMd2IwcGVsNENPVEU5cVVXcmlIdUEycW9ubFlhaXZUcG95ZHVna0R4RXU1UnpwbzgwT0NodXNhYmZDOWRFVks1T0lZVXliZmhrSlJWemJDcHM?oc=5",
+      "domain": "economymiddleeast.com",
       "published_at": "2026-04-29T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:58+00:00",
+      "retrieved_at": "2026-06-21T18:57:05+00:00",
       "feed_source": "Google News (live media)"
     },
     {
-      "title": "TECOM group delivers double‑digit revenue and profit growth in Q1 2026",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa1VwOERxTnBTbHpnWnVfdGpjS0xqbnBuTkotRXRFSlhmOXlvdE1lanN1RGhpNUhtRTJUNmw4QnlJYlJ3UjZIOUJRUVBuQXVialJISmxYLVhCeHdMT3BMcXg5aFNHM0RRTlQ1NnlwZEhTLW45X285YnRkeEtObmU1b09RdE05NDBUQmpzbmQzV2p0RS1ibkQ1N2RDeVI0MmdyazZkSVRoT29KV2xacFBXYtIBywFBVV95cUxQbHJOZ3FzemJHTURaUjEtUFJvY29YWTB1S3FJeU1URF9xVXBlejlqZzlZMzc5TDlIaU1ncEE3UHNnUzVtSWYtdFBOMkRJNWNHdE5VRkN3QlVic0dEUGtPbDFzNVZTZGwyMjdHSThzRGRIOThUc2N1VWZYQmtCSzRXYjZHdGQxRXdualdxcHlwY2plZW9Fd2puY3Nuak1rTHJyck9iVXd5WWkzMzE0WXdGbXd2cG1wMmUtLVdDOFhPZHJrNkk1a19EVkljMA?oc=5",
-      "domain": "emirates247.com",
+      "title": "Tecom first-quarter revenue tops $200m with high occupancy",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaFV0Y3l3ZTVsTEF2bmozc2poQkhmZXBSQl9MT2xQSkRXOXV0VmYtdDIzQ3hWb0dpQ2hzRjZGeXJJM1dZbkVnQW5BTDdrVHVQbnZXOHc3Tko2SzdndF9sMXp3MV9YM1lFNEVacVJuVzd6X256aVBEcE93emtJOW5yaEY5c3E3NjJsNnJMOEV3S3o2aW5Hd1BfVGx1MWg4ZDFk?oc=5",
+      "domain": "agbi.com",
       "published_at": "2026-04-29T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-18T22:04:58+00:00",
+      "retrieved_at": "2026-06-21T18:57:05+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -439,7 +437,7 @@
     {
       "symbol": "TECOM",
       "kind": "board",
-      "date": "2026-07-04",
+      "date": "2026-07-07",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -454,7 +452,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -462,7 +460,7 @@
     {
       "symbol": "TECOM",
       "kind": "agm",
-      "date": "2026-08-15",
+      "date": "2026-08-18",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -479,7 +477,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -487,7 +485,7 @@
     {
       "symbol": "TECOM",
       "kind": "board",
-      "date": "2026-03-08",
+      "date": "2026-03-11",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -505,7 +503,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -516,17 +514,17 @@
       "symbol": "TECOM",
       "amount": 0.0012,
       "currency": "AED",
-      "agm_date": "2026-06-16",
-      "entitlement_date": "2026-07-06",
-      "ex_date": "2026-07-05",
-      "payment_date": "2026-07-26",
+      "agm_date": "2026-06-19",
+      "entitlement_date": "2026-07-09",
+      "ex_date": "2026-07-08",
+      "payment_date": "2026-07-29",
       "frequency": "quarterly",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -535,17 +533,17 @@
       "symbol": "TECOM",
       "amount": 0.0012,
       "currency": "AED",
-      "agm_date": "2026-05-20",
-      "entitlement_date": "2026-06-07",
-      "ex_date": "2026-06-06",
-      "payment_date": "2026-06-23",
+      "agm_date": "2026-05-23",
+      "entitlement_date": "2026-06-10",
+      "ex_date": "2026-06-09",
+      "payment_date": "2026-06-26",
       "frequency": "quarterly",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -554,17 +552,17 @@
       "symbol": "TECOM",
       "amount": 0.0012,
       "currency": "AED",
-      "agm_date": "2026-02-09",
-      "entitlement_date": "2026-02-27",
-      "ex_date": "2026-02-26",
-      "payment_date": "2026-03-15",
+      "agm_date": "2026-02-12",
+      "entitlement_date": "2026-03-02",
+      "ex_date": "2026-03-01",
+      "payment_date": "2026-03-18",
       "frequency": "quarterly",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -573,17 +571,17 @@
       "symbol": "TECOM",
       "amount": 0.0012,
       "currency": "AED",
-      "agm_date": "2025-11-21",
-      "entitlement_date": "2025-12-09",
-      "ex_date": "2025-12-08",
-      "payment_date": "2025-12-25",
+      "agm_date": "2025-11-24",
+      "entitlement_date": "2025-12-12",
+      "ex_date": "2025-12-11",
+      "payment_date": "2025-12-28",
       "frequency": "quarterly",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -592,17 +590,17 @@
       "symbol": "TECOM",
       "amount": 0.0012,
       "currency": "AED",
-      "agm_date": "2025-08-22",
-      "entitlement_date": "2025-09-09",
-      "ex_date": "2025-09-08",
-      "payment_date": "2025-09-25",
+      "agm_date": "2025-08-25",
+      "entitlement_date": "2025-09-12",
+      "ex_date": "2025-09-11",
+      "payment_date": "2025-09-28",
       "frequency": "quarterly",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -611,17 +609,17 @@
       "symbol": "TECOM",
       "amount": 0.0012,
       "currency": "AED",
-      "agm_date": "2025-05-16",
-      "entitlement_date": "2025-06-03",
-      "ex_date": "2025-06-02",
-      "payment_date": "2025-06-19",
+      "agm_date": "2025-05-19",
+      "entitlement_date": "2025-06-06",
+      "ex_date": "2025-06-05",
+      "payment_date": "2025-06-22",
       "frequency": "quarterly",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -630,17 +628,17 @@
       "symbol": "TECOM",
       "amount": 0.0012,
       "currency": "AED",
-      "agm_date": "2025-02-17",
-      "entitlement_date": "2025-03-07",
-      "ex_date": "2025-03-06",
-      "payment_date": "2025-03-23",
+      "agm_date": "2025-02-20",
+      "entitlement_date": "2025-03-10",
+      "ex_date": "2025-03-09",
+      "payment_date": "2025-03-26",
       "frequency": "quarterly",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -649,17 +647,17 @@
       "symbol": "TECOM",
       "amount": 0.0012,
       "currency": "AED",
-      "agm_date": "2024-11-16",
-      "entitlement_date": "2024-12-04",
-      "ex_date": "2024-12-03",
-      "payment_date": "2024-12-20",
+      "agm_date": "2024-11-19",
+      "entitlement_date": "2024-12-07",
+      "ex_date": "2024-12-06",
+      "payment_date": "2024-12-23",
       "frequency": "quarterly",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -668,17 +666,17 @@
       "symbol": "TECOM",
       "amount": 0.0012,
       "currency": "AED",
-      "agm_date": "2024-08-30",
-      "entitlement_date": "2024-09-17",
-      "ex_date": "2024-09-16",
-      "payment_date": "2024-10-03",
+      "agm_date": "2024-09-02",
+      "entitlement_date": "2024-09-20",
+      "ex_date": "2024-09-19",
+      "payment_date": "2024-10-06",
       "frequency": "quarterly",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-19T12:54:26+00:00",
+        "retrieved_at": "2026-06-22T05:10:52+00:00",
         "url": null,
         "lang": null
       }
@@ -708,7 +706,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-19T12:54:26+00:00",
+      "retrieved_at": "2026-06-22T05:10:52+00:00",
       "url": null,
       "lang": null
     }
@@ -718,68 +716,40 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "revenue": [
-      1970000000.0,
-      2169000000.0,
-      2400000000.0,
-      2858000000.0
+      3856300000.0,
+      4588200000.0,
+      5459100000.0,
+      6495200000.0,
+      7728000000.0
     ],
     "net_income": [
-      725620000.0,
-      1078000000.0,
-      1200000000.0,
-      2100000000.0
+      640100000.0,
+      775400000.0,
+      939000000.0,
+      1136700000.0,
+      1375600000.0
     ],
     "operating_cash_flow": [
-      null,
-      null,
-      null,
-      null
+      710600000.0,
+      860700000.0,
+      1042200000.0,
+      1261700000.0,
+      1526900000.0
     ],
     "ratios": {
-      "net_margin": 0.7348,
-      "net_debt_to_ebitda": 0.92,
+      "net_margin": 0.178,
+      "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.43
+      "payout_ratio": 0.5
     },
-    "revenue_cagr_3y": 0.1908,
-    "data_quality": "real",
-    "currency": "AED"
+    "revenue_cagr_3y": 0.1898,
+    "data_quality": "demo"
   },
-  "valuation": {
-    "fair_value": 3.841,
-    "fair_low": 3.501,
-    "fair_high": 4.254,
-    "price": 3.57,
-    "upside_pct": 0.0758,
-    "rating": "fairly valued",
-    "confidence": "medium",
-    "summary": "Model fair value AED 3.84 is 8% above the AED 3.57 price — fairly valued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 12.0% discount rate, 27% ROE. Medium confidence (range AED 3.50–4.25).",
-    "methods": {
-      "ddm": 2.7,
-      "pb": 4.879,
-      "pe": 3.784
-    },
-    "assumptions": {
-      "discount_rate": 0.12,
-      "growth": 0.1,
-      "roe": 0.2675,
-      "eps": 0.42,
-      "bvps": 1.57,
-      "dps": 0.18
-    },
-    "method_labels": {
-      "ddm": "Dividend discount (Gordon)",
-      "pb": "Justified P/B (ROE)",
-      "pe": "Earnings multiple",
-      "fcf": "FCF perpetuity"
-    },
-    "basis": "deterministic",
-    "note": "The market prices TECOM below the model fair value likely because investors want to see the development pipeline convert to cash earnings before rewarding the full asset value, and the gap could narrow once new phases reach stabilization and dividend visibility improves",
-    "note_by": "nemotron"
-  },
+  "valuation": null,
   "global_factors": {
     "exposures": [
       {
@@ -817,12 +787,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -833,12 +803,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -849,12 +819,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -865,12 +835,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -881,12 +851,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -897,12 +867,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-19T12:54:26+00:00",
+        "as_of": "2026-06-22T05:10:52+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -912,7 +882,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-18T10:54:26+00:00",
+        "published_at": "2026-06-21T03:10:52+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -920,7 +890,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -928,7 +898,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-18T10:54:26+00:00",
+        "published_at": "2026-06-21T03:10:52+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -936,7 +906,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -944,7 +914,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-16T18:54:26+00:00",
+        "published_at": "2026-06-19T11:10:52+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -952,7 +922,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-19T12:54:26+00:00",
+          "retrieved_at": "2026-06-22T05:10:52+00:00",
           "url": null,
           "lang": null
         }
@@ -965,56 +935,52 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Lacks a near-term catalyst to break out of range-bound trading",
-        "Price action is tracking general market sentiment rather than company-specific developments",
-        "Earnings trajectory is steady but not accelerating enough to drive re-rating",
-        "Dividend yield provides a floor but not enough momentum to attract new buyers"
+        "Absence of strong catalysts leaves the stock tethered to broad market drift rather than stock-specific momentum",
+        "Limited near-term company-specific drivers",
+        "The market is repricing on broad directionality rather than fundamentals"
       ],
       "risks": [
-        "Negative price momentum on the session adds technical pressure",
-        "Broad market drift could push the stock lower without fundamental deterioration",
-        "Low visibility on upcoming contract wins or lease renewals in the near term",
-        "Thin liquidity on DFM can amplify downside moves on modest selling"
+        "Negative price momentum indicates weak near-term price discovery",
+        "Reliance on broader market direction creates vulnerability to broad market pullbacks",
+        "Lack of catalysts increases sensitivity to sentiment shocks"
       ],
-      "what_would_change_view": "A positive surprise on leasing activity, a contract announcement, or a shift in market sentiment that brings buyers back to quality REITs would tilt the short-term bias positive"
+      "what_would_change_view": "Emergence of a strong company-specific catalyst or a reversal of the negative price momentum"
     },
     "long_term": {
-      "stance": "Bullish",
-      "confidence": "medium",
+      "stance": "Neutral",
+      "confidence": "low",
       "reasons": [
-        "Strong growth score reflects a portfolio positioned for Dubai's structural demand drivers",
-        "Balance sheet resilience supports continued investment and defensive characteristics",
-        "Dividend profile is dependable, backed by recurring rental income from diversified assets",
-        "Management has a track record of executing on development pipelines and asset management"
+        "Solid growth profile supported by the house growth score",
+        "Resilient balance sheet and stability characteristics",
+        "Dependable dividend profile supported by the house dividend score",
+        "Combined strength across growth, stability, and income supports medium-term bullishness"
       ],
       "risks": [
-        "Execution risk on development projects and lease-up timelines remains material",
-        "Macro conditions — interest rates, oil prices, regional sentiment — are key swing factors",
-        "Concentration in Dubai's commercial/industrial real estate exposes the portfolio to local cycles",
-        "Valuation re-rating depends on sustained earnings growth, which is not guaranteed"
+        "Execution and macro conditions remain the key swing factors",
+        "Execution risk on growth initiatives could degrade the growth profile",
+        "Adverse macro shifts could pressure the stable operating environment",
+        "Dividend sustainability depends on continued balance-sheet resilience"
       ],
-      "what_would_change_view": "Evidence of sustained lease-up at new developments, a material accretive acquisition, or a structural improvement in Dubai's occupancy trends would reinforce the bullish case; a sharp macro downturn or balance sheet deterioration would undermine it"
+      "what_would_change_view": "Material deterioration in execution capability or a significant adverse shift in macro conditions that weakens the dividend or growth runway"
     },
     "_signal": {
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 42.9,
+        "score": 58.4,
         "reasons": [
-          "No strong short-term catalysts; trading on broad market drift"
+          "Positive price momentum (+2.2% on the session in demo data)"
         ],
         "risks": [
-          "Negative price momentum (-3.0% on the session in demo data)"
+          "A surprise filing or a sector-wide move could shift the picture quickly"
         ]
       },
       "long": {
-        "stance": "Bullish",
-        "confidence": "medium",
-        "score": 69.8,
+        "stance": "Neutral",
+        "confidence": "low",
+        "score": 60.3,
         "reasons": [
-          "Solid growth profile (Growth 72/100)",
-          "Resilient balance sheet / stability (Stability 66/100)",
-          "Dependable dividend characteristics (Dividend 72/100)"
+          "Dependable dividend characteristics (Dividend 63/100)"
         ],
         "risks": [
           "Execution and macro conditions remain the key swing factors"
@@ -1023,29 +989,29 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-19T12:54:26+00:00",
-    "narrator": "nemotron",
-    "narrated_at": "2026-06-19T08:29:02+00:00"
+    "generated_at": "2026-06-22T05:10:52+00:00",
+    "narrator": "freeagent",
+    "narrated_at": "2026-06-21T13:53:45+00:00"
   },
-  "generated_at": "2026-06-19T12:54:26+00:00",
+  "generated_at": "2026-06-22T05:10:52+00:00",
   "peers": {
     "archetype": "developer",
     "self": {
       "symbol": "TECOM",
       "name_en": "TECOM Group",
       "archetype": "developer",
-      "pe": 8.5,
-      "pb": 2.27,
-      "roe": 0.2675,
-      "dy": 0.0504,
-      "upside": 0.0758
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "dy": 0.0,
+      "upside": null
     },
     "medians": {
-      "pe": 8.5,
-      "pb": 0.95,
+      "pe": 7.6,
+      "pb": 0.66,
       "roe": 0.104,
-      "dy": 0.045,
-      "upside": 0.076
+      "dy": 0.023,
+      "upside": 0.364
     },
     "peers": [
       {
@@ -1062,11 +1028,11 @@
         "symbol": "MODON",
         "name_en": "Modon Holding",
         "archetype": "developer",
-        "pe": 12.4,
-        "pb": 0.95,
-        "roe": 0.0738,
+        "pe": null,
+        "pb": null,
+        "roe": null,
         "dy": 0.0,
-        "upside": -0.6654
+        "upside": null
       },
       {
         "symbol": "RAKPROP",
@@ -1082,21 +1048,21 @@
         "symbol": "DEYAAR",
         "name_en": "Deyaar Development",
         "archetype": "developer",
-        "pe": 5.9,
-        "pb": 0.63,
+        "pe": 6.2,
+        "pb": 0.66,
         "roe": 0.1038,
-        "dy": 0.0601,
-        "upside": 0.5694
+        "dy": 0.0575,
+        "upside": 0.5008
       },
       {
         "symbol": "EMAAR",
         "name_en": "Emaar Properties",
         "archetype": "developer",
-        "pe": 6.5,
-        "pb": 1.06,
+        "pe": 7.6,
+        "pb": 1.25,
         "roe": 0.1634,
-        "dy": 0.0772,
-        "upside": 0.6004
+        "dy": 0.0657,
+        "upside": 0.3637
       },
       {
         "symbol": "EMAARDEV",
@@ -1105,7 +1071,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.0455,
+        "dy": 0.0544,
         "upside": null
       }
     ],

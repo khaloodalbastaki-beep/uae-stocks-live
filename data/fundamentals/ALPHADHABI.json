@@ -1,59 +1,28 @@
 {
   "symbol": "ALPHADHABI",
-  "as_of": "FY2025",
+  "as_of": "2025-12-31",
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "Alpha Dhabi Holding press release",
   "source_url": "https://alphadhabi.com/news/alpha-dhabi-reports-record-results-with-highest-ever-full-year-revenue-of-aed-78-8-billion-and-strongest-ever-net-profit-of-aed-15-0-billion/",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T12:17:56+00:00",
+  "retrieved_at": "2026-06-21T08:30:09+00:00",
   "reported": {
-    "revenue": 78775000000.0,
-    "net_income": 8014000000.0,
-    "revenue_prior": 63396000000.0,
-    "net_income_prior": 8888000000.0,
-    "operating_cash_flow": 9630.32,
-    "ebitda": 17700,
-    "fcf": null,
-    "total_debt": 48140,
+    "revenue": 78800000000,
+    "revenue_prior": null,
+    "net_income": 15000000000,
+    "net_income_prior": 13500000000,
+    "net_margin": 0.1904,
+    "net_margin_prior": null,
+    "total_debt": null,
+    "ebitda": 17700000000,
+    "operating_cash_flow": null,
     "current_ratio": null,
-    "net_margin": 0.1017,
-    "net_margin_prior": 0.1402,
-    "dividend_per_share": 0.2,
-    "payout_ratio": 0.253,
-    "dividend_frequency": "Annual",
-    "years_paid": 1,
+    "dividend_per_share": 0.02,
+    "payout_ratio": 0.1333,
+    "fcf": null,
     "cut_history_5y": null,
-    "shares_outstanding": 10000000000.0,
-    "total_equity": 104042000000.0,
-    "eps": 0.79
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      40050000000.0,
-      45416000000.0,
-      63396000000.0,
-      78775000000.0
-    ],
-    "net_income": [
-      7342000000.0,
-      10680000000.0,
-      8888000000.0,
-      8014000000.0
-    ],
-    "operating_cash_flow": [
-      13479000000.0,
-      5956000000.0,
-      10301000000.0,
-      9630000000.0
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "dividend_frequency": "annual",
+    "years_paid": null
+  }
 }

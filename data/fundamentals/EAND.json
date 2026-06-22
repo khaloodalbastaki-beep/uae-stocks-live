@@ -1,59 +1,28 @@
 {
   "symbol": "EAND",
-  "as_of": "FY2025",
+  "as_of": "2025-12-31",
   "currency": "AED",
-  "source": "FY2025 results (workflow-verified)",
+  "source": "e& press release",
   "source_url": "https://www.eand.com/en/news/24-feb-26-eand-delivers-record-revenue-and-net-profit-in-FY-2025.html",
-  "extractor": "workflow-research-fy2025",
+  "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-18T12:17:56+00:00",
+  "retrieved_at": "2026-06-21T09:34:05+00:00",
   "reported": {
-    "revenue": 72900000000.0,
-    "net_income": 14400000000.0,
-    "revenue_prior": 59200000000.0,
-    "net_income_prior": 10800000000.0,
+    "revenue": 72900000000,
+    "revenue_prior": 59200000000,
+    "net_income": 14400000000,
+    "net_income_prior": 10800000000,
     "net_margin": 0.1975,
-    "net_margin_prior": 0.1824,
-    "ebitda": 26500000000,
-    "dividend_per_share": 0.9,
-    "payout_ratio": 0.545,
-    "years_paid": null,
+    "net_margin_prior": 0.1825,
+    "total_debt": null,
+    "ebitda": 32000000000,
+    "operating_cash_flow": null,
+    "current_ratio": null,
+    "dividend_per_share": 0.09,
+    "payout_ratio": 0.0545,
+    "fcf": null,
     "cut_history_5y": null,
     "dividend_frequency": "annual",
-    "total_debt": null,
-    "current_ratio": null,
-    "operating_cash_flow": null,
-    "fcf": 6500000000,
-    "shares_outstanding": 8696754558.0,
-    "total_equity": 61762610000.0,
-    "eps": 1.65
-  },
-  "series": {
-    "years": [
-      2022,
-      2023,
-      2024,
-      2025
-    ],
-    "revenue": [
-      52400000000.0,
-      53800000000.0,
-      59200000000.0,
-      72900000000.0
-    ],
-    "net_income": [
-      10000000000.0,
-      10300000000.0,
-      10800000000.0,
-      14400000000.0
-    ],
-    "operating_cash_flow": [
-      null,
-      null,
-      null,
-      26051430000.0
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "years_paid": null
+  }
 }

@@ -1,59 +1,28 @@
 {
   "symbol": "DIN",
-  "as_of": "2026-06-18",
+  "as_of": null,
   "currency": "AED",
   "source": "Investing.com",
   "source_url": "https://www.investing.com/equities/dubai-insurance",
-  "extractor": "research-grounded/Explore (seed-2)",
-  "confidence": "medium",
-  "retrieved_at": "2026-06-18T12:17:56+00:00",
+  "extractor": "mizan/ollama",
+  "confidence": "high",
+  "retrieved_at": "2026-06-21T12:46:37+00:00",
   "reported": {
     "revenue": 1490000000,
-    "net_income": 214630000,
     "revenue_prior": null,
+    "net_income": 214630000,
     "net_income_prior": null,
-    "dividend_per_share": 1,
-    "dividend_frequency": "annual",
-    "payout_ratio": null,
-    "years_paid": 5,
-    "cut_history_5y": 0.2336,
-    "net_margin": 0.144,
+    "net_margin": 0.1441,
     "net_margin_prior": null,
-    "ebitda": null,
-    "operating_cash_flow": null,
-    "fcf": null,
     "total_debt": null,
+    "ebitda": 253700000,
+    "operating_cash_flow": null,
     "current_ratio": null,
-    "shares_outstanding": 100000000.0,
-    "total_equity": 937630000.0,
-    "eps": 1.32
-  },
-  "series": {
-    "years": [
-      2021,
-      2022,
-      2023,
-      2024
-    ],
-    "revenue": [
-      375150000.0,
-      413060000.0,
-      903590000.0,
-      1258000000.0
-    ],
-    "net_income": [
-      80570000.0,
-      90040000.0,
-      141890000.0,
-      132300000.0
-    ],
-    "operating_cash_flow": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "source": "workflow-research"
-  },
-  "statements_extractor": "workflow-research"
+    "dividend_per_share": 1.0,
+    "payout_ratio": 0.3727,
+    "fcf": null,
+    "cut_history_5y": null,
+    "dividend_frequency": "annual",
+    "years_paid": null
+  }
 }
