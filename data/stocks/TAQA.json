@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "TAQA",
-    "price": 2.64,
-    "change": 0.0,
-    "change_pct": 0.0,
-    "volume": 1500681,
+    "price": 2.63,
+    "change": -0.01,
+    "change_pct": -0.0038,
+    "volume": 2276484,
     "market_cap": null,
-    "high_52w": 2.64,
-    "low_52w": 2.491,
+    "high_52w": 2.708,
+    "low_52w": 2.616,
     "spark": [
-      2.557,
-      2.531,
-      2.531,
-      2.542,
-      2.547,
-      2.546,
-      2.58,
-      2.565,
-      2.547,
-      2.521,
-      2.502,
-      2.501,
-      2.499,
-      2.491,
-      2.513,
-      2.504,
-      2.538,
-      2.508,
-      2.541,
-      2.551,
-      2.583,
-      2.561,
-      2.581,
-      2.597,
-      2.58,
-      2.556,
-      2.555,
-      2.589,
-      2.575,
-      2.64
+      2.619,
+      2.616,
+      2.652,
+      2.68,
+      2.695,
+      2.708,
+      2.69,
+      2.665,
+      2.67,
+      2.7,
+      2.672,
+      2.65,
+      2.635,
+      2.652,
+      2.681,
+      2.655,
+      2.657,
+      2.656,
+      2.639,
+      2.631,
+      2.645,
+      2.681,
+      2.652,
+      2.669,
+      2.662,
+      2.674,
+      2.651,
+      2.625,
+      2.628,
+      2.63
     ],
     "prov": {
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-24T10:40:41.118Z",
+      "retrieved_at": "2026-06-24T10:59:21.261Z",
       "url": null,
       "lang": null
     }
@@ -197,10 +197,10 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0159,
-          "points": 26.5,
+          "raw": 0.016,
+          "points": 26.666666666666668,
           "weight": 0.2,
-          "note": "1.59% yield",
+          "note": "1.60% yield",
           "contribution": 5.3
         },
         {
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0159,
+    "dividend_yield": 0.016,
     "payout_ratio": 0.5,
     "fcf_coverage": 1.39,
     "net_debt_pressure": 0.3,
@@ -293,10 +293,10 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 1500681,
-      "high_52w": 2.64,
-      "low_52w": 2.491,
-      "dividend_yield": 0.0159
+      "volume": 2276484,
+      "high_52w": 2.708,
+      "low_52w": 2.616,
+      "dividend_yield": 0.016
     },
     "top_catalysts": [
       "Dependable dividend characteristics (Dividend 67/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "TAQA-2-1781480441",
+      "id": "TAQA-2-1781481562",
       "symbol": "TAQA",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-14T23:40:41+00:00",
+      "published_at": "2026-06-14T23:59:22+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-0-1781419241",
+      "id": "TAQA-0-1781420362",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-14T06:40:41+00:00",
+      "published_at": "2026-06-14T06:59:22+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-7-1779932441",
+      "id": "TAQA-7-1779933562",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-05-28T01:40:41+00:00",
+      "published_at": "2026-05-28T01:59:22+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-3-1778460041",
+      "id": "TAQA-3-1778461162",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-05-11T00:40:41+00:00",
+      "published_at": "2026-05-11T00:59:22+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-4-1776933641",
+      "id": "TAQA-4-1776934762",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-23T08:40:41+00:00",
+      "published_at": "2026-04-23T08:59:22+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-5-1776912041",
+      "id": "TAQA-5-1776913162",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-23T02:40:41+00:00",
+      "published_at": "2026-04-23T02:59:22+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-1-1776757241",
+      "id": "TAQA-1-1776758362",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-21T07:40:41+00:00",
+      "published_at": "2026-04-21T07:59:22+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-6-1775702441",
+      "id": "TAQA-6-1775703562",
       "symbol": "TAQA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-09T02:40:41+00:00",
+      "published_at": "2026-04-09T02:59:22+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       },
@@ -616,7 +616,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       }
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       }
@@ -667,7 +667,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       }
@@ -688,7 +688,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       }
@@ -707,7 +707,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       }
@@ -726,7 +726,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       }
@@ -745,7 +745,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       }
@@ -764,7 +764,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T10:40:41+00:00",
+        "retrieved_at": "2026-06-24T10:59:22+00:00",
         "url": null,
         "lang": null
       }
@@ -794,7 +794,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-24T10:40:41+00:00",
+      "retrieved_at": "2026-06-24T10:59:22+00:00",
       "url": null,
       "lang": null
     }
@@ -875,12 +875,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-24T10:40:41+00:00",
+        "as_of": "2026-06-24T10:59:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T10:40:41+00:00",
+          "retrieved_at": "2026-06-24T10:59:22+00:00",
           "url": null,
           "lang": null
         }
@@ -891,12 +891,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-24T10:40:41+00:00",
+        "as_of": "2026-06-24T10:59:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T10:40:41+00:00",
+          "retrieved_at": "2026-06-24T10:59:22+00:00",
           "url": null,
           "lang": null
         }
@@ -907,12 +907,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T10:40:41+00:00",
+        "as_of": "2026-06-24T10:59:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T10:40:41+00:00",
+          "retrieved_at": "2026-06-24T10:59:22+00:00",
           "url": null,
           "lang": null
         }
@@ -923,12 +923,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T10:40:41+00:00",
+        "as_of": "2026-06-24T10:59:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T10:40:41+00:00",
+          "retrieved_at": "2026-06-24T10:59:22+00:00",
           "url": null,
           "lang": null
         }
@@ -939,12 +939,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T10:40:41+00:00",
+        "as_of": "2026-06-24T10:59:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T10:40:41+00:00",
+          "retrieved_at": "2026-06-24T10:59:22+00:00",
           "url": null,
           "lang": null
         }
@@ -955,12 +955,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-24T10:40:41+00:00",
+        "as_of": "2026-06-24T10:59:22+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T10:40:41+00:00",
+          "retrieved_at": "2026-06-24T10:59:22+00:00",
           "url": null,
           "lang": null
         }
@@ -970,7 +970,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-23T08:40:41+00:00",
+        "published_at": "2026-06-23T08:59:22+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -978,7 +978,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T10:40:41+00:00",
+          "retrieved_at": "2026-06-24T10:59:22+00:00",
           "url": null,
           "lang": null
         }
@@ -986,7 +986,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-23T08:40:41+00:00",
+        "published_at": "2026-06-23T08:59:22+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -994,7 +994,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T10:40:41+00:00",
+          "retrieved_at": "2026-06-24T10:59:22+00:00",
           "url": null,
           "lang": null
         }
@@ -1002,7 +1002,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-21T16:40:41+00:00",
+        "published_at": "2026-06-21T16:59:22+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -1010,7 +1010,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T10:40:41+00:00",
+          "retrieved_at": "2026-06-24T10:59:22+00:00",
           "url": null,
           "lang": null
         }
@@ -1021,7 +1021,7 @@
   "ai_analysis": {
     "short_term": {
       "stance": "Neutral",
-      "confidence": "medium",
+      "confidence": "low",
       "reasons": [
         "Recent high-materiality disclosure introduces uncertainty that weighs on near-term clarity.",
         "Mid-tier stability score suggests typical utility resilience, which can cushion short-term volatility.",
@@ -1055,8 +1055,8 @@
     "_signal": {
       "short": {
         "stance": "Neutral",
-        "confidence": "medium",
-        "score": 52.4,
+        "confidence": "low",
+        "score": 51.3,
         "reasons": [
           "A high-materiality disclosure (70/100) is in the recent flow"
         ],
@@ -1078,11 +1078,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-24T10:40:41+00:00",
+    "generated_at": "2026-06-24T10:59:22+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-24T04:06:28+00:00"
   },
-  "generated_at": "2026-06-24T10:40:41+00:00",
+  "generated_at": "2026-06-24T10:59:22+00:00",
   "peers": {
     "archetype": "utility",
     "self": {
@@ -1092,7 +1092,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.0159,
+      "dy": 0.016,
       "upside": null
     },
     "medians": {
