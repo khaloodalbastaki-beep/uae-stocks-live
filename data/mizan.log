@@ -2711,3 +2711,19 @@ session_id: 20260621_154515_b2540b
 [analyst] ADNOCGAS: no/invalid output from nemotron — trying next
 [analyst] ADNOCGAS: narrated by freeagent
 [analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 38): EMSTEEL, RAKPROP, PUREHEALTH, SPACE42, TAQA, AIRARABIA
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] RAKPROP: 0 articles — kept prior
+[news] PUREHEALTH: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] PUREHEALTH: 0 articles — kept prior
+[news] SPACE42: 8 live articles (Google)
+[news] TAQA: 8 live articles (Google)
+[news] AIRARABIA: 8 live articles (Google)
+[news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[analyst] stale batch (1 of 1): ADNOCLS
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCLS: no/invalid output from nemotron — trying next
+[analyst] ADNOCLS: narrated by freeagent
+[analyst] done: 1/1 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
