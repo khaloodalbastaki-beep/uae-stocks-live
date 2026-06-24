@@ -2753,3 +2753,24 @@ session_id: 20260621_154515_b2540b
 [news] DIN: 4 live articles (Google)
 [news] done: 2/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
 [analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 4 eligible): MODON, NMDC, NMDCENR, PRESIGHT
+[mizan.fetch] render failed (Command '['node', '/Users/khalidalbastaki/Projects/uae-stocks-claude/scraper/fetch_page.mjs', 'https://www.modon.com/about-modon/media-centre/details/2026/02/18/modon-delivers-outstanding-growth-in-2025-with-aed-3.9-billion-in-net-profit-and-aed-46.0-billion-revenue-backlog']' timed out after 50 seconds)
+[mizan] MODON: not found / insufficient (kept modeled)
+[mizan.fetch] render failed (Command '['node', '/Users/khalidalbastaki/Projects/uae-stocks-claude/scraper/fetch_page.mjs', 'https://www.nmdc-group.com/assets/files/earnings-results/NMDC_Group_FY_2025_MD&A.pdf']' timed out after 50 seconds)
+[mizan] NMDC: not found / insufficient (kept modeled)
+[mizan.fetch] render failed (Command '['node', '/Users/khalidalbastaki/Projects/uae-stocks-claude/scraper/fetch_page.mjs', 'https://nmdc-group.com/en/media/press-releases/nmdc-energy-reports-29-year-on-year-growth-in-revenues-to-reach-aed-18-7-billion-in-2025-board-proposes-a-14-increase-in-cash-dividends-to-aed-800-million/']' timed out after 50 seconds)
+[mizan] NMDCENR: not found / insufficient (kept modeled)
+[mizan] PRESIGHT: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 1/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 40): EMSTEEL, RAKPROP, PUREHEALTH, CBD, DTC, EMAAR
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] RAKPROP: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] RAKPROP: 0 articles — kept prior
+[news] PUREHEALTH: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] PUREHEALTH: 0 articles — kept prior
+[news] CBD: 1 live articles (GDELT)
+[news] DTC: 8 live articles (Google)
+[news] EMAAR: 8 live articles (Google)
+[news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[analyst] nothing stale (all narrated within 24h) — skip
