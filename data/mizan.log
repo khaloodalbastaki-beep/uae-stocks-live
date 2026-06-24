@@ -2727,3 +2727,16 @@ session_id: 20260621_154515_b2540b
 [analyst] ADNOCLS: no/invalid output from nemotron — trying next
 [analyst] ADNOCLS: narrated by freeagent
 [analyst] done: 1/1 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 38): EMSTEEL, RAKPROP, PUREHEALTH, ARMX, CBD, DEYAAR
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] RAKPROP: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] RAKPROP: 0 articles — kept prior
+[news] PUREHEALTH: 0 articles — kept prior
+[news] ARMX: 3 live articles (Google)
+[news] CBD: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] CBD: 0 articles — kept prior
+[news] DEYAAR: 4 live articles (Google)
+[news] done: 2/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[analyst] nothing stale (all narrated within 24h) — skip
