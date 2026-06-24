@@ -286,3 +286,10 @@ Call log:
 [scrape] ADX board: 128 symbols, matched 33/33 registry, FADGI=10043.01
 [scrape] DFM search: matched 19/20 registry, DFMGI=6124.83
 [scrape] wrote 52 live quotes -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/live_quotes.json
+[scrape] ADX FAILED: page.waitForSelector: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator('.rdt_TableRow') to be visible
+    - locator resolved to 129 elements. Proceeding with the first one: <div id="row-0" role="row" class="sc-jrIDTr bpDwFC rdt_TableRow">…</div>
+
+[scrape] DFM search: matched 20/20 registry, DFMGI=6122.43
+[scrape] wrote 20 live quotes -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/live_quotes.json

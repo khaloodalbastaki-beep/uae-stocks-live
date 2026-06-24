@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "GFH",
-    "price": 2.17,
-    "change": -0.01,
-    "change_pct": -0.0045,
+    "price": 2.16,
+    "change": -0.02,
+    "change_pct": -0.0091,
     "volume": 0,
     "market_cap": null,
-    "high_52w": 2.269,
-    "low_52w": 2.126,
+    "high_52w": 2.333,
+    "low_52w": 2.137,
     "spark": [
-      2.128,
-      2.126,
-      2.155,
+      2.137,
+      2.163,
       2.16,
-      2.175,
-      2.199,
-      2.212,
+      2.161,
+      2.181,
+      2.21,
       2.234,
-      2.235,
-      2.223,
-      2.233,
-      2.236,
-      2.236,
-      2.246,
-      2.269,
-      2.259,
-      2.253,
-      2.238,
-      2.226,
-      2.2,
-      2.219,
-      2.23,
-      2.261,
-      2.247,
-      2.233,
       2.212,
-      2.199,
-      2.186,
-      2.192,
-      2.17
+      2.203,
+      2.19,
+      2.189,
+      2.213,
+      2.222,
+      2.252,
+      2.255,
+      2.271,
+      2.258,
+      2.285,
+      2.308,
+      2.308,
+      2.283,
+      2.275,
+      2.278,
+      2.282,
+      2.309,
+      2.305,
+      2.333,
+      2.321,
+      2.304,
+      2.16
     ],
     "prov": {
       "source_type": "official",
       "source_name": "DFM (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-24T09:44:10.413Z",
+      "retrieved_at": "2026-06-24T10:03:51.206Z",
       "url": null,
       "lang": null
     }
@@ -197,11 +197,11 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0454,
-          "points": 75.66666666666667,
+          "raw": 0.0456,
+          "points": 76.0,
           "weight": 0.18,
-          "note": "4.54% yield",
-          "contribution": 13.6
+          "note": "4.56% yield",
+          "contribution": 13.7
         },
         {
           "key": "payout",
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0454,
+    "dividend_yield": 0.0456,
     "payout_ratio": 0.68,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -294,9 +294,9 @@
     "quick_stats": {
       "market_cap": null,
       "volume": 0,
-      "high_52w": 2.269,
-      "low_52w": 2.126,
-      "dividend_yield": 0.0454
+      "high_52w": 2.333,
+      "low_52w": 2.137,
+      "dividend_yield": 0.0456
     },
     "top_catalysts": [
       "Dependable dividend characteristics (Dividend 70/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "GFH-2-1781052250",
+      "id": "GFH-2-1781053431",
       "symbol": "GFH",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-10T00:44:10+00:00",
+      "published_at": "2026-06-10T01:03:51+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "GFH-1-1778550250",
+      "id": "GFH-1-1778551431",
       "symbol": "GFH",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-12T01:44:10+00:00",
+      "published_at": "2026-05-12T02:03:51+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "GFH-0-1776836650",
+      "id": "GFH-0-1776837831",
       "symbol": "GFH",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-22T05:44:10+00:00",
+      "published_at": "2026-04-22T06:03:51+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "GFH-3-1776822250",
+      "id": "GFH-3-1776823431",
       "symbol": "GFH",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-04-22T01:44:10+00:00",
+      "published_at": "2026-04-22T02:03:51+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -404,7 +404,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       },
@@ -452,7 +452,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       }
@@ -477,7 +477,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       }
@@ -503,7 +503,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       }
@@ -534,7 +534,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-24T09:44:10+00:00",
+      "retrieved_at": "2026-06-24T10:03:51+00:00",
       "url": null,
       "lang": null
     }
@@ -606,12 +606,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -622,12 +622,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -638,12 +638,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -654,12 +654,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -670,12 +670,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -686,12 +686,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -701,7 +701,7 @@
       {
         "title": "Uae headline — global macro update 1",
         "theme": "MARITIME",
-        "published_at": "2026-06-24T08:44:10+00:00",
+        "published_at": "2026-06-24T09:03:51+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": -3.59,
@@ -709,7 +709,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -717,7 +717,7 @@
       {
         "title": "Uae headline — global macro update 2",
         "theme": "TOURISM",
-        "published_at": "2026-06-21T21:44:10+00:00",
+        "published_at": "2026-06-21T22:03:51+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -2.92,
@@ -725,7 +725,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -733,7 +733,7 @@
       {
         "title": "Uae headline — global macro update 3",
         "theme": "ENERGY",
-        "published_at": "2026-06-23T09:44:10+00:00",
+        "published_at": "2026-06-23T10:03:51+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.7,
@@ -741,7 +741,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -749,7 +749,7 @@
       {
         "title": "Uae headline — global macro update 4",
         "theme": "TRADE",
-        "published_at": "2026-06-21T13:44:10+00:00",
+        "published_at": "2026-06-21T14:03:51+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -0.29,
@@ -757,7 +757,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -765,7 +765,7 @@
       {
         "title": "Uae headline — global macro update 5",
         "theme": "TOURISM",
-        "published_at": "2026-06-23T17:44:10+00:00",
+        "published_at": "2026-06-23T18:03:51+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.65,
@@ -773,7 +773,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -784,7 +784,7 @@
   "ai_analysis": {
     "short_term": {
       "stance": "Neutral",
-      "confidence": "low",
+      "confidence": "medium",
       "reasons": [
         "No strong short-term catalysts; trading on broad market drift",
         "Moderate stability provides a baseline floor against near-term volatility",
@@ -819,12 +819,13 @@
     "_signal": {
       "short": {
         "stance": "Neutral",
-        "confidence": "low",
-        "score": 48.6,
+        "confidence": "medium",
+        "score": 47.2,
         "reasons": [
           "No strong short-term catalysts; trading on broad market drift"
         ],
         "risks": [
+          "Negative price momentum (-0.9% on the session in demo data)",
           "Recent disclosure tone skews cautious/negative"
         ]
       },
@@ -842,11 +843,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-24T09:44:10+00:00",
+    "generated_at": "2026-06-24T10:03:51+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-23T19:43:26+00:00"
   },
-  "generated_at": "2026-06-24T09:44:10+00:00",
+  "generated_at": "2026-06-24T10:03:51+00:00",
   "peers": {
     "archetype": "investment",
     "self": {
@@ -856,7 +857,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.0454,
+      "dy": 0.0456,
       "upside": null
     },
     "medians": {

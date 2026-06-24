@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "ADIB",
-    "price": 21.76,
-    "change": 0.241,
-    "change_pct": 0.0112,
-    "volume": 1235896,
-    "market_cap": null,
-    "high_52w": 23.782,
-    "low_52w": 21.321,
+    "price": 18.1,
+    "change": -0.5,
+    "change_pct": -0.0271,
+    "volume": 14539920,
+    "market_cap": 41039000000.0,
+    "high_52w": 22.08,
+    "low_52w": 16.09,
     "spark": [
-      21.321,
-      21.502,
-      21.559,
-      21.803,
-      21.736,
-      21.847,
-      21.977,
-      22.237,
-      22.384,
-      22.405,
-      22.435,
-      22.246,
-      22.281,
-      22.584,
-      22.84,
-      22.834,
-      23.103,
-      23.425,
-      23.361,
-      23.509,
-      23.459,
-      23.782,
-      23.606,
-      23.349,
-      23.433,
-      23.325,
-      23.357,
-      23.459,
-      23.52,
-      21.76
+      17.874,
+      18.011,
+      18.349,
+      18.37,
+      18.27,
+      18.249,
+      18.462,
+      18.306,
+      18.6,
+      18.469,
+      18.458,
+      18.77,
+      18.406,
+      18.789,
+      18.849,
+      18.86,
+      19.236,
+      19.04,
+      19.179,
+      19.341,
+      19.1,
+      19.076,
+      19.424,
+      19.693,
+      20.071,
+      20.187,
+      19.815,
+      20.174,
+      20.442,
+      18.1
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "ADX (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-06-24T09:44:10.413Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-06-24T10:03:51+00:00",
       "url": null,
       "lang": null
     }
@@ -191,17 +191,17 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 72,
+      "score": 75,
       "grade": "B+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0446,
-          "points": 74.33333333333334,
+          "raw": 0.0536,
+          "points": 89.33333333333334,
           "weight": 0.18,
-          "note": "4.46% yield",
-          "contribution": 13.4
+          "note": "5.36% yield",
+          "contribution": 16.1
         },
         {
           "key": "payout",
@@ -250,7 +250,7 @@
         }
       ]
     },
-    "headline": 61,
+    "headline": 62,
     "headline_grade": "C+",
     "archetype": "bank",
     "engine": "deterministic-v1"
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0446,
+    "dividend_yield": 0.0536,
     "payout_ratio": 0.56,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -292,14 +292,14 @@
       "ADX"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 1235896,
-      "high_52w": 23.782,
-      "low_52w": 21.321,
-      "dividend_yield": 0.0446
+      "market_cap": 41039000000.0,
+      "volume": 14539920,
+      "high_52w": 22.08,
+      "low_52w": 16.09,
+      "dividend_yield": 0.0536
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 72/100)"
+      "Dependable dividend characteristics (Dividend 75/100)"
     ],
     "top_risks": [
       "Execution and macro conditions remain the key swing factors"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "ADIB-4-1781934250",
+      "id": "ADIB-4-1781935431",
       "symbol": "ADIB",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-20T05:44:10+00:00",
+      "published_at": "2026-06-20T06:03:51+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ADIB-3-1780044250",
+      "id": "ADIB-3-1780045431",
       "symbol": "ADIB",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-05-29T08:44:10+00:00",
+      "published_at": "2026-05-29T09:03:51+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ADIB-1-1779662650",
+      "id": "ADIB-1-1779663831",
       "symbol": "ADIB",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-24T22:44:10+00:00",
+      "published_at": "2026-05-24T23:03:51+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ADIB-0-1779158650",
+      "id": "ADIB-0-1779159831",
       "symbol": "ADIB",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-05-19T02:44:10+00:00",
+      "published_at": "2026-05-19T03:03:51+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ADIB-2-1778985850",
+      "id": "ADIB-2-1778987031",
       "symbol": "ADIB",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-05-17T02:44:10+00:00",
+      "published_at": "2026-05-17T03:03:51+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ADIB-6-1776674650",
+      "id": "ADIB-6-1776675831",
       "symbol": "ADIB",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-20T08:44:10+00:00",
+      "published_at": "2026-04-20T09:03:51+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ADIB-5-1775277850",
+      "id": "ADIB-5-1775279031",
       "symbol": "ADIB",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-04T04:44:10+00:00",
+      "published_at": "2026-04-04T05:03:51+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -482,7 +482,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       },
@@ -590,7 +590,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       }
@@ -615,7 +615,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       }
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       }
@@ -662,7 +662,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       }
@@ -681,7 +681,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       }
@@ -700,7 +700,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T09:44:10+00:00",
+        "retrieved_at": "2026-06-24T10:03:51+00:00",
         "url": null,
         "lang": null
       }
@@ -730,7 +730,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-24T09:44:10+00:00",
+      "retrieved_at": "2026-06-24T10:03:51+00:00",
       "url": null,
       "lang": null
     }
@@ -774,11 +774,11 @@
     "fair_value": 23.524,
     "fair_low": 20.494,
     "fair_high": 27.743,
-    "price": 21.76,
-    "upside_pct": 0.081,
-    "rating": "fairly valued",
+    "price": 18.1,
+    "upside_pct": 0.2996,
+    "rating": "undervalued",
     "confidence": "high",
-    "summary": "Model fair value AED 23.52 is 8% above the AED 21.76 price — fairly valued. Driven mainly by book value vs ROE; assumes ~10% growth and a 10.5% discount rate, 22% ROE. High confidence (range AED 20.49–27.74).",
+    "summary": "Model fair value AED 23.52 is 30% above the AED 18.10 price — undervalued. Driven mainly by book value vs ROE; assumes ~10% growth and a 10.5% discount rate, 22% ROE. High confidence (range AED 20.49–27.74).",
     "methods": {
       "ddm": 18.518,
       "pb": 27.383,
@@ -830,12 +830,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -846,12 +846,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -862,12 +862,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -878,12 +878,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -894,12 +894,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -910,12 +910,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-24T09:44:10+00:00",
+        "as_of": "2026-06-24T10:03:51+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -925,7 +925,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-23T07:44:10+00:00",
+        "published_at": "2026-06-23T08:03:51+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -933,7 +933,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -941,7 +941,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-23T07:44:10+00:00",
+        "published_at": "2026-06-23T08:03:51+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -949,7 +949,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -957,7 +957,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-21T15:44:10+00:00",
+        "published_at": "2026-06-21T16:03:51+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -965,7 +965,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T09:44:10+00:00",
+          "retrieved_at": "2026-06-24T10:03:51+00:00",
           "url": null,
           "lang": null
         }
@@ -975,7 +975,7 @@
   },
   "ai_analysis": {
     "short_term": {
-      "stance": "Bullish",
+      "stance": "Neutral",
       "confidence": "high",
       "reasons": [
         "A high-materiality disclosure has recently entered the flow with a tone skewing positive, which can near-term influence sentiment and attention",
@@ -1008,24 +1008,23 @@
     },
     "_signal": {
       "short": {
-        "stance": "Bullish",
+        "stance": "Neutral",
         "confidence": "high",
-        "score": 73.4,
+        "score": 62.0,
         "reasons": [
-          "Positive price momentum (+1.1% on the session in demo data)",
           "A high-materiality disclosure (84/100) is in the recent flow",
           "Recent disclosure tone skews positive"
         ],
         "risks": [
-          "A surprise filing or a sector-wide move could shift the picture quickly"
+          "Negative price momentum (-2.7% on the session in demo data)"
         ]
       },
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 61.0,
+        "score": 61.7,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 72/100)"
+          "Dependable dividend characteristics (Dividend 75/100)"
         ],
         "risks": [
           "Execution and macro conditions remain the key swing factors"
@@ -1034,40 +1033,40 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-24T09:44:10+00:00",
+    "generated_at": "2026-06-24T10:03:51+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-24T03:05:02+00:00"
   },
-  "generated_at": "2026-06-24T09:44:10+00:00",
+  "generated_at": "2026-06-24T10:03:51+00:00",
   "peers": {
     "archetype": "bank",
     "self": {
       "symbol": "ADIB",
       "name_en": "Abu Dhabi Islamic Bank",
       "archetype": "bank",
-      "pe": 12.5,
-      "pb": 2.47,
+      "pe": 10.4,
+      "pb": 2.05,
       "roe": 0.2209,
-      "dy": 0.0446,
-      "upside": 0.081
+      "dy": 0.0536,
+      "upside": 0.2996
     },
     "medians": {
       "pe": 8.4,
       "pb": 1.36,
       "roe": 0.166,
       "dy": 0.032,
-      "upside": 0.32
+      "upside": 0.323
     },
     "peers": [
       {
         "symbol": "ADCB",
         "name_en": "Abu Dhabi Commercial Bank",
         "archetype": "bank",
-        "pe": 10.5,
-        "pb": 1.36,
+        "pe": 8.1,
+        "pb": 1.04,
         "roe": 0.129,
-        "dy": 0.0412,
-        "upside": 0.0186
+        "dy": 0.0538,
+        "upside": 0.328
       },
       {
         "symbol": "FAB",
@@ -1076,18 +1075,18 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.0044,
+        "dy": 0.0055,
         "upside": null
       },
       {
         "symbol": "RAKBANK",
         "name_en": "National Bank of Ras Al Khaimah",
         "archetype": "bank",
-        "pe": 7.2,
-        "pb": 1.31,
+        "pe": 9.8,
+        "pb": 1.8,
         "roe": 0.1831,
-        "dy": 0.0682,
-        "upside": 0.6746
+        "dy": 0.0496,
+        "upside": 0.2193
       },
       {
         "symbol": "SIB",
@@ -1116,8 +1115,8 @@
         "pe": 7.9,
         "pb": 1.05,
         "roe": 0.1411,
-        "dy": 0.0452,
-        "upside": 0.3884
+        "dy": 0.0453,
+        "upside": 0.392
       }
     ],
     "n": 9
