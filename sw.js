@@ -2,8 +2,8 @@
    The shell is stale-while-revalidate: serve from cache instantly, then refetch in the
    background so the next load is fresh (fixes the old cache-first-forever bug where users
    were stuck on stale JS after a deploy). Data is network-first. The cache name carries a
-   per-build id (refresh.sh stamps 20260625084824), so each deploy cleanly supersedes the last. */
-const VERSION = "20260625084824";
+   per-build id (refresh.sh stamps 20260625090447), so each deploy cleanly supersedes the last. */
+const VERSION = "20260625090447";
 const SHELL = "uae-shell-" + VERSION;
 const DATA = "uae-data-" + VERSION;
 const SHELL_ASSETS = [
