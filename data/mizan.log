@@ -3302,3 +3302,23 @@ session_id: 20260621_154515_b2540b
 [analyst] ADNOCLS: no/invalid output from nemotron — trying next
 [analyst] ADNOCLS: narrated by freeagent
 [analyst] done: 1/1 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): CBD, DEYAAR, DIN, DTC
+[mizan] CBD: wrote fundamentals (high, None)
+[mizan] DEYAAR: not found / insufficient (kept modeled)
+[mizan] DIN: wrote fundamentals (high, None)
+[mizan] DTC: not found / insufficient (kept modeled)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 41): EMSTEEL, RAKPROP, PUREHEALTH, CBD, MASHREQ, PARKIN
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] RAKPROP: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] RAKPROP: 0 articles — kept prior
+[news] PUREHEALTH: 0 articles — kept prior
+[news] CBD: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] CBD: 0 articles — kept prior
+[news] MASHREQ: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] MASHREQ: 0 articles — kept prior
+[news] PARKIN: 7 live articles (Google)
+[news] done: 1/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(2), hormuz=high(6), red_sea=low(1), regional_conflict=high(6), sanctions=low(0), global_rates=elevated(6)
+[analyst] nothing stale (all narrated within 24h) — skip
