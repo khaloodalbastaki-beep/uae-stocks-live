@@ -530,24 +530,37 @@
         <div class="muted">▲ Bull — ${esc(a.scenarios.bull || "—")}</div>
         <div class="muted">▶ Base — ${esc(a.scenarios.base || "—")}</div>
         <div class="muted">▼ Bear — ${esc(a.scenarios.bear || "—")}</div></div>` : "";
+    const px = q.price, fv = v.fair_value, rng = s._real && s._real.expected_range_pct;
+    const band = (p, pct) => `${fmtAED(p * (1 - pct / 100))} – ${fmtAED(p * (1 + pct / 100))}`;
+    const hrows = [];
+    if (px != null && rng != null) {
+      const mo = +(rng * Math.sqrt(21)).toFixed(1);  // ~1-month range scales with √time
+      hrows.push(`<tr><td class="muted" style="padding:3px 10px 3px 0">Today</td><td class="mono">${band(px, rng)}</td><td class="mono muted" style="padding-left:10px">±${rng}%</td></tr>`);
+      hrows.push(`<tr><td class="muted" style="padding:3px 10px 3px 0">Short term (~1mo)</td><td class="mono">${band(px, mo)}</td><td class="mono muted" style="padding-left:10px">±${mo}%</td></tr>`);
+    } else if (px != null) {
+      hrows.push(`<tr><td class="muted" style="padding:3px 10px 3px 0">Today / short term</td><td class="mono muted" colspan="2">needs price history (ADX not on free feeds)</td></tr>`);
+    }
+    if (fv != null) hrows.push(`<tr><td class="muted" style="padding:3px 10px 3px 0">Long term (target)</td><td class="mono" style="font-weight:700">${fmtAED(fv)}</td><td class="mono ${upCls}" style="padding-left:10px">${upTxt}</td></tr>`);
+    const priceBlock = hrows.length
+      ? `<div style="margin-top:12px"><div class="k" style="margin-bottom:4px">Expected price</div>
+          <table style="border-collapse:collapse;font-size:15px">${hrows.join("")}</table>
+          <div class="muted" style="font-size:11px;margin-top:5px">Today &amp; short-term are ranges around the current price — direction isn't predictable, but the range is blind-validated (≈72%/92% coverage). Long-term is the model's fair-value target.</div></div>`
+      : "";
+    const techLine = s._real
+      ? `<div class="muted" style="margin-top:8px">Real technicals: RSI ${s._real.rsi_14 ?? "—"} (${s._real.rsi_zone || "—"}) · trend ${esc(s._real.trend)} · vs 20-day avg ${s._real.price_vs_sma_20_pct > 0 ? "+" : ""}${s._real.price_vs_sma_20_pct}%</div>`
+      : "";
     const verdict = `<div class="panel ai-verdict">
       <h3 style="margin:0 0 10px">AI Verdict</h3>
-      <div class="flexrow" style="gap:22px;flex-wrap:wrap;align-items:flex-end">
-        <div><div class="k">Action — buy or not</div>
-          <div class="mono ${act.cls}" style="font-size:27px;font-weight:800;line-height:1.1">${call}</div>
-          <div class="muted" style="font-size:12px">${esc(act.label)}</div></div>
-        <div><div class="k">Expected price (target)</div>
-          <div class="mono" style="font-size:27px;font-weight:800;line-height:1.1">${fmtAED(v.fair_value)} <span class="${upCls}" style="font-size:15px">${upTxt}</span></div>
-          <div class="muted" style="font-size:12px">now ${fmtAED(q.price)} · today <span class="${(q.change_pct || 0) >= 0 ? "pos" : "neg"}">${fmtPctSigned(q.change_pct)}</span></div></div>
+      <div><div class="k">Action — buy or not</div>
+        <div class="mono ${act.cls}" style="font-size:28px;font-weight:800;line-height:1.1">${call}</div>
+        <div class="muted" style="font-size:12px">${esc(act.label)} · now ${fmtAED(q.price)} · today <span class="${(q.change_pct || 0) >= 0 ? "pos" : "neg"}">${fmtPctSigned(q.change_pct)}</span></div>
       </div>
+      ${priceBlock}
       <div class="kv" style="margin-top:12px">
         <div><div class="k">Rating</div><div class="v">${esc(v.rating || "—")}${v.confidence ? ` · ${esc(v.confidence)}` : ""}</div></div>
         <div><div class="k">Scores G/S/D</div><div class="v mono">${(sc.growth && sc.growth.score) ?? "—"} / ${(sc.stability && sc.stability.score) ?? "—"} / ${(sc.dividend && sc.dividend.score) ?? "—"}</div></div>
       </div>
-      ${(() => { const rs = s._real; return rs
-        ? `<div style="margin-top:10px"><strong>Typical move in a day:</strong> <span class="mono" style="font-weight:700">±${rs.expected_range_pct}%</span> <span class="muted">(±${rs.expected_range_2sig_pct}% on a big day; ${rs.points}d real history, blind-validated ≈72%/92%). Today's direction isn't predictable — no reliable signal. Today so far ${fmtPctSigned(q.change_pct)}.</span>
-            <div class="muted" style="margin-top:4px">Real technicals: RSI ${rs.rsi_14 ?? "—"} (${rs.rsi_zone || "—"}) · trend ${esc(rs.trend)} · vs 20-day avg ${rs.price_vs_sma_20_pct > 0 ? "+" : ""}${rs.price_vs_sma_20_pct}%</div></div>`
-        : `<div style="margin-top:10px"><strong>Typical move in a day:</strong> <span class="muted">no free price history for this name (ADX isn't on free feeds). Today so far ${fmtPctSigned(q.change_pct)}.</span></div>`; })()}
+      ${techLine}
       <div style="margin-top:8px"><strong>Why</strong><ul>${cats}</ul></div>
       ${scn}
     </div>`;
