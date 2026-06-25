@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-25T04:58:28+00:00",
+  "as_of": "2026-06-25T06:04:41+00:00",
   "risk_level": "high",
   "method": "heuristic from recent (<=3d) headline volume + escalation keywords; not a rating",
   "drivers": [
@@ -12,13 +12,19 @@
         "Utilities",
         "Holding / Diversified"
       ],
-      "risk": "low",
+      "risk": "elevated",
       "items": [
         {
           "title": "2026 Brent Crude Price Outlook: Falling Below $80, Where Is the Next Key Level?",
           "published_at": "2026-06-23T07:22:25+00:00",
           "domain": "tradingkey.com",
           "age_days": 1.9
+        },
+        {
+          "title": "Nigeria’s Crude Oil Output Exceeds OPEC Quota For The First Time In 2026",
+          "published_at": "2026-06-25T05:55:16+00:00",
+          "domain": "independent.ng",
+          "age_days": 0.0
         }
       ]
     },
@@ -33,10 +39,16 @@
       "risk": "high",
       "items": [
         {
-          "title": "Oil tankers with 35 million barrels stuck in Persian Gulf exited Strait of Hormuz since Iran deal",
-          "published_at": "2026-06-24T16:03:41+00:00",
+          "title": "Iran declares new Hormuz route 'unacceptable and dangerous,' warns against ships transiting without approval",
+          "published_at": "2026-06-25T03:28:00+00:00",
           "domain": "cnbc.com",
-          "age_days": 0.5
+          "age_days": 0.1
+        },
+        {
+          "title": "Oil prices erase wartime gains as supply concerns ease with Hormuz tanker traffic resuming",
+          "published_at": "2026-06-25T02:25:00+00:00",
+          "domain": "cnbc.com",
+          "age_days": 0.2
         },
         {
           "title": "Nearly 20% of Strait of Hormuz traffic is sanctioned ships linked to Iran, data show",
@@ -45,27 +57,21 @@
           "age_days": 0.6
         },
         {
-          "title": "Oil tanker traffic through Strait of Hormuz hits highest level since conflict began but mines remain",
-          "published_at": "2026-06-23T16:41:00+00:00",
-          "domain": "foxbusiness.com",
-          "age_days": 1.5
-        },
-        {
           "title": "More stranded oil tankers exit Hormuz, adding to global supply",
           "published_at": "2026-06-24T11:26:53+00:00",
           "domain": "reuters.com",
-          "age_days": 0.7
+          "age_days": 0.8
         },
         {
           "title": "Another Hormuz? The Red Sea’s Threat to the Global Economy",
           "published_at": "2026-06-24T21:33:27+00:00",
           "domain": "cfr.org",
-          "age_days": 0.3
+          "age_days": 0.4
         },
         {
-          "title": "IRGC Navy Rejects IMO's Safe-Passage Plan for Strait of Hormuz",
-          "published_at": "2026-06-25T02:41:11+00:00",
-          "domain": "maritime-executive.com",
+          "title": "Iran warns over new Hormuz shipping route; threatens vessels violating transit rules | LIVE BLOG",
+          "published_at": "2026-06-25T04:21:00+00:00",
+          "domain": "i24news.tv",
           "age_days": 0.1
         }
       ]
@@ -96,10 +102,10 @@
       "risk": "high",
       "items": [
         {
-          "title": "Trump, Republican senator in shouting match over unpopular Iran war",
+          "title": "Trump, Republican senator engage in shouting match over Iran war",
           "published_at": "2026-06-24T13:42:00+00:00",
           "domain": "reuters.com",
-          "age_days": 0.6
+          "age_days": 0.7
         },
         {
           "title": "Iran War Transforms Gulf Arab Region",
@@ -114,10 +120,10 @@
           "age_days": 1.0
         },
         {
-          "title": "Live Updates: Latest from Israel, Iran, and Middle East",
-          "published_at": "2026-06-24T02:09:25+00:00",
-          "domain": "jpost.com",
-          "age_days": 1.1
+          "title": "Iran claims US defeat in Middle East war deal",
+          "published_at": "2026-06-24T10:52:09+00:00",
+          "domain": "straitstimes.com",
+          "age_days": 0.8
         },
         {
           "title": "Middle East Aviation Recovery: Flight Activity Rebounds at Gulf Hubs in 2026 - News and Statistics",
@@ -129,7 +135,7 @@
           "title": "Airlines resume some Middle East flights but disruption continues",
           "published_at": "2026-06-23T07:00:00+00:00",
           "domain": "reuters.com",
-          "age_days": 1.9
+          "age_days": 2.0
         }
       ]
     },
@@ -157,40 +163,40 @@
       "risk": "elevated",
       "items": [
         {
-          "title": "The Fed may raise interest rates within months. Here's what it means for you.",
-          "published_at": "2026-06-24T20:48:37+00:00",
-          "domain": "abcnews.com",
-          "age_days": 0.3
-        },
-        {
           "title": "Will New US Fed Chair Kevin Warsh Raise Interest Rates This Year?",
           "published_at": "2026-06-22T08:56:06+00:00",
           "domain": "global.morningstar.com",
-          "age_days": 2.8
+          "age_days": 2.9
+        },
+        {
+          "title": "The Fed may raise interest rates within months. Here's what it means for you.",
+          "published_at": "2026-06-24T20:48:37+00:00",
+          "domain": "abcnews.com",
+          "age_days": 0.4
+        },
+        {
+          "title": "Fed Holds Rates and Leans Toward Fighting Inflation With Future Increases",
+          "published_at": "2026-06-21T07:00:00+00:00",
+          "domain": "nytimes.com",
+          "age_days": 4.0
         },
         {
           "title": "BofA flips the script with bombshell Fed interest-rate outlook",
           "published_at": "2026-06-24T11:07:00+00:00",
           "domain": "thestreet.com",
-          "age_days": 0.7
+          "age_days": 0.8
         },
         {
           "title": "Investment Managers React To Central Bank Rate Decisions",
           "published_at": "2026-06-22T11:27:38+00:00",
           "domain": "familywealthreport.com",
-          "age_days": 2.7
+          "age_days": 2.8
         },
         {
           "title": "BofA, Deutsche Bank expect Fed to raise rates in September",
           "published_at": "2026-06-22T14:27:36+00:00",
           "domain": "reuters.com",
-          "age_days": 2.6
-        },
-        {
-          "title": "Fed Interest Rate Decision June 2026: Hawkish Pause Signals Higher for Longer",
-          "published_at": "2026-06-24T16:09:41+00:00",
-          "domain": "intellectia.ai",
-          "age_days": 0.5
+          "age_days": 2.7
         }
       ]
     }

@@ -3278,3 +3278,27 @@ session_id: 20260621_154515_b2540b
 [analyst] ADNOCGAS: no/invalid output from nemotron — trying next
 [analyst] ADNOCGAS: narrated by freeagent
 [analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): RAKBANK, RAKPROP, SIB, SPACE42
+[mizan] RAKBANK: not found / insufficient (kept modeled)
+[mizan] RAKPROP: not found / insufficient (kept modeled)
+[mizan] SIB: wrote fundamentals (high, 2025-12-31)
+[mizan] SPACE42: not found / insufficient (kept modeled)
+[mizan] done: 1/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 40): EMSTEEL, RAKPROP, PUREHEALTH, CBD, EMIRATESNBD, GFH
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] RAKPROP: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] RAKPROP: 0 articles — kept prior
+[news] PUREHEALTH: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] PUREHEALTH: 0 articles — kept prior
+[news] CBD: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] CBD: 0 articles — kept prior
+[news] EMIRATESNBD: 8 live articles (Google)
+[news] GFH: 1 live articles (Google)
+[news] done: 2/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(2), hormuz=high(6), red_sea=low(1), regional_conflict=high(6), sanctions=low(0), global_rates=elevated(6)
+[analyst] stale batch (1 of 1): ADNOCLS
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCLS: no/invalid output from nemotron — trying next
+[analyst] ADNOCLS: narrated by freeagent
+[analyst] done: 1/1 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
