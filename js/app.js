@@ -521,34 +521,34 @@
     const narrator = a.narrator ? `narrated by <strong>${esc(a.narrator)}</strong> (fleet agent)` : `engine: ${esc(a._engine)}`;
     const v = s.valuation || {}, sc = s.scores || {}, q = s.quote || {};
     const act = recAction(v);
+    const callMap = { "Accumulate": "BUY", "Buy on weakness": "BUY (on dips)", "Hold (near fair value)": "HOLD", "Trim / cautious": "REDUCE", "Reduce": "SELL", "No fair value yet": "—" };
+    const call = callMap[act.label] || act.label;
     const upTxt = v.upside_pct == null ? "—" : (v.upside_pct > 0 ? "+" : "") + (v.upside_pct * 100).toFixed(0) + "%";
     const upCls = v.upside_pct == null ? "flat" : v.upside_pct > 0.02 ? "pos" : v.upside_pct < -0.02 ? "neg" : "flat";
     const cats = (s.news || []).slice(0, 2).map((n) => `<li>${esc(n.title)} <span class="muted">(${fmtDate(n.published_at)})</span></li>`).join("") || `<li class="muted">no fresh catalysts on file</li>`;
-    const sst = esc(String((((a || {}).short_term) || {}).stance || "—"));
     const scn = a.scenarios ? `<div style="margin-top:8px"><strong>Scenarios</strong>
         <div class="muted">▲ Bull — ${esc(a.scenarios.bull || "—")}</div>
         <div class="muted">▶ Base — ${esc(a.scenarios.base || "—")}</div>
         <div class="muted">▼ Bear — ${esc(a.scenarios.bear || "—")}</div></div>` : "";
     const verdict = `<div class="panel ai-verdict">
-      <div class="flexrow" style="justify-content:space-between;align-items:center">
-        <h3 style="margin:0">AI Verdict</h3><span class="chip ${act.cls}" style="font-weight:700">${act.label}</span>
+      <h3 style="margin:0 0 10px">AI Verdict</h3>
+      <div class="flexrow" style="gap:22px;flex-wrap:wrap;align-items:flex-end">
+        <div><div class="k">Action — buy or not</div>
+          <div class="mono ${act.cls}" style="font-size:27px;font-weight:800;line-height:1.1">${call}</div>
+          <div class="muted" style="font-size:12px">${esc(act.label)}</div></div>
+        <div><div class="k">Expected price (target)</div>
+          <div class="mono" style="font-size:27px;font-weight:800;line-height:1.1">${fmtAED(v.fair_value)} <span class="${upCls}" style="font-size:15px">${upTxt}</span></div>
+          <div class="muted" style="font-size:12px">now ${fmtAED(q.price)} · today <span class="${(q.change_pct || 0) >= 0 ? "pos" : "neg"}">${fmtPctSigned(q.change_pct)}</span></div></div>
       </div>
-      <div class="kv" style="margin-top:10px">
-        <div><div class="k">Price</div><div class="v mono">${fmtAED(q.price)}</div></div>
-        <div><div class="k">${t("fair_value")}</div><div class="v mono">${fmtAED(v.fair_value)}</div></div>
-        <div><div class="k">Upside</div><div class="v mono ${upCls}">${upTxt}</div></div>
+      <div class="kv" style="margin-top:12px">
         <div><div class="k">Rating</div><div class="v">${esc(v.rating || "—")}${v.confidence ? ` · ${esc(v.confidence)}` : ""}</div></div>
-        <div><div class="k">Today</div><div class="v mono ${(q.change_pct || 0) >= 0 ? "pos" : "neg"}">${fmtPctSigned(q.change_pct)}</div></div>
         <div><div class="k">Scores G/S/D</div><div class="v mono">${(sc.growth && sc.growth.score) ?? "—"} / ${(sc.stability && sc.stability.score) ?? "—"} / ${(sc.dividend && sc.dividend.score) ?? "—"}</div></div>
       </div>
       ${(() => { const rs = s._real; return rs
-        ? `<div style="margin-top:10px"><strong>Expected move today:</strong> <span class="mono" style="font-weight:700">±${rs.expected_range_pct}%</span>
-            <span class="muted">(typical day; ±${rs.expected_range_2sig_pct}% on a big day — from ${rs.points}d of real history, blind-validated ≈72%/92% coverage). Direction not forecast (no skill). Today so far ${fmtPctSigned(q.change_pct)}.</span>
+        ? `<div style="margin-top:10px"><strong>Typical move in a day:</strong> <span class="mono" style="font-weight:700">±${rs.expected_range_pct}%</span> <span class="muted">(±${rs.expected_range_2sig_pct}% on a big day; ${rs.points}d real history, blind-validated ≈72%/92%). Today's direction isn't predictable — no reliable signal. Today so far ${fmtPctSigned(q.change_pct)}.</span>
             <div class="muted" style="margin-top:4px">Real technicals: RSI ${rs.rsi_14 ?? "—"} (${rs.rsi_zone || "—"}) · trend ${esc(rs.trend)} · vs 20-day avg ${rs.price_vs_sma_20_pct > 0 ? "+" : ""}${rs.price_vs_sma_20_pct}%</div></div>`
-        : `<div style="margin-top:10px"><strong>Expected move today:</strong> <span class="muted">no free price history for this name (ADX isn't on free feeds) — no validated daily range. Short-term stance ${sst}; today so far ${fmtPctSigned(q.change_pct)}.</span></div>`; })()}
-      <div style="margin-top:8px"><strong>Today's catalysts</strong><ul>${cats}</ul></div>
-      ${a.dominant_factor ? `<div class="muted"><strong>Lead factor:</strong> ${esc(a.dominant_factor)}</div>` : ""}
-      ${a.signal_alignment ? `<div class="muted"><strong>Signal check:</strong> ${esc(a.signal_alignment)}</div>` : ""}
+        : `<div style="margin-top:10px"><strong>Typical move in a day:</strong> <span class="muted">no free price history for this name (ADX isn't on free feeds). Today so far ${fmtPctSigned(q.change_pct)}.</span></div>`; })()}
+      <div style="margin-top:8px"><strong>Why</strong><ul>${cats}</ul></div>
       ${scn}
     </div>`;
     return verdict + `<div class="disclaimer">⚠️ ${t("not_advice")} — stance &amp; confidence are computed deterministically by the engine; ${narrator} writes the prose only. House scores from code, never the LLM.</div>${a.narrator ? `<div class="flexrow" style="margin:6px 0"><span class="badge ai">${esc(a.narrator)}</span><span class="muted">prose</span></div>` : ""}
