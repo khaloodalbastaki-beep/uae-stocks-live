@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-25T09:14:29+00:00",
+  "as_of": "2026-06-25T10:17:05+00:00",
   "risk_level": "high",
   "method": "heuristic from recent (<=3d) headline volume + escalation keywords; not a rating",
   "drivers": [
@@ -15,22 +15,28 @@
       "risk": "elevated",
       "items": [
         {
-          "title": "2026 Brent Crude Price Outlook: Falling Below $80, Where Is the Next Key Level?",
-          "published_at": "2026-06-23T07:22:25+00:00",
+          "title": "WTI Crude Drops Below $70; Iraq Pressures OPEC With \"Tactical Retreat\" as Risk of Collapse Surges",
+          "published_at": "2026-06-25T09:14:26+00:00",
           "domain": "tradingkey.com",
-          "age_days": 2.1
+          "age_days": 0.0
         },
         {
           "title": "Nigeria’s Crude Oil Output Exceeds OPEC Quota For The First Time In 2026",
           "published_at": "2026-06-25T05:55:16+00:00",
           "domain": "independent.ng",
-          "age_days": 0.1
+          "age_days": 0.2
         },
         {
           "title": "Iraq’s OPEC Quota Crisis: Fiscal Pressures and Key Scenarios",
           "published_at": "2026-06-25T08:46:26+00:00",
           "domain": "discoveryalert.com.au",
-          "age_days": 0.0
+          "age_days": 0.1
+        },
+        {
+          "title": "2026 Brent Crude Price Outlook: Falling Below $80, Where Is the Next Key Level?",
+          "published_at": "2026-06-23T07:22:25+00:00",
+          "domain": "tradingkey.com",
+          "age_days": 2.1
         }
       ]
     },
@@ -48,37 +54,37 @@
           "title": "Iran warns ships it's 'unacceptable and dangerous' to transit the Strait of Hormuz without their approval",
           "published_at": "2026-06-25T03:28:00+00:00",
           "domain": "cnbc.com",
-          "age_days": 0.2
-        },
-        {
-          "title": "Oil tanker navigates the Strait of Hormuz despite threats from Iran’s Revolutionary Guard",
-          "published_at": "2026-06-25T09:10:00+00:00",
-          "domain": "21alivenews.com",
-          "age_days": 0.0
-        },
-        {
-          "title": "An oil tanker navigates the Strait of Hormuz despite threats from Iran’s Revolutionary Guard",
-          "published_at": "2026-06-25T06:11:00+00:00",
-          "domain": "apnews.com",
-          "age_days": 0.1
-        },
-        {
-          "title": "Another Hormuz? The Red Sea’s Threat to the Global Economy",
-          "published_at": "2026-06-24T21:33:27+00:00",
-          "domain": "cfr.org",
-          "age_days": 0.5
-        },
-        {
-          "title": "Stoic Warrior oil tanker navigates the Strait of Hormuz despite Iran threats",
-          "published_at": "2026-06-25T07:22:00+00:00",
-          "domain": "independent.co.uk",
-          "age_days": 0.1
+          "age_days": 0.3
         },
         {
           "title": "Iran warns against Hormuz crossings without authorisation",
           "published_at": "2026-06-25T09:00:00+00:00",
           "domain": "aljazeera.com",
-          "age_days": 0.0
+          "age_days": 0.1
+        },
+        {
+          "title": "An oil tanker navigates the Strait of Hormuz despite threats from Iran’s Revolutionary Guard",
+          "published_at": "2026-06-25T08:42:00+00:00",
+          "domain": "apnews.com",
+          "age_days": 0.1
+        },
+        {
+          "title": "An oil tanker navigates the Strait of Hormuz despite threats from Iran’s Revolutionary Guard",
+          "published_at": "2026-06-25T07:56:00+00:00",
+          "domain": "nypost.com",
+          "age_days": 0.1
+        },
+        {
+          "title": "Oil price falls to pre-Iran war levels as more tankers exit strait of Hormuz",
+          "published_at": "2026-06-25T08:05:00+00:00",
+          "domain": "theguardian.com",
+          "age_days": 0.1
+        },
+        {
+          "title": "An oil tanker navigates the Strait of Hormuz despite threats from Iran's Revolutionary Guard",
+          "published_at": "2026-06-25T06:27:55+00:00",
+          "domain": "kdhnews.com",
+          "age_days": 0.2
         }
       ]
     },
@@ -92,14 +98,7 @@
         "Industrials"
       ],
       "risk": "low",
-      "items": [
-        {
-          "title": "The next Strait of Hormuz crisis could be even worse",
-          "published_at": "2026-06-18T10:11:27+00:00",
-          "domain": "chathamhouse.org",
-          "age_days": 7.0
-        }
-      ]
+      "items": []
     },
     {
       "key": "regional_conflict",
@@ -117,13 +116,13 @@
           "title": "Trump, Republican senator engage in shouting match over Iran war",
           "published_at": "2026-06-24T13:42:00+00:00",
           "domain": "reuters.com",
-          "age_days": 0.8
+          "age_days": 0.9
         },
         {
           "title": "Iran War Transforms Gulf Arab Region",
           "published_at": "2026-06-24T20:31:12+00:00",
           "domain": "alhurra.com",
-          "age_days": 0.5
+          "age_days": 0.6
         },
         {
           "title": "Trump: Iran Is Making Big Concessions; They Agree To All My Demands",
@@ -135,13 +134,13 @@
           "title": "Iran claims US defeat in Middle East war deal",
           "published_at": "2026-06-24T10:52:09+00:00",
           "domain": "straitstimes.com",
-          "age_days": 0.9
+          "age_days": 1.0
         },
         {
-          "title": "Situation in the Middle East",
-          "published_at": "2026-06-22T07:00:00+00:00",
-          "domain": "eda.admin.ch",
-          "age_days": 3.1
+          "title": "Airlines resume some Middle East flights but disruption continues",
+          "published_at": "2026-06-23T07:00:00+00:00",
+          "domain": "reuters.com",
+          "age_days": 2.1
         }
       ]
     },
@@ -172,19 +171,13 @@
           "title": "Will New US Fed Chair Kevin Warsh Raise Interest Rates This Year?",
           "published_at": "2026-06-22T08:56:06+00:00",
           "domain": "global.morningstar.com",
-          "age_days": 3.0
+          "age_days": 3.1
         },
         {
           "title": "The Fed may raise interest rates within months. Here's what it means for you.",
           "published_at": "2026-06-24T20:48:37+00:00",
           "domain": "abcnews.com",
-          "age_days": 0.5
-        },
-        {
-          "title": "Fed Holds Rates and Leans Toward Fighting Inflation With Future Increases",
-          "published_at": "2026-06-21T07:00:00+00:00",
-          "domain": "nytimes.com",
-          "age_days": 4.1
+          "age_days": 0.6
         },
         {
           "title": "Bonds, Precious Metals Markets Converge on Inflation Concerns",
@@ -196,13 +189,19 @@
           "title": "New inflation report could fuel concerns over higher interest rates, even as oil prices fall",
           "published_at": "2026-06-25T09:00:00+00:00",
           "domain": "nbcnews.com",
-          "age_days": 0.0
+          "age_days": 0.1
         },
         {
-          "title": "BofA flips the script with bombshell Fed interest-rate outlook",
-          "published_at": "2026-06-24T11:07:00+00:00",
-          "domain": "thestreet.com",
-          "age_days": 0.9
+          "title": "Investment Managers React To Central Bank Rate Decisions",
+          "published_at": "2026-06-22T11:27:38+00:00",
+          "domain": "familywealthreport.com",
+          "age_days": 3.0
+        },
+        {
+          "title": "US bond market expects rate hikes the Fed may never deliver",
+          "published_at": "2026-06-25T10:08:09+00:00",
+          "domain": "reuters.com",
+          "age_days": 0.0
         }
       ]
     }
