@@ -910,6 +910,23 @@
       const cur = document.documentElement.dataset.theme === "light" ? "dark" : "light";
       document.documentElement.dataset.theme = cur; localStorage.setItem("uae_theme", cur);
     });
+    // Hard refresh — unregister the service worker + clear all caches, then reload to the
+    // latest deployed version. Fixes the "stale app after a deploy" case for good.
+    const rb = $("#refresh-btn");
+    if (rb) rb.addEventListener("click", async () => {
+      rb.disabled = true; rb.textContent = "…";
+      try {
+        if ("serviceWorker" in navigator) {
+          const regs = await navigator.serviceWorker.getRegistrations();
+          await Promise.all(regs.map((r) => r.unregister()));
+        }
+        if (window.caches) {
+          const keys = await caches.keys();
+          await Promise.all(keys.map((k) => caches.delete(k)));
+        }
+      } catch (e) { /* best effort */ }
+      location.reload();
+    });
     const savedTheme = localStorage.getItem("uae_theme");
     if (savedTheme) document.documentElement.dataset.theme = savedTheme;
     window.addEventListener("hashchange", route);
