@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-24T12:51:47.221Z",
+      "retrieved_at": "2026-06-25T05:08:09.549Z",
       "url": null,
       "lang": null
     }
@@ -191,8 +191,8 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 61,
-      "grade": "C+",
+      "score": 55,
+      "grade": "C",
       "subfactors": [
         {
           "key": "yield",
@@ -242,15 +242,15 @@
         {
           "key": "freq",
           "label": "Frequency & regularity",
-          "raw": "annual",
-          "points": 55.0,
+          "raw": "none",
+          "points": 0.0,
           "weight": 0.1,
-          "note": "annual distribution, 3y streak",
-          "contribution": 5.5
+          "note": "none distribution, 3y streak",
+          "contribution": 0.0
         }
       ]
     },
-    "headline": 52,
+    "headline": 50,
     "headline_grade": "C",
     "archetype": "healthcare",
     "engine": "deterministic-v1"
@@ -274,7 +274,7 @@
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
-    "frequency": "annual",
+    "frequency": "none",
     "years_paid": 3
   },
   "fundamentals_source": {
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "JULPHAR-1-1779760307",
+      "id": "JULPHAR-1-1779818889",
       "symbol": "JULPHAR",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-26T01:51:47+00:00",
+      "published_at": "2026-05-26T18:08:09+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "JULPHAR-2-1779252707",
+      "id": "JULPHAR-2-1779311289",
       "symbol": "JULPHAR",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-20T04:51:47+00:00",
+      "published_at": "2026-05-20T21:08:09+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "JULPHAR-3-1778482307",
+      "id": "JULPHAR-3-1778540889",
       "symbol": "JULPHAR",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-11T06:51:47+00:00",
+      "published_at": "2026-05-11T23:08:09+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "JULPHAR-0-1778291507",
+      "id": "JULPHAR-0-1778350089",
       "symbol": "JULPHAR",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-09T01:51:47+00:00",
+      "published_at": "2026-05-09T18:08:09+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -404,7 +404,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
@@ -419,7 +419,7 @@
       "published_at": "2026-06-05T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T02:00:23+00:00",
+      "retrieved_at": "2026-06-24T22:39:09+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -427,7 +427,7 @@
     {
       "symbol": "JULPHAR",
       "kind": "board",
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -442,7 +442,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -450,7 +450,7 @@
     {
       "symbol": "JULPHAR",
       "kind": "agm",
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -467,7 +467,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -475,7 +475,7 @@
     {
       "symbol": "JULPHAR",
       "kind": "board",
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -493,7 +493,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -504,17 +504,17 @@
       "symbol": "JULPHAR",
       "amount": 0.1568,
       "currency": "AED",
-      "agm_date": "2026-07-08",
-      "entitlement_date": "2026-07-28",
-      "ex_date": "2026-07-27",
-      "payment_date": "2026-08-17",
+      "agm_date": "2026-07-09",
+      "entitlement_date": "2026-07-29",
+      "ex_date": "2026-07-28",
+      "payment_date": "2026-08-18",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -523,17 +523,17 @@
       "symbol": "JULPHAR",
       "amount": 0.1568,
       "currency": "AED",
-      "agm_date": "2026-06-02",
-      "entitlement_date": "2026-06-20",
-      "ex_date": "2026-06-19",
-      "payment_date": "2026-07-06",
+      "agm_date": "2026-06-03",
+      "entitlement_date": "2026-06-21",
+      "ex_date": "2026-06-20",
+      "payment_date": "2026-07-07",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -542,17 +542,17 @@
       "symbol": "JULPHAR",
       "amount": 0.1568,
       "currency": "AED",
-      "agm_date": "2025-05-28",
-      "entitlement_date": "2025-06-15",
-      "ex_date": "2025-06-14",
-      "payment_date": "2025-07-01",
+      "agm_date": "2025-05-29",
+      "entitlement_date": "2025-06-16",
+      "ex_date": "2025-06-15",
+      "payment_date": "2025-07-02",
       "frequency": "annual",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -582,7 +582,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-24T12:51:47+00:00",
+      "retrieved_at": "2026-06-25T05:08:09+00:00",
       "url": null,
       "lang": null
     }
@@ -654,12 +654,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -670,12 +670,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -686,12 +686,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -702,12 +702,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -718,12 +718,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -734,12 +734,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -749,7 +749,7 @@
       {
         "title": "Healthcare headline — global macro update 1",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-24T08:51:47+00:00",
+        "published_at": "2026-06-25T01:08:09+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -2.24,
@@ -757,7 +757,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -765,7 +765,7 @@
       {
         "title": "Healthcare headline — global macro update 2",
         "theme": "TRADE",
-        "published_at": "2026-06-21T14:51:47+00:00",
+        "published_at": "2026-06-22T07:08:09+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -2.28,
@@ -773,7 +773,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -781,7 +781,7 @@
       {
         "title": "Healthcare headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-21T19:51:47+00:00",
+        "published_at": "2026-06-22T12:08:09+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -0.09,
@@ -789,7 +789,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -797,7 +797,7 @@
       {
         "title": "Healthcare headline — global macro update 4",
         "theme": "ENERGY",
-        "published_at": "2026-06-23T01:51:47+00:00",
+        "published_at": "2026-06-23T18:08:09+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": 3.21,
@@ -805,7 +805,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -818,35 +818,35 @@
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Recent disclosure tone skews positive, suggesting management confidence or improving conditions.",
-        "Stability score in the mid-50s to mid-60s range provides moderate near-term predictability.",
-        "Dividend score in the mid-50s range may offer some investor return anchor.",
-        "Mixed fundamentals leave room for short-term noise without a strong catalyst."
+        "Recent disclosure tone skews positive",
+        "Stability score near the midpoint provides a defensive floor in a defensive sector",
+        "Dividend score in the low-60s offers some income anchor for holders",
+        "Absence of an immediate negative catalyst keeps near-term pressure limited"
       ],
       "risks": [
-        "Negative price momentum indicates near-term selling pressure or investor caution.",
-        "Growth score in the high-30s limits upside catalysts and earnings surprise potential.",
-        "Positive disclosures without broad-based fundamental support may reverse quickly.",
-        "Healthcare-specific headwinds could emerge without being evident in the current tone."
+        "A surprise filing or a sector-wide move could shift the picture quickly",
+        "Positive disclosure tone may not translate into sustained price momentum without volume follow-through",
+        "Any adverse regulatory headline in the broader healthcare space could unwind near-term sentiment",
+        "Liquidity on ADX can amplify moves, making the stock vulnerable to sudden drawdowns"
       ],
-      "what_would_change_view": "A confirmed rebound in price momentum tied to concrete operational or revenue updates, rather than disclosure tone alone."
+      "what_would_change_view": "A material new contract, regulatory approval, or a sharper improvement in disclosure tone would demand a re-rate."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Stability score in the mid-to-high 50s suggests the business has some cyclical resilience.",
-        "Dividend score in the mid-50s implies a tradition of returning capital to shareholders.",
-        "Mixed fundamentals indicate the company is not in distress, but growth remains limited.",
-        "Regional healthcare demand may provide a durable baseline even with uneven execution."
+        "Mixed fundamentals; no single pillar stands out",
+        "Stability score suggests moderate operational consistency but not enough to offset growth constraints",
+        "Dividend score indicates a modest income profile that may attract long-term holders",
+        "Healthcare sector exposure offers relative defensiveness in periods of macro stress"
       ],
       "risks": [
-        "Weak growth signal (Growth score in the high-30s) constrains long-term compounding potential.",
-        "No single fundamental pillar stands out, implying structural ambiguity.",
-        "Declines in stability or dividend scores would signal deteriorating quality.",
-        "Regulatory or competitive shifts in pharma could impair the current baseline."
+        "Weak growth signal (Growth 39/100)",
+        "Growth score well below 50 points to limited organic expansion and reliance on one-off items or pricing power",
+        "Dividend income could come under pressure if earnings stay stagnant",
+        "Structural competition or pricing pressure could erode margins over time"
       ],
-      "what_would_change_view": "Sustained improvement in growth or stability metrics that moves the scores materially higher, or a persistent decline that confirms structural deterioration."
+      "what_would_change_view": "Sustained improvement in the Growth score toward or above 50, backed by visible revenue expansion, would alter the long-term Neutral stance."
     },
     "_signal": {
       "short": {
@@ -863,7 +863,7 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 51.4,
+        "score": 50.1,
         "reasons": [
           "Mixed fundamentals; no single pillar stands out"
         ],
@@ -874,11 +874,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-24T12:51:47+00:00",
+    "generated_at": "2026-06-25T05:08:09+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-23T14:20:48+00:00"
+    "narrated_at": "2026-06-24T16:13:15+00:00"
   },
-  "generated_at": "2026-06-24T12:51:47+00:00",
+  "generated_at": "2026-06-25T05:08:09+00:00",
   "peers": {
     "archetype": "healthcare",
     "self": {

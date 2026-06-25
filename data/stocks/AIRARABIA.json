@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "AIRARABIA",
-    "price": 5.6,
-    "change": -0.07,
-    "change_pct": -0.0123,
-    "volume": 0,
-    "market_cap": null,
-    "high_52w": 5.793,
-    "low_52w": 5.589,
+    "price": 3.49,
+    "change": 0.07,
+    "change_pct": 0.0214,
+    "volume": 11266020,
+    "market_cap": 25264000000.0,
+    "high_52w": 3.77,
+    "low_52w": 2.82,
     "spark": [
-      5.625,
-      5.659,
-      5.667,
-      5.651,
-      5.589,
-      5.649,
-      5.605,
-      5.64,
-      5.66,
-      5.645,
-      5.658,
-      5.695,
-      5.667,
-      5.633,
-      5.707,
-      5.71,
-      5.724,
-      5.749,
-      5.701,
-      5.728,
-      5.759,
-      5.74,
-      5.793,
-      5.765,
-      5.737,
-      5.719,
-      5.738,
-      5.689,
-      5.65,
-      5.6
+      3.307,
+      3.277,
+      3.282,
+      3.329,
+      3.348,
+      3.359,
+      3.36,
+      3.376,
+      3.365,
+      3.366,
+      3.403,
+      3.355,
+      3.312,
+      3.276,
+      3.277,
+      3.232,
+      3.239,
+      3.2,
+      3.188,
+      3.228,
+      3.176,
+      3.134,
+      3.196,
+      3.212,
+      3.168,
+      3.144,
+      3.206,
+      3.228,
+      3.191,
+      3.49
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "DFM (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-06-24T12:51:47.221Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-06-25T05:08:09+00:00",
       "url": null,
       "lang": null
     }
@@ -191,17 +191,17 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 62,
+      "score": 63,
       "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0054,
-          "points": 9.000000000000002,
+          "raw": 0.0086,
+          "points": 14.333333333333334,
           "weight": 0.18,
-          "note": "0.54% yield",
-          "contribution": 1.6
+          "note": "0.86% yield",
+          "contribution": 2.6
         },
         {
           "key": "payout",
@@ -250,7 +250,7 @@
         }
       ]
     },
-    "headline": 57,
+    "headline": 58,
     "headline_grade": "C+",
     "archetype": "aviation",
     "engine": "deterministic-v1"
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0054,
+    "dividend_yield": 0.0086,
     "payout_ratio": 0.5,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -280,7 +280,7 @@
   "fundamentals_source": {
     "real": true,
     "as_of": "2025-12-31",
-    "source": "Air Arabia press release",
+    "source": "Air Arabia Press Release",
     "source_url": "https://press.airarabia.com/air-arabia-posts-record-aed-18-billion-net-profit-before-tax-in-2025/",
     "extractor": "mizan/ollama",
     "confidence": "high"
@@ -292,14 +292,14 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 0,
-      "high_52w": 5.793,
-      "low_52w": 5.589,
-      "dividend_yield": 0.0054
+      "market_cap": 25264000000.0,
+      "volume": 11266020,
+      "high_52w": 3.77,
+      "low_52w": 2.82,
+      "dividend_yield": 0.0086
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 62/100)"
+      "Dependable dividend characteristics (Dividend 63/100)"
     ],
     "top_risks": [
       "Execution and macro conditions remain the key swing factors"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "AIRARABIA-7-1780728707",
+      "id": "AIRARABIA-7-1780787289",
       "symbol": "AIRARABIA",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-06T06:51:47+00:00",
+      "published_at": "2026-06-06T23:08:09+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AIRARABIA-0-1780379507",
+      "id": "AIRARABIA-0-1780438089",
       "symbol": "AIRARABIA",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-02T05:51:47+00:00",
+      "published_at": "2026-06-02T22:08:09+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AIRARABIA-2-1779864707",
+      "id": "AIRARABIA-2-1779923289",
       "symbol": "AIRARABIA",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-05-27T06:51:47+00:00",
+      "published_at": "2026-05-27T23:08:09+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AIRARABIA-5-1779166307",
+      "id": "AIRARABIA-5-1779224889",
       "symbol": "AIRARABIA",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-05-19T04:51:47+00:00",
+      "published_at": "2026-05-19T21:08:09+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AIRARABIA-4-1777261907",
+      "id": "AIRARABIA-4-1777320489",
       "symbol": "AIRARABIA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-27T03:51:47+00:00",
+      "published_at": "2026-04-27T20:08:09+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AIRARABIA-6-1777110707",
+      "id": "AIRARABIA-6-1777169289",
       "symbol": "AIRARABIA",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-04-25T09:51:47+00:00",
+      "published_at": "2026-04-26T02:08:09+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AIRARABIA-1-1775908307",
+      "id": "AIRARABIA-1-1775966889",
       "symbol": "AIRARABIA",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-04-11T11:51:47+00:00",
+      "published_at": "2026-04-12T04:08:09+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AIRARABIA-3-1774767107",
+      "id": "AIRARABIA-3-1774825689",
       "symbol": "AIRARABIA",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-03-29T06:51:47+00:00",
+      "published_at": "2026-03-29T23:08:09+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
@@ -517,43 +517,13 @@
   ],
   "news": [
     {
-      "title": "Air Arabia sets July debut for Sharjah–London flights",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVXJKV0VETWZabEZ2UlI5Z19lSzZhTjQ3VXFGUnNWbmpSV2tyUzJtOWJ1WlZlM21MZUkxbDZZOWYycEhwQV9XaUlQemJIWU9aNzRSRGtPMWRXYTZfZEFFczlVc0dCRkZoNi11R0lSa3NTLXBzNmZGUUZuNDJQdjBCUlV4OUhaUmFER2xSc3Uybw?oc=5",
-      "domain": "connectingtravel.com",
-      "published_at": "2026-06-23T17:28:38+00:00",
+      "title": "Air Arabia achieves record AED1.8 billion profit in 2025; proposes 30 fils dividend per share",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVDN1LTdHbm1WVFBtNzkzVmZlNGIyR2VuRGV0aDhHNmJlbHFxNjYxUGFJTFBmdTN3dTVETEpTYWZvcmVkeEJ6azdIcjhEQ3dpY2g0R0VBY2p6allsaWh4T2ZNd1RIT0V3R0Q0eEhoTW5sZnQzd1VwZjgwUmViTEZjSVRhLTNEX05Oa2JkdmZR?oc=5",
+      "domain": "wam.ae",
+      "published_at": "2026-06-20T23:46:18+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T05:09:02+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Earnings are in from Air Arabia, Taqa, Tabreed, Al Ansari Financial Services",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOXc1NXVRX2Q3MzFwSmpTWlhHYTZWY2E3VU1WQUlEQzVoekI4aGszVnc0Y28tSUQxeEh0Z2locXh1dUotcXRBUTJGZVBRbEFRdFU5S0VCS1FnTXpiMXgwN1N3UHFvM1NUOVJfZ2dncG9IMGplc3dwZkdqV2tuY1E4MWNTWFBSZExlR045c2NXRTVqYkFtdlY5Z080b3ZucE5HWnlGYTd2a1FPX0JWMU12SnU1d0o?oc=5",
-      "domain": "enterpriseam.com",
-      "published_at": "2026-05-18T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-24T05:09:02+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Air Arabia Posts Mixed Q1 2026 Performance With AED 278 Million Profit and Strong 86 Percent Load Factor Across UAE, Morocco, Egypt and Pakistan Amid Regional Disruption",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13cjU1SnRVVHhLWHVFZFJfM2pLaXpiM2tUdlczaWpIY09fV2xVMUpsSU9HeW9CSk9rTWtpZ2otbDFIcXU0R1pWcDJHNlQzbzdscGxHUzRZeWV1ZldPTXo4NTZtZkg0SXAxVnh2elRn?oc=5",
-      "domain": "travelandtourworld.com",
-      "published_at": "2026-06-17T18:54:18+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-24T05:09:02+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Air Arabia Reports 22% Drop In First-Quarter Profit",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV3dldVdpWl9MMmpjdUp5YjlqMWh2MHc4QXB0bVQyQVJEak5nd21lbmFlWUVxbDJQV1lGY2x4WmEzX2tzZ1Z0WDc5ZUdKMUctcmdKeWFxN3JweFZLcThXQkRQTHVGSzNqekIwbzN5TzctTnYtS1BCejFwdnE5Y21KTUY3WE13d050akNjamRVdDczLXVYbVhhVTN1N2dVRllWQzFXUmR3?oc=5",
-      "domain": "aviationweek.com",
-      "published_at": "2026-05-18T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-24T05:09:02+00:00",
+      "retrieved_at": "2026-06-25T01:45:30+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -563,27 +533,27 @@
       "published_at": "2026-06-18T13:31:32+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T05:09:02+00:00",
+      "retrieved_at": "2026-06-25T01:45:30+00:00",
       "feed_source": "Google News (live media)"
     },
     {
-      "title": "Air Arabia launches daily non-stop Sharjah and Aleppo flights",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FLUdNTGh1LVI0aG4welNHNGw3R09veWpoeHFhTk90eUVtM1plTFFpWjRpdnJKWXZUcDg4bXhFSWtsbDFGSDNHcGdYbjN4RUdsUVREdzM3RmdGNmM?oc=5",
-      "domain": "sharjah24.ae",
-      "published_at": "2026-06-18T08:28:44+00:00",
+      "title": "Earnings are in from Air Arabia, Taqa, Tabreed, Al Ansari Financial Services",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOXc1NXVRX2Q3MzFwSmpTWlhHYTZWY2E3VU1WQUlEQzVoekI4aGszVnc0Y28tSUQxeEh0Z2locXh1dUotcXRBUTJGZVBRbEFRdFU5S0VCS1FnTXpiMXgwN1N3UHFvM1NUOVJfZ2dncG9IMGplc3dwZkdqV2tuY1E4MWNTWFBSZExlR045c2NXRTVqYkFtdlY5Z080b3ZucE5HWnlGYTd2a1FPX0JWMU12SnU1d0o?oc=5",
+      "domain": "enterpriseam.com",
+      "published_at": "2026-05-18T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T05:09:02+00:00",
+      "retrieved_at": "2026-06-25T01:45:30+00:00",
       "feed_source": "Google News (live media)"
     },
     {
-      "title": "Air Arabia reports US$76m Q1 profit",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PenVvTkN0czY3emdGd3h4aGlPZ3VzWnE0eV90QkYtSkR3VzFsWFBRcTRrU2hjNDNIRFdQbE1BQjRqTEs2ejJNRGs2dFR6SFRWYk1RdEQ3T2VrVjdUZ1c5ODIyMVI0LWJ4LWo4NVZ1TDNOVnQ1RjJB?oc=5",
-      "domain": "connectingtravel.com",
-      "published_at": "2026-05-15T07:00:00+00:00",
+      "title": "Air Arabia Reports 22% Drop In First-Quarter Profit",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV3dldVdpWl9MMmpjdUp5YjlqMWh2MHc4QXB0bVQyQVJEak5nd21lbmFlWUVxbDJQV1lGY2x4WmEzX2tzZ1Z0WDc5ZUdKMUctcmdKeWFxN3JweFZLcThXQkRQTHVGSzNqekIwbzN5TzctTnYtS1BCejFwdnE5Y21KTUY3WE13d050akNjamRVdDczLXVYbVhhVTN1N2dVRllWQzFXUmR3?oc=5",
+      "domain": "aviationweek.com",
+      "published_at": "2026-05-18T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T05:09:02+00:00",
+      "retrieved_at": "2026-06-25T01:45:30+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -593,7 +563,37 @@
       "published_at": "2026-05-15T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T05:09:02+00:00",
+      "retrieved_at": "2026-06-25T01:45:30+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Air Arabia Posts Mixed Q1 2026 Performance With AED 278 Million Profit and Strong 86 Percent Load Factor Across UAE, Morocco, Egypt and Pakistan Amid Regional Disruption",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13cjU1SnRVVHhLWHVFZFJfM2pLaXpiM2tUdlczaWpIY09fV2xVMUpsSU9HeW9CSk9rTWtpZ2otbDFIcXU0R1pWcDJHNlQzbzdscGxHUzRZeWV1ZldPTXo4NTZtZkg0SXAxVnh2elRn?oc=5",
+      "domain": "travelandtourworld.com",
+      "published_at": "2026-06-17T18:54:18+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-25T01:45:30+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Air Arabia sets July debut for London flights",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOX1dqQjdUeU1oQXhpVFpVdTBSdTZfT0FUMWkycFJJX2tXNk0tVFEwSXc2VDcxQ0dqZVZEUW9ucDk2U3ZTNlQ5a09fcE5aRXg2VEltbk5pazdIeXVodXRoYTdQcVhUT1otejRRbzdydzd2QTZvR0dyaE1QZ29mVHB4V0V0TW5fQQ?oc=5",
+      "domain": "connectingtravel.com",
+      "published_at": "2026-06-23T15:23:27+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-25T01:45:30+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Air Arabia hit by regional disruptions; Asyad delivers mixed 1Q results",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUmFvYzJWQ1JGVUhJRU9KSS1sREJjdUc4RXFXUmxVMmdkb3A5UWx0LWZIMUVRaDFnSzltekhyMnlkeGw1dXV3c1lNOXE1Q3k0dzBGcXM3Q0ZGM1hlWTVSRnJoTkh0Ym9FSUF3bzkxTWNVbU5TdHk4VlZwZXpTWlo5MGxYSzU3aGhVQVlKbU15bFJhMWs1UlVPSmtPcUhhR3g0NU9Ya0tnMHk2NWVXVUFLSG9CNUtVQVI3?oc=5",
+      "domain": "enterpriseam.com",
+      "published_at": "2026-05-19T07:00:00+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-25T01:45:30+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -601,7 +601,7 @@
     {
       "symbol": "AIRARABIA",
       "kind": "board",
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -616,7 +616,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -624,7 +624,7 @@
     {
       "symbol": "AIRARABIA",
       "kind": "agm",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -649,7 +649,7 @@
     {
       "symbol": "AIRARABIA",
       "kind": "board",
-      "date": "2025-12-19",
+      "date": "2025-12-20",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -667,7 +667,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -678,17 +678,17 @@
       "symbol": "AIRARABIA",
       "amount": 0.1169,
       "currency": "AED",
-      "agm_date": "2026-07-06",
-      "entitlement_date": "2026-07-26",
-      "ex_date": "2026-07-25",
-      "payment_date": "2026-08-15",
+      "agm_date": "2026-07-07",
+      "entitlement_date": "2026-07-27",
+      "ex_date": "2026-07-26",
+      "payment_date": "2026-08-16",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -697,17 +697,17 @@
       "symbol": "AIRARABIA",
       "amount": 0.1169,
       "currency": "AED",
-      "agm_date": "2026-05-16",
-      "entitlement_date": "2026-06-03",
-      "ex_date": "2026-06-02",
-      "payment_date": "2026-06-19",
+      "agm_date": "2026-05-17",
+      "entitlement_date": "2026-06-04",
+      "ex_date": "2026-06-03",
+      "payment_date": "2026-06-20",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -716,17 +716,17 @@
       "symbol": "AIRARABIA",
       "amount": 0.1169,
       "currency": "AED",
-      "agm_date": "2025-05-27",
-      "entitlement_date": "2025-06-14",
-      "ex_date": "2025-06-13",
-      "payment_date": "2025-06-30",
+      "agm_date": "2025-05-28",
+      "entitlement_date": "2025-06-15",
+      "ex_date": "2025-06-14",
+      "payment_date": "2025-07-01",
       "frequency": "annual",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -756,7 +756,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-24T12:51:47+00:00",
+      "retrieved_at": "2026-06-25T05:08:09+00:00",
       "url": null,
       "lang": null
     }
@@ -770,25 +770,25 @@
       2026
     ],
     "revenue": [
-      1994900000.0,
-      2295900000.0,
-      2642400000.0,
-      3041100000.0,
-      3500000000.0
+      5039900000.0,
+      5800400000.0,
+      6675700000.0,
+      7683000000.0,
+      8842400000.0
     ],
     "net_income": [
-      308400000.0,
-      348700000.0,
-      394200000.0,
-      445500000.0,
-      503300000.0
+      779200000.0,
+      881100000.0,
+      996000000.0,
+      1125600000.0,
+      1271500000.0
     ],
     "operating_cash_flow": [
-      342300000.0,
-      387100000.0,
-      437600000.0,
-      494500000.0,
-      558700000.0
+      864900000.0,
+      978000000.0,
+      1105600000.0,
+      1249400000.0,
+      1411400000.0
     ],
     "ratios": {
       "net_margin": 0.1438,
@@ -837,12 +837,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -853,12 +853,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -869,12 +869,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -885,12 +885,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -901,12 +901,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -917,12 +917,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -932,7 +932,7 @@
       {
         "title": "Jet headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-23T17:51:47+00:00",
+        "published_at": "2026-06-24T10:08:09+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 1.55,
@@ -940,7 +940,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -948,7 +948,7 @@
       {
         "title": "Jet headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-23T06:51:47+00:00",
+        "published_at": "2026-06-23T23:08:09+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -1.47,
@@ -956,7 +956,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -964,7 +964,7 @@
       {
         "title": "Jet headline — global macro update 3",
         "theme": "TOURISM",
-        "published_at": "2026-06-24T04:51:47+00:00",
+        "published_at": "2026-06-24T21:08:09+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.67,
@@ -972,7 +972,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -980,7 +980,7 @@
       {
         "title": "Jet headline — global macro update 4",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-22T07:51:47+00:00",
+        "published_at": "2026-06-23T00:08:09+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": 4.82,
@@ -988,7 +988,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -996,7 +996,7 @@
       {
         "title": "Jet headline — global macro update 5",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-22T05:51:47+00:00",
+        "published_at": "2026-06-22T22:08:09+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 4.65,
@@ -1004,7 +1004,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -1014,58 +1014,59 @@
   },
   "ai_analysis": {
     "short_term": {
-      "stance": "Neutral",
-      "confidence": "medium",
+      "stance": "Bullish",
+      "confidence": "high",
       "reasons": [
-        "A recent high-materiality disclosure refreshed the public information set for the stock.",
-        "The tone of that disclosure was positive, suggesting favorable near-term operational or financial commentary from management.",
-        "Stability (60/100) and Dividend (62/100) scores are above the midpoint, providing some near-term return support.",
-        "Logistics & Transport thematic exposure remains relevant in the current UAE market context."
+        "A recent high-materiality disclosure entered the flow, signaling a meaningful corporate update that may move near-term sentiment.",
+        "The tone of recent disclosures skews positive, which can provide temporary support for the share price.",
+        "Stability and dividend scores are around the mid-tier range, suggesting limited near-term defensive cushion if sentiment sours.",
+        "Growth is in the low-to-mid range, so there is no strong earnings-catalyst narrative to sustain a bullish short-term view."
       ],
       "risks": [
-        "Recent negative price momentum on the session signals near-term weakness or profit-taking.",
-        "Disclosure-driven moves can reverse quickly if follow-up data disappoints.",
-        "Sector-specific headwinds such as fuel costs, regulatory changes, or competitive pressure could offset positive news flow.",
-        "Growth score (52/100) is only moderate, limiting near-term upside catalysts."
+        "Negative price momentum is visible, with weakness on the session indicating near-term seller pressure.",
+        "The high-materiality disclosure may also contain risk factors that offset positive tone gains once fully digested.",
+        "With a moderate growth score, the stock lacks momentum-building catalysts that could reverse the negative price action.",
+        "As a logistics and transport operator, the company faces fuel cost and macro swings that can quickly alter near-term outcomes."
       ],
-      "what_would_change_view": "A sequential deterioration in price momentum paired with a negative or lower-impact disclosure would shift the view toward negative; conversely, a volume-backed move sustaining above the recent disclosure range would upgrade it."
+      "what_would_change_view": "A clear reversal in price momentum alongside continued positive disclosure follow-through would shift the short-term view positive; a downgrade in material disclosure tone or a drop in stability or growth scores would reinforce negativity."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Dividend score (62/100) indicates dependable income return characteristics over full cycles.",
-        "Stability score (60/100) suggests a business model resilient enough to withstand sector cyclicality.",
-        "Low-cost carrier positioning in the GCC provides a structural cost advantage and demand exposure.",
-        "Management's recent transparent communication (high-materiality disclosure) supports governance quality."
+        "The dividend score sits in the moderate-to-comfortable range, making the stock suitable for retail investors prioritizing income.",
+        "Stability is in the mid-range, indicating the business is not at the speculative end of the transport sector.",
+        "Logistics and transport is a structural segment of the UAE economy, providing a long-term demand base for the company's services.",
+        "The overall balance of moderate growth, stability, and dividend scores supports a neutral rather than bearish long-term baseline."
       ],
       "risks": [
-        "Execution and macro conditions remain the key swing factors for the long-term thesis.",
-        "Growth score (52/100) is modest, indicating limited organic expansion visibility.",
-        "Airline industry cyclicality, overcapacity, or geopolitical disruptions in the region pose structural risks.",
-        "Competitive pressure or regulatory changes could compress long-term margins."
+        "Execution and macro conditions remain the key swing factors, introducing uncertainty around sustained earnings and dividend continuity.",
+        "Growth is in the low-to-mid range, limiting structural upside unless the company accelerates its expansion plans.",
+        "Macro factors such as regional economic activity, fuel costs, and regulatory changes could impair long-term stability.",
+        "The low long-term confidence level itself signals persistent structural or competitive uncertainty around the trajectory."
       ],
-      "what_would_change_view": "Sustained improvement in execution visibility (such as consistent capacity growth or margin expansion) and a macro backdrop supportive of airline demand would move the view to positive; a dividend policy downgrade or structural decline in market share would move it to negative."
+      "what_would_change_view": "A meaningful improvement in the growth score beyond the mid-tier range or visible reduction in execution and macro risk would move the view positive; a decline in dividend reliability or stability would keep it negative."
     },
     "_signal": {
       "short": {
-        "stance": "Neutral",
-        "confidence": "medium",
-        "score": 56.8,
+        "stance": "Bullish",
+        "confidence": "high",
+        "score": 66.9,
         "reasons": [
+          "Positive price momentum (+2.1% on the session in demo data)",
           "A high-materiality disclosure (87/100) is in the recent flow",
           "Recent disclosure tone skews positive"
         ],
         "risks": [
-          "Negative price momentum (-1.2% on the session in demo data)"
+          "A surprise filing or a sector-wide move could shift the picture quickly"
         ]
       },
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 57.1,
+        "score": 57.3,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 62/100)"
+          "Dependable dividend characteristics (Dividend 63/100)"
         ],
         "risks": [
           "Execution and macro conditions remain the key swing factors"
@@ -1074,11 +1075,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-24T12:51:47+00:00",
+    "generated_at": "2026-06-25T05:08:09+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-23T17:34:16+00:00"
+    "narrated_at": "2026-06-24T18:22:24+00:00"
   },
-  "generated_at": "2026-06-24T12:51:47+00:00",
+  "generated_at": "2026-06-25T05:08:09+00:00",
   "peers": {
     "archetype": "aviation",
     "self": {
@@ -1088,14 +1089,14 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.0054,
+      "dy": 0.0086,
       "upside": null
     },
     "medians": {
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.005,
+      "dy": 0.009,
       "upside": null
     },
     "peers": [],

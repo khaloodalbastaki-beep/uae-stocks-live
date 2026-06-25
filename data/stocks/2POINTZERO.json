@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-24T12:51:47.221Z",
+      "retrieved_at": "2026-06-25T05:08:09.549Z",
       "url": null,
       "lang": null
     }
@@ -93,7 +93,7 @@
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": -0.2643,
+          "raw": -0.2644,
           "points": 0.0,
           "weight": 0.14,
           "note": "compressing margins",
@@ -191,8 +191,8 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 68,
-      "grade": "B",
+      "score": 73,
+      "grade": "B+",
       "subfactors": [
         {
           "key": "yield",
@@ -242,15 +242,15 @@
         {
           "key": "freq",
           "label": "Frequency & regularity",
-          "raw": "none",
-          "points": 0.0,
+          "raw": "annual",
+          "points": 55.0,
           "weight": 0.1,
-          "note": "none distribution, 3y streak",
-          "contribution": 0.0
+          "note": "annual distribution, 3y streak",
+          "contribution": 5.5
         }
       ]
     },
-    "headline": 56,
+    "headline": 58,
     "headline_grade": "C+",
     "archetype": "holding",
     "engine": "deterministic-v1"
@@ -259,7 +259,7 @@
     "revenue_growth": 0.3161,
     "profit_growth": -1.0166,
     "revenue_cagr_3y": 0.3161,
-    "margin_trend": -0.2643,
+    "margin_trend": -0.2644,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -274,7 +274,7 @@
     "fcf_coverage": 2.5,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
-    "frequency": "none",
+    "frequency": "annual",
     "years_paid": 3
   },
   "fundamentals_source": {
@@ -299,7 +299,7 @@
       "dividend_yield": 0.0
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 68/100)"
+      "Dependable dividend characteristics (Dividend 73/100)"
     ],
     "top_risks": [
       "Execution and macro conditions remain the key swing factors"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "2POINTZERO-1-1781844707",
+      "id": "2POINTZERO-1-1781903289",
       "symbol": "2POINTZERO",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-19T04:51:47+00:00",
+      "published_at": "2026-06-19T21:08:09+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "2POINTZERO-5-1781751107",
+      "id": "2POINTZERO-5-1781809689",
       "symbol": "2POINTZERO",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-18T02:51:47+00:00",
+      "published_at": "2026-06-18T19:08:09+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "2POINTZERO-6-1780638707",
+      "id": "2POINTZERO-6-1780697289",
       "symbol": "2POINTZERO",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-05T05:51:47+00:00",
+      "published_at": "2026-06-05T22:08:09+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "2POINTZERO-3-1779951107",
+      "id": "2POINTZERO-3-1780009689",
       "symbol": "2POINTZERO",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-05-28T06:51:47+00:00",
+      "published_at": "2026-05-28T23:08:09+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "2POINTZERO-7-1779619907",
+      "id": "2POINTZERO-7-1779678489",
       "symbol": "2POINTZERO",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-05-24T10:51:47+00:00",
+      "published_at": "2026-05-25T03:08:09+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "2POINTZERO-4-1779522707",
+      "id": "2POINTZERO-4-1779581289",
       "symbol": "2POINTZERO",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-23T07:51:47+00:00",
+      "published_at": "2026-05-24T00:08:09+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "2POINTZERO-0-1779097907",
+      "id": "2POINTZERO-0-1779156489",
       "symbol": "2POINTZERO",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-05-18T09:51:47+00:00",
+      "published_at": "2026-05-19T02:08:09+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "2POINTZERO-2-1776664307",
+      "id": "2POINTZERO-2-1776722889",
       "symbol": "2POINTZERO",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-20T05:51:47+00:00",
+      "published_at": "2026-04-20T22:08:09+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
@@ -541,7 +541,7 @@
     {
       "symbol": "2POINTZERO",
       "kind": "board",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -556,7 +556,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -564,7 +564,7 @@
     {
       "symbol": "2POINTZERO",
       "kind": "agm",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -581,7 +581,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -589,7 +589,7 @@
     {
       "symbol": "2POINTZERO",
       "kind": "board",
-      "date": "2025-12-26",
+      "date": "2025-12-27",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -607,7 +607,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -618,17 +618,17 @@
       "symbol": "2POINTZERO",
       "amount": 0.1128,
       "currency": "AED",
-      "agm_date": "2026-06-30",
-      "entitlement_date": "2026-07-20",
-      "ex_date": "2026-07-19",
-      "payment_date": "2026-08-09",
+      "agm_date": "2026-07-01",
+      "entitlement_date": "2026-07-21",
+      "ex_date": "2026-07-20",
+      "payment_date": "2026-08-10",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -637,17 +637,17 @@
       "symbol": "2POINTZERO",
       "amount": 0.1128,
       "currency": "AED",
-      "agm_date": "2026-05-24",
-      "entitlement_date": "2026-06-11",
-      "ex_date": "2026-06-10",
-      "payment_date": "2026-06-27",
+      "agm_date": "2026-05-25",
+      "entitlement_date": "2026-06-12",
+      "ex_date": "2026-06-11",
+      "payment_date": "2026-06-28",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -656,17 +656,17 @@
       "symbol": "2POINTZERO",
       "amount": 0.1128,
       "currency": "AED",
-      "agm_date": "2025-11-16",
-      "entitlement_date": "2025-12-04",
-      "ex_date": "2025-12-03",
-      "payment_date": "2025-12-20",
+      "agm_date": "2025-11-17",
+      "entitlement_date": "2025-12-05",
+      "ex_date": "2025-12-04",
+      "payment_date": "2025-12-21",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -675,17 +675,17 @@
       "symbol": "2POINTZERO",
       "amount": 0.1128,
       "currency": "AED",
-      "agm_date": "2025-05-19",
-      "entitlement_date": "2025-06-06",
-      "ex_date": "2025-06-05",
-      "payment_date": "2025-06-22",
+      "agm_date": "2025-05-20",
+      "entitlement_date": "2025-06-07",
+      "ex_date": "2025-06-06",
+      "payment_date": "2025-06-23",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -694,17 +694,17 @@
       "symbol": "2POINTZERO",
       "amount": 0.1128,
       "currency": "AED",
-      "agm_date": "2024-11-19",
-      "entitlement_date": "2024-12-07",
-      "ex_date": "2024-12-06",
-      "payment_date": "2024-12-23",
+      "agm_date": "2024-11-20",
+      "entitlement_date": "2024-12-08",
+      "ex_date": "2024-12-07",
+      "payment_date": "2024-12-24",
       "frequency": "semi",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -734,7 +734,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-24T12:51:47+00:00",
+      "retrieved_at": "2026-06-25T05:08:09+00:00",
       "url": null,
       "lang": null
     }
@@ -806,12 +806,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -822,12 +822,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -838,12 +838,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -854,12 +854,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -870,12 +870,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -886,12 +886,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -901,7 +901,7 @@
       {
         "title": "Uae headline — global macro update 1",
         "theme": "MARITIME",
-        "published_at": "2026-06-24T11:51:47+00:00",
+        "published_at": "2026-06-25T04:08:09+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": -3.59,
@@ -909,7 +909,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -917,7 +917,7 @@
       {
         "title": "Uae headline — global macro update 2",
         "theme": "TOURISM",
-        "published_at": "2026-06-22T00:51:47+00:00",
+        "published_at": "2026-06-22T17:08:09+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -2.92,
@@ -925,7 +925,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -933,7 +933,7 @@
       {
         "title": "Uae headline — global macro update 3",
         "theme": "ENERGY",
-        "published_at": "2026-06-23T12:51:47+00:00",
+        "published_at": "2026-06-24T05:08:09+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.7,
@@ -941,7 +941,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -949,7 +949,7 @@
       {
         "title": "Uae headline — global macro update 4",
         "theme": "TRADE",
-        "published_at": "2026-06-21T16:51:47+00:00",
+        "published_at": "2026-06-22T09:08:09+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -0.29,
@@ -957,7 +957,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -965,7 +965,7 @@
       {
         "title": "Uae headline — global macro update 5",
         "theme": "TOURISM",
-        "published_at": "2026-06-23T20:51:47+00:00",
+        "published_at": "2026-06-24T13:08:09+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.65,
@@ -973,7 +973,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -986,35 +986,35 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Recent disclosure tone skews positive, suggesting management confidence in the near-term outlook.",
-        "Dividend score of 68 indicates a moderate-yielding, defensively tilted holding profile.",
-        "Stability score of 60 offers some cushion against short-term volatility in a diversified structure.",
-        "Neutral medium stance reflects a balanced view where neither strong bullish nor bearish drivers dominate."
+        "Technical trend is up, with price at the 52-week high of 2.27 and above all key moving averages (SMA-5 at 2.2316, SMA-10 at 2.2294, SMA-20 at 2.2027), supported by positive 5-day and 10-day ROC and low daily volatility of 0.86%.",
+        "Short-signal disclosure tone skews positive, underpinning near-term sentiment.",
+        "The completed sale of the full TAQA stake to AD Power removes a strategic line-item and may simplify portfolio focus.",
+        "Dividend score of 68 provides a near-term income anchor that typically supports holding stability."
       ],
       "risks": [
-        "A surprise filing or a sector-wide move could shift the picture quickly.",
-        "Growth score of 46 leaves limited upside catalyst in the near term.",
-        "Diversified holdings can amplify sensitivity to portfolio company surprises.",
-        "Market liquidity and sentiment around ADX holdings can shift abruptly."
+        "Price at the 52-week high (2.27) with only 6.2% from the 52-week low leaves limited near-term margin of safety; RSI at 69.3 is neutral but near-overbought.",
+        "Most recent news is 13 days old and there are no updates within 7 days, making the market vulnerable to surprise filings or sudden sector rotation.",
+        "High geopolitical risk for the Holding / Diversified sector adds a non-company-specific shock vector.",
+        "A surprise filing or a sector-wide move could shift the picture quickly."
       ],
-      "what_would_change_view": "A material positive surprise in disclosures or a structural improvement in portfolio growth drivers would upgrade the short-term view; a surprise filing or adverse sector rotation would downgrade it."
+      "what_would_change_view": "A follow-up announcement on TAQA sale proceeds and sustained trade above 2.27 on rising volume would confirm further upside; a break below the 20-day SMA of 2.2027 or an escalation in Gulf security tensions would flip the view negative."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Dependable dividend characteristics (Dividend 68/100) provide a steady income anchor for long-term holders.",
-        "Stability score of 60 supports a resilient, if unspectacular, balance-sheet profile.",
-        "Long-term neutral-low stance already embeds a cautious outlook where income is the primary return source rather than capital growth.",
-        "Diversified structure can smooth long-term returns across market cycles."
+        "Dependable dividend characteristics (Dividend 68/100) provide a recurring income anchor for long-term holders.",
+        "Stability score of 60 indicates a balanced operating base for a diversified holding.",
+        "The TAQA stake sale could unlock capital for strategic redeployment, potentially improving future growth beyond the current Growth score of 46.",
+        "Long-signal notes emphasise dependable dividends as the core long-term positive."
       ],
       "risks": [
-        "Execution and macro conditions remain the key swing factors for long-term performance.",
-        "Growth score of 46 suggests persistent challenges in generating sustained capital appreciation.",
-        "Sustained macroeconomic pressure or policy shifts could weigh on dividend capacity.",
-        "Execution lapses across the underlying portfolio could erode the dividend base over time."
+        "With a Neutral (low) stance, execution and macro conditions remain the key swing factors for long-term outcomes.",
+        "Growth score of 46 suggests limited organic expansion runway unless new investments outperform.",
+        "High sector geopolitical risk creates an uncertain backdrop for UAE holding companies.",
+        "Further asset sales without a clearly communicated reinvestment plan could erode long-term confidence."
       ],
-      "what_would_change_view": "Sustained improvement in execution or a meaningful re-rating of growth prospects would improve the long-term view; weakening dividend sustainability or macroeconomic deterioration would confirm the cautious stance."
+      "what_would_change_view": "A credible reinvestment plan that demonstrably lifts the Growth score from 46 and improves the Stability score above the current level of 60, coupled with a dividend increase, would move the stance Positive; prolonged stagnation, failed redeployment, or further asset divestitures without a clear growth narrative would shift it to Negative."
     },
     "_signal": {
       "short": {
@@ -1031,9 +1031,9 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 55.9,
+        "score": 57.0,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 68/100)"
+          "Dependable dividend characteristics (Dividend 73/100)"
         ],
         "risks": [
           "Execution and macro conditions remain the key swing factors"
@@ -1042,11 +1042,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-24T12:51:47+00:00",
+    "generated_at": "2026-06-25T05:08:09+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-23T22:53:32+00:00"
+    "narrated_at": "2026-06-24T23:42:20+00:00"
   },
-  "generated_at": "2026-06-24T12:51:47+00:00",
+  "generated_at": "2026-06-25T05:08:09+00:00",
   "peers": {
     "archetype": "holding",
     "self": {
@@ -1074,7 +1074,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.0245,
+        "dy": 0.0025,
         "upside": null
       },
       {

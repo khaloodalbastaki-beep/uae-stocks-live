@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "DEYAAR",
-    "price": 0.819,
-    "change": 0.005,
-    "change_pct": 0.0061,
-    "volume": 0,
-    "market_cap": null,
-    "high_52w": 0.819,
-    "low_52w": 0.752,
+    "price": 0.87,
+    "change": 0.01,
+    "change_pct": 0.0066,
+    "volume": 36794519,
+    "market_cap": 4655000000.0,
+    "high_52w": 0.97,
+    "low_52w": 0.75,
     "spark": [
-      0.786,
-      0.781,
-      0.776,
-      0.783,
-      0.774,
-      0.775,
-      0.773,
-      0.774,
-      0.784,
-      0.779,
-      0.783,
-      0.779,
-      0.785,
-      0.784,
-      0.789,
-      0.784,
-      0.786,
-      0.779,
-      0.772,
-      0.763,
-      0.76,
-      0.752,
-      0.754,
-      0.763,
-      0.763,
-      0.759,
-      0.765,
-      0.77,
-      0.762,
-      0.819
+      0.828,
+      0.839,
+      0.843,
+      0.852,
+      0.852,
+      0.843,
+      0.859,
+      0.878,
+      0.879,
+      0.868,
+      0.885,
+      0.872,
+      0.879,
+      0.897,
+      0.88,
+      0.866,
+      0.87,
+      0.861,
+      0.848,
+      0.862,
+      0.86,
+      0.877,
+      0.871,
+      0.882,
+      0.871,
+      0.871,
+      0.863,
+      0.867,
+      0.861,
+      0.87
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "DFM (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-06-24T12:51:47.221Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-06-25T05:08:09+00:00",
       "url": null,
       "lang": null
     }
@@ -191,17 +191,17 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 74,
+      "score": 73,
       "grade": "B+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0611,
-          "points": 99.34,
+          "raw": 0.0575,
+          "points": 95.83333333333334,
           "weight": 0.18,
-          "note": "6.11% yield",
-          "contribution": 17.9
+          "note": "5.75% yield",
+          "contribution": 17.2
         },
         {
           "key": "payout",
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0611,
+    "dividend_yield": 0.0575,
     "payout_ratio": 0.36,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -292,16 +292,16 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 0,
-      "high_52w": 0.819,
-      "low_52w": 0.752,
-      "dividend_yield": 0.0611
+      "market_cap": 4655000000.0,
+      "volume": 36794519,
+      "high_52w": 0.97,
+      "low_52w": 0.75,
+      "dividend_yield": 0.0575
     },
     "top_catalysts": [
       "Solid growth profile (Growth 66/100)",
       "Resilient balance sheet / stability (Stability 70/100)",
-      "Dependable dividend characteristics (Dividend 74/100)"
+      "Dependable dividend characteristics (Dividend 73/100)"
     ],
     "top_risks": [
       "Execution and macro conditions remain the key swing factors"
@@ -309,13 +309,13 @@
   },
   "disclosures": [
     {
-      "id": "DEYAAR-5-1782298307",
+      "id": "DEYAAR-5-1782356889",
       "symbol": "DEYAAR",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-24T10:51:47+00:00",
+      "published_at": "2026-06-25T03:08:09+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -328,20 +328,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DEYAAR-4-1782190307",
+      "id": "DEYAAR-4-1782248889",
       "symbol": "DEYAAR",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-23T04:51:47+00:00",
+      "published_at": "2026-06-23T21:08:09+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -354,20 +354,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DEYAAR-0-1781261507",
+      "id": "DEYAAR-0-1781320089",
       "symbol": "DEYAAR",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-12T10:51:47+00:00",
+      "published_at": "2026-06-13T03:08:09+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -380,20 +380,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DEYAAR-1-1779191507",
+      "id": "DEYAAR-1-1779250089",
       "symbol": "DEYAAR",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-19T11:51:47+00:00",
+      "published_at": "2026-05-20T04:08:09+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -406,20 +406,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DEYAAR-2-1777287107",
+      "id": "DEYAAR-2-1777345689",
       "symbol": "DEYAAR",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-27T10:51:47+00:00",
+      "published_at": "2026-04-28T03:08:09+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -432,20 +432,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DEYAAR-6-1777182707",
+      "id": "DEYAAR-6-1777241289",
       "symbol": "DEYAAR",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-26T05:51:47+00:00",
+      "published_at": "2026-04-26T22:08:09+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -458,20 +458,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DEYAAR-7-1776131507",
+      "id": "DEYAAR-7-1776190089",
       "symbol": "DEYAAR",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-04-14T01:51:47+00:00",
+      "published_at": "2026-04-14T18:08:09+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -484,20 +484,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DEYAAR-3-1775278307",
+      "id": "DEYAAR-3-1775336889",
       "symbol": "DEYAAR",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-04T04:51:47+00:00",
+      "published_at": "2026-04-04T21:08:09+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -510,7 +510,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       },
@@ -525,17 +525,7 @@
       "published_at": "2026-05-12T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T06:16:51+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Deyaar announces Q1 financial results, sustaining strong strategic momentum into 2026",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdGdJdjYzbnA1MnhiS0dJQlVXWndJZURNNGN6TmpHN0N3RzFiTGk5RWtQOFNKSFV4YUdQV3JuNXoxM3JwZmd6R2pvOVN6V282dUo5NFp4LXhzZVpDOGRkaVBCdURvOU5BMTNOZW5Wa2tsbG03bFBkOTgzZTEtY1lURnhfMVNzdC1ieW50UGllUW1JZFpTVG0tN1NtWERGc1RxdE9aVWpyRjVxWU4zSEgtYjFlTVBzbFFyOEpZN1diLVktSUwzOGw3U2pXWnN6N2t2SGI2Ykl2SGI4NTR4aTNsUQ?oc=5",
-      "domain": "zawya.com",
-      "published_at": "2026-05-12T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-24T06:16:51+00:00",
+      "retrieved_at": "2026-06-25T02:48:20+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -545,7 +535,7 @@
       "published_at": "2026-05-12T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T06:16:51+00:00",
+      "retrieved_at": "2026-06-25T02:48:20+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -555,7 +545,7 @@
       "published_at": "2026-05-12T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T06:16:51+00:00",
+      "retrieved_at": "2026-06-25T02:48:20+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -563,7 +553,7 @@
     {
       "symbol": "DEYAAR",
       "kind": "board",
-      "date": "2026-07-12",
+      "date": "2026-07-13",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -578,7 +568,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -586,7 +576,7 @@
     {
       "symbol": "DEYAAR",
       "kind": "agm",
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -603,7 +593,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -611,7 +601,7 @@
     {
       "symbol": "DEYAAR",
       "kind": "board",
-      "date": "2025-12-26",
+      "date": "2025-12-27",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -629,7 +619,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -640,17 +630,17 @@
       "symbol": "DEYAAR",
       "amount": 0.0016,
       "currency": "AED",
-      "agm_date": "2026-07-22",
-      "entitlement_date": "2026-08-11",
-      "ex_date": "2026-08-10",
-      "payment_date": "2026-08-31",
+      "agm_date": "2026-07-23",
+      "entitlement_date": "2026-08-12",
+      "ex_date": "2026-08-11",
+      "payment_date": "2026-09-01",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -659,17 +649,17 @@
       "symbol": "DEYAAR",
       "amount": 0.0016,
       "currency": "AED",
-      "agm_date": "2026-05-28",
-      "entitlement_date": "2026-06-15",
-      "ex_date": "2026-06-14",
-      "payment_date": "2026-07-01",
+      "agm_date": "2026-05-29",
+      "entitlement_date": "2026-06-16",
+      "ex_date": "2026-06-15",
+      "payment_date": "2026-07-02",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -678,17 +668,17 @@
       "symbol": "DEYAAR",
       "amount": 0.0016,
       "currency": "AED",
-      "agm_date": "2025-05-16",
-      "entitlement_date": "2025-06-03",
-      "ex_date": "2025-06-02",
-      "payment_date": "2025-06-19",
+      "agm_date": "2025-05-17",
+      "entitlement_date": "2025-06-04",
+      "ex_date": "2025-06-03",
+      "payment_date": "2025-06-20",
       "frequency": "annual",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-24T12:51:47+00:00",
+        "retrieved_at": "2026-06-25T05:08:09+00:00",
         "url": null,
         "lang": null
       }
@@ -718,7 +708,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-24T12:51:47+00:00",
+      "retrieved_at": "2026-06-25T05:08:09+00:00",
       "url": null,
       "lang": null
     }
@@ -762,11 +752,11 @@
     "fair_value": 1.306,
     "fair_low": 1.203,
     "fair_high": 1.425,
-    "price": 0.819,
-    "upside_pct": 0.5943,
+    "price": 0.87,
+    "upside_pct": 0.5008,
     "rating": "undervalued",
     "confidence": "medium",
-    "summary": "Model fair value AED 1.31 is 59% above the AED 0.82 price — undervalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 12.0% discount rate, 10% ROE. Medium confidence (range AED 1.20–1.43).",
+    "summary": "Model fair value AED 1.31 is 50% above the AED 0.87 price — undervalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 12.0% discount rate, 10% ROE. Medium confidence (range AED 1.20–1.43).",
     "methods": {
       "ddm": 0.75,
       "pb": 1.019,
@@ -787,7 +777,7 @@
       "fcf": "FCF perpetuity"
     },
     "basis": "deterministic",
-    "note": "Near-term uncertainty and negative momentum may be masking the company’s solid growth, stability, and dividend profile, causing the market to price it below its model fair value; a sustained resolution of disclosure concerns and a re-rating toward operational strengths could close the gap.",
+    "note": "The market may be pricing in the cautious tone from the recent high-materiality disclosure and execution uncertainty, so closing the gap between the model's fair value and the market price likely requires a resolution of those headwinds or a sustained re-rating of the underlying stability and dividend profile.",
     "note_by": "freeagent"
   },
   "global_factors": {
@@ -827,12 +817,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -843,12 +833,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -859,12 +849,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -875,12 +865,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -891,12 +881,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -907,12 +897,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-24T12:51:47+00:00",
+        "as_of": "2026-06-25T05:08:09+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -922,7 +912,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-23T10:51:47+00:00",
+        "published_at": "2026-06-24T03:08:09+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -930,7 +920,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -938,7 +928,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-23T10:51:47+00:00",
+        "published_at": "2026-06-24T03:08:09+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -946,7 +936,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -954,7 +944,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-21T18:51:47+00:00",
+        "published_at": "2026-06-22T11:08:09+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -962,7 +952,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-24T12:51:47+00:00",
+          "retrieved_at": "2026-06-25T05:08:09+00:00",
           "url": null,
           "lang": null
         }
@@ -975,41 +965,40 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Recent high-materiality disclosure has clouded the near-term outlook.",
-        "Negative price momentum signals current market caution.",
-        "Cautionary/negative disclosure tone is weighing on investor sentiment.",
-        "Clarity on corporate developments may remain limited in the near term."
+        "A high-materiality disclosure (81/100) has entered the recent flow and is still being digested by the market",
+        "The company's stability and dividend scores remain reasonably high, tempering the near-term outlook",
+        "The model fair value sits materially above the market price, suggesting the house model sees underlying fundamentals that may limit further downside"
       ],
       "risks": [
-        "Disclosure-driven uncertainty could deepen selling pressure.",
-        "Negative momentum may attract continued bearish sentiment.",
-        "Macro headwinds may pressure near-term real-estate liquidity.",
-        "Further negative corporate updates could accelerate price declines."
+        "Recent disclosure tone skews cautious/negative and could sustain elevated risk premia in the near term",
+        "The high materiality means the disclosure could continue to overshadow otherwise solid fundamentals",
+        "Uncertainty around the disclosure's implications may keep risk-averse investors on the sidelines",
+        "The market could demand a wider discount until the disclosure's impact is fully resolved"
       ],
-      "what_would_change_view": "Sustained positive price momentum, resolution of the disclosure uncertainty, and clearer upbeat corporate guidance would shift the short-term view from cautious to neutral."
+      "what_would_change_view": "Clear positive resolution of the recent disclosure or unexpected improvement in management commentary"
     },
     "long_term": {
       "stance": "Bullish",
       "confidence": "medium",
       "reasons": [
-        "Solid growth profile points to durable long-term expansion.",
-        "Resilient balance sheet and high stability score reduce fundamental risk.",
-        "Dependable dividend characteristics support compounding returns.",
-        "Operating strengths are well positioned for a market recovery."
+        "Growth profile (66/100) points to a solid expansion trajectory over the medium term",
+        "Balance sheet resilience (70/100) supports the company's ability to weather property market cycles",
+        "Dividend dependability (74/100) offers an attractive income component for long-term holders",
+        "If execution and macro conditions remain supportive, the company's core scores suggest durable value creation"
       ],
       "risks": [
-        "Execution risk around growth projects and delivery timelines remains.",
-        "Macro headwinds — rates, demand, liquidity — could weigh on valuation.",
-        "Dividend sustainability depends on consistent cash-flow generation.",
-        "Real-estate sector volatility and policy shifts may cap upside."
+        "Execution and macro conditions remain the key swing factors",
+        "Any deterioration in the UAE/regional real estate cycle could pressure occupancy and pricing power",
+        "Execution misses on development projects could erode the underlying growth and stability profiles",
+        "Medium confidence in the valuation model means the model fair value gap could persist for an extended period"
       ],
-      "what_would_change_view": "A material deterioration in stability metrics, a cut to dividend policy, or repeated project execution misses would undermine the bullish long-term case."
+      "what_would_change_view": "Sustained acceleration of project delivery that visibly improves the growth score, or a sustained downturn in regional macro conditions that overwhelms the stability and dividend advantages"
     },
     "_signal": {
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 45.5,
+        "score": 45.7,
         "reasons": [
           "A high-materiality disclosure (81/100) is in the recent flow"
         ],
@@ -1020,11 +1009,11 @@
       "long": {
         "stance": "Bullish",
         "confidence": "medium",
-        "score": 69.2,
+        "score": 69.0,
         "reasons": [
           "Solid growth profile (Growth 66/100)",
           "Resilient balance sheet / stability (Stability 70/100)",
-          "Dependable dividend characteristics (Dividend 74/100)"
+          "Dependable dividend characteristics (Dividend 73/100)"
         ],
         "risks": [
           "Execution and macro conditions remain the key swing factors"
@@ -1033,29 +1022,29 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-24T12:51:47+00:00",
+    "generated_at": "2026-06-25T05:08:09+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-23T17:34:53+00:00"
+    "narrated_at": "2026-06-24T19:25:29+00:00"
   },
-  "generated_at": "2026-06-24T12:51:47+00:00",
+  "generated_at": "2026-06-25T05:08:09+00:00",
   "peers": {
     "archetype": "developer",
     "self": {
       "symbol": "DEYAAR",
       "name_en": "Deyaar Development",
       "archetype": "developer",
-      "pe": 5.8,
-      "pb": 0.62,
+      "pe": 6.2,
+      "pb": 0.66,
       "roe": 0.1038,
-      "dy": 0.0611,
-      "upside": 0.5943
+      "dy": 0.0575,
+      "upside": 0.5008
     },
     "medians": {
-      "pe": 6.3,
-      "pb": 0.62,
+      "pe": 7.6,
+      "pb": 0.66,
       "roe": 0.104,
       "dy": 0.024,
-      "upside": 0.594
+      "upside": 0.364
     },
     "peers": [
       {
@@ -1092,11 +1081,11 @@
         "symbol": "EMAAR",
         "name_en": "Emaar Properties",
         "archetype": "developer",
-        "pe": 6.3,
-        "pb": 1.03,
+        "pe": 7.6,
+        "pb": 1.25,
         "roe": 0.1634,
-        "dy": 0.0796,
-        "upside": 0.6514
+        "dy": 0.0657,
+        "upside": 0.3637
       },
       {
         "symbol": "EMAARDEV",
@@ -1105,7 +1094,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.0479,
+        "dy": 0.0544,
         "upside": null
       },
       {
