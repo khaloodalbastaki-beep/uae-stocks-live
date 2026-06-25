@@ -37,6 +37,7 @@
     globalEvents: () => load("global_events.json", { cacheKey: "gevents" }),
     readiness: () => load("launch_readiness.json", { cacheKey: "readiness" }),
     stock: (sym) => load(`stocks/${sym}.json`, { cacheKey: "stock_" + sym }),
+    realstats: () => load("realstats.json", { cacheKey: "realstats" }),
   };
   window.DATA = DATA;
 

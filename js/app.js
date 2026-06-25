@@ -54,14 +54,6 @@
     if (up <= -0.05) return { label: "Trim / cautious", cls: "neg" };
     return { label: "Hold (near fair value)", cls: "flat" };
   };
-  // "Expected today" — a DIRECTIONAL read derived from the short-term study, not a price forecast.
-  const dayBias = (s) => {
-    const st = String((((s.ai_analysis || {}).short_term) || {}).stance || "").toLowerCase();
-    if (/bull|positive|buy|accumulate/.test(st)) return { label: "Constructive", cls: "pos" };
-    if (/bear|negative|sell|reduce/.test(st)) return { label: "Cautious", cls: "neg" };
-    return { label: "Rangebound", cls: "flat" };
-  };
-
   function stockCard(c) {
     const cls = c.change_pct >= 0 ? "pos" : "neg";
     const starred = Watch.has(c.symbol);
@@ -234,6 +226,9 @@
     let s, meta;
     try { [s, meta] = await Promise.all([DATA.stock(sym), DATA.meta()]); }
     catch (e) { app.innerHTML = `<div class="empty">${t("no_data")} (${esc(sym)})</div>`; return; }
+    // real technicals + validated daily range (DFM only) — best-effort, never breaks the page
+    s._real = null;
+    try { const rs = DATA.realstats ? await DATA.realstats() : null; s._real = (rs && rs.stats && rs.stats[sym]) || null; } catch (e) {}
 
     const q = s.quote || {};
     const cls = (q.change_pct || 0) >= 0 ? "pos" : "neg";
@@ -525,7 +520,7 @@
     </div>`;
     const narrator = a.narrator ? `narrated by <strong>${esc(a.narrator)}</strong> (fleet agent)` : `engine: ${esc(a._engine)}`;
     const v = s.valuation || {}, sc = s.scores || {}, q = s.quote || {};
-    const act = recAction(v), day = dayBias(s);
+    const act = recAction(v);
     const upTxt = v.upside_pct == null ? "—" : (v.upside_pct > 0 ? "+" : "") + (v.upside_pct * 100).toFixed(0) + "%";
     const upCls = v.upside_pct == null ? "flat" : v.upside_pct > 0.02 ? "pos" : v.upside_pct < -0.02 ? "neg" : "flat";
     const cats = (s.news || []).slice(0, 2).map((n) => `<li>${esc(n.title)} <span class="muted">(${fmtDate(n.published_at)})</span></li>`).join("") || `<li class="muted">no fresh catalysts on file</li>`;
@@ -546,8 +541,11 @@
         <div><div class="k">Today</div><div class="v mono ${(q.change_pct || 0) >= 0 ? "pos" : "neg"}">${fmtPctSigned(q.change_pct)}</div></div>
         <div><div class="k">Scores G/S/D</div><div class="v mono">${(sc.growth && sc.growth.score) ?? "—"} / ${(sc.stability && sc.stability.score) ?? "—"} / ${(sc.dividend && sc.dividend.score) ?? "—"}</div></div>
       </div>
-      <div style="margin-top:10px"><strong>Expected today:</strong> <span class="${day.cls}" style="font-weight:600">${day.label}</span>
-        <span class="muted"> — from the short-term study (stance ${sst}); today's move ${fmtPctSigned(q.change_pct)}. Directional read from the analysis, not a price target (no validated intraday model).</span></div>
+      ${(() => { const rs = s._real; return rs
+        ? `<div style="margin-top:10px"><strong>Expected move today:</strong> <span class="mono" style="font-weight:700">±${rs.expected_range_pct}%</span>
+            <span class="muted">(typical day; ±${rs.expected_range_2sig_pct}% on a big day — from ${rs.points}d of real history, blind-validated ≈72%/92% coverage). Direction not forecast (no skill). Today so far ${fmtPctSigned(q.change_pct)}.</span>
+            <div class="muted" style="margin-top:4px">Real technicals: RSI ${rs.rsi_14 ?? "—"} (${rs.rsi_zone || "—"}) · trend ${esc(rs.trend)} · vs 20-day avg ${rs.price_vs_sma_20_pct > 0 ? "+" : ""}${rs.price_vs_sma_20_pct}%</div></div>`
+        : `<div style="margin-top:10px"><strong>Expected move today:</strong> <span class="muted">no free price history for this name (ADX isn't on free feeds) — no validated daily range. Short-term stance ${sst}; today so far ${fmtPctSigned(q.change_pct)}.</span></div>`; })()}
       <div style="margin-top:8px"><strong>Today's catalysts</strong><ul>${cats}</ul></div>
       ${a.dominant_factor ? `<div class="muted"><strong>Lead factor:</strong> ${esc(a.dominant_factor)}</div>` : ""}
       ${a.signal_alignment ? `<div class="muted"><strong>Signal check:</strong> ${esc(a.signal_alignment)}</div>` : ""}
