@@ -44,6 +44,24 @@
     return `<span class="chip val ${cls}" title="${t("fair_value")} ${fmtPrice(v.fair_value)} · ${esc(v.confidence)} ${t("confidence").toLowerCase()}">FV ${up > 0 ? "+" : ""}${(up * 100).toFixed(0)}%</span>`;
   };
 
+  // House action — deterministic, from the engine's fair-value gap + confidence (numbers from code).
+  const recAction = (v) => {
+    if (!v || v.upside_pct == null) return { label: "No fair value yet", cls: "flat" };
+    const up = v.upside_pct, strong = ["high", "medium"].includes(String(v.confidence || "").toLowerCase());
+    if (up >= 0.15 && strong) return { label: "Accumulate", cls: "pos" };
+    if (up >= 0.05) return { label: "Buy on weakness", cls: "pos" };
+    if (up <= -0.15 && strong) return { label: "Reduce", cls: "neg" };
+    if (up <= -0.05) return { label: "Trim / cautious", cls: "neg" };
+    return { label: "Hold (near fair value)", cls: "flat" };
+  };
+  // "Expected today" — a DIRECTIONAL read derived from the short-term study, not a price forecast.
+  const dayBias = (s) => {
+    const st = String((((s.ai_analysis || {}).short_term) || {}).stance || "").toLowerCase();
+    if (/bull|positive|buy|accumulate/.test(st)) return { label: "Constructive", cls: "pos" };
+    if (/bear|negative|sell|reduce/.test(st)) return { label: "Cautious", cls: "neg" };
+    return { label: "Rangebound", cls: "flat" };
+  };
+
   function stockCard(c) {
     const cls = c.change_pct >= 0 ? "pos" : "neg";
     const starred = Watch.has(c.symbol);
@@ -96,6 +114,10 @@
     const watch = Watch.list();
     const favs = uni.filter((c) => watch.includes(c.symbol));
     const topDisc = uni.slice().sort((a, b) => b.scores.headline - a.scores.headline);
+    const valued = uni.filter((c) => c.valuation && c.valuation.upside_pct != null);
+    const picks = valued
+      .filter((c) => ["high", "medium"].includes(String(c.valuation.confidence || "").toLowerCase()))
+      .sort((a, b) => b.valuation.upside_pct - a.valuation.upside_pct).slice(0, 6);
     const ms = meta.market_status;
 
     app.innerHTML = `
@@ -113,6 +135,21 @@
           ${pulseCard(t("dfm_index"), idx.dfm)}
           ${sectorPulse(idx.sectors)}
         </div>
+      </section>
+
+      <section class="section">
+        <h2>Top Picks Today <span class="muted" style="font-size:13px;font-weight:400">— ranked by upside to fair value · ${picks.length} of ${valued.length} valued names</span></h2>
+        ${picks.length ? `<div class="panel">
+          ${picks.map((c, i) => { const v = c.valuation, act = recAction(v), up = v.upside_pct;
+            return `<div class="flexrow" onclick="location.hash='#/stock/${esc(c.symbol)}'" style="cursor:pointer;gap:10px;align-items:center;padding:8px 4px;${i ? "border-top:1px solid var(--line,rgba(127,127,127,.18))" : ""};${i === 0 ? "background:rgba(86,224,189,.07)" : ""}">
+              <span class="mono" style="width:18px;color:var(--text-faint)">${i + 1}</span>
+              <span style="flex:1;min-width:0"><strong>${esc(c.symbol)}</strong> <span class="muted">${esc(nm(c))}</span></span>
+              <span class="mono" title="fair value">${fmtAED(v.fair_value)}</span>
+              <span class="chip ${up > 0 ? "pos" : up < 0 ? "neg" : "flat"}">${up > 0 ? "+" : ""}${(up * 100).toFixed(0)}%</span>
+              <span class="chip ${act.cls}">${act.label}</span>
+            </div>`; }).join("")}
+          <div class="muted" style="margin-top:8px">Best for the day: <strong>${esc(picks[0].symbol)}</strong> · ${picks[0].valuation.upside_pct > 0 ? "+" : ""}${(picks[0].valuation.upside_pct * 100).toFixed(0)}% to fair value. Deterministic fair-value ranking — not advice.</div>
+        </div>` : `<div class="empty">No fair-valued names yet — the valuation engine fills these in as fundamentals are sourced.</div>`}
       </section>
 
       <section class="section">
@@ -487,7 +524,36 @@
       <div class="muted" style="margin-top:6px"><strong>${t("change_view")}:</strong> ${esc(data.what_would_change_view)}</div>
     </div>`;
     const narrator = a.narrator ? `narrated by <strong>${esc(a.narrator)}</strong> (fleet agent)` : `engine: ${esc(a._engine)}`;
-    return `<div class="disclaimer">⚠️ ${t("not_advice")} — stance &amp; confidence are computed deterministically by the engine; ${narrator} writes the prose only. House scores from code, never the LLM.</div>${a.narrator ? `<div class="flexrow" style="margin:6px 0"><span class="badge ai">${esc(a.narrator)}</span><span class="muted">prose</span></div>` : ""}
+    const v = s.valuation || {}, sc = s.scores || {}, q = s.quote || {};
+    const act = recAction(v), day = dayBias(s);
+    const upTxt = v.upside_pct == null ? "—" : (v.upside_pct > 0 ? "+" : "") + (v.upside_pct * 100).toFixed(0) + "%";
+    const upCls = v.upside_pct == null ? "flat" : v.upside_pct > 0.02 ? "pos" : v.upside_pct < -0.02 ? "neg" : "flat";
+    const cats = (s.news || []).slice(0, 2).map((n) => `<li>${esc(n.title)} <span class="muted">(${fmtDate(n.published_at)})</span></li>`).join("") || `<li class="muted">no fresh catalysts on file</li>`;
+    const sst = esc(String((((a || {}).short_term) || {}).stance || "—"));
+    const scn = a.scenarios ? `<div style="margin-top:8px"><strong>Scenarios</strong>
+        <div class="muted">▲ Bull — ${esc(a.scenarios.bull || "—")}</div>
+        <div class="muted">▶ Base — ${esc(a.scenarios.base || "—")}</div>
+        <div class="muted">▼ Bear — ${esc(a.scenarios.bear || "—")}</div></div>` : "";
+    const verdict = `<div class="panel ai-verdict">
+      <div class="flexrow" style="justify-content:space-between;align-items:center">
+        <h3 style="margin:0">AI Verdict</h3><span class="chip ${act.cls}" style="font-weight:700">${act.label}</span>
+      </div>
+      <div class="kv" style="margin-top:10px">
+        <div><div class="k">Price</div><div class="v mono">${fmtAED(q.price)}</div></div>
+        <div><div class="k">${t("fair_value")}</div><div class="v mono">${fmtAED(v.fair_value)}</div></div>
+        <div><div class="k">Upside</div><div class="v mono ${upCls}">${upTxt}</div></div>
+        <div><div class="k">Rating</div><div class="v">${esc(v.rating || "—")}${v.confidence ? ` · ${esc(v.confidence)}` : ""}</div></div>
+        <div><div class="k">Today</div><div class="v mono ${(q.change_pct || 0) >= 0 ? "pos" : "neg"}">${fmtPctSigned(q.change_pct)}</div></div>
+        <div><div class="k">Scores G/S/D</div><div class="v mono">${(sc.growth && sc.growth.score) ?? "—"} / ${(sc.stability && sc.stability.score) ?? "—"} / ${(sc.dividend && sc.dividend.score) ?? "—"}</div></div>
+      </div>
+      <div style="margin-top:10px"><strong>Expected today:</strong> <span class="${day.cls}" style="font-weight:600">${day.label}</span>
+        <span class="muted"> — from the short-term study (stance ${sst}); today's move ${fmtPctSigned(q.change_pct)}. Directional read from the analysis, not a price target (no validated intraday model).</span></div>
+      <div style="margin-top:8px"><strong>Today's catalysts</strong><ul>${cats}</ul></div>
+      ${a.dominant_factor ? `<div class="muted"><strong>Lead factor:</strong> ${esc(a.dominant_factor)}</div>` : ""}
+      ${a.signal_alignment ? `<div class="muted"><strong>Signal check:</strong> ${esc(a.signal_alignment)}</div>` : ""}
+      ${scn}
+    </div>`;
+    return verdict + `<div class="disclaimer">⚠️ ${t("not_advice")} — stance &amp; confidence are computed deterministically by the engine; ${narrator} writes the prose only. House scores from code, never the LLM.</div>${a.narrator ? `<div class="flexrow" style="margin:6px 0"><span class="badge ai">${esc(a.narrator)}</span><span class="muted">prose</span></div>` : ""}
       <div class="ai-grid" style="margin-top:12px">
         ${col("short_term", a.short_term)}
         ${col("long_term", a.long_term)}
