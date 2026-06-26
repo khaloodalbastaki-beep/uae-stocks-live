@@ -12,7 +12,7 @@
     "price": 3.57,
     "change": -0.02,
     "change_pct": -0.0056,
-    "volume": 9136,
+    "volume": 9151,
     "market_cap": null,
     "high_52w": 3.796,
     "low_52w": 3.52,
@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-26T06:43:28.450Z",
+      "retrieved_at": "2026-06-26T06:59:49.162Z",
       "url": null,
       "lang": null
     }
@@ -93,8 +93,8 @@
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.002,
-          "points": 45.714285714285715,
+          "raw": 0.0021,
+          "points": 45.85714285714285,
           "weight": 0.14,
           "note": "expanding margins",
           "contribution": 6.4
@@ -191,17 +191,17 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 85,
-      "grade": "A",
+      "score": 61,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0588,
-          "points": 98.0,
+          "raw": 0.0,
+          "points": 0.0,
           "weight": 0.18,
-          "note": "5.88% yield",
-          "contribution": 17.6
+          "note": "0.00% yield",
+          "contribution": 0.0
         },
         {
           "key": "payout",
@@ -242,16 +242,16 @@
         {
           "key": "freq",
           "label": "Frequency & regularity",
-          "raw": "annual",
-          "points": 55.0,
+          "raw": "none",
+          "points": 0.0,
           "weight": 0.1,
-          "note": "annual distribution, 3y streak",
-          "contribution": 5.5
+          "note": "none distribution, 3y streak",
+          "contribution": 0.0
         }
       ]
     },
-    "headline": 59,
-    "headline_grade": "C+",
+    "headline": 53,
+    "headline_grade": "C",
     "archetype": "consumer",
     "engine": "deterministic-v1"
   },
@@ -259,7 +259,7 @@
     "revenue_growth": 0.0776,
     "profit_growth": 0.1159,
     "revenue_cagr_3y": 0.0776,
-    "margin_trend": 0.002,
+    "margin_trend": 0.0021,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -269,17 +269,17 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0588,
+    "dividend_yield": 0.0,
     "payout_ratio": 0.5,
     "fcf_coverage": 1.59,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
-    "frequency": "annual",
+    "frequency": "none",
     "years_paid": 3
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "2024-12-31",
+    "as_of": "FY2024",
     "source": "StockAnalysis",
     "source_url": "https://stockanalysis.com/quote/adx/AGTHIA/financials/",
     "extractor": "mizan/ollama",
@@ -293,13 +293,13 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 9136,
+      "volume": 9151,
       "high_52w": 3.796,
       "low_52w": 3.52,
-      "dividend_yield": 0.0588
+      "dividend_yield": 0.0
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 85/100)"
+      "Mixed fundamentals; no single pillar stands out"
     ],
     "top_risks": [
       "Weak growth signal (Growth 41/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "AGTHIA-2-1782013408",
+      "id": "AGTHIA-2-1782014389",
       "symbol": "AGTHIA",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-06-21T03:43:28+00:00",
+      "published_at": "2026-06-21T03:59:49+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T06:43:28+00:00",
+        "retrieved_at": "2026-06-26T06:59:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AGTHIA-0-1781757808",
+      "id": "AGTHIA-0-1781758789",
       "symbol": "AGTHIA",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-18T04:43:28+00:00",
+      "published_at": "2026-06-18T04:59:49+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T06:43:28+00:00",
+        "retrieved_at": "2026-06-26T06:59:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AGTHIA-4-1779932608",
+      "id": "AGTHIA-4-1779933589",
       "symbol": "AGTHIA",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-05-28T01:43:28+00:00",
+      "published_at": "2026-05-28T01:59:49+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T06:43:28+00:00",
+        "retrieved_at": "2026-06-26T06:59:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AGTHIA-3-1779482608",
+      "id": "AGTHIA-3-1779483589",
       "symbol": "AGTHIA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-22T20:43:28+00:00",
+      "published_at": "2026-05-22T20:59:49+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T06:43:28+00:00",
+        "retrieved_at": "2026-06-26T06:59:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AGTHIA-1-1776822208",
+      "id": "AGTHIA-1-1776823189",
       "symbol": "AGTHIA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-22T01:43:28+00:00",
+      "published_at": "2026-04-22T01:59:49+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T06:43:28+00:00",
+        "retrieved_at": "2026-06-26T06:59:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AGTHIA-5-1776570208",
+      "id": "AGTHIA-5-1776571189",
       "symbol": "AGTHIA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-19T03:43:28+00:00",
+      "published_at": "2026-04-19T03:59:49+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T06:43:28+00:00",
+        "retrieved_at": "2026-06-26T06:59:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "AGTHIA-7-1775281408",
+      "id": "AGTHIA-7-1775282389",
       "symbol": "AGTHIA",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-04-04T05:43:28+00:00",
+      "published_at": "2026-04-04T05:59:49+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T06:43:28+00:00",
+        "retrieved_at": "2026-06-26T06:59:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "AGTHIA-6-1775252608",
+      "id": "AGTHIA-6-1775253589",
       "symbol": "AGTHIA",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-04-03T21:43:28+00:00",
+      "published_at": "2026-04-03T21:59:49+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T06:43:28+00:00",
+        "retrieved_at": "2026-06-26T06:59:49+00:00",
         "url": null,
         "lang": null
       },
@@ -576,7 +576,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T06:43:28+00:00",
+        "retrieved_at": "2026-06-26T06:59:49+00:00",
         "url": null,
         "lang": null
       }
@@ -601,7 +601,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T06:43:28+00:00",
+        "retrieved_at": "2026-06-26T06:59:49+00:00",
         "url": null,
         "lang": null
       }
@@ -627,7 +627,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T06:43:28+00:00",
+        "retrieved_at": "2026-06-26T06:59:49+00:00",
         "url": null,
         "lang": null
       }
@@ -658,7 +658,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-26T06:43:28+00:00",
+      "retrieved_at": "2026-06-26T06:59:49+00:00",
       "url": null,
       "lang": null
     }
@@ -679,21 +679,21 @@
       3500000000.0
     ],
     "net_income": [
-      420500000.0,
-      455900000.0,
-      494300000.0,
-      535900000.0,
-      581000000.0
+      420700000.0,
+      456300000.0,
+      494900000.0,
+      536700000.0,
+      582000000.0
     ],
     "operating_cash_flow": [
-      466700000.0,
-      506100000.0,
-      548700000.0,
-      594900000.0,
-      644900000.0
+      467000000.0,
+      506500000.0,
+      549300000.0,
+      595800000.0,
+      646100000.0
     ],
     "ratios": {
-      "net_margin": 0.166,
+      "net_margin": 0.1663,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
       "payout_ratio": 0.5
@@ -739,12 +739,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-26T06:43:28+00:00",
+        "as_of": "2026-06-26T06:59:49+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T06:43:28+00:00",
+          "retrieved_at": "2026-06-26T06:59:49+00:00",
           "url": null,
           "lang": null
         }
@@ -755,12 +755,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-26T06:43:28+00:00",
+        "as_of": "2026-06-26T06:59:49+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T06:43:28+00:00",
+          "retrieved_at": "2026-06-26T06:59:49+00:00",
           "url": null,
           "lang": null
         }
@@ -771,12 +771,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T06:43:28+00:00",
+        "as_of": "2026-06-26T06:59:49+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T06:43:28+00:00",
+          "retrieved_at": "2026-06-26T06:59:49+00:00",
           "url": null,
           "lang": null
         }
@@ -787,12 +787,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T06:43:28+00:00",
+        "as_of": "2026-06-26T06:59:49+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T06:43:28+00:00",
+          "retrieved_at": "2026-06-26T06:59:49+00:00",
           "url": null,
           "lang": null
         }
@@ -803,12 +803,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T06:43:28+00:00",
+        "as_of": "2026-06-26T06:59:49+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T06:43:28+00:00",
+          "retrieved_at": "2026-06-26T06:59:49+00:00",
           "url": null,
           "lang": null
         }
@@ -819,12 +819,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-26T06:43:28+00:00",
+        "as_of": "2026-06-26T06:59:49+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T06:43:28+00:00",
+          "retrieved_at": "2026-06-26T06:59:49+00:00",
           "url": null,
           "lang": null
         }
@@ -834,7 +834,7 @@
       {
         "title": "Wheat headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-25T08:43:28+00:00",
+        "published_at": "2026-06-25T08:59:49+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.79,
@@ -842,7 +842,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T06:43:28+00:00",
+          "retrieved_at": "2026-06-26T06:59:49+00:00",
           "url": null,
           "lang": null
         }
@@ -850,7 +850,7 @@
       {
         "title": "Wheat headline — global macro update 2",
         "theme": "TOURISM",
-        "published_at": "2026-06-26T04:43:28+00:00",
+        "published_at": "2026-06-26T04:59:49+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -0.42,
@@ -858,7 +858,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T06:43:28+00:00",
+          "retrieved_at": "2026-06-26T06:59:49+00:00",
           "url": null,
           "lang": null
         }
@@ -866,7 +866,7 @@
       {
         "title": "Wheat headline — global macro update 3",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-23T14:43:28+00:00",
+        "published_at": "2026-06-23T14:59:49+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -5.45,
@@ -874,7 +874,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T06:43:28+00:00",
+          "retrieved_at": "2026-06-26T06:59:49+00:00",
           "url": null,
           "lang": null
         }
@@ -882,7 +882,7 @@
       {
         "title": "Wheat headline — global macro update 4",
         "theme": "TRADE",
-        "published_at": "2026-06-25T11:43:28+00:00",
+        "published_at": "2026-06-25T11:59:49+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": 0.02,
@@ -890,7 +890,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T06:43:28+00:00",
+          "retrieved_at": "2026-06-26T06:59:49+00:00",
           "url": null,
           "lang": null
         }
@@ -898,7 +898,7 @@
       {
         "title": "Wheat headline — global macro update 5",
         "theme": "TRADE",
-        "published_at": "2026-06-23T08:43:28+00:00",
+        "published_at": "2026-06-23T08:59:49+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -3.44,
@@ -906,7 +906,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T06:43:28+00:00",
+          "retrieved_at": "2026-06-26T06:59:49+00:00",
           "url": null,
           "lang": null
         }
@@ -964,9 +964,9 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 57.5,
+        "score": 52.2,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 85/100)"
+          "Mixed fundamentals; no single pillar stands out"
         ],
         "risks": [
           "Weak growth signal (Growth 41/100)"
@@ -975,11 +975,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-26T06:43:28+00:00",
+    "generated_at": "2026-06-26T06:59:49+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-25T13:28:12+00:00"
   },
-  "generated_at": "2026-06-26T06:43:28+00:00",
+  "generated_at": "2026-06-26T06:59:49+00:00",
   "peers": {
     "archetype": "consumer",
     "self": {
@@ -989,14 +989,14 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.0588,
+      "dy": 0.0,
       "upside": null
     },
     "medians": {
       "pe": 18.4,
       "pb": 10.23,
       "roe": 0.524,
-      "dy": 0.054,
+      "dy": 0.044,
       "upside": -0.063
     },
     "peers": [
@@ -1007,7 +1007,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.1148,
+        "dy": 0.1154,
         "upside": null
       },
       {
