@@ -4031,3 +4031,21 @@ session_id: 20260626_063020_a62d4f
 [news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
 [geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
 [analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 4 eligible): MASHREQ, PARKIN, SALIK, 2POINTZERO
+[mizan] MASHREQ: wrote fundamentals (high, 2025-12-31)
+[mizan] PARKIN: wrote fundamentals (high, 2025-12-31)
+[mizan] SALIK: wrote fundamentals (high, 2025-12-31)
+[mizan] 2POINTZERO: wrote fundamentals (high, 2024-12-31)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 34): EMSTEEL, PUREHEALTH, NMDCENR, PRESIGHT, RAKBANK, SIB
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] PUREHEALTH: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] PUREHEALTH: 0 articles — kept prior
+[news] NMDCENR: 8 live articles (Google)
+[news] PRESIGHT: 4 live articles (Google)
+[news] RAKBANK: 6 live articles (Google)
+[news] SIB: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
