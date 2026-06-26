@@ -3954,3 +3954,27 @@ session_id: 20260626_063020_a62d4f
 [analyst] ADNOCDRILL: no/invalid output from nemotron — trying next
 [analyst] ADNOCDRILL: narrated by freeagent
 [analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): AMERICANA, BOROUGE, FAB, FERTIGLB
+[mizan] AMERICANA: not found / insufficient (kept modeled)
+[mizan] BOROUGE: wrote fundamentals (high, None)
+[mizan] FAB: wrote fundamentals (high, 2025-12-31)
+[mizan] FERTIGLB: not found / insufficient (kept modeled)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 36): EMSTEEL, PUREHEALTH, DEWA, AGTHIA, ALDAR, AMERICANA
+[news] EMSTEEL: 0 articles — kept prior
+[news] PUREHEALTH: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] PUREHEALTH: 0 articles — kept prior
+[news] DEWA: 4 live articles (GDELT)
+[news] AGTHIA: 4 live articles (Google)
+[news] ALDAR: 8 live articles (Google)
+[news] AMERICANA: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(3), global_rates=elevated(6)
+[analyst] stale batch (2 of 2): ADNOCGAS, ADNOCLS
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCGAS: no/invalid output from nemotron — trying next
+[analyst] ADNOCGAS: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCLS: no/invalid output from nemotron — trying next
+[analyst] ADNOCLS: narrated by freeagent
+[analyst] done: 2/2 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai

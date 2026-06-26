@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-26T06:50:34+00:00",
+  "as_of": "2026-06-26T07:55:59+00:00",
   "risk_level": "high",
   "method": "heuristic from recent (<=3d) headline volume + escalation keywords; not a rating",
   "drivers": [
@@ -63,15 +63,15 @@
           "age_days": 0.3
         },
         {
-          "title": "UN agency pauses evacuation of ships through the Strait of Hormuz after attack on vessel",
-          "published_at": "2026-06-25T22:34:00+00:00",
-          "domain": "apnews.com",
-          "age_days": 0.3
-        },
-        {
           "title": "U.N. agency pauses Strait of Hormuz evacuation effort as ship is struck off Oman",
           "published_at": "2026-06-25T18:42:54+00:00",
           "domain": "nbcnews.com",
+          "age_days": 0.6
+        },
+        {
+          "title": "UN agency pauses evacuation of ships through Strait of Hormuz after UK says a vessel was hit",
+          "published_at": "2026-06-25T19:17:15+00:00",
+          "domain": "pbs.org",
           "age_days": 0.5
         },
         {
@@ -81,16 +81,16 @@
           "age_days": 0.5
         },
         {
-          "title": "UN agency pauses evacuation of ships through Strait of Hormuz after UK says a vessel was hit",
-          "published_at": "2026-06-25T19:17:15+00:00",
-          "domain": "pbs.org",
-          "age_days": 0.5
-        },
-        {
           "title": "Trump touts Iran farm market as Hormuz attack disrupts shipping",
           "published_at": "2026-06-26T04:14:33+00:00",
           "domain": "newsnationnow.com",
-          "age_days": 0.1
+          "age_days": 0.2
+        },
+        {
+          "title": "Iran warns against Hormuz crossings without authorisation",
+          "published_at": "2026-06-25T18:05:40+00:00",
+          "domain": "aljazeera.com",
+          "age_days": 0.6
         }
       ]
     },
@@ -113,22 +113,22 @@
       "risk": "high",
       "items": [
         {
+          "title": "UN Maritime Agency Pauses Hormuz Evacuation After Ship Attack",
+          "published_at": "2026-06-26T01:10:00+00:00",
+          "domain": "rferl.org",
+          "age_days": 0.3
+        },
+        {
           "title": "Pragmatic choice: Israel’s war backfires as Gulf backs US-Iran deal",
           "published_at": "2026-06-25T17:23:36+00:00",
           "domain": "aljazeera.com",
           "age_days": 0.6
         },
         {
-          "title": "Oil Prices Fall To Prewar Levels For First Time",
-          "published_at": "2026-06-25T05:05:00+00:00",
-          "domain": "rferl.org",
-          "age_days": 1.1
-        },
-        {
           "title": "Trump, Republican senator engage in shouting match over Iran war",
           "published_at": "2026-06-24T13:42:00+00:00",
           "domain": "reuters.com",
-          "age_days": 1.7
+          "age_days": 1.8
         },
         {
           "title": "UN suspends Hormuz evacuation after attack in Gulf of Oman",
@@ -140,7 +140,7 @@
           "title": "EASA extends its CZIB for the Middle East, Persian Gulf",
           "published_at": "2026-06-25T10:33:25+00:00",
           "domain": "travelpress.com",
-          "age_days": 0.8
+          "age_days": 0.9
         },
         {
           "title": "Rubio wraps up Gulf tour as allies share concerns over Iran peace accord",
@@ -162,10 +162,22 @@
       "risk": "low",
       "items": [
         {
-          "title": "Dr Thani Al Zeyoudi joins as Chairman of Agentic AI firm AIREV as UAE advances ambition to export homegrown artificial intelligence",
-          "published_at": "2026-06-24T06:02:50+00:00",
-          "domain": "gulfnews.com",
-          "age_days": 2.0
+          "title": "Kuwait Joins UAE, Saudi Arabia, Qatar, Bahrain, China, India and Others as Iran and Oman Advance Strait of Hormuz Control Framework, Maritime Service Charges and Tourism-Linked Shipping Route Impact After High-Level Muscat Talks",
+          "published_at": "2026-06-24T09:22:12+00:00",
+          "domain": "travelandtourworld.com",
+          "age_days": 1.9
+        },
+        {
+          "title": "UAE Eyes India’s BrahMos Supersonic Missile as Gulf Arms Race Intensifies After Iran Attacks",
+          "published_at": "2026-06-22T14:21:44+00:00",
+          "domain": "defencesecurityasia.com",
+          "age_days": 3.7
+        },
+        {
+          "title": "India eyes BrahMos, Akashteer sale to UAE as Gulf defence ties widen",
+          "published_at": "2026-06-22T11:35:44+00:00",
+          "domain": "newsdrum.in",
+          "age_days": 3.8
         }
       ]
     },
@@ -190,13 +202,13 @@
           "title": "Will New US Fed Chair Kevin Warsh Raise Interest Rates This Year?",
           "published_at": "2026-06-22T08:56:06+00:00",
           "domain": "global.morningstar.com",
-          "age_days": 3.9
+          "age_days": 4.0
         },
         {
           "title": "Fed expected to hold rates steady in July, hike in September",
           "published_at": "2026-06-25T13:47:55+00:00",
           "domain": "reuters.com",
-          "age_days": 0.7
+          "age_days": 0.8
         },
         {
           "title": "Fed Holds Rates and Leans Toward Fighting Inflation With Future Increases",
@@ -214,7 +226,7 @@
           "title": "The Fed may raise interest rates within months. Here's what it means for you.",
           "published_at": "2026-06-24T20:48:37+00:00",
           "domain": "abcnews.com",
-          "age_days": 1.4
+          "age_days": 1.5
         }
       ]
     }
