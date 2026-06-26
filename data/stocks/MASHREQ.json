@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "MASHREQ",
-    "price": 258.9,
-    "change": 3.876,
-    "change_pct": 0.0152,
-    "volume": 0,
-    "market_cap": null,
-    "high_52w": 267.325,
-    "low_52w": 252.703,
+    "price": 205.9,
+    "change": -4.1,
+    "change_pct": -0.0197,
+    "volume": 3901579,
+    "market_cap": 250155000000.0,
+    "high_52w": 233.59,
+    "low_52w": 179.1,
     "spark": [
-      252.703,
-      253.064,
-      254.713,
-      255.472,
-      255.104,
-      258.615,
-      261.437,
-      259.432,
-      261.497,
-      263.989,
-      262.039,
-      260.082,
-      257.566,
-      256.048,
-      256.988,
-      255.344,
-      258.491,
-      261.062,
-      261.874,
-      264.081,
-      266.354,
-      265.36,
-      264.537,
-      265.875,
-      267.325,
-      265.823,
-      264.013,
-      262.506,
-      261.488,
-      258.9
+      206.748,
+      208.068,
+      206.767,
+      207.059,
+      203.734,
+      202.482,
+      204.151,
+      200.417,
+      203.765,
+      200.513,
+      199.52,
+      200.558,
+      199.002,
+      202.671,
+      201.015,
+      201.045,
+      201.262,
+      204.371,
+      200.627,
+      200.737,
+      203.043,
+      207.359,
+      211.717,
+      212.899,
+      211.027,
+      210.363,
+      212.864,
+      213.002,
+      216.29,
+      205.9
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "DFM (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-06-25T12:50:30.164Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-06-26T05:06:34+00:00",
       "url": null,
       "lang": null
     }
@@ -280,7 +280,7 @@
   "fundamentals_source": {
     "real": true,
     "as_of": "2025-12-31",
-    "source": "Mashreq",
+    "source": "Mashreq IR",
     "source_url": "https://www.mashreq.com/en/uae/news/2026/january/mashreq-financial-results-fy2025/",
     "extractor": "mizan/ollama",
     "confidence": "high"
@@ -292,10 +292,10 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 0,
-      "high_52w": 267.325,
-      "low_52w": 252.703,
+      "market_cap": 250155000000.0,
+      "volume": 3901579,
+      "high_52w": 233.59,
+      "low_52w": 179.1,
       "dividend_yield": 0.0
     },
     "top_catalysts": [
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "MASHREQ-2-1782186630",
+      "id": "MASHREQ-2-1782245194",
       "symbol": "MASHREQ",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-23T03:50:30+00:00",
+      "published_at": "2026-06-23T20:06:34+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "MASHREQ-0-1781326230",
+      "id": "MASHREQ-0-1781384794",
       "symbol": "MASHREQ",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-06-13T04:50:30+00:00",
+      "published_at": "2026-06-13T21:06:34+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "MASHREQ-3-1779684630",
+      "id": "MASHREQ-3-1779743194",
       "symbol": "MASHREQ",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-25T04:50:30+00:00",
+      "published_at": "2026-05-25T21:06:34+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "MASHREQ-1-1776048630",
+      "id": "MASHREQ-1-1776107194",
       "symbol": "MASHREQ",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-13T02:50:30+00:00",
+      "published_at": "2026-04-13T19:06:34+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -404,7 +404,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
@@ -413,13 +413,23 @@
   ],
   "news": [
     {
+      "title": "ZAWYA: Turkey mandates 6-year USD sukuk; IPTs at 7.125%",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdFkxWlYyZ2NHaXZGNkQ2eG1mSXM3TVIzQ2tkbHhIRjlTY2o4OURvMHFBR2xmTUFIRmhYNTVDa1FtVkNZSzhpMUl2d3JuTkhqR1FWa05lTnROYW5JRnptYzRFdnJkUWswVVZleVRLRnM5bm1FZnZMQUljLTJYMmtzSnh6V1pNX2RycnhZempYSy1iVXoxa3owZWo4UlVYeHkwcWFYYUFmMG9XbGtrX1hzOXo1YjFONDIyMWJKNVp6NklDZkJwdWc?oc=5",
+      "domain": "tradingview.com",
+      "published_at": "2026-06-25T08:23:39+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-26T02:27:53+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
       "title": "Gulf shares slip after fresh attacks rattle truce",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRFFDRGNTUUN0MndKSHNLbklST1QwZlNkU2VtVU5xSXlLM2FzV2pvOG5KcWJqWG5iT093Y2g5bEQ0RGJQVEVVZ2JPV1pmOEFfQ0twQkJUZlVMb0d1RkVvSlpMUzdlUjlYTEFKNl9vdEt6ME4wVXlhd0hMNmQzZ19NOUp4dUZvMHNScHZGblFfcmw3VW1GZVdjWnhHaFNHbUZKaFNhdThjYjUzdXM?oc=5",
       "domain": "reuters.com",
       "published_at": "2026-05-05T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-25T08:11:35+00:00",
+      "retrieved_at": "2026-06-26T02:27:53+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -427,7 +437,7 @@
     {
       "symbol": "MASHREQ",
       "kind": "board",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -442,7 +452,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -450,7 +460,7 @@
     {
       "symbol": "MASHREQ",
       "kind": "agm",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -467,7 +477,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -475,7 +485,7 @@
     {
       "symbol": "MASHREQ",
       "kind": "board",
-      "date": "2025-12-27",
+      "date": "2025-12-28",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -493,7 +503,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -504,17 +514,17 @@
       "symbol": "MASHREQ",
       "amount": 7.5153,
       "currency": "AED",
-      "agm_date": "2026-07-22",
-      "entitlement_date": "2026-08-11",
-      "ex_date": "2026-08-10",
-      "payment_date": "2026-08-31",
+      "agm_date": "2026-07-23",
+      "entitlement_date": "2026-08-12",
+      "ex_date": "2026-08-11",
+      "payment_date": "2026-09-01",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -523,17 +533,17 @@
       "symbol": "MASHREQ",
       "amount": 7.5153,
       "currency": "AED",
-      "agm_date": "2026-05-17",
-      "entitlement_date": "2026-06-04",
-      "ex_date": "2026-06-03",
-      "payment_date": "2026-06-20",
+      "agm_date": "2026-05-18",
+      "entitlement_date": "2026-06-05",
+      "ex_date": "2026-06-04",
+      "payment_date": "2026-06-21",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -542,17 +552,17 @@
       "symbol": "MASHREQ",
       "amount": 7.5153,
       "currency": "AED",
-      "agm_date": "2025-11-29",
-      "entitlement_date": "2025-12-17",
-      "ex_date": "2025-12-16",
-      "payment_date": "2026-01-02",
+      "agm_date": "2025-11-30",
+      "entitlement_date": "2025-12-18",
+      "ex_date": "2025-12-17",
+      "payment_date": "2026-01-03",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -561,17 +571,17 @@
       "symbol": "MASHREQ",
       "amount": 7.5153,
       "currency": "AED",
-      "agm_date": "2025-05-23",
-      "entitlement_date": "2025-06-10",
-      "ex_date": "2025-06-09",
-      "payment_date": "2025-06-26",
+      "agm_date": "2025-05-24",
+      "entitlement_date": "2025-06-11",
+      "ex_date": "2025-06-10",
+      "payment_date": "2025-06-27",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -580,17 +590,17 @@
       "symbol": "MASHREQ",
       "amount": 7.5153,
       "currency": "AED",
-      "agm_date": "2024-12-03",
-      "entitlement_date": "2024-12-21",
-      "ex_date": "2024-12-20",
-      "payment_date": "2025-01-06",
+      "agm_date": "2024-12-04",
+      "entitlement_date": "2024-12-22",
+      "ex_date": "2024-12-21",
+      "payment_date": "2025-01-07",
       "frequency": "semi",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -620,7 +630,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-25T12:50:30+00:00",
+      "retrieved_at": "2026-06-26T05:06:34+00:00",
       "url": null,
       "lang": null
     }
@@ -634,25 +644,25 @@
       2026
     ],
     "revenue": [
-      2879500000.0,
-      3023400000.0,
-      3174600000.0,
-      3333300000.0,
-      3500000000.0
+      72031100000.0,
+      75632700000.0,
+      79414300000.0,
+      83385000000.0,
+      87554200000.0
     ],
     "net_income": [
-      460700000.0,
-      483700000.0,
-      507900000.0,
-      533300000.0,
-      560000000.0
+      11525000000.0,
+      12101200000.0,
+      12706300000.0,
+      13341600000.0,
+      14008700000.0
     ],
     "operating_cash_flow": [
-      511400000.0,
-      537000000.0,
-      563800000.0,
-      592000000.0,
-      621600000.0
+      12792700000.0,
+      13432400000.0,
+      14104000000.0,
+      14809200000.0,
+      15549600000.0
     ],
     "ratios": {
       "net_margin": 0.16,
@@ -701,12 +711,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -717,12 +727,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -733,12 +743,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -749,12 +759,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -765,12 +775,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -781,12 +791,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -796,7 +806,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-24T10:50:30+00:00",
+        "published_at": "2026-06-25T03:06:34+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -804,7 +814,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -812,7 +822,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-24T10:50:30+00:00",
+        "published_at": "2026-06-25T03:06:34+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -820,7 +830,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -828,7 +838,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-22T18:50:30+00:00",
+        "published_at": "2026-06-23T11:06:34+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -836,7 +846,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -847,50 +857,47 @@
   "ai_analysis": {
     "short_term": {
       "stance": "Neutral",
-      "confidence": "high",
+      "confidence": "medium",
       "reasons": [
-        "Recent disclosure flow is high materiality, suggesting the communication itself could drive near-term positioning.",
-        "Disclosure tone skews positive, which supports short-term market sentiment.",
-        "The stability score provides a moderate base, indicating limited near-term fragility.",
-        "The dividend score offers some short-term income cushion for holders."
+        "Latest session showed positive price momentum.",
+        "A recent high-materiality disclosure carried a positive tone.",
+        "No new negative company-specific news has appeared since the 52-day-old regional market dip."
       ],
       "risks": [
-        "The high-materiality disclosure introduces near-term uncertainty if the market interprets it differently than intended.",
-        "A surprise filing could shift the picture quickly and introduce volatility.",
-        "A sector-wide move could override company-specific signals and re-price the stock on flow alone.",
-        "Weak growth signal limits near-term upside momentum even if sentiment improves."
+        "A surprise filing could shift the picture quickly.",
+        "Sector-wide moves remain a risk given elevated geopolitical exposure in the Banks sector.",
+        "The 52-day-old negative regional equity flow could reassert against the current move.",
+        "Pending Fed rate-hike expectations (hike seen in September) add macro uncertainty."
       ],
-      "what_would_change_view": "A surprise filing that resolves the disclosure overhang and confirms the positive tone, or a sector-wide catalyst that breaks that tone and triggers broad re-pricing, would shift the view."
+      "what_would_change_view": "Any new dated company filing, a renewed surge in regional geopolitical risk tied to Gulf security, or a sharp sector rotation away from banks would need to reassess the neutral stance."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Mixed fundamentals with no single pillar standing out mean the long-term thesis is balanced rather than compelling.",
-        "The stability score provides some durability foundation for patient capital.",
-        "The dividend score offers income support that can be attractive over longer horizons.",
-        "Structural factors in the UAE banking sector provide a baseline, but not enough to drive material outperformance."
+        "Stability score of 59 and dividend score of 61 provide a defensive underpinning.",
+        "No single fundamental pillar dominates except for the resilience implied by the above-average dividend score.",
+        "Absence of a severe negative catalyst in the current flow leaves a base-case intact."
       ],
       "risks": [
-        "Weak growth signal is the biggest long-term headwind, suggesting the franchise may struggle to compound earnings.",
-        "Without a clear growth driver, the stock could underperform as capital rotates toward faster-expanding names.",
-        "The neutral stance with low confidence reflects the absence of a decisive long-term case.",
-        "Structural shifts in UAE banking—new competition, regulation, or credit-cycle changes—could erode the current profile."
+        "Weak growth signal (Growth 21/100) is a material long-term headwind.",
+        "High regional conflict and Gulf security risk could create a lasting sector drag.",
+        "Fed rate-hike path, with a hike expected in September, may pressure sector profitability or credit conditions over time.",
+        "52-day-old news of Gulf shares slipping after attacks shows shocks can resurface quickly."
       ],
-      "what_would_change_view": "A meaningful and sustained upturn in the growth pillar, backed by consistent earnings expansion and better capital deployment, would shift the view from neutral."
+      "what_would_change_view": "A material improvement in the growth score, a sustained reduction in sector geopolitical risk, or a clear valuation re-rating catalyst from new management or strategy news would be required to lift the long-term outlook from low-conviction neutral."
     },
     "_signal": {
       "short": {
         "stance": "Neutral",
-        "confidence": "high",
-        "score": 64.0,
+        "confidence": "medium",
+        "score": 53.6,
         "reasons": [
-          "Positive price momentum (+1.5% on the session in demo data)",
           "A high-materiality disclosure (79/100) is in the recent flow",
           "Recent disclosure tone skews positive"
         ],
         "risks": [
-          "A surprise filing or a sector-wide move could shift the picture quickly"
+          "Negative price momentum (-2.0% on the session in demo data)"
         ]
       },
       "long": {
@@ -907,11 +914,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-25T12:50:30+00:00",
+    "generated_at": "2026-06-26T05:06:34+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-24T20:32:57+00:00"
+    "narrated_at": "2026-06-25T21:10:24+00:00"
   },
-  "generated_at": "2026-06-25T12:50:30+00:00",
+  "generated_at": "2026-06-26T05:06:34+00:00",
   "peers": {
     "archetype": "bank",
     "self": {
@@ -925,11 +932,11 @@
       "upside": null
     },
     "medians": {
-      "pe": 8.2,
-      "pb": 1.31,
+      "pe": 7.7,
+      "pb": 1.28,
       "roe": 0.166,
-      "dy": 0.033,
-      "upside": 0.348
+      "dy": 0.043,
+      "upside": 0.433
     },
     "peers": [
       {

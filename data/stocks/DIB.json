@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "DIB",
-    "price": 7.48,
-    "change": -0.15,
-    "change_pct": -0.0196,
-    "volume": 0,
-    "market_cap": null,
-    "high_52w": 7.552,
-    "low_52w": 6.901,
+    "price": 7.5,
+    "change": 0.1,
+    "change_pct": 0.0132,
+    "volume": 4427521,
+    "market_cap": 42479000000.0,
+    "high_52w": 8.1,
+    "low_52w": 6.17,
     "spark": [
-      7.449,
-      7.552,
-      7.473,
-      7.411,
-      7.332,
-      7.321,
-      7.3,
-      7.242,
-      7.177,
-      7.224,
-      7.205,
-      7.193,
-      7.109,
-      7.041,
-      6.978,
-      6.915,
+      7.161,
+      7.02,
+      6.956,
+      7.035,
+      7.169,
+      7.276,
+      7.156,
+      7.039,
+      7.166,
+      7.219,
+      7.105,
+      7.031,
+      6.935,
       6.901,
-      6.923,
-      7.003,
-      7.064,
-      7.046,
-      7.06,
-      7.062,
-      7.149,
-      7.233,
-      7.326,
-      7.301,
-      7.274,
-      7.187,
-      7.48
+      6.934,
+      7.009,
+      6.989,
+      6.984,
+      7.113,
+      7.226,
+      7.289,
+      7.151,
+      7.134,
+      7.135,
+      7.011,
+      6.881,
+      6.966,
+      6.852,
+      6.979,
+      7.5
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "DFM (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-06-25T12:50:30.164Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-06-26T05:06:34+00:00",
       "url": null,
       "lang": null
     }
@@ -191,16 +191,16 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 69,
+      "score": 68,
       "grade": "B",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0468,
-          "points": 78.0,
+          "raw": 0.0467,
+          "points": 77.83333333333333,
           "weight": 0.18,
-          "note": "4.68% yield",
+          "note": "4.67% yield",
           "contribution": 14.0
         },
         {
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0468,
+    "dividend_yield": 0.0467,
     "payout_ratio": 0.36,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -292,14 +292,14 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 0,
-      "high_52w": 7.552,
-      "low_52w": 6.901,
-      "dividend_yield": 0.0468
+      "market_cap": 42479000000.0,
+      "volume": 4427521,
+      "high_52w": 8.1,
+      "low_52w": 6.17,
+      "dividend_yield": 0.0467
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 69/100)"
+      "Dependable dividend characteristics (Dividend 68/100)"
     ],
     "top_risks": [
       "Weak growth signal (Growth 16/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "DIB-1-1782121830",
+      "id": "DIB-1-1782180394",
       "symbol": "DIB",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-22T09:50:30+00:00",
+      "published_at": "2026-06-23T02:06:34+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIB-2-1778478630",
+      "id": "DIB-2-1778537194",
       "symbol": "DIB",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-05-11T05:50:30+00:00",
+      "published_at": "2026-05-11T22:06:34+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIB-3-1778381430",
+      "id": "DIB-3-1778439994",
       "symbol": "DIB",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-10T02:50:30+00:00",
+      "published_at": "2026-05-10T19:06:34+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DIB-0-1776999030",
+      "id": "DIB-0-1777057594",
       "symbol": "DIB",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-24T02:50:30+00:00",
+      "published_at": "2026-04-24T19:06:34+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIB-4-1774677030",
+      "id": "DIB-4-1774735594",
       "symbol": "DIB",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-03-28T05:50:30+00:00",
+      "published_at": "2026-03-28T22:06:34+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -430,7 +430,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
@@ -445,7 +445,7 @@
       "published_at": "2026-05-01T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-25T02:48:23+00:00",
+      "retrieved_at": "2026-06-25T23:15:03+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -455,7 +455,7 @@
       "published_at": "2026-06-17T05:48:29+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-25T02:48:23+00:00",
+      "retrieved_at": "2026-06-25T23:15:03+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -465,7 +465,7 @@
       "published_at": "2026-06-11T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-25T02:48:23+00:00",
+      "retrieved_at": "2026-06-25T23:15:03+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -475,7 +475,7 @@
       "published_at": "2026-04-29T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-25T02:48:23+00:00",
+      "retrieved_at": "2026-06-25T23:15:03+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -485,7 +485,7 @@
       "published_at": "2026-04-29T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-25T02:48:23+00:00",
+      "retrieved_at": "2026-06-25T23:15:03+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -495,7 +495,7 @@
       "published_at": "2026-04-28T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-25T02:48:23+00:00",
+      "retrieved_at": "2026-06-25T23:15:03+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -505,7 +505,7 @@
       "published_at": "2026-04-29T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-25T02:48:23+00:00",
+      "retrieved_at": "2026-06-25T23:15:03+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -515,7 +515,7 @@
       "published_at": "2026-04-28T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-25T02:48:23+00:00",
+      "retrieved_at": "2026-06-25T23:15:03+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -523,7 +523,7 @@
     {
       "symbol": "DIB",
       "kind": "board",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -538,7 +538,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -546,7 +546,7 @@
     {
       "symbol": "DIB",
       "kind": "agm",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -563,7 +563,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -571,7 +571,7 @@
     {
       "symbol": "DIB",
       "kind": "board",
-      "date": "2026-05-09",
+      "date": "2026-05-10",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -589,7 +589,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -600,17 +600,17 @@
       "symbol": "DIB",
       "amount": 0.2066,
       "currency": "AED",
-      "agm_date": "2026-07-11",
-      "entitlement_date": "2026-07-31",
-      "ex_date": "2026-07-30",
-      "payment_date": "2026-08-20",
+      "agm_date": "2026-07-12",
+      "entitlement_date": "2026-08-01",
+      "ex_date": "2026-07-31",
+      "payment_date": "2026-08-21",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -619,17 +619,17 @@
       "symbol": "DIB",
       "amount": 0.2066,
       "currency": "AED",
-      "agm_date": "2026-05-26",
-      "entitlement_date": "2026-06-13",
-      "ex_date": "2026-06-12",
-      "payment_date": "2026-06-29",
+      "agm_date": "2026-05-27",
+      "entitlement_date": "2026-06-14",
+      "ex_date": "2026-06-13",
+      "payment_date": "2026-06-30",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -638,17 +638,17 @@
       "symbol": "DIB",
       "amount": 0.2066,
       "currency": "AED",
-      "agm_date": "2025-12-03",
-      "entitlement_date": "2025-12-21",
-      "ex_date": "2025-12-20",
-      "payment_date": "2026-01-06",
+      "agm_date": "2025-12-04",
+      "entitlement_date": "2025-12-22",
+      "ex_date": "2025-12-21",
+      "payment_date": "2026-01-07",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -657,17 +657,17 @@
       "symbol": "DIB",
       "amount": 0.2066,
       "currency": "AED",
-      "agm_date": "2025-05-30",
-      "entitlement_date": "2025-06-17",
-      "ex_date": "2025-06-16",
-      "payment_date": "2025-07-03",
+      "agm_date": "2025-05-31",
+      "entitlement_date": "2025-06-18",
+      "ex_date": "2025-06-17",
+      "payment_date": "2025-07-04",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -676,17 +676,17 @@
       "symbol": "DIB",
       "amount": 0.2066,
       "currency": "AED",
-      "agm_date": "2024-12-02",
-      "entitlement_date": "2024-12-20",
-      "ex_date": "2024-12-19",
-      "payment_date": "2025-01-05",
+      "agm_date": "2024-12-03",
+      "entitlement_date": "2024-12-21",
+      "ex_date": "2024-12-20",
+      "payment_date": "2025-01-06",
       "frequency": "semi",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -716,7 +716,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-25T12:50:30+00:00",
+      "retrieved_at": "2026-06-26T05:06:34+00:00",
       "url": null,
       "lang": null
     }
@@ -760,11 +760,11 @@
     "fair_value": 10.746,
     "fair_low": 9.405,
     "fair_high": 12.596,
-    "price": 7.48,
-    "upside_pct": 0.4367,
+    "price": 7.5,
+    "upside_pct": 0.4328,
     "rating": "undervalued",
     "confidence": "medium",
-    "summary": "Model fair value AED 10.75 is 44% above the AED 7.48 price — undervalued. Driven mainly by book value vs ROE; assumes ~9% growth and a 10.5% discount rate, 14% ROE. Medium confidence (range AED 9.40–12.60).",
+    "summary": "Model fair value AED 10.75 is 43% above the AED 7.50 price — undervalued. Driven mainly by book value vs ROE; assumes ~9% growth and a 10.5% discount rate, 14% ROE. Medium confidence (range AED 9.40–12.60).",
     "methods": {
       "ddm": 6.682,
       "pb": 12.185,
@@ -785,7 +785,7 @@
       "fcf": "FCF perpetuity"
     },
     "basis": "deterministic",
-    "note": "The market appears to price in DIB's weak growth and regional risk premia, leaving the stock well below the model fair value; closing this gap likely requires either a material re-acceleration in core earnings or a sustained narrowing of the geopolitical discount on UAE banks.",
+    "note": "The AED 10.746 model fair value sits well above the AED 7.48 market price, but the market may be discounting DIB because of weak growth, high sector geopolitical risk, and recent negative price momentum; the gap could narrow only if growth improves or macro conditions ease.",
     "note_by": "freeagent"
   },
   "global_factors": {
@@ -816,12 +816,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -832,12 +832,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -848,12 +848,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -864,12 +864,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -880,12 +880,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -896,12 +896,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -911,7 +911,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-24T10:50:30+00:00",
+        "published_at": "2026-06-25T03:06:34+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -919,7 +919,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -927,7 +927,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-24T10:50:30+00:00",
+        "published_at": "2026-06-25T03:06:34+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -935,7 +935,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -943,7 +943,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-22T18:50:30+00:00",
+        "published_at": "2026-06-23T11:06:34+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -951,7 +951,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -962,55 +962,57 @@
   "ai_analysis": {
     "short_term": {
       "stance": "Neutral",
-      "confidence": "low",
+      "confidence": "medium",
       "reasons": [
-        "Recent disclosure tone skews positive.",
-        "DIB announced plans to raise $750mln in Islamic financing and recently issued $1bn AT1 Sukuk, indicating continued capital markets access.",
-        "Q1 2026 results beat analyst forecasts: profit rose to $489.85m, revenue reached Dh3.5bn, and pre-tax profit was Dh2.1bn."
+        "Recent disclosure tone skews positive",
+        "Q1 2026 net profit rose to $489.85 million and Dh3.5 billion revenue beat forecasts",
+        "Analysts have been updating predictions upward after the profit beat",
+        "$750 million Islamic financing raise and $1 billion AT1 Sukuk show active capital management"
       ],
       "risks": [
-        "Negative price momentum (-1.0% on the session) with the trend down and price sitting below the 5-, 10- and 20-day SMAs.",
-        "Geopolitical risk for the Banks sector is high, driven by Gulf security concerns and elevated global interest rates.",
-        "The recent AT1 Sukuk and new financing raise may also signal funding needs or higher funding costs, offsetting the positive tone.",
-        "RSI is neutral at 47.4 with no oversold reading, implying further downside is possible before stabilization."
+        "Negative price momentum (-2.0% on the session in demo data)",
+        "No dated news within the last 7 days, raising staleness risk",
+        "High geopolitical risk in the region and global interest rate uncertainty",
+        "Perpetual AT1 Sukuk adds capital structure complexity and ongoing cost"
       ],
-      "what_would_change_view": "A decisive close above the 5- and 10-day SMA cluster (around 7.91) on above-average volume to confirm trend reversal, or a material negative corporate event that reverses the recent positive disclosure tone."
+      "what_would_change_view": "A material near-term earnings guidance upgrade, confirmed monetisation of the new Islamic financing, or a reversal of the -2.0% negative price momentum would upgrade the short-term stance."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Dependable dividend characteristics (Dividend 68/100) provide a stable income base.",
-        "Model fair value of AED 10.746 implies a medium-confidence undervaluation versus the current price of AED 7.63.",
-        "Q1 2026 demonstrated solid profitability (profit $489.85m, pre-tax Dh2.1bn, revenue Dh3.5bn).",
-        "Capital-market access via Sukuk and Islamic financing issuance supports balance-sheet durability for the franchise."
+        "Dependable dividend characteristics (Dividend 69/100)",
+        "Stability score of 59/100",
+        "Q1 2026 results show revenue of Dh3.5 billion and profit of $489.85 million",
+        "Analysts have been updating forecasts upward after historical beats"
       ],
       "risks": [
-        "Weak growth signal (Growth 16/100) limits long-term earnings expansion and multiple re-rating potential.",
-        "The sector geopolitical risk level is high, with Gulf security and global rate uncertainty creating persistent macro headwinds.",
-        "Recurring capital issuance may indicate slower organic capital generation than desirable over the long run.",
-        "Q1 profit relied on higher other income; without core income re-acceleration, earnings quality may remain soft."
+        "Weak growth signal (Growth 16/100)",
+        "High geopolitical risk in the sector (regional conflict and global interest rate uncertainty)",
+        "Large Sukuk issuance could weigh on funding costs and return on equity",
+        "Fair value gap may persist if market skepticism about growth and rates remains"
       ],
-      "what_would_change_view": "Sustained improvement in the Growth score and at least two consecutive quarters of accelerating core income and ROE, or a durable de-escalation in regional security risks that narrows the banking sector's geopolitical discount."
+      "what_would_change_view": "Sustained pickup in top-line growth above the current weak-growth signal, a dividend increase reinforcing the dependability score, or a clear easing of geopolitical and rates headwinds would upgrade the long-term stance."
     },
     "_signal": {
       "short": {
         "stance": "Neutral",
-        "confidence": "low",
-        "score": 49.9,
+        "confidence": "medium",
+        "score": 59.8,
         "reasons": [
+          "Positive price momentum (+1.3% on the session in demo data)",
           "Recent disclosure tone skews positive"
         ],
         "risks": [
-          "Negative price momentum (-2.0% on the session in demo data)"
+          "A surprise filing or a sector-wide move could shift the picture quickly"
         ]
       },
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 43.1,
+        "score": 42.9,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 69/100)"
+          "Dependable dividend characteristics (Dividend 68/100)"
         ],
         "risks": [
           "Weak growth signal (Growth 16/100)"
@@ -1019,29 +1021,29 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-25T12:50:30+00:00",
+    "generated_at": "2026-06-26T05:06:34+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-25T01:47:30+00:00"
+    "narrated_at": "2026-06-26T04:40:08+00:00"
   },
-  "generated_at": "2026-06-25T12:50:30+00:00",
+  "generated_at": "2026-06-26T05:06:34+00:00",
   "peers": {
     "archetype": "bank",
     "self": {
       "symbol": "DIB",
       "name_en": "Dubai Islamic Bank",
       "archetype": "bank",
-      "pe": 7.6,
+      "pe": 7.7,
       "pb": 1.02,
       "roe": 0.1411,
-      "dy": 0.0468,
-      "upside": 0.4367
+      "dy": 0.0467,
+      "upside": 0.4328
     },
     "medians": {
-      "pe": 8.2,
-      "pb": 1.31,
+      "pe": 7.7,
+      "pb": 1.28,
       "roe": 0.166,
-      "dy": 0.033,
-      "upside": 0.348
+      "dy": 0.043,
+      "upside": 0.433
     },
     "peers": [
       {

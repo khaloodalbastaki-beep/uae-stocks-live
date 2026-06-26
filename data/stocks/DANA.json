@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-25T12:50:30.164Z",
+      "retrieved_at": "2026-06-26T05:06:34.777Z",
       "url": null,
       "lang": null
     }
@@ -191,8 +191,8 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 61,
-      "grade": "C+",
+      "score": 55,
+      "grade": "C",
       "subfactors": [
         {
           "key": "yield",
@@ -242,15 +242,15 @@
         {
           "key": "freq",
           "label": "Frequency & regularity",
-          "raw": "annual",
-          "points": 55.0,
+          "raw": "none",
+          "points": 0.0,
           "weight": 0.1,
-          "note": "annual distribution, 3y streak",
-          "contribution": 5.5
+          "note": "none distribution, 3y streak",
+          "contribution": 0.0
         }
       ]
     },
-    "headline": 42,
+    "headline": 41,
     "headline_grade": "D+",
     "archetype": "energy",
     "engine": "deterministic-v1"
@@ -274,12 +274,12 @@
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
-    "frequency": "annual",
+    "frequency": "none",
     "years_paid": 3
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "2025-12-31",
+    "as_of": null,
     "source": "Zawya",
     "source_url": "https://www.zawya.com/en/capital-markets/equities/dana-gas-reports-130mln-net-profit-for-fy2025-qlsv9tgv",
     "extractor": "mizan/ollama",
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "DANA-4-1780815030",
+      "id": "DANA-4-1780873594",
       "symbol": "DANA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-07T06:50:30+00:00",
+      "published_at": "2026-06-07T23:06:34+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DANA-5-1780465830",
+      "id": "DANA-5-1780524394",
       "symbol": "DANA",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-03T05:50:30+00:00",
+      "published_at": "2026-06-03T22:06:34+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DANA-3-1780228230",
+      "id": "DANA-3-1780286794",
       "symbol": "DANA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-31T11:50:30+00:00",
+      "published_at": "2026-06-01T04:06:34+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DANA-1-1779781830",
+      "id": "DANA-1-1779840394",
       "symbol": "DANA",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-05-26T07:50:30+00:00",
+      "published_at": "2026-05-27T00:06:34+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DANA-6-1778554230",
+      "id": "DANA-6-1778612794",
       "symbol": "DANA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-12T02:50:30+00:00",
+      "published_at": "2026-05-12T19:06:34+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DANA-2-1775785830",
+      "id": "DANA-2-1775844394",
       "symbol": "DANA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-10T01:50:30+00:00",
+      "published_at": "2026-04-10T18:06:34+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DANA-0-1775033430",
+      "id": "DANA-0-1775091994",
       "symbol": "DANA",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-01T08:50:30+00:00",
+      "published_at": "2026-04-02T01:06:34+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DANA-7-1774669830",
+      "id": "DANA-7-1774728394",
       "symbol": "DANA",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-03-28T03:50:30+00:00",
+      "published_at": "2026-03-28T20:06:34+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       },
@@ -523,7 +523,7 @@
       "published_at": "2026-06-23T16:49:29+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T20:31:24+00:00",
+      "retrieved_at": "2026-06-25T16:48:08+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -533,7 +533,7 @@
       "published_at": "2026-06-23T04:39:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T20:31:24+00:00",
+      "retrieved_at": "2026-06-25T16:48:08+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -543,7 +543,7 @@
       "published_at": "2026-06-23T11:23:26+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T20:31:24+00:00",
+      "retrieved_at": "2026-06-25T16:48:08+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -553,7 +553,7 @@
       "published_at": "2026-06-23T09:53:16+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T20:31:24+00:00",
+      "retrieved_at": "2026-06-25T16:48:08+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -563,17 +563,7 @@
       "published_at": "2026-06-23T12:29:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T20:31:24+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Dana Gas plans further explorations in Egypt after overdue payments cleared",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZUptWXFzOVkzY3RnLUI1T0txOGdVSjJTWEhPNXZOMExPZUJfUm52aUNBa1NTNzJ0WFZKTU1nX2JYdF9uV0ZIU2U5TUdYbE0xVGFkMFRhbGpyZHRPMjE1dFlHem5pUml1SFQ2NEJXQW81aDk0a1lERnhobmFmc1dGcjVRaE1PQmRoRDdhUkI3TnYwbnBYTHJQNjlUblU1OUhrRXNZTlNIVkZWek1FZVpwRnplMXJGaGxXNzZFYnNEOEtqX3o1NFg4MXFPWXNSbEZ3?oc=5",
-      "domain": "thenationalnews.com",
-      "published_at": "2026-06-23T07:20:25+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-24T20:31:24+00:00",
+      "retrieved_at": "2026-06-25T16:48:08+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -583,7 +573,17 @@
       "published_at": "2026-06-23T17:11:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T20:31:24+00:00",
+      "retrieved_at": "2026-06-25T16:48:08+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Dana Gas plans further explorations in Egypt after overdue payments cleared",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZUptWXFzOVkzY3RnLUI1T0txOGdVSjJTWEhPNXZOMExPZUJfUm52aUNBa1NTNzJ0WFZKTU1nX2JYdF9uV0ZIU2U5TUdYbE0xVGFkMFRhbGpyZHRPMjE1dFlHem5pUml1SFQ2NEJXQW81aDk0a1lERnhobmFmc1dGcjVRaE1PQmRoRDdhUkI3TnYwbnBYTHJQNjlUblU1OUhrRXNZTlNIVkZWek1FZVpwRnplMXJGaGxXNzZFYnNEOEtqX3o1NFg4MXFPWXNSbEZ3?oc=5",
+      "domain": "thenationalnews.com",
+      "published_at": "2026-06-23T07:20:25+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-25T16:48:08+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -593,7 +593,7 @@
       "published_at": "2026-06-23T10:22:43+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-24T20:31:24+00:00",
+      "retrieved_at": "2026-06-25T16:48:08+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -601,7 +601,7 @@
     {
       "symbol": "DANA",
       "kind": "board",
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -616,7 +616,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -624,7 +624,7 @@
     {
       "symbol": "DANA",
       "kind": "agm",
-      "date": "2026-08-14",
+      "date": "2026-08-15",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -649,7 +649,7 @@
     {
       "symbol": "DANA",
       "kind": "board",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -667,7 +667,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -678,17 +678,17 @@
       "symbol": "DANA",
       "amount": 0.3574,
       "currency": "AED",
-      "agm_date": "2026-07-03",
-      "entitlement_date": "2026-07-23",
-      "ex_date": "2026-07-22",
-      "payment_date": "2026-08-12",
+      "agm_date": "2026-07-04",
+      "entitlement_date": "2026-07-24",
+      "ex_date": "2026-07-23",
+      "payment_date": "2026-08-13",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -697,17 +697,17 @@
       "symbol": "DANA",
       "amount": 0.3574,
       "currency": "AED",
-      "agm_date": "2026-05-28",
-      "entitlement_date": "2026-06-15",
-      "ex_date": "2026-06-14",
-      "payment_date": "2026-07-01",
+      "agm_date": "2026-05-29",
+      "entitlement_date": "2026-06-16",
+      "ex_date": "2026-06-15",
+      "payment_date": "2026-07-02",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -716,17 +716,17 @@
       "symbol": "DANA",
       "amount": 0.3574,
       "currency": "AED",
-      "agm_date": "2025-11-28",
-      "entitlement_date": "2025-12-16",
-      "ex_date": "2025-12-15",
-      "payment_date": "2026-01-01",
+      "agm_date": "2025-11-29",
+      "entitlement_date": "2025-12-17",
+      "ex_date": "2025-12-16",
+      "payment_date": "2026-01-02",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -735,17 +735,17 @@
       "symbol": "DANA",
       "amount": 0.3574,
       "currency": "AED",
-      "agm_date": "2025-05-30",
-      "entitlement_date": "2025-06-17",
-      "ex_date": "2025-06-16",
-      "payment_date": "2025-07-03",
+      "agm_date": "2025-05-31",
+      "entitlement_date": "2025-06-18",
+      "ex_date": "2025-06-17",
+      "payment_date": "2025-07-04",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -754,17 +754,17 @@
       "symbol": "DANA",
       "amount": 0.3574,
       "currency": "AED",
-      "agm_date": "2024-11-23",
-      "entitlement_date": "2024-12-11",
-      "ex_date": "2024-12-10",
-      "payment_date": "2024-12-27",
+      "agm_date": "2024-11-24",
+      "entitlement_date": "2024-12-12",
+      "ex_date": "2024-12-11",
+      "payment_date": "2024-12-28",
       "frequency": "semi",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-25T12:50:30+00:00",
+        "retrieved_at": "2026-06-26T05:06:34+00:00",
         "url": null,
         "lang": null
       }
@@ -794,7 +794,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-25T12:50:30+00:00",
+      "retrieved_at": "2026-06-26T05:06:34+00:00",
       "url": null,
       "lang": null
     }
@@ -866,12 +866,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -882,12 +882,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -898,12 +898,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -914,12 +914,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -930,12 +930,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -946,12 +946,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-25T12:50:30+00:00",
+        "as_of": "2026-06-26T05:06:34+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -961,7 +961,7 @@
       {
         "title": "Energy headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-24T07:50:30+00:00",
+        "published_at": "2026-06-25T00:06:34+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.37,
@@ -969,7 +969,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -977,7 +977,7 @@
       {
         "title": "Energy headline — global macro update 2",
         "theme": "TRADE",
-        "published_at": "2026-06-23T17:50:30+00:00",
+        "published_at": "2026-06-24T10:06:34+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 4.74,
@@ -985,7 +985,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -993,7 +993,7 @@
       {
         "title": "Energy headline — global macro update 3",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-23T17:50:30+00:00",
+        "published_at": "2026-06-24T10:06:34+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 3.45,
@@ -1001,7 +1001,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -1009,7 +1009,7 @@
       {
         "title": "Energy headline — global macro update 4",
         "theme": "MARITIME",
-        "published_at": "2026-06-25T03:50:30+00:00",
+        "published_at": "2026-06-25T20:06:34+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 2.16,
@@ -1017,7 +1017,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -1025,7 +1025,7 @@
       {
         "title": "Energy headline — global macro update 5",
         "theme": "TRADE",
-        "published_at": "2026-06-22T14:50:30+00:00",
+        "published_at": "2026-06-23T07:06:34+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.91,
@@ -1033,7 +1033,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -1041,7 +1041,7 @@
       {
         "title": "Energy headline — global macro update 6",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-23T16:50:30+00:00",
+        "published_at": "2026-06-24T09:06:34+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -3.68,
@@ -1049,7 +1049,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-25T12:50:30+00:00",
+          "retrieved_at": "2026-06-26T05:06:34+00:00",
           "url": null,
           "lang": null
         }
@@ -1062,35 +1062,35 @@
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Recent company disclosures carry a constructive tone that could support near-term sentiment.",
-        "The dividend profile suggests the company maintains a meaningful distribution policy.",
-        "Stability metrics indicate the business can operate without sharp disruptions.",
-        "Listing on the ADX keeps the stock in focus for regional energy investors."
+        "A cluster of six dated news items from 2026-06-23 reports Dana Gas's Egypt drilling success (10 Bcf discovery), full receivables settlement, and a 30,000 boe/d production increase, reinforcing the positive disclosure-tone signal.",
+        "Receivables settlement in Egypt removes a known cash-flow overhang and supports near-term capital-allocation flexibility.",
+        "Moderate Stability (60) and Dividend (61) scores provide a defensive floor without aggressive short-term growth pressure.",
+        "The concentration of positive news on a single day gives a clear, recent fundamental tailwind even if the market has not fully absorbed it."
       ],
       "risks": [
-        "A surprise regulatory or operational filing could quickly upend the current picture.",
-        "Sector-wide momentum shifts may drag the stock regardless of company-specific news.",
-        "Limited near-term catalysts could cap upside.",
-        "Liquidity or trading flows typical of ADX-listed names may introduce volatility."
+        "Negative price momentum of -2.0% on the session in demo data contradicts the positive news tone and suggests the market may be unconvinced or distracted by broader factors.",
+        "Energy-sector geopolitical risk is rated high, with elevated OPEC+ policy and high Strait of Hormuz/Iran exposure that can override company-specific positives.",
+        "Growth score of 15/100 remains deeply weak, capping near-term upside potential despite the Egypt update.",
+        "No news more recent than 2026-06-23 is visible, so the catalyst may already be priced in or stale by current market conditions."
       ],
-      "what_would_change_view": "A material update from company disclosures that shifts the tone, or a sustained sector-wide trend, would be needed to move off neutral."
+      "what_would_change_view": "Fresh, dated confirmation that Egypt production gains are translating into improved cash flow or earnings, combined with a reversal of the recent negative price momentum and no further escalation in Energy geopolitical risk."
     },
     "long_term": {
       "stance": "Cautious",
       "confidence": "low",
       "reasons": [
-        "The dividend profile offers some income-oriented support over longer holding periods.",
-        "Stability metrics indicate the business is not in operational distress.",
-        "As an ADX-listed energy name, it benefits from the UAE's energy sector backdrop.",
-        "The company retains operational assets that can generate cash flow."
+        "Egypt receivables clearance and expansion plans remove a historical overhang and could support sustained production growth.",
+        "Moderate dividend durability (score 61) offers a baseline income anchor over longer horizons.",
+        "Mixed fundamentals per the long-signal notes mean no pillar is actively deteriorating, preserving a floor.",
+        "The Egypt operational footprint provides geographic diversification that could reduce single-market reliance over time."
       ],
       "risks": [
-        "Weak growth signal limits capital appreciation potential over time.",
-        "Mixed fundamentals mean no clear driver for sustained re-rating.",
-        "Energy transition and regulatory pressures could weigh on long-term profitability.",
-        "Dependence on dividends without growth may erode real returns if payout levels slip."
+        "Weak long-term growth signal (Growth 15/100) is the primary structural concern; the recent news does not materially alter the low-growth pillar.",
+        "High Energy-sector geopolitical risk — especially regional conflict & Gulf security at high — introduces persistent valuation suppression.",
+        "Long-signal notes explicitly state no single pillar stands out, limiting conviction for a secular re-rating.",
+        "OPEC+ policy risk remains elevated, and any sustained policy shift could constrain long-term gas price realization."
       ],
-      "what_would_change_view": "A credible strategy to materially improve growth metrics, or a sustained deterioration in the dividend or stability profile, would shift the cautious view."
+      "what_would_change_view": "A sustained improvement in the company-level Growth score above 40, recurrent evidence that Egypt volumes sustain higher cash conversion, and a visible easing of Energy-sector geopolitical risk from high to moderate or low."
     },
     "_signal": {
       "short": {
@@ -1107,7 +1107,7 @@
       "long": {
         "stance": "Cautious",
         "confidence": "low",
-        "score": 41.3,
+        "score": 40.0,
         "reasons": [
           "Mixed fundamentals; no single pillar stands out"
         ],
@@ -1118,11 +1118,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-25T12:50:30+00:00",
+    "generated_at": "2026-06-26T05:06:34+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-24T14:02:54+00:00"
+    "narrated_at": "2026-06-25T14:34:01+00:00"
   },
-  "generated_at": "2026-06-25T12:50:30+00:00",
+  "generated_at": "2026-06-26T05:06:34+00:00",
   "peers": {
     "archetype": "energy",
     "self": {
