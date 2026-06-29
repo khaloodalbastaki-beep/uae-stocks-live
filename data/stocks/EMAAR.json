@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "EMAAR",
-    "price": 15.21,
-    "change": 0.41,
-    "change_pct": 0.0274,
-    "volume": 24545962,
-    "market_cap": 67302000000.0,
-    "high_52w": 17.24,
-    "low_52w": 12.77,
+    "price": 12.22,
+    "change": 0.06,
+    "change_pct": 0.0049,
+    "volume": 0,
+    "market_cap": null,
+    "high_52w": 13.369,
+    "low_52w": 12.025,
     "spark": [
-      14.431,
-      14.473,
-      14.329,
-      14.436,
-      14.191,
-      14.498,
-      14.41,
-      14.671,
-      14.689,
-      14.493,
-      14.37,
-      14.313,
-      14.368,
-      14.422,
-      14.642,
-      14.682,
-      14.935,
-      15.059,
-      15.203,
-      14.951,
-      15.132,
-      15.386,
-      15.665,
-      15.815,
-      15.96,
-      15.663,
-      15.423,
-      15.363,
-      15.129,
-      15.21
+      12.117,
+      12.193,
+      12.134,
+      12.025,
+      12.171,
+      12.324,
+      12.439,
+      12.296,
+      12.287,
+      12.367,
+      12.524,
+      12.689,
+      12.562,
+      12.723,
+      12.608,
+      12.582,
+      12.601,
+      12.71,
+      12.797,
+      12.881,
+      12.925,
+      12.976,
+      13.074,
+      13.077,
+      13.201,
+      13.369,
+      13.275,
+      13.201,
+      13.262,
+      12.22
     ],
     "prov": {
-      "source_type": "mock",
-      "source_name": "Demo seed",
-      "data_quality": "demo",
-      "retrieved_at": "2026-06-29T06:00:18+00:00",
+      "source_type": "official",
+      "source_name": "DFM (delayed)",
+      "data_quality": "delayed",
+      "retrieved_at": "2026-06-29T06:16:18.669Z",
       "url": null,
       "lang": null
     }
@@ -292,10 +292,10 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": 67302000000.0,
-      "volume": 24545962,
-      "high_52w": 17.24,
-      "low_52w": 12.77,
+      "market_cap": null,
+      "volume": 0,
+      "high_52w": 13.369,
+      "low_52w": 12.025,
       "dividend_yield": 0.0
     },
     "top_catalysts": [
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "EMAAR-0-1782079218",
+      "id": "EMAAR-0-1782080178",
       "symbol": "EMAAR",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-21T22:00:18+00:00",
+      "published_at": "2026-06-21T22:16:18+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMAAR-1-1780704018",
+      "id": "EMAAR-1-1780704978",
       "symbol": "EMAAR",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-06T00:00:18+00:00",
+      "published_at": "2026-06-06T00:16:18+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMAAR-3-1779994818",
+      "id": "EMAAR-3-1779995778",
       "symbol": "EMAAR",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-28T19:00:18+00:00",
+      "published_at": "2026-05-28T19:16:18+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMAAR-5-1779138018",
+      "id": "EMAAR-5-1779138978",
       "symbol": "EMAAR",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-05-18T21:00:18+00:00",
+      "published_at": "2026-05-18T21:16:18+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMAAR-4-1778961618",
+      "id": "EMAAR-4-1778962578",
       "symbol": "EMAAR",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-05-16T20:00:18+00:00",
+      "published_at": "2026-05-16T20:16:18+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMAAR-6-1778277618",
+      "id": "EMAAR-6-1778278578",
       "symbol": "EMAAR",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-08T22:00:18+00:00",
+      "published_at": "2026-05-08T22:16:18+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMAAR-2-1777402818",
+      "id": "EMAAR-2-1777403778",
       "symbol": "EMAAR",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-28T19:00:18+00:00",
+      "published_at": "2026-04-28T19:16:18+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMAAR-7-1776110418",
+      "id": "EMAAR-7-1776111378",
       "symbol": "EMAAR",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-04-13T20:00:18+00:00",
+      "published_at": "2026-04-13T20:16:18+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       },
@@ -616,7 +616,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       }
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       }
@@ -667,7 +667,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       }
@@ -688,7 +688,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       }
@@ -707,7 +707,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       }
@@ -726,7 +726,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       }
@@ -745,7 +745,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       }
@@ -764,7 +764,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T06:00:18+00:00",
+        "retrieved_at": "2026-06-29T06:16:18+00:00",
         "url": null,
         "lang": null
       }
@@ -794,7 +794,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-29T06:00:18+00:00",
+      "retrieved_at": "2026-06-29T06:16:18+00:00",
       "url": null,
       "lang": null
     }
@@ -808,25 +808,25 @@
       2026
     ],
     "revenue": [
-      19379300000.0,
-      20348300000.0,
-      21365700000.0,
-      22434000000.0,
-      23555700000.0
+      2879500000.0,
+      3023400000.0,
+      3174600000.0,
+      3333300000.0,
+      3500000000.0
     ],
     "net_income": [
-      3100700000.0,
-      3255700000.0,
-      3418500000.0,
-      3589400000.0,
-      3768900000.0
+      460700000.0,
+      483700000.0,
+      507900000.0,
+      533300000.0,
+      560000000.0
     ],
     "operating_cash_flow": [
-      3441800000.0,
-      3613900000.0,
-      3794600000.0,
-      3984300000.0,
-      4183500000.0
+      511400000.0,
+      537000000.0,
+      563800000.0,
+      592000000.0,
+      621600000.0
     ],
     "ratios": {
       "net_margin": 0.16,
@@ -884,12 +884,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-29T06:00:18+00:00",
+        "as_of": "2026-06-29T06:16:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T06:00:18+00:00",
+          "retrieved_at": "2026-06-29T06:16:18+00:00",
           "url": null,
           "lang": null
         }
@@ -900,12 +900,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-29T06:00:18+00:00",
+        "as_of": "2026-06-29T06:16:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T06:00:18+00:00",
+          "retrieved_at": "2026-06-29T06:16:18+00:00",
           "url": null,
           "lang": null
         }
@@ -916,12 +916,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T06:00:18+00:00",
+        "as_of": "2026-06-29T06:16:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T06:00:18+00:00",
+          "retrieved_at": "2026-06-29T06:16:18+00:00",
           "url": null,
           "lang": null
         }
@@ -932,12 +932,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T06:00:18+00:00",
+        "as_of": "2026-06-29T06:16:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T06:00:18+00:00",
+          "retrieved_at": "2026-06-29T06:16:18+00:00",
           "url": null,
           "lang": null
         }
@@ -948,12 +948,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T06:00:18+00:00",
+        "as_of": "2026-06-29T06:16:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T06:00:18+00:00",
+          "retrieved_at": "2026-06-29T06:16:18+00:00",
           "url": null,
           "lang": null
         }
@@ -964,12 +964,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-29T06:00:18+00:00",
+        "as_of": "2026-06-29T06:16:18+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T06:00:18+00:00",
+          "retrieved_at": "2026-06-29T06:16:18+00:00",
           "url": null,
           "lang": null
         }
@@ -979,7 +979,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-28T04:00:18+00:00",
+        "published_at": "2026-06-28T04:16:18+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -987,7 +987,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T06:00:18+00:00",
+          "retrieved_at": "2026-06-29T06:16:18+00:00",
           "url": null,
           "lang": null
         }
@@ -995,7 +995,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-28T04:00:18+00:00",
+        "published_at": "2026-06-28T04:16:18+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -1003,7 +1003,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T06:00:18+00:00",
+          "retrieved_at": "2026-06-29T06:16:18+00:00",
           "url": null,
           "lang": null
         }
@@ -1011,7 +1011,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-26T12:00:18+00:00",
+        "published_at": "2026-06-26T12:16:18+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -1019,7 +1019,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T06:00:18+00:00",
+          "retrieved_at": "2026-06-29T06:16:18+00:00",
           "url": null,
           "lang": null
         }
@@ -1030,7 +1030,7 @@
   "ai_analysis": {
     "short_term": {
       "stance": "Neutral",
-      "confidence": "high",
+      "confidence": "medium",
       "reasons": [
         "Recent dividend-focused coverage reinforces Emaar's income profile, aligning with its high dividend score and offering near-term price support.",
         "The recently announced $54.5 billion Dubai development project provides a tangible growth catalyst for future cash-flow visibility.",
@@ -1061,10 +1061,9 @@
     "_signal": {
       "short": {
         "stance": "Neutral",
-        "confidence": "high",
-        "score": 61.5,
+        "confidence": "medium",
+        "score": 54.8,
         "reasons": [
-          "Positive price momentum (+2.7% on the session in demo data)",
           "A high-materiality disclosure (94/100) is in the recent flow"
         ],
         "risks": [
@@ -1085,11 +1084,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-29T06:00:18+00:00",
+    "generated_at": "2026-06-29T06:16:18+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-28T08:31:30+00:00"
   },
-  "generated_at": "2026-06-29T06:00:18+00:00",
+  "generated_at": "2026-06-29T06:16:18+00:00",
   "peers": {
     "archetype": "developer",
     "self": {
@@ -1103,11 +1102,11 @@
       "upside": null
     },
     "medians": {
-      "pe": 7.2,
-      "pb": 0.61,
+      "pe": 6.95,
+      "pb": 0.585,
       "roe": 0.086,
       "dy": 0.0,
-      "upside": 0.2
+      "upside": 0.26
     },
     "peers": [
       {
@@ -1117,7 +1116,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.0241,
+        "dy": 0.0242,
         "upside": null
       },
       {
@@ -1134,21 +1133,21 @@
         "symbol": "RAKPROP",
         "name_en": "RAK Properties",
         "archetype": "developer",
-        "pe": 8.2,
+        "pe": 8.1,
         "pb": 0.56,
         "roe": 0.068,
         "dy": 0.0,
-        "upside": -0.1002
+        "upside": -0.092
       },
       {
         "symbol": "DEYAAR",
         "name_en": "Deyaar Development",
         "archetype": "developer",
-        "pe": 6.2,
-        "pb": 0.66,
+        "pe": 5.8,
+        "pb": 0.61,
         "roe": 0.1038,
-        "dy": 0.0575,
-        "upside": 0.5008
+        "dy": 0.0617,
+        "upside": 0.612
       },
       {
         "symbol": "EMAARDEV",
@@ -1157,7 +1156,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.0544,
+        "dy": 0.0487,
         "upside": null
       },
       {
