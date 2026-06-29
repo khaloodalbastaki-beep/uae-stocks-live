@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "SHUAA",
-    "price": 0.207,
-    "change": -0.003,
-    "change_pct": -0.0142,
-    "volume": 0,
-    "market_cap": null,
-    "high_52w": 0.207,
-    "low_52w": 0.192,
+    "price": 0.35,
+    "change": -0.01,
+    "change_pct": -0.0289,
+    "volume": 17064644,
+    "market_cap": 3060000000.0,
+    "high_52w": 0.41,
+    "low_52w": 0.32,
     "spark": [
-      0.207,
-      0.206,
-      0.204,
-      0.203,
-      0.205,
-      0.206,
-      0.206,
-      0.205,
-      0.205,
-      0.203,
-      0.201,
-      0.199,
-      0.197,
-      0.196,
-      0.195,
-      0.193,
-      0.192,
-      0.195,
-      0.193,
-      0.194,
-      0.195,
-      0.193,
-      0.192,
-      0.194,
-      0.193,
-      0.193,
-      0.193,
-      0.195,
-      0.196,
-      0.207
+      0.36,
+      0.367,
+      0.375,
+      0.368,
+      0.365,
+      0.362,
+      0.367,
+      0.365,
+      0.371,
+      0.369,
+      0.374,
+      0.369,
+      0.362,
+      0.356,
+      0.352,
+      0.357,
+      0.363,
+      0.359,
+      0.356,
+      0.363,
+      0.356,
+      0.35,
+      0.357,
+      0.364,
+      0.36,
+      0.367,
+      0.363,
+      0.359,
+      0.361,
+      0.35
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "DFM (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-06-26T12:55:30.263Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-06-29T05:11:57+00:00",
       "url": null,
       "lang": null
     }
@@ -60,8 +60,8 @@
   "scores": {
     "growth": {
       "pillar": "growth",
-      "score": 47,
-      "grade": "D+",
+      "score": 39,
+      "grade": "D",
       "subfactors": [
         {
           "key": "rev",
@@ -93,11 +93,11 @@
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.04,
-          "points": 100.0,
+          "raw": 0.0,
+          "points": 42.85714285714285,
           "weight": 0.14,
-          "note": "expanding margins",
-          "contribution": 14.0
+          "note": "compressing margins",
+          "contribution": 6.0
         },
         {
           "key": "reinvest",
@@ -250,7 +250,7 @@
         }
       ]
     },
-    "headline": 55,
+    "headline": 52,
     "headline_grade": "C",
     "archetype": "investment",
     "engine": "deterministic-v1"
@@ -259,7 +259,7 @@
     "revenue_growth": 0.0,
     "profit_growth": 1.5693,
     "revenue_cagr_3y": 0.0,
-    "margin_trend": 0.04,
+    "margin_trend": 0.0,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -279,8 +279,8 @@
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "2025-12-31",
-    "source": "SHUAA Capital press release",
+    "as_of": null,
+    "source": "SHUAA Capital IR",
     "source_url": "https://www.shuaa.com/shuaa-capital-reports-net-profit-of-aed-156-million-in-fy-2025",
     "extractor": "mizan/ollama",
     "confidence": "high"
@@ -292,28 +292,28 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 0,
-      "high_52w": 0.207,
-      "low_52w": 0.192,
+      "market_cap": 3060000000.0,
+      "volume": 17064644,
+      "high_52w": 0.41,
+      "low_52w": 0.32,
       "dividend_yield": 0.0
     },
     "top_catalysts": [
       "Mixed fundamentals; no single pillar stands out"
     ],
     "top_risks": [
-      "Execution and macro conditions remain the key swing factors"
+      "Weak growth signal (Growth 39/100)"
     ]
   },
   "disclosures": [
     {
-      "id": "SHUAA-2-1780656930",
+      "id": "SHUAA-2-1780888317",
       "symbol": "SHUAA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-05T10:55:30+00:00",
+      "published_at": "2026-06-08T03:11:57+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SHUAA-3-1780131330",
+      "id": "SHUAA-3-1780362717",
       "symbol": "SHUAA",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-30T08:55:30+00:00",
+      "published_at": "2026-06-02T01:11:57+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SHUAA-5-1777366530",
+      "id": "SHUAA-5-1777597917",
       "symbol": "SHUAA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-28T08:55:30+00:00",
+      "published_at": "2026-05-01T01:11:57+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SHUAA-0-1777110930",
+      "id": "SHUAA-0-1777342317",
       "symbol": "SHUAA",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-04-25T09:55:30+00:00",
+      "published_at": "2026-04-28T02:11:57+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SHUAA-4-1776822930",
+      "id": "SHUAA-4-1777054317",
       "symbol": "SHUAA",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-22T01:55:30+00:00",
+      "published_at": "2026-04-24T18:11:57+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SHUAA-1-1775181330",
+      "id": "SHUAA-1-1775412717",
       "symbol": "SHUAA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-03T01:55:30+00:00",
+      "published_at": "2026-04-05T18:11:57+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -456,7 +456,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
@@ -471,57 +471,7 @@
       "published_at": "2026-06-25T21:17:49+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T03:32:57+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "SHUAA Capital (SHUAA) Q4 2025 earnings summary",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Ga1c2TkRXVGpUYm9QUzRhdTlEV0gxQkRNVkwxUXJDZDFtdkp6RXd5RWhHNkdSXzFnQ3g3a19Wa0RodEo4ODRPcEZBYkdJUl9Ea1E1SkhELVNyQ3FPVnNocW9oSmVKNWVhY18tSlZJS1JpVVpS?oc=5",
-      "domain": "quartr.com",
-      "published_at": "2026-06-19T19:48:07+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T03:32:57+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "SHUAA Capital (SHUAA) Q1 2024 earnings summary",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQb2RSeDdqQ24wWXpnMUdNaGJpVkV3TWl4bWxfM0lpaVBPNTQtS1JCWDBXeV94eThVQ0NRTjd2RFlQZGNudnAtT3RreV9tMnlMV0JQSmlxNF9EYWd4d0RPTExxVVBOdDA1NUo5VEdVSQ?oc=5",
-      "domain": "quartr.com",
-      "published_at": "2026-06-19T20:21:50+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T03:32:57+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "SHUAA Capital (SHUAA) Q2 2025 earnings summary",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zbWJydVZXUjZDQXpHeVg4RFZhRHpvdmFjQ2NhZXdlSUplVlpkeXRidmZOUUFvOC1KM3BBMHVia2d6QzBYaFhqNUFMZUpxZFRqUVNJU29DT1hKWWJqc1ZMU3d1LTl4dVp2MzIxY2pDdmdhZGhW?oc=5",
-      "domain": "quartr.com",
-      "published_at": "2026-06-19T19:29:10+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T03:32:57+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "SHUAA Capital (SHUAA) Q1 2025 earnings summary",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PVlNobXhrM0I3YzBTUWJWdVFIN3hpQ1JtWjJmcEFNMTNCWWNSQjFmTVNBT3lxM2ZDbTc0dHdqdXRJS2R4Y0laTWJfNC1USDRCUnBxS291S2RYQXptc3A0dDNFazl1OTlyUHdKVUdabw?oc=5",
-      "domain": "quartr.com",
-      "published_at": "2026-06-19T20:18:25+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T03:32:57+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "SHUAA Capital (SHUAA) Q2 2024 earnings summary",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1xUVFQLVVPS1JBT1V0MFZoYjBBLUQzRHgxbGdnS1NGODd3Rm43UklUQ24ycklMTy1oRVNuX2pIbjdIUThKeUJJVWFxV1JnMHJlVWtxSTNseGtELXBYd2VVQ1c0UVkzMEJtOVdnbTBXTVBrNXN6?oc=5",
-      "domain": "quartr.com",
-      "published_at": "2026-06-19T19:27:19+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T03:32:57+00:00",
+      "retrieved_at": "2026-06-28T20:07:25+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -531,7 +481,7 @@
       "published_at": "2026-06-19T19:31:40+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T03:32:57+00:00",
+      "retrieved_at": "2026-06-28T20:07:25+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -541,7 +491,17 @@
       "published_at": "2026-06-19T19:34:12+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T03:32:57+00:00",
+      "retrieved_at": "2026-06-28T20:07:25+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "SHUAA Capital (SHUAA) Q1 2026 earnings summary",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rS3NBTTlPZWthLV9NZzlZVFNCWm1XZXFIT19zQnU4aFpyOFZ4Tzc3d2VSd2dBeVVyMTVrWFRDU1RpUEFsekNQeHhwOURlcVlqemJUSHJkR2IxQkU5TTlGNTRNX096UF9MQ1BpbU5xMVJ1VWha?oc=5",
+      "domain": "quartr.com",
+      "published_at": "2026-05-25T07:00:00+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-28T20:07:25+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -549,7 +509,7 @@
     {
       "symbol": "SHUAA",
       "kind": "board",
-      "date": "2026-07-02",
+      "date": "2026-07-05",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -564,7 +524,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -572,7 +532,7 @@
     {
       "symbol": "SHUAA",
       "kind": "agm",
-      "date": "2026-08-07",
+      "date": "2026-08-10",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -589,7 +549,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -597,7 +557,7 @@
     {
       "symbol": "SHUAA",
       "kind": "board",
-      "date": "2025-12-19",
+      "date": "2025-12-22",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -615,7 +575,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -626,17 +586,17 @@
       "symbol": "SHUAA",
       "amount": 0.0069,
       "currency": "AED",
-      "agm_date": "2026-07-29",
-      "entitlement_date": "2026-08-18",
-      "ex_date": "2026-08-17",
-      "payment_date": "2026-09-07",
+      "agm_date": "2026-08-01",
+      "entitlement_date": "2026-08-21",
+      "ex_date": "2026-08-20",
+      "payment_date": "2026-09-10",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -645,17 +605,17 @@
       "symbol": "SHUAA",
       "amount": 0.0069,
       "currency": "AED",
-      "agm_date": "2026-06-02",
-      "entitlement_date": "2026-06-20",
-      "ex_date": "2026-06-19",
-      "payment_date": "2026-07-06",
+      "agm_date": "2026-06-05",
+      "entitlement_date": "2026-06-23",
+      "ex_date": "2026-06-22",
+      "payment_date": "2026-07-09",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -664,17 +624,17 @@
       "symbol": "SHUAA",
       "amount": 0.0069,
       "currency": "AED",
-      "agm_date": "2025-05-25",
-      "entitlement_date": "2025-06-12",
-      "ex_date": "2025-06-11",
-      "payment_date": "2025-06-28",
+      "agm_date": "2025-05-28",
+      "entitlement_date": "2025-06-15",
+      "ex_date": "2025-06-14",
+      "payment_date": "2025-07-01",
       "frequency": "annual",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -704,7 +664,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-26T12:55:30+00:00",
+      "retrieved_at": "2026-06-29T05:11:57+00:00",
       "url": null,
       "lang": null
     }
@@ -718,28 +678,28 @@
       2026
     ],
     "revenue": [
-      2879500000.0,
-      3023400000.0,
-      3174600000.0,
-      3333300000.0,
-      3500000000.0
+      881100000.0,
+      925200000.0,
+      971400000.0,
+      1020000000.0,
+      1071000000.0
     ],
     "net_income": [
-      575900000.0,
-      665200000.0,
-      761900000.0,
-      866700000.0,
-      980000000.0
+      141000000.0,
+      148000000.0,
+      155400000.0,
+      163200000.0,
+      171400000.0
     ],
     "operating_cash_flow": [
-      639200000.0,
-      738300000.0,
-      845700000.0,
-      962000000.0,
-      1087800000.0
+      156500000.0,
+      164300000.0,
+      172500000.0,
+      181200000.0,
+      190200000.0
     ],
     "ratios": {
-      "net_margin": 0.28,
+      "net_margin": 0.16,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
       "payout_ratio": 0.5
@@ -776,12 +736,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -792,12 +752,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -808,12 +768,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -824,12 +784,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -840,12 +800,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -856,12 +816,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -871,7 +831,7 @@
       {
         "title": "Uae headline — global macro update 1",
         "theme": "MARITIME",
-        "published_at": "2026-06-26T11:55:30+00:00",
+        "published_at": "2026-06-29T04:11:57+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": -3.59,
@@ -879,7 +839,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -887,7 +847,7 @@
       {
         "title": "Uae headline — global macro update 2",
         "theme": "TOURISM",
-        "published_at": "2026-06-24T00:55:30+00:00",
+        "published_at": "2026-06-26T17:11:57+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -2.92,
@@ -895,7 +855,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -903,7 +863,7 @@
       {
         "title": "Uae headline — global macro update 3",
         "theme": "ENERGY",
-        "published_at": "2026-06-25T12:55:30+00:00",
+        "published_at": "2026-06-28T05:11:57+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.7,
@@ -911,7 +871,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -919,7 +879,7 @@
       {
         "title": "Uae headline — global macro update 4",
         "theme": "TRADE",
-        "published_at": "2026-06-23T16:55:30+00:00",
+        "published_at": "2026-06-26T09:11:57+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -0.29,
@@ -927,7 +887,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -935,7 +895,7 @@
       {
         "title": "Uae headline — global macro update 5",
         "theme": "TOURISM",
-        "published_at": "2026-06-25T20:55:30+00:00",
+        "published_at": "2026-06-28T13:11:57+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.65,
@@ -943,7 +903,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -956,68 +916,68 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Recent disclosure tone skews positive, and a high-materiality filing (78/100) is in the flow, which may be supporting near-term sentiment.",
-        "Stability (60) and Dividend (61) scores provide near-term ballast, making the stock relatively less volatile than its Growth score (39) would imply in isolation.",
-        "Multiple earnings summaries published on 2026-06-19 (covering Q1 2024 through Q4 2025) show an active, recent reporting cadence.",
-        "No negative catalyst is flagged in the short-signal flow, aligning with a Neutral (medium) short-term stance."
+        "High-materiality disclosure (78/100) in the recent news flow, skewed positive in tone.",
+        "Most recent dated item (3 days ago, 25 June 2026) keeps company-specific catalyst risk visible to the market.",
+        "Broadly mixed-but-not-weak scores (Growth 47, Stability 60, Dividend 61) leave no single pillar to drive a decisive directional call.",
+        "Sector-level backdrop is benign enough that no macro override is needed."
       ],
       "risks": [
-        "A surprise filing or a sector-wide move could shift the picture quickly, as explicitly flagged in short-signal risks.",
-        "Sector geopolitics are elevated: Regional conflict & Gulf security risk is High and global interest-rate risk is High, with the Fed expected to hike in September, which could pressure UAE finance stocks.",
-        "The high-materiality disclosure sets a high informational bar; any subsequent contradictory revelation could quickly reverse the positive tone.",
-        "In the absence of a clear near-term price catalyst beyond the disclosure flow, the stock remains exposed to broader market swings."
+        "Negative price momentum (-1.4% on the session in demo data) counters the positive news tone.",
+        "Execution is still unproven; capital-markets and origination quality can shift quickly in the current environment.",
+        "Quarterly filing cadence can bring earnings surprises that reprice the stock intra-period.",
+        "Regional instability (high geopolitical risk update) can spill into UAE financial-markets sentiment even without direct SHUAA linkage."
       ],
-      "what_would_change_view": "View would upgrade if the high-materiality positive disclosure is followed by concrete earnings beats or sector tailwinds; it would downgrade on a surprise adverse filing or an abrupt macro deterioration in the conflict/rate environment."
+      "what_would_change_view": "A corroborated beat or guidance upgrade on top of the current positive disclosure tone would flip short-term to positive; a follow-through decline past -1.4% without news justification would flip short-term to negative."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Dividend (61) and Stability (60) are the strongest pillars, offering some defensive characteristics for a long-dated hold.",
-        "Long-signal notes describe mixed fundamentals rather than outright deterioration, supporting Neutral rather than Bearish long-term framing.",
-        "Earnings summaries spanning 2024 and 2025 confirm continued operational reporting and market presence.",
-        "No single pillar stands out, meaning the long-term case rests on a combination rather than a single driver."
+        "Mixed fundamentals; no single pillar stands out as a durable competitive moat.",
+        "Stability (60) and Dividend (61) scores are average, suggesting the asset-management model is workable but not distinctive.",
+        "Execution and macro conditions remain the key swing factors rather than structural advantages.",
+        "No dated stream shows a sustained inflection that would justify a fundamental re-rating today."
       ],
       "risks": [
-        "Weak growth signal: Growth score of 39 is the dominant long-term risk, suggesting limited expansion potential unless it inflects materially.",
-        "Geopolitical overhang: High sector risk from regional conflict and expected rate hikes could structurally increase funding costs and reduce investment activity.",
-        "Mixed fundamentals with no clear lead driver reduce conviction that a sustained re-rating is achievable.",
-        "While sanctions/trade risk is currently Low, policy shocks remain possible given the high regional conflict level."
+        "Execution risk around fee-income sustainability and asset-gathering cycles.",
+        "Macro conditions including broader rate and liquidity environment that affect asset-management flows.",
+        "Market concentration and competition from both regional and global asset managers in DFM.",
+        "Regulatory or structural changes to UAE financial-market frameworks that affect capital-markets activity."
       ],
-      "what_would_change_view": "View would upgrade if Growth score inflects above stability and dividend pillars over sustained reporting periods or if a structural deal changes the trajectory; it would downgrade if Growth falls further or geopolitical severity materially alters the sector’s risk premium."
+      "what_would_change_view": "A visible, sustained re-acceleration in fee growth combined with improved return metrics would move the view to positive; a cyclical downturn in DFM activity or negative EPS revisions without recovery would move the view to negative."
     },
     "_signal": {
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 53.1,
+        "score": 48.7,
         "reasons": [
           "A high-materiality disclosure (78/100) is in the recent flow",
           "Recent disclosure tone skews positive"
         ],
         "risks": [
-          "Negative price momentum (-1.4% on the session in demo data)"
+          "Negative price momentum (-2.9% on the session in demo data)"
         ]
       },
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 54.8,
+        "score": 51.4,
         "reasons": [
           "Mixed fundamentals; no single pillar stands out"
         ],
         "risks": [
-          "Execution and macro conditions remain the key swing factors"
+          "Weak growth signal (Growth 39/100)"
         ]
       }
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-26T12:55:30+00:00",
+    "generated_at": "2026-06-29T05:11:57+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-25T23:17:16+00:00"
+    "narrated_at": "2026-06-29T00:26:54+00:00"
   },
-  "generated_at": "2026-06-26T12:55:30+00:00",
+  "generated_at": "2026-06-29T05:11:57+00:00",
   "peers": {
     "archetype": "investment",
     "self": {
@@ -1034,7 +994,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.023,
+      "dy": 0.017,
       "upside": null
     },
     "peers": [
@@ -1045,7 +1005,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.0469,
+        "dy": 0.0331,
         "upside": null
       }
     ],

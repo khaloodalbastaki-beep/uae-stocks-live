@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-26T12:08:15+00:00",
+  "as_of": "2026-06-29T04:37:22+00:00",
   "risk_level": "high",
   "method": "heuristic from recent (<=3d) headline volume + escalation keywords; not a rating",
   "drivers": [
@@ -12,31 +12,31 @@
         "Utilities",
         "Holding / Diversified"
       ],
-      "risk": "elevated",
+      "risk": "low",
       "items": [
+        {
+          "title": "Crude Oil Prices Fall Sharply as Global Supply Risks Ease",
+          "published_at": "2026-06-26T19:14:43+00:00",
+          "domain": "tradingview.com",
+          "age_days": 2.4
+        },
         {
           "title": "Brent Crude Oil Price Forecast 2026: Geopolitical Risks & Market Analysis",
           "published_at": "2026-06-25T12:15:39+00:00",
           "domain": "intellectia.ai",
-          "age_days": 1.0
+          "age_days": 3.7
         },
         {
           "title": "WTI Crude Falls Below $70; Iraq Pressures OPEC With \"Retreat to Advance,\" Collapse Risk Surges",
           "published_at": "2026-06-25T14:29:50+00:00",
           "domain": "tradingkey.com",
-          "age_days": 0.9
+          "age_days": 3.6
         },
         {
           "title": "2026 Brent Crude Price Outlook: Falling Below $80, Where Is the Next Key Level?",
           "published_at": "2026-06-23T07:22:25+00:00",
           "domain": "tradingkey.com",
-          "age_days": 3.2
-        },
-        {
-          "title": "Nigeria Exceeds OPEC Quota as Crude, Condensate Output Reaches 11-month High",
-          "published_at": "2026-06-25T22:09:54+00:00",
-          "domain": "thisdaylive.com",
-          "age_days": 0.6
+          "age_days": 5.9
         }
       ]
     },
@@ -51,40 +51,40 @@
       "risk": "high",
       "items": [
         {
-          "title": "Iran Attacks Cargo Ship, Testing Trump’s Deal to Reopen Strait",
-          "published_at": "2026-06-25T23:40:00+00:00",
-          "domain": "wsj.com",
-          "age_days": 0.5
+          "title": "In Strait of Hormuz, Renewed Strikes Threaten to Set Back Shipping Recovery",
+          "published_at": "2026-06-29T00:40:00+00:00",
+          "domain": "nytimes.com",
+          "age_days": 0.2
+        },
+        {
+          "title": "UN agency pauses evacuation of ships through the Strait of Hormuz after attack on vessel",
+          "published_at": "2026-06-25T22:34:00+00:00",
+          "domain": "apnews.com",
+          "age_days": 3.3
+        },
+        {
+          "title": "U.S. military attacks Iranian targets after commercial tanker hit in the Strait of Hormuz",
+          "published_at": "2026-06-27T16:20:08+00:00",
+          "domain": "cnbc.com",
+          "age_days": 1.5
+        },
+        {
+          "title": "Iran insists it has sole control of Hormuz, ignoring Trump’s threats",
+          "published_at": "2026-06-29T03:24:00+00:00",
+          "domain": "washingtonpost.com",
+          "age_days": 0.1
         },
         {
           "title": "Iran Strikes Vessel in Strait of Hormuz, Pausing Escort Operations",
           "published_at": "2026-06-26T09:00:00+00:00",
           "domain": "time.com",
-          "age_days": 0.1
+          "age_days": 2.8
         },
         {
-          "title": "Iran: UK navy reports cargo vessel hit in Strait of Hormuz",
-          "published_at": "2026-06-26T05:38:50+00:00",
-          "domain": "dw.com",
-          "age_days": 0.3
-        },
-        {
-          "title": "U.N. agency pauses Strait of Hormuz evacuation effort as ship is struck off Oman",
-          "published_at": "2026-06-25T18:42:54+00:00",
-          "domain": "nbcnews.com",
-          "age_days": 0.7
-        },
-        {
-          "title": "UN agency pauses evacuation of ships through Strait of Hormuz after UK says a vessel was hit",
-          "published_at": "2026-06-25T19:17:15+00:00",
-          "domain": "pbs.org",
-          "age_days": 0.7
-        },
-        {
-          "title": "Fears in Strait of Hormuz as tanker struck after Iran warned ships to turn back",
-          "published_at": "2026-06-25T19:50:01+00:00",
-          "domain": "nypost.com",
-          "age_days": 0.7
+          "title": "U.S., Iran Carry Out New Strikes, Testing Fragile Ceasefire",
+          "published_at": "2026-06-28T07:53:00+00:00",
+          "domain": "wsj.com",
+          "age_days": 0.9
         }
       ]
     },
@@ -107,40 +107,40 @@
       "risk": "high",
       "items": [
         {
-          "title": "UN Maritime Agency Pauses Hormuz Evacuation After Ship Attack",
-          "published_at": "2026-06-26T01:10:00+00:00",
-          "domain": "rferl.org",
-          "age_days": 0.5
-        },
-        {
-          "title": "Pragmatic choice: Israel’s war backfires as Gulf backs US-Iran deal",
-          "published_at": "2026-06-25T17:23:36+00:00",
-          "domain": "aljazeera.com",
-          "age_days": 0.8
-        },
-        {
-          "title": "Trump, Republican senator engage in shouting match over Iran war",
-          "published_at": "2026-06-24T13:42:00+00:00",
-          "domain": "reuters.com",
-          "age_days": 1.9
-        },
-        {
-          "title": "UN suspends Hormuz evacuation after attack in Gulf of Oman",
-          "published_at": "2026-06-25T00:37:47+00:00",
-          "domain": "france24.com",
-          "age_days": 1.5
-        },
-        {
-          "title": "Rubio wraps up Gulf tour as allies share concerns over Iran peace accord",
-          "published_at": "2026-06-26T04:27:00+00:00",
-          "domain": "ddindia.co.in",
+          "title": "Shadow war: how use of proxy forces by Iran, Israel and US is driving Middle East instability",
+          "published_at": "2026-06-28T20:34:00+00:00",
+          "domain": "theguardian.com",
           "age_days": 0.3
         },
         {
-          "title": "IRGC says new Hormuz route announced without Iran coordination is unacceptable, dangerous",
-          "published_at": "2026-06-25T16:07:30+00:00",
-          "domain": "tribune.com.pk",
-          "age_days": 0.8
+          "title": "'We Have A Common Enemy': Gulf Journalists Speak To I24NEWS During Visit To Israel",
+          "published_at": "2026-06-28T18:16:38+00:00",
+          "domain": "i24news.tv",
+          "age_days": 0.4
+        },
+        {
+          "title": "Live Updates: Latest from Israel, Iran, and Middle East",
+          "published_at": "2026-06-28T00:00:05+00:00",
+          "domain": "jpost.com",
+          "age_days": 1.2
+        },
+        {
+          "title": "US considering moving Gulf bases hit by Iran westward, including to Israel — report",
+          "published_at": "2026-06-26T08:11:00+00:00",
+          "domain": "timesofisrael.com",
+          "age_days": 2.9
+        },
+        {
+          "title": "Fresh hostilities in Gulf suggest US-Iran memorandum was too broadly worded",
+          "published_at": "2026-06-28T15:02:00+00:00",
+          "domain": "theguardian.com",
+          "age_days": 0.6
+        },
+        {
+          "title": "US says it struck Iran targets after attack on cargo ship in the strait of Hormuz",
+          "published_at": "2026-06-26T21:07:00+00:00",
+          "domain": "theguardian.com",
+          "age_days": 2.3
         }
       ]
     },
@@ -159,7 +159,7 @@
           "title": "Dr Thani Al Zeyoudi joins as Chairman of Agentic AI firm AIREV as UAE advances ambition to export homegrown artificial intelligence",
           "published_at": "2026-06-24T06:02:50+00:00",
           "domain": "gulfnews.com",
-          "age_days": 2.3
+          "age_days": 4.9
         }
       ]
     },
@@ -172,43 +172,43 @@
         "Investment & Finance",
         "Insurance"
       ],
-      "risk": "high",
+      "risk": "elevated",
       "items": [
         {
           "title": "Will New US Fed Chair Kevin Warsh Raise Interest Rates This Year?",
           "published_at": "2026-06-22T08:56:06+00:00",
           "domain": "global.morningstar.com",
-          "age_days": 4.1
+          "age_days": 6.8
         },
         {
-          "title": "Outlook for Fed interest rates shifts in a hawkish direction",
-          "published_at": "2026-06-26T04:30:09+00:00",
-          "domain": "ft.com",
-          "age_days": 0.3
-        },
-        {
-          "title": "Fed Holds Rates and Leans Toward Fighting Inflation With Future Increases",
-          "published_at": "2026-06-21T07:00:00+00:00",
-          "domain": "nytimes.com",
-          "age_days": 5.2
-        },
-        {
-          "title": "Fed to hold rates this year, economists say, defying market bets for hikes: Reuters poll",
-          "published_at": "2026-06-26T11:12:07+00:00",
-          "domain": "wtvbam.com",
+          "title": "Why the Fed is not ready to bet on AI just yet",
+          "published_at": "2026-06-29T04:12:59+00:00",
+          "domain": "thenationalnews.com",
           "age_days": 0.0
         },
         {
-          "title": "Fed expected to hold rates steady in July, hike in September",
-          "published_at": "2026-06-25T13:47:55+00:00",
-          "domain": "reuters.com",
-          "age_days": 0.9
+          "title": "Dollar hits 13-month high as foreign investors overlook worries about Trump",
+          "published_at": "2026-06-28T16:00:00+00:00",
+          "domain": "washingtonpost.com",
+          "age_days": 0.5
         },
         {
-          "title": "The Fed may raise interest rates within months. Here's what it means for you.",
-          "published_at": "2026-06-24T20:48:37+00:00",
-          "domain": "abcnews.com",
-          "age_days": 1.6
+          "title": "Dollar poised for best month in nearly a year; eyes on jobs data, Gulf tension",
+          "published_at": "2026-06-29T02:18:26+00:00",
+          "domain": "kfgo.com",
+          "age_days": 0.1
+        },
+        {
+          "title": "Fed to hold rates this year, economists say, defying market bets for hikes: Reuters poll",
+          "published_at": "2026-06-26T11:28:21+00:00",
+          "domain": "reuters.com",
+          "age_days": 2.7
+        },
+        {
+          "title": "US bond market expects rate hikes the Fed may never deliver",
+          "published_at": "2026-06-25T10:09:07+00:00",
+          "domain": "reuters.com",
+          "age_days": 3.8
         }
       ]
     }

@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "EMAARDEV",
-    "price": 14.1,
-    "change": 0.099,
-    "change_pct": 0.0071,
-    "volume": 0,
-    "market_cap": null,
-    "high_52w": 14.1,
-    "low_52w": 13.402,
+    "price": 12.5,
+    "change": -0.1,
+    "change_pct": -0.0079,
+    "volume": 14799305,
+    "market_cap": 36886000000.0,
+    "high_52w": 13.5,
+    "low_52w": 9.86,
     "spark": [
-      13.629,
-      13.774,
-      13.674,
-      13.572,
-      13.596,
-      13.595,
-      13.443,
-      13.533,
-      13.706,
-      13.867,
-      13.733,
-      13.659,
-      13.617,
-      13.564,
-      13.746,
-      13.673,
-      13.837,
-      13.674,
-      13.528,
-      13.506,
-      13.53,
-      13.465,
-      13.402,
-      13.504,
-      13.414,
-      13.572,
-      13.593,
-      13.545,
-      13.557,
-      14.1
+      12.041,
+      12.131,
+      12.151,
+      11.982,
+      11.905,
+      11.785,
+      11.935,
+      11.754,
+      11.71,
+      11.77,
+      11.807,
+      11.598,
+      11.439,
+      11.291,
+      11.312,
+      11.133,
+      11.147,
+      10.96,
+      11.195,
+      11.379,
+      11.547,
+      11.492,
+      11.285,
+      11.454,
+      11.338,
+      11.349,
+      11.582,
+      11.407,
+      11.335,
+      12.5
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "DFM (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-06-26T12:55:30.263Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-06-29T05:11:57+00:00",
       "url": null,
       "lang": null
     }
@@ -93,7 +93,7 @@
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": -0.1574,
+          "raw": -0.1573,
           "points": 0.0,
           "weight": 0.14,
           "note": "compressing margins",
@@ -191,26 +191,26 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 79,
+      "score": 76,
       "grade": "B+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0482,
-          "points": 80.33333333333333,
+          "raw": 0.0544,
+          "points": 90.66666666666666,
           "weight": 0.18,
-          "note": "4.82% yield",
-          "contribution": 14.5
+          "note": "5.44% yield",
+          "contribution": 16.3
         },
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.5,
-          "points": 96.6,
+          "raw": 0.36,
+          "points": 72.8,
           "weight": 0.2,
-          "note": "50% of earnings paid out",
-          "contribution": 19.3
+          "note": "36% of earnings paid out",
+          "contribution": 14.6
         },
         {
           "key": "fcf",
@@ -259,7 +259,7 @@
     "revenue_growth": 0.6062,
     "profit_growth": 0.1515,
     "revenue_cagr_3y": 0.6062,
-    "margin_trend": -0.1574,
+    "margin_trend": -0.1573,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -269,8 +269,8 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0482,
-    "payout_ratio": 0.5,
+    "dividend_yield": 0.0544,
+    "payout_ratio": 0.36,
     "fcf_coverage": 1.43,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
@@ -292,14 +292,14 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 0,
-      "high_52w": 14.1,
-      "low_52w": 13.402,
-      "dividend_yield": 0.0482
+      "market_cap": 36886000000.0,
+      "volume": 14799305,
+      "high_52w": 13.5,
+      "low_52w": 9.86,
+      "dividend_yield": 0.0544
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 79/100)"
+      "Dependable dividend characteristics (Dividend 76/100)"
     ],
     "top_risks": [
       "Execution and macro conditions remain the key swing factors"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "EMAARDEV-0-1780894530",
+      "id": "EMAARDEV-0-1781125917",
       "symbol": "EMAARDEV",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-08T04:55:30+00:00",
+      "published_at": "2026-06-10T21:11:57+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMAARDEV-3-1778504130",
+      "id": "EMAARDEV-3-1778735517",
       "symbol": "EMAARDEV",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-05-11T12:55:30+00:00",
+      "published_at": "2026-05-14T05:11:57+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMAARDEV-4-1775894130",
+      "id": "EMAARDEV-4-1776125517",
       "symbol": "EMAARDEV",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-11T07:55:30+00:00",
+      "published_at": "2026-04-14T00:11:57+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMAARDEV-2-1775120130",
+      "id": "EMAARDEV-2-1775351517",
       "symbol": "EMAARDEV",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-02T08:55:30+00:00",
+      "published_at": "2026-04-05T01:11:57+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMAARDEV-1-1774749330",
+      "id": "EMAARDEV-1-1774980717",
       "symbol": "EMAARDEV",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-03-29T01:55:30+00:00",
+      "published_at": "2026-03-31T18:11:57+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -430,7 +430,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
@@ -439,13 +439,13 @@
   ],
   "news": [
     {
-      "title": "EMAARDEV Forecast — Price Target — Prediction for 2027",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6d2RiYnJPek96TG9LYTJrZWE0RnRvOGZxMW91S2dzV3h1U2UxMkZIY1dfT0NTM3lKZkdEM3VnYkl4YnBxOTVaTW9qMGNHc1A3enZkd1lzX25YNTY0d05OMEJwRnBuNGlCQUM2N3gwclRRT0VMaUg2ckw3cw?oc=5",
+      "title": "Emaar Development PJSC Actuals & Estimates (DFM:EMAARDEV)",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTXlValZBakZnZlpfRldkZEtSRkZjc0YtRGtHYmNRZkljWC02eHhrYWplX1RkOW1NVmR3TnF3LWpCYVo0bUxrMVZraGRXdmtXV1RSSE1GNXNIR1g3b05kTGpaMmZqLXZjY184Z1NTTEJaNFNBNUdGRWRhb0tQb241Y1MzZU5DT2c?oc=5",
       "domain": "tradingview.com",
-      "published_at": "2026-06-25T19:02:48+00:00",
+      "published_at": "2026-06-25T22:18:32+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T00:18:29+00:00",
+      "retrieved_at": "2026-06-28T17:56:30+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -455,17 +455,17 @@
       "published_at": "2026-06-22T03:17:16+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T00:18:29+00:00",
+      "retrieved_at": "2026-06-28T17:56:30+00:00",
       "feed_source": "Google News (live media)"
     },
     {
-      "title": "Emirati real estate developer Emaar reports 23% revenue jump in first quarter",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQlRTM1YxcE8zbm05Zk50d1g0VUtsWnVEeEpsaURiLUlOSkdRRlRPS3IxaVZfcWh2b1g2RWw0S2NiNnZFUmlVVEVYOE9NWXk0RXdMbDh1MEN1LWh6WE9Xb0ZPQUxTRU1tdUMzVzQyZzV1blNEeTNvNUt0aWdfY0pSdFNkUDJIV3owWXdLTlkxQlRJQy1MMXI5a3BaSGM3NmtYUExMLWs5V0ZFb1VRX09Uc1VRWnZTb19hZ2NqcDRXbWdHZTRtX3Fpcw?oc=5",
-      "domain": "investing.com",
-      "published_at": "2026-05-11T07:00:00+00:00",
+      "title": "EMAARDEV Forecast — Price Target — Prediction for 2027",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6d2RiYnJPek96TG9LYTJrZWE0RnRvOGZxMW91S2dzV3h1U2UxMkZIY1dfT0NTM3lKZkdEM3VnYkl4YnBxOTVaTW9qMGNHc1A3enZkd1lzX25YNTY0d05OMEJwRnBuNGlCQUM2N3gwclRRT0VMaUg2ckw3cw?oc=5",
+      "domain": "tradingview.com",
+      "published_at": "2026-06-25T19:02:48+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T00:18:29+00:00",
+      "retrieved_at": "2026-06-28T17:56:30+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -475,27 +475,7 @@
       "published_at": "2026-05-12T07:44:02+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T00:18:29+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Emaar Development records 22% growth in property sales reaching AED 20.1 bn in Q1 2026",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmWlJVZ1BEQXhyZlJGWUpRQ0RCT0oydDhpWjJuUWRBNzNidXZpN3dSNjBSVXFJU0xvSk45Z3kzVGZiLUZxSm9YNkVOZlpjTzZGdGZNVlE1aVRiSUltdjdlUEtKQ2JlaXRtbzJOd3l4WUVWVExTQUdpLUtFMTRWZw?oc=5",
-      "domain": "constructionweekonline.com",
-      "published_at": "2026-05-11T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T00:18:29+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "EMAAR Stock Price and Chart — DFM:EMAAR",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXY0FwdFBLeldyVWlQNXFDV0VRT1R2cE5JRl9JWkJmYnd2cDlBT1RMZGh3V29EUkdBalJtNlpLVm9MaGttU01hNlZtUGN6MS1JVmNRRU9IYlJZUQ?oc=5",
-      "domain": "tradingview.com",
-      "published_at": "2026-05-04T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T00:18:29+00:00",
+      "retrieved_at": "2026-06-28T17:56:30+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -505,7 +485,27 @@
       "published_at": "2026-05-11T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T00:18:29+00:00",
+      "retrieved_at": "2026-06-28T17:56:30+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Emaar Development records 22% growth in property sales reaching AED 20.1 bn in Q1 2026",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmWlJVZ1BEQXhyZlJGWUpRQ0RCT0oydDhpWjJuUWRBNzNidXZpN3dSNjBSVXFJU0xvSk45Z3kzVGZiLUZxSm9YNkVOZlpjTzZGdGZNVlE1aVRiSUltdjdlUEtKQ2JlaXRtbzJOd3l4WUVWVExTQUdpLUtFMTRWZw?oc=5",
+      "domain": "constructionweekonline.com",
+      "published_at": "2026-05-11T07:00:00+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-28T17:56:30+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Emaar property sales surge 16 percent to $6.1 billion in Q1 2026, net profit before tax hits $2 billion",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONm0xN0ExUWJsa1BpalZ0cy1Da3JXY2dmRU1xNVN0SmM4Uno3N1MzVlkxYUhqVC1vVHRpckkxZHlpaWgxdjdRYTB3Y3NYVk1xZF9xNTh1VWU0VW9fSVVoSTNNbFZxUVhSNm9NdjF6T3VlaDhtS1R6YWxZYVlpeXRGY3dfaVpjMzZ0bVZRNFdFNG9jemZyNjgtYmllOHAxeDhmVVBpU0dCU3djNjNVZDhwRU9YQkJHVlg4aE5TbGN4U0RPM0x2cEFNTHZoclhiZVQ5cUE?oc=5",
+      "domain": "economymiddleeast.com",
+      "published_at": "2026-05-11T07:00:00+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-28T17:56:30+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -515,7 +515,7 @@
       "published_at": "2026-05-12T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T00:18:29+00:00",
+      "retrieved_at": "2026-06-28T17:56:30+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -523,7 +523,7 @@
     {
       "symbol": "EMAARDEV",
       "kind": "board",
-      "date": "2026-07-17",
+      "date": "2026-07-20",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -538,7 +538,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -546,7 +546,7 @@
     {
       "symbol": "EMAARDEV",
       "kind": "agm",
-      "date": "2026-08-05",
+      "date": "2026-08-08",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -563,7 +563,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -571,7 +571,7 @@
     {
       "symbol": "EMAARDEV",
       "kind": "board",
-      "date": "2026-03-16",
+      "date": "2026-03-19",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -589,7 +589,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -620,7 +620,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-26T12:55:30+00:00",
+      "retrieved_at": "2026-06-29T05:11:57+00:00",
       "url": null,
       "lang": null
     }
@@ -634,31 +634,31 @@
       2026
     ],
     "revenue": [
-      525900000.0,
-      844600000.0,
-      1356700000.0,
-      2179100000.0,
-      3500000000.0
+      1939700000.0,
+      3115500000.0,
+      5004200000.0,
+      8037700000.0,
+      12910100000.0
     ],
     "net_income": [
-      10500000.0,
-      16900000.0,
-      27100000.0,
-      43600000.0,
-      70000000.0
+      38800000.0,
+      62300000.0,
+      100100000.0,
+      160800000.0,
+      258200000.0
     ],
     "operating_cash_flow": [
-      11700000.0,
-      18800000.0,
-      30100000.0,
-      48400000.0,
-      77700000.0
+      43100000.0,
+      69200000.0,
+      111100000.0,
+      178400000.0,
+      286600000.0
     ],
     "ratios": {
       "net_margin": 0.02,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.5
+      "payout_ratio": 0.36
     },
     "revenue_cagr_3y": 0.6062,
     "data_quality": "demo"
@@ -701,12 +701,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -717,12 +717,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -733,12 +733,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -749,12 +749,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -765,12 +765,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -781,12 +781,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -796,7 +796,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-25T10:55:30+00:00",
+        "published_at": "2026-06-28T03:11:57+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -804,7 +804,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -812,7 +812,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-25T10:55:30+00:00",
+        "published_at": "2026-06-28T03:11:57+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -820,7 +820,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -828,7 +828,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-23T18:55:30+00:00",
+        "published_at": "2026-06-26T11:11:57+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -836,7 +836,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -849,36 +849,41 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Recent disclosure tone skews positive and was reinforced by a dividend-focused article 4 days ago.",
-        "Q1 2026 property sales reached AED 20.1 bn with 22% growth and profit surged 35% year-on-year.",
-        "Revenue growth of 23% to 36% across reports shows robust property demand."
+        "Recent disclosure tone skews positive, with TradingView updates from three days ago refreshing consensus expectations",
+        "The latest dated fundamental is the 36% Q1 revenue and 35% Q1 profit beat reported seven weeks ago amid strong property demand",
+        "Recent dividend-stock coverage keeps the income profile visible and aligns with the high dividend score",
+        "Valuation read is anchored by a stable operational update rather than a fresh macro shock"
       ],
       "risks": [
-        "Negative price momentum (-1.4% on the session in demo data).",
-        "Regional war uncertainty is explicitly flagged in the quarterly disclosure from 46 days ago.",
-        "High geopolitical risk backdrop for the sector as of 2026-06-25."
+        "A surprise filing or a sector-wide move could shift the picture quickly",
+        "Geopolitical risk is currently rated high for the region, with proxy-driven instability persisting",
+        "Interest-rate path carries pressure: the Fed is priced to hold in July but hike in September",
+        "Recent news is thin beyond stale quarterly data, so near-term narrative can move on sentiment more than fundamentals"
       ],
-      "what_would_change_view": "Sustained reversal of the negative price momentum together with visible de-escalation of the regional conflict cited in the Q1 results."
+      "what_would_change_view": "A concrete new filing, contract announcement, or a clear change in regional risk tone would be needed to move off Neutral."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Dependable dividend characteristics (Dividend 74/100) provide a stable income anchor.",
-        "Q1 property sales momentum demonstrates underlying demand fundamentals."
+        "Dependable dividend characteristics (Dividend 79/100) provide a durable anchor",
+        "Q1 results confirmed property-demand strength despite macro uncertainty",
+        "Stability score of 59 supports a steady-state operating profile",
+        "Sector is identified as a dividend play, which underpins income-focused long-term allocation"
       ],
       "risks": [
-        "Execution and macro conditions remain the key swing factors, limiting long-term conviction.",
-        "High geopolitical risk level (as of 2026-06-25) is a persistent sector headwind.",
-        "Fed expected to hold rates in July but hike in September, which may pressure mortgage rates and property demand."
+        "Execution and macro conditions remain the key swing factors for forward delivery",
+        "Geopolitical instability in the Gulf is rated high and could sustain a discount on UAE real-estate valuations",
+        "Interest-rate environment remains uncertain and could pressure property affordability or cost of capital",
+        "Growth score of 55 limits expectations for aggressive organic expansion or margin expansion"
       ],
-      "what_would_change_view": "Clear execution track record on ongoing projects, easing geopolitical tensions, and stable or declining global interest rates."
+      "what_would_change_view": "A sustained improvement in growth metrics or a material shift in geopolitical or macro conditions would be required to raise conviction."
     },
     "_signal": {
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 61.3,
+        "score": 56.8,
         "reasons": [
           "Recent disclosure tone skews positive"
         ],
@@ -889,9 +894,9 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 61.7,
+        "score": 61.1,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 79/100)"
+          "Dependable dividend characteristics (Dividend 76/100)"
         ],
         "risks": [
           "Execution and macro conditions remain the key swing factors"
@@ -900,11 +905,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-26T12:55:30+00:00",
+    "generated_at": "2026-06-29T05:11:57+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-25T21:09:00+00:00"
+    "narrated_at": "2026-06-28T22:17:58+00:00"
   },
-  "generated_at": "2026-06-26T12:55:30+00:00",
+  "generated_at": "2026-06-29T05:11:57+00:00",
   "peers": {
     "archetype": "developer",
     "self": {
@@ -914,15 +919,15 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.0482,
+      "dy": 0.0544,
       "upside": null
     },
     "medians": {
-      "pe": 6.1,
+      "pe": 7.2,
       "pb": 0.61,
-      "roe": 0.104,
-      "dy": 0.024,
-      "upside": 0.612
+      "roe": 0.086,
+      "dy": 0.0,
+      "upside": 0.2
     },
     "peers": [
       {
@@ -959,21 +964,21 @@
         "symbol": "DEYAAR",
         "name_en": "Deyaar Development",
         "archetype": "developer",
-        "pe": 5.8,
-        "pb": 0.61,
+        "pe": 6.2,
+        "pb": 0.66,
         "roe": 0.1038,
-        "dy": 0.0617,
-        "upside": 0.612
+        "dy": 0.0575,
+        "upside": 0.5008
       },
       {
         "symbol": "EMAAR",
         "name_en": "Emaar Properties",
         "archetype": "developer",
-        "pe": 6.1,
-        "pb": 1.0,
-        "roe": 0.1634,
-        "dy": 0.082,
-        "upside": 0.7001
+        "pe": null,
+        "pb": null,
+        "roe": null,
+        "dy": 0.0,
+        "upside": null
       },
       {
         "symbol": "TECOM",

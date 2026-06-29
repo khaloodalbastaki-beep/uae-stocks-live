@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-26T12:55:30.263Z",
+      "retrieved_at": "2026-06-29T05:11:57.092Z",
       "url": null,
       "lang": null
     }
@@ -93,7 +93,7 @@
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": 0.0511,
+          "raw": 0.05,
           "points": 100.0,
           "weight": 0.14,
           "note": "expanding margins",
@@ -191,8 +191,8 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 55,
-      "grade": "C",
+      "score": 61,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
@@ -242,15 +242,15 @@
         {
           "key": "freq",
           "label": "Frequency & regularity",
-          "raw": "none",
-          "points": 0.0,
+          "raw": "annual",
+          "points": 55.0,
           "weight": 0.1,
-          "note": "none distribution, 3y streak",
-          "contribution": 0.0
+          "note": "annual distribution, 3y streak",
+          "contribution": 5.5
         }
       ]
     },
-    "headline": 61,
+    "headline": 63,
     "headline_grade": "C+",
     "archetype": "bank",
     "engine": "deterministic-v1"
@@ -259,7 +259,7 @@
     "revenue_growth": 0.1376,
     "profit_growth": 0.2596,
     "revenue_cagr_3y": 0.1376,
-    "margin_trend": 0.0511,
+    "margin_trend": 0.05,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -274,7 +274,7 @@
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
-    "frequency": "none",
+    "frequency": "annual",
     "years_paid": 3
   },
   "fundamentals_source": {
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "SIB-4-1782183330",
+      "id": "SIB-4-1782414717",
       "symbol": "SIB",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-23T02:55:30+00:00",
+      "published_at": "2026-06-25T19:11:57+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SIB-1-1780732530",
+      "id": "SIB-1-1780963917",
       "symbol": "SIB",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-06T07:55:30+00:00",
+      "published_at": "2026-06-09T00:11:57+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SIB-0-1780206930",
+      "id": "SIB-0-1780438317",
       "symbol": "SIB",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-31T05:55:30+00:00",
+      "published_at": "2026-06-02T22:11:57+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SIB-3-1778831730",
+      "id": "SIB-3-1779063117",
       "symbol": "SIB",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-15T07:55:30+00:00",
+      "published_at": "2026-05-18T00:11:57+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SIB-5-1778043330",
+      "id": "SIB-5-1778274717",
       "symbol": "SIB",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-06T04:55:30+00:00",
+      "published_at": "2026-05-08T21:11:57+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "SIB-2-1775048130",
+      "id": "SIB-2-1775279517",
       "symbol": "SIB",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-01T12:55:30+00:00",
+      "published_at": "2026-04-04T05:11:57+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -456,7 +456,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
@@ -465,23 +465,33 @@
   ],
   "news": [
     {
-      "title": "Sharjah Islamic Bank Actuals & Estimates (ADX:SIB)",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLThRSHZLUGVDTG0xM0ZUbGxMVzQ4V1NfXzd0cklnajNGQmNTTEVzYkpIY0lBd2RkTEdaVlJIRlRDM0VWU2dWRkZ2dDFrTzV1bnZQM1Vlb08ydHlrc2hIVVVISTBLLVVXZWRndzd3MUN4UXNGMXY4WDNYckM0SmFJSQ?oc=5",
-      "domain": "tradingview.com",
-      "published_at": "2026-06-25T20:27:08+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:57+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
       "title": "SIB Forecast — Price Target — Prediction for 2027",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rUVcwYkkxMnpIaHA2X0R6b0xsdk9zMDJqeTItYnpFci02aTdmbVI1UXlJd1dWNzN6ZkNVeDhfYWY4VXU2U2dlcU5nNnVqWEg5TzdzYW5jNUU3R0lpNmlwNGRrNUd5cTBndGFVMDNjRUNlWF9f?oc=5",
       "domain": "tradingview.com",
       "published_at": "2026-06-25T21:01:15+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:57+00:00",
+      "retrieved_at": "2026-06-29T03:34:36+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Price to earnings forward of Sharjah Islamic Bank – ADX:SIB",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcF9BdHR0SFpTN0t2QlN2MGo0c0lvX05CbjBXdzVRdjMzYUpGSzc4cjk4QjVIUU5lTUNZalNWWmhuR1ljZmR0WDFrbk5xMU5yclQ1V3poLU45N1hOYkZ0bWFqOXNPTEM5eHNITFUwcFJKT1hvQnM2bkUxM1NxTFBVZ3hweDhBa2ViYkV2cGdQazRMbWN2cGhNTlNQQ18?oc=5",
+      "domain": "tradingview.com",
+      "published_at": "2026-06-27T23:16:10+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-29T03:34:36+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Sharjah Islamic Bank Actuals & Estimates (ADX:SIB)",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLThRSHZLUGVDTG0xM0ZUbGxMVzQ4V1NfXzd0cklnajNGQmNTTEVzYkpIY0lBd2RkTEdaVlJIRlRDM0VWU2dWRkZ2dDFrTzV1bnZQM1Vlb08ydHlrc2hIVVVISTBLLVVXZWRndzd3MUN4UXNGMXY4WDNYckM0SmFJSQ?oc=5",
+      "domain": "tradingview.com",
+      "published_at": "2026-06-25T20:27:08+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-29T03:34:36+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -491,7 +501,7 @@
       "published_at": "2026-05-12T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:57+00:00",
+      "retrieved_at": "2026-06-29T03:34:36+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -501,7 +511,7 @@
       "published_at": "2026-05-13T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:57+00:00",
+      "retrieved_at": "2026-06-29T03:34:36+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -511,37 +521,7 @@
       "published_at": "2026-05-07T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:57+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Dubai Islamic Bank’s net profit rises to $489.85 million in Q1 2026",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMFo3bFJCaHVHSmxJMVlLYXZ1RDg4VXA5bnJvbXZLT0tnclBKeE1YYUlnNUFHYUxCZXduU2JYdThDMGQyMWlnWGE0dlg3RlVLTVZnejA2THRzWDVQYlNfRTQ5alkya1Y0ODAxenZjVng1MXlBQVk3VXE1dVFjc3c1T3ltYVk1WTJCdUZleVlDTDJCOEhiUmFhcG4yTVA5S3ZEMDlV?oc=5",
-      "domain": "economymiddleeast.com",
-      "published_at": "2026-04-29T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:57+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "DIB posts first-quarter revenue of Dh3.5 billion and pre-tax profit of Dh2.1 billion",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWk9LdExSbl9FNkhoRkRQWE9YMU5vNTZlYjdnWTk5RXhDT1NZV2xJMGNiQkV6cTNuNmtFaHFzLUw1WFlNRVUydnE1ZVlhNDJFZ29pekJvZ2gzZE9YaUNTV3JWV1I1REJwNnNGbmRqdzJ2NmZ6dHZFUi0tX2F2MWIzYnFEbW12OENrZXppbWFmYUNmQ0tVaE85LVV6SG9sR2dOdld5SlRsLUlKZHVlMWNWSjB6cmF5UHpRc0pETHNpeVdkQUo3U3htX2UxcVHSAd8BQVVfeXFMTXBQQnd4NEJsTzN3TDd0bFZlNkpKZXBZc254a1Q4Z2ZFbF9LLUprN2dweVM4NV8teTN3Rm44YXZ4bjdFaG5fSXJWM29OTjg3NnFaZEdSWDhta3BsTHVKb25QMTFfUGxxcFpOa0NSQmJvWkVlT0lDY091NnhNNnRuZHQzVXU1YUMzU1AzbnpXRUJ3VTA5c0pOZm1keUF4LWhYU0JzYVdsNTBuaHlLLU1BaTlwSEpVUFd5am51ZktIaGlET2FUY0lrQWhCSkU5TEdGSVAwUEdadFp3U1YxZDVlQQ?oc=5",
-      "domain": "gulfnews.com",
-      "published_at": "2026-04-29T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:57+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Dubai Islamic Bank posts Dh3.5b Q1 revenue as assets reach Dh420b",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONW5lUWNKX0xEWEwxZWEzUUdZSEVoanRfM1hFSG96clUtZGl0WjlHQjZQeWE1SGZEeFd5WWlfMTZ0bG5wTzJFR3hJZVl5OXNMaW9icmpRaVc1YXlLYU1DMGtZY3hXdjFydTgtRVBJNWlfNzBnZzUwRUp1MmRLVjhSLUVKOHk0Nl93NlZJZldWcE9wOGtIVWJ6Sk9YbzczbEEzSVd5SmNsM0V3ZFdJWHZFWFA3UGLSAccBQVVfeXFMUDh2NUNVNzdjYXhrbk9LSldqME9yWm9rWHVDQ3MtQjlOYlRCU2JfNzZDRVRvN0R2MFloR0I4MHlFVjh6RVl5a2NlX3JSNk9yZkJ1MmtwU2hkUnZIN2hpdXBVeklZVTMtTndKN2g5SGhNcDljY3hWd1dyS183X2tFV0loWEUyeC1JNW4tQTV0T2lMS2JsY1BLSS1iNWxVVFp1RzRkeERMdGtsSHZWVzJkZVhIeW5HSi1MWUlrQVFKRnY5S2p3NGVONA?oc=5",
-      "domain": "gulfnews.com",
-      "published_at": "2026-04-28T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:57+00:00",
+      "retrieved_at": "2026-06-29T03:34:36+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -549,7 +529,7 @@
     {
       "symbol": "SIB",
       "kind": "board",
-      "date": "2026-07-10",
+      "date": "2026-07-13",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -564,7 +544,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -572,7 +552,7 @@
     {
       "symbol": "SIB",
       "kind": "agm",
-      "date": "2026-07-28",
+      "date": "2026-07-31",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -589,7 +569,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -597,7 +577,7 @@
     {
       "symbol": "SIB",
       "kind": "board",
-      "date": "2026-03-13",
+      "date": "2026-03-16",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -615,7 +595,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -626,17 +606,17 @@
       "symbol": "SIB",
       "amount": 0.1275,
       "currency": "AED",
-      "agm_date": "2026-07-04",
-      "entitlement_date": "2026-07-24",
-      "ex_date": "2026-07-23",
-      "payment_date": "2026-08-13",
+      "agm_date": "2026-07-07",
+      "entitlement_date": "2026-07-27",
+      "ex_date": "2026-07-26",
+      "payment_date": "2026-08-16",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -645,17 +625,17 @@
       "symbol": "SIB",
       "amount": 0.1275,
       "currency": "AED",
-      "agm_date": "2026-06-06",
-      "entitlement_date": "2026-06-24",
-      "ex_date": "2026-06-23",
-      "payment_date": "2026-07-10",
+      "agm_date": "2026-06-09",
+      "entitlement_date": "2026-06-27",
+      "ex_date": "2026-06-26",
+      "payment_date": "2026-07-13",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -664,17 +644,17 @@
       "symbol": "SIB",
       "amount": 0.1275,
       "currency": "AED",
-      "agm_date": "2025-11-27",
-      "entitlement_date": "2025-12-15",
-      "ex_date": "2025-12-14",
-      "payment_date": "2025-12-31",
+      "agm_date": "2025-11-30",
+      "entitlement_date": "2025-12-18",
+      "ex_date": "2025-12-17",
+      "payment_date": "2026-01-03",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -683,17 +663,17 @@
       "symbol": "SIB",
       "amount": 0.1275,
       "currency": "AED",
-      "agm_date": "2025-05-30",
-      "entitlement_date": "2025-06-17",
-      "ex_date": "2025-06-16",
-      "payment_date": "2025-07-03",
+      "agm_date": "2025-06-02",
+      "entitlement_date": "2025-06-20",
+      "ex_date": "2025-06-19",
+      "payment_date": "2025-07-06",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -702,17 +682,17 @@
       "symbol": "SIB",
       "amount": 0.1275,
       "currency": "AED",
-      "agm_date": "2024-11-19",
-      "entitlement_date": "2024-12-07",
-      "ex_date": "2024-12-06",
-      "payment_date": "2024-12-23",
+      "agm_date": "2024-11-22",
+      "entitlement_date": "2024-12-10",
+      "ex_date": "2024-12-09",
+      "payment_date": "2024-12-26",
       "frequency": "semi",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -742,7 +722,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-26T12:55:30+00:00",
+      "retrieved_at": "2026-06-29T05:11:57+00:00",
       "url": null,
       "lang": null
     }
@@ -763,21 +743,21 @@
       3500000000.0
     ],
     "net_income": [
-      441200000.0,
-      562600000.0,
-      709100000.0,
-      885300000.0,
-      1096500000.0
+      438900000.0,
+      558700000.0,
+      703200000.0,
+      876800000.0,
+      1085000000.0
     ],
     "operating_cash_flow": [
-      489700000.0,
-      624500000.0,
-      787100000.0,
-      982700000.0,
-      1217200000.0
+      487100000.0,
+      620100000.0,
+      780500000.0,
+      973300000.0,
+      1204400000.0
     ],
     "ratios": {
-      "net_margin": 0.3133,
+      "net_margin": 0.31,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
       "payout_ratio": 0.5
@@ -814,12 +794,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -830,12 +810,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -846,12 +826,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -862,12 +842,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -878,12 +858,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -894,12 +874,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -909,7 +889,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-25T10:55:30+00:00",
+        "published_at": "2026-06-28T03:11:57+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -917,7 +897,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -925,7 +905,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-25T10:55:30+00:00",
+        "published_at": "2026-06-28T03:11:57+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -933,7 +913,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -941,7 +921,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-23T18:55:30+00:00",
+        "published_at": "2026-06-26T11:11:57+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -949,7 +929,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -962,35 +942,35 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "A recent high-materiality corporate disclosure (93/100) skews positive in the near-term information flow.",
-        "Sharjah Islamic Bank’s rights issue drew strong investor demand and was significantly oversubscribed, indicating confidence in the capital raise.",
-        "Nearby Islamic banking peers are posting solid Q1 revenue and profit growth, reinforcing sector sentiment.",
-        "No material negative news has appeared in the immediate flow."
+        "A high-materiality disclosure (93/100) with positive tone arrived in the recent flow and is currently shaping market perception.",
+        "The past few days have seen a dense technical/estimates update cycle (forward PE, 2027 price target, actuals/estimates), indicating active analyst engagement with the name.",
+        "The company commands a solid growth score (67/100) and recently completed a heavily oversubscribed rights issue, signaling confidence from existing shareholders and a strengthened balance sheet.",
+        "Banks sector sits in a high geopolitically-driven interest-rate environment, which can support near-term margin narratives for Islamic lenders."
       ],
       "risks": [
-        "Negative price momentum (-1.3% on the session) conflicts with the positive news tone.",
-        "Elevated geopolitical risk for the banking sector from regional conflict and oil-price volatility.",
-        "Fed policy uncertainty — hold in July with a possible September hike — creates funding-cost headwinds.",
-        "Execution and macro conditions remain a swing factor for near-term delivery."
+        "A surprise filing or a sector-wide move could shift the picture quickly.",
+        "The recent flow is forecast-heavy; actual figures may diverge from estimates, creating volatility.",
+        "Global interest-rate policy uncertainty remains high and could alter margin outlook unexpectedly.",
+        "Elevated regional conflict and Gulf-security risk levels could trigger sudden risk-off flows into the banking sector."
       ],
-      "what_would_change_view": "A confirmed breakout above the recent negative price momentum or a fresh material company disclosure would lift conviction; a downgrade in capital deployment or a sharp escalation in regional conflict would reduce it."
+      "what_would_change_view": "A surprise regulatory or earnings filing that materially alters the recent disclosure tone, or a coordinated sector-wide re-rating driven by geopolitical escalation, would move the short-term stance away from Neutral."
     },
     "long_term": {
       "stance": "Neutral",
-      "confidence": "low",
+      "confidence": "medium",
       "reasons": [
-        "House Growth score of 67/100 indicates an above-average long-term earnings trajectory.",
-        "Stability (59/100) and Dividend (61/100) scores support a foundation for sustained yield and lower volatility.",
-        "Successfully strong rights-issue demand secures capital to support future balance-sheet growth.",
-        "Durable sector-level profit and asset growth among regional Islamic banking peers supports the structural case."
+        "Growth score of 67/100 provides a solid baseline for multi-year earnings expansion.",
+        "Stability is moderate (59/100) with a balanced dividend score (55/100), suggesting resilient but not exceptional shareholder returns.",
+        "The recent oversubscribed rights issue infused meaningful capital into the balance sheet, supporting future asset growth.",
+        "Islamic banking carries structural demand in the UAE, giving the company a durable niche."
       ],
       "risks": [
-        "Execution and macro conditions remain the key swing factors for long-term delivery.",
-        "High geopolitical and interest-rate environment could persist, pressuring margins and asset quality.",
-        "Fed tightening path may raise funding costs and tighten liquidity conditions.",
-        "Deployment of newly raised capital into productive lending assets is uncertain."
+        "Execution and macro conditions remain the key swing factors for the long-term case.",
+        "Regional conflict and Gulf security risk remain high and could constrain sector valuations for an extended period.",
+        "Global interest-rate dynamics may reverse, pressuring net interest margins over time.",
+        "Management's ability to deploy the new capital into accretive lending/investments is not guaranteed."
       ],
-      "what_would_change_view": "Sustained improvement in macro conditions and execution of capital deployment would shift the view higher; a deterioration in asset quality or a prolonged high-rate/high-risk environment would weaken it."
+      "what_would_change_view": "A sustained improvement in Stability or Dividend scores, or a durable downtrend in sector geopolitical risk, would be needed to move the long-term stance out of Neutral."
     },
     "_signal": {
       "short": {
@@ -1007,8 +987,8 @@
       },
       "long": {
         "stance": "Neutral",
-        "confidence": "low",
-        "score": 61.5,
+        "confidence": "medium",
+        "score": 62.8,
         "reasons": [
           "Solid growth profile (Growth 67/100)"
         ],
@@ -1019,11 +999,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-26T12:55:30+00:00",
+    "generated_at": "2026-06-29T05:11:57+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-25T19:01:06+00:00"
+    "narrated_at": "2026-06-28T20:08:27+00:00"
   },
-  "generated_at": "2026-06-26T12:55:30+00:00",
+  "generated_at": "2026-06-29T05:11:57+00:00",
   "peers": {
     "archetype": "bank",
     "self": {
@@ -1037,11 +1017,11 @@
       "upside": null
     },
     "medians": {
-      "pe": 8.2,
-      "pb": 1.3,
+      "pe": 7.7,
+      "pb": 1.28,
       "roe": 0.166,
-      "dy": 0.033,
-      "upside": 0.346
+      "dy": 0.043,
+      "upside": 0.433
     },
     "peers": [
       {
@@ -1099,10 +1079,10 @@
         "name_en": "Dubai Islamic Bank",
         "archetype": "bank",
         "pe": 7.7,
-        "pb": 1.03,
+        "pb": 1.02,
         "roe": 0.1411,
-        "dy": 0.0462,
-        "upside": 0.4177
+        "dy": 0.0467,
+        "upside": 0.4328
       }
     ],
     "n": 9

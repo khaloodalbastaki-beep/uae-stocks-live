@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-26T12:55:30.263Z",
+      "retrieved_at": "2026-06-29T05:11:57.092Z",
       "url": null,
       "lang": null
     }
@@ -191,8 +191,8 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 55,
-      "grade": "C",
+      "score": 61,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
@@ -242,15 +242,15 @@
         {
           "key": "freq",
           "label": "Frequency & regularity",
-          "raw": "none",
-          "points": 0.0,
+          "raw": "annual",
+          "points": 55.0,
           "weight": 0.1,
-          "note": "none distribution, 3y streak",
-          "contribution": 0.0
+          "note": "annual distribution, 3y streak",
+          "contribution": 5.5
         }
       ]
     },
-    "headline": 43,
+    "headline": 45,
     "headline_grade": "D+",
     "archetype": "tech",
     "engine": "deterministic-v1"
@@ -274,7 +274,7 @@
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
-    "frequency": "none",
+    "frequency": "annual",
     "years_paid": 3
   },
   "fundamentals_source": {
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "PRESIGHT-2-1781837730",
+      "id": "PRESIGHT-2-1782069117",
       "symbol": "PRESIGHT",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-19T02:55:30+00:00",
+      "published_at": "2026-06-21T19:11:57+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "PRESIGHT-0-1780383330",
+      "id": "PRESIGHT-0-1780614717",
       "symbol": "PRESIGHT",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-06-02T06:55:30+00:00",
+      "published_at": "2026-06-04T23:11:57+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "PRESIGHT-4-1779958530",
+      "id": "PRESIGHT-4-1780189917",
       "symbol": "PRESIGHT",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-28T08:55:30+00:00",
+      "published_at": "2026-05-31T01:11:57+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "PRESIGHT-3-1779000930",
+      "id": "PRESIGHT-3-1779232317",
       "symbol": "PRESIGHT",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-05-17T06:55:30+00:00",
+      "published_at": "2026-05-19T23:11:57+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "PRESIGHT-1-1777035330",
+      "id": "PRESIGHT-1-1777266717",
       "symbol": "PRESIGHT",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-24T12:55:30+00:00",
+      "published_at": "2026-04-27T05:11:57+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -430,7 +430,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       },
@@ -439,23 +439,23 @@
   ],
   "news": [
     {
+      "title": "Presight AI Holding PLC Actuals & Estimates (ADX:PRESIGHT)",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYzVzZE5VcVVFQXhCZnVrUlVaQkpxZUZ5MVRKVUsxZnZfb2syU2pYTXBBdU8zbkNSVkl3cUJDRktSbnRnSjFtNTk1MTZBaDY5aVQ4UUI4ckRkMTdqREV1S2dabUpISFg1Q3lKNXU3eG53VTU1UVpkT0Vqa0hwajZncHFPREJGcmM?oc=5",
+      "domain": "tradingview.com",
+      "published_at": "2026-06-26T07:32:54+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-29T03:34:30+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
       "title": "High Growth Tech Stocks Featuring Presight AI Holding And Two More",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSTUwZ1dkSlpNWEdHQ1BpaUtWejFQNEdlZ0Izc0ZIblprRGRpcjdyU1FLTTNoOEQtWWU1STh6Mk13VjJmUl81U29qcGRIMjN6NGxibnlha3RhbEdEdjdlQlZBRVdoQURXNWVLeHJjZDFFN2ZDY0xZQ2EzQ2V2UjR6cEJvSjBpdjg2MXMyQVhzTDVGLS01U1JkUTQtSC1SSVRsS282cg?oc=5",
       "domain": "finance.yahoo.com",
       "published_at": "2026-05-27T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:52+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "PRESIGHT Forecast — Price Target — Prediction for 2027",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rcGpPZnRfd2llZkJ6N1FRMHJwQWtuOXJ3MjlGMWFpNmMwN1BFUXV2MVlLdWdDZjMtZ0pNTkJLbnNHQmUtTFFiSFVNbjNIT2ZWQklkdGdxX05qSjRNTEdjMUdhX3l5NjdoYmpCUGNKQTQ2aVdxZzVBSHBwYw?oc=5",
-      "domain": "tradingview.com",
-      "published_at": "2026-06-25T16:10:52+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:52+00:00",
+      "retrieved_at": "2026-06-29T03:34:30+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -465,7 +465,7 @@
       "published_at": "2026-05-13T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:52+00:00",
+      "retrieved_at": "2026-06-29T03:34:30+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -475,7 +475,17 @@
       "published_at": "2026-05-12T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-26T12:07:52+00:00",
+      "retrieved_at": "2026-06-29T03:34:30+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "PRESIGHT Forecast — Price Target — Prediction for 2027",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rcGpPZnRfd2llZkJ6N1FRMHJwQWtuOXJ3MjlGMWFpNmMwN1BFUXV2MVlLdWdDZjMtZ0pNTkJLbnNHQmUtTFFiSFVNbjNIT2ZWQklkdGdxX05qSjRNTEdjMUdhX3l5NjdoYmpCUGNKQTQ2aVdxZzVBSHBwYw?oc=5",
+      "domain": "tradingview.com",
+      "published_at": "2026-06-25T16:10:52+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-29T03:34:30+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -483,7 +493,7 @@
     {
       "symbol": "PRESIGHT",
       "kind": "board",
-      "date": "2026-07-14",
+      "date": "2026-07-17",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -498,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -506,7 +516,7 @@
     {
       "symbol": "PRESIGHT",
       "kind": "agm",
-      "date": "2026-09-01",
+      "date": "2026-09-04",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -523,7 +533,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -531,7 +541,7 @@
     {
       "symbol": "PRESIGHT",
       "kind": "board",
-      "date": "2026-02-04",
+      "date": "2026-02-07",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -549,7 +559,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-26T12:55:30+00:00",
+        "retrieved_at": "2026-06-29T05:11:57+00:00",
         "url": null,
         "lang": null
       }
@@ -580,7 +590,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-26T12:55:30+00:00",
+      "retrieved_at": "2026-06-29T05:11:57+00:00",
       "url": null,
       "lang": null
     }
@@ -652,12 +662,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -668,12 +678,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -684,12 +694,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -700,12 +710,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -716,12 +726,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -732,12 +742,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-26T12:55:30+00:00",
+        "as_of": "2026-06-29T05:11:57+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -747,7 +757,7 @@
       {
         "title": "Ai headline — global macro update 1",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-23T14:55:30+00:00",
+        "published_at": "2026-06-26T07:11:57+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 3.75,
@@ -755,7 +765,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -763,7 +773,7 @@
       {
         "title": "Ai headline — global macro update 2",
         "theme": "MARITIME",
-        "published_at": "2026-06-25T19:55:30+00:00",
+        "published_at": "2026-06-28T12:11:57+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": -5.87,
@@ -771,7 +781,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -779,7 +789,7 @@
       {
         "title": "Ai headline — global macro update 3",
         "theme": "MARITIME",
-        "published_at": "2026-06-26T03:55:30+00:00",
+        "published_at": "2026-06-28T20:11:57+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.68,
@@ -787,7 +797,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -795,7 +805,7 @@
       {
         "title": "Ai headline — global macro update 4",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-23T22:55:30+00:00",
+        "published_at": "2026-06-26T15:11:57+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": 5.91,
@@ -803,7 +813,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-26T12:55:30+00:00",
+          "retrieved_at": "2026-06-29T05:11:57+00:00",
           "url": null,
           "lang": null
         }
@@ -816,32 +826,35 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Recent disclosure tone skews positive, with Q1-2026 results showing a 22.2% revenue increase and double-digit growth in EBITDA and profit after tax.",
-        "Mid-May market coverage listed Presight among high-growth tech stocks (as of 2026-05-27).",
-        "Stability score of 60 and Dividend score of 61 provide a moderate fundamental floor."
+        "Recent disclosure tone skews positive, the most current company-specific signal.",
+        "As of 48 days ago (2026-05-12) the company reported a 22.2% revenue increase and double-digit growth in EBITDA and profit after tax for Q1-2026.",
+        "The two most recent dated items (2 days and 3 days old) are analyst-facing actuals/estimates and a 2027 forecast link, indicating continued market attention.",
+        "Stability score of 60/100 provides a medium-tier anchor for short-term price behavior."
       ],
       "risks": [
-        "Negative price momentum: -1.6% on the session in demo data.",
-        "No company-specific news within the last 7 days; the most recent dated item is 29 days old.",
-        "Sector geopolitical risk is high, with elevated oil and regional-conflict exposure across the Holding / Diversified space.",
-        "Mixed signal conflict: positive disclosure tone against negative price action."
+        "A surprise filing or a sector-wide move could shift the picture quickly, per the short-signal risk.",
+        "Weak growth score (21/100) undercuts the durability of any positive momentum.",
+        "The latest news flow is largely estimation links rather than new fundamental triggers, leaving limited near-term conviction.",
+        "High geopolitical risk in the Gulf security category sits as a background overhang for UAE-listed equities."
       ],
-      "what_would_change_view": "Short-term conviction would improve if fresh company-specific news emerges within 7 days or if price momentum reverses the -1.6% session weakness; it would deteriorate if geopolitical developments directly impact the holding structure or if disclosure tone turns negative."
+      "what_would_change_view": "Upgrade requires a fresh, dated fundamental beat or confirmed technical breakout; downgrade follows a surprise filing, sector-wide negative shift, or dissipation of the positive disclosure tone in the next cycle."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Q1-2026 delivered a 22.2% revenue increase with double-digit growth in EBITDA and profit after tax.",
-        "Dividend score of 61 and Stability score of 60 give the diversified holding a moderate resilience base."
+        "As of 48 days ago (2026-05-12) the company posted a 22.2% revenue increase and double-digit EBITDA and profit after tax growth in Q1-2026.",
+        "Dividend score of 55/100 provides moderate income support over longer horizons.",
+        "The name appeared in a high-growth tech screen 33 days ago (2026-05-27), signaling relevance in sector narratives.",
+        "Long-signal notes cite mixed fundamentals with no single pillar standing out, which reduces the risk of single-factor over-commitment."
       ],
       "risks": [
-        "Weak growth signal: house Growth score is 21/100 and long-signal notes flag weak growth.",
-        "Mixed fundamentals with no single pillar standing out, per long-signal notes.",
-        "Sector-wide geopolitical risk is high.",
-        "No company-specific news flow beyond the 44-day-old Q1-2026 snapshot leaves sustainability unconfirmed."
+        "Weak growth signal (Growth 21/100) is the dominant long-term fundamental concern.",
+        "Mixed fundamentals and absence of a standout pillar can sustain range-bound performance.",
+        "High geopolitical risk (high as of 2026-06-28) could weigh on long-term capital allocation to UAE equities.",
+        "Dated valuation references (e.g., an investigation at د.إ3.38 from 47 days ago) lack a newer anchor, increasing uncertainty."
       ],
-      "what_would_change_view": "Long-term conviction would improve if subsequent quarters sustain or accelerate the Q1-2026 growth rate enough to lift the Growth score materially above 21, or if stability and dividend pillars strengthen further; it would deteriorate if growth proves one-off or geopolitical escalation erodes the diversified holding model."
+      "what_would_change_view": "Upgrade requires a sustained improvement in the Growth score from 21/100 and consistent quarterly beats; downgrade follows if mixed fundamentals deteriorate further or geopolitical tensions materially impair UAE market access."
     },
     "_signal": {
       "short": {
@@ -858,7 +871,7 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 42.5,
+        "score": 43.8,
         "reasons": [
           "Mixed fundamentals; no single pillar stands out"
         ],
@@ -869,11 +882,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-26T12:55:30+00:00",
+    "generated_at": "2026-06-29T05:11:57+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-25T17:56:27+00:00"
+    "narrated_at": "2026-06-28T19:03:39+00:00"
   },
-  "generated_at": "2026-06-26T12:55:30+00:00",
+  "generated_at": "2026-06-29T05:11:57+00:00",
   "peers": {
     "archetype": "tech",
     "self": {

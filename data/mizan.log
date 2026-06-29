@@ -4049,3 +4049,1516 @@ session_id: 20260626_063020_a62d4f
 [news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
 [geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
 [analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 4 eligible): ADCB, ADNOCLS, ALPHADHABI, BURJEEL
+[mizan] ADCB: not found / insufficient (kept modeled)
+[mizan] ADNOCLS: not found / insufficient (kept modeled)
+[mizan] ALPHADHABI: wrote fundamentals (high, 2025-12-31)
+[mizan] BURJEEL: not found / insufficient (kept modeled)
+[mizan] done: 1/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 33): EMSTEEL, PUREHEALTH, SPACE42, TAQA, AIRARABIA, ARMX
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] PUREHEALTH: 1 live articles (Google)
+[news] SPACE42: 8 live articles (Google)
+[news] TAQA: 8 live articles (Google)
+[news] AIRARABIA: 8 live articles (Google)
+[news] ARMX: 4 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(6), hormuz=high(6), red_sea=low(0), regional_conflict=high(4), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 4 eligible): DANA, EAND, EMSTEEL, GHITHA
+[mizan] DANA: wrote fundamentals (high, FY2025)
+[mizan] EAND: wrote fundamentals (high, 2025-12-31)
+[mizan] EMSTEEL: wrote fundamentals (high, None)
+[mizan] GHITHA: wrote fundamentals (high, 2024-12-31)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 32): EMSTEEL, DEYAAR, DIB, DIN, RAKPROP, DTC
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] DEYAAR: 5 live articles (Google)
+[news] DIB: 8 live articles (Google)
+[news] DIN: 6 live articles (Google)
+[news] RAKPROP: 2 live articles (Google)
+[news] DTC: 8 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(4), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): ADPORTS, AGTHIA, ALPHADHABI, AMERICANA
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADPORTS: no/invalid output from nemotron — trying next
+[analyst] ADPORTS: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] AGTHIA: no/invalid output from nemotron — trying next
+[analyst] AGTHIA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ALPHADHABI: no/invalid output from nemotron — trying next
+[analyst] ALPHADHABI: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] AMERICANA: no/invalid output from nemotron — trying next
+[analyst] AMERICANA: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (1 of 1 eligible): JULPHAR
+[mizan] JULPHAR: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 1/1 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 31): EMSTEEL, EMAAR, EMAARDEV, EMIRATESNBD, GFH, PARKIN
+[news] EMSTEEL: 0 articles — kept prior
+[news] EMAAR: 8 live articles (Google)
+[news] EMAARDEV: 8 live articles (Google)
+[news] EMIRATESNBD: 8 live articles (Google)
+[news] GFH: 1 live articles (Google)
+[news] PARKIN: 7 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (3 of 3): DANA, EAND, BURJEEL
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DANA: no/invalid output from nemotron — trying next
+[analyst] DANA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EAND: no/invalid output from nemotron — trying next
+[analyst] EAND: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] BURJEEL: no/invalid output from nemotron — trying next
+[analyst] BURJEEL: narrated by freeagent
+[analyst] done: 3/3 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 30): EMSTEEL, CBD, MASHREQ, SALIK, DU, SHUAA
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] CBD: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] CBD: 0 articles — kept prior
+[news] MASHREQ: 2 live articles (Google)
+[news] SALIK: 4 live articles (Google)
+[news] DU: 2 live articles (Google)
+[news] SHUAA: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(3), hormuz=high(6), red_sea=low(0), regional_conflict=high(5), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): BOROUGE, EMSTEEL, FERTIGLB, GHITHA
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] BOROUGE: no/invalid output from nemotron — trying next
+[analyst] BOROUGE: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMSTEEL: no/invalid output from nemotron — trying next
+[analyst] EMSTEEL: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] FERTIGLB: no/invalid output from nemotron — trying next
+[analyst] FERTIGLB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] GHITHA: no/invalid output from nemotron — trying next
+[analyst] GHITHA: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 30): EMSTEEL, CBD, TALABAT, TECOM, 2POINTZERO, ADCB
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] CBD: 1 live articles (Google)
+[news] TALABAT: 2 live articles (Google)
+[news] TECOM: 4 live articles (Google)
+[news] 2POINTZERO: 1 live articles (Google)
+[news] ADCB: 5 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(5), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): JULPHAR, MODON, NMDC, NMDCENR
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] JULPHAR: no/invalid output from nemotron — trying next
+[analyst] JULPHAR: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] MODON: no/invalid output from nemotron — trying next
+[analyst] MODON: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] NMDC: no/invalid output from nemotron — trying next
+[analyst] NMDC: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] NMDCENR: no/invalid output from nemotron — trying next
+[analyst] NMDCENR: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 29): EMSTEEL, ADIB, EMPOWER, ADNOCDIST, ADNOCDRILL, ADNH
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] ADIB: 8 live articles (Google)
+[news] EMPOWER: 1 live articles (Google)
+[news] ADNOCDIST: 8 live articles (Google)
+[news] ADNOCDRILL: 8 live articles (Google)
+[news] ADNH: 4 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): PRESIGHT, PUREHEALTH, RAKBANK, RAKPROP
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] PRESIGHT: no/invalid output from nemotron — trying next
+[analyst] PRESIGHT: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] PUREHEALTH: no/invalid output from nemotron — trying next
+[analyst] PUREHEALTH: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] RAKBANK: no/invalid output from nemotron — trying next
+[analyst] RAKBANK: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] RAKPROP: no/invalid output from nemotron — trying next
+[analyst] RAKPROP: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 29): EMSTEEL, ADNOCGAS, ADNOCLS, ADPORTS, DEWA, AGTHIA
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] ADNOCGAS: 8 live articles (Google)
+[news] ADNOCLS: 8 live articles (Google)
+[news] ADPORTS: 8 live articles (Google)
+[news] DEWA: 4 live articles (GDELT)
+[news] AGTHIA: 5 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(3), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): SIB, SPACE42, ARMX, AIRARABIA
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] SIB: no/invalid output from nemotron — trying next
+[analyst] SIB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] SPACE42: no/invalid output from nemotron — trying next
+[analyst] SPACE42: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ARMX: no/invalid output from nemotron — trying next
+[analyst] ARMX: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] AIRARABIA: no/invalid output from nemotron — trying next
+[analyst] AIRARABIA: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 29): EMSTEEL, ALDAR, AMERICANA, BOROUGE, ALPHADHABI, BURJEEL
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] ALDAR: 8 live articles (Google)
+[news] AMERICANA: 8 live articles (Google)
+[news] BOROUGE: 8 live articles (Google)
+[news] ALPHADHABI: 7 live articles (Google)
+[news] BURJEEL: 8 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): DEYAAR, DIN, CBD, DTC
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DEYAAR: no/invalid output from nemotron — trying next
+[analyst] DEYAAR: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DIN: no/invalid output from nemotron — trying next
+[analyst] DIN: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] CBD: no/invalid output from nemotron — trying next
+[analyst] CBD: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DTC: no/invalid output from nemotron — trying next
+[analyst] DTC: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): MODON, NMDC, NMDCENR, PRESIGHT
+[mizan] MODON: wrote fundamentals (high, 2025-12-31)
+[mizan] NMDC: not found / insufficient (kept modeled)
+[mizan] NMDCENR: wrote fundamentals (high, 2025-12-31)
+[mizan] PRESIGHT: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 3/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 29): EMSTEEL, DANA, EAND, FAB, FERTIGLB, GHITHA
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] DANA: 8 live articles (Google)
+[news] EAND: 8 live articles (Google)
+[news] FAB: 8 live articles (Google)
+[news] FERTIGLB: 8 live articles (Google)
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): DU, EMAARDEV, GFH, MASHREQ
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DU: no/invalid output from nemotron — trying next
+[analyst] DU: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMAARDEV: no/invalid output from nemotron — trying next
+[analyst] EMAARDEV: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] GFH: no/invalid output from nemotron — trying next
+[analyst] GFH: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] MASHREQ: no/invalid output from nemotron — trying next
+[analyst] MASHREQ: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): RAKBANK, RAKPROP, SIB, SPACE42
+[mizan] RAKBANK: not found / insufficient (kept modeled)
+[mizan] RAKPROP: not found / insufficient (kept modeled)
+[mizan] SIB: wrote fundamentals (high, 2025-12-31)
+[mizan] SPACE42: not found / insufficient (kept modeled)
+[mizan] done: 1/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 29): EMSTEEL, GHITHA, IHC, JULPHAR, MODON, NMDC
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] IHC: 5 live articles (Google)
+[news] JULPHAR: 3 live articles (Google)
+[news] MODON: 1 live articles (Google)
+[news] NMDC: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 4 eligible): CBD, DEYAAR, DIN, DTC
+[mizan] CBD: wrote fundamentals (high, 2025-12-31)
+[mizan] DEYAAR: not found / insufficient (kept modeled)
+[mizan] DIN: wrote fundamentals (high, None)
+[mizan] DTC: not found / insufficient (kept modeled)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 30): EMSTEEL, GHITHA, NMDCENR, PRESIGHT, RAKBANK, SIB
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] NMDCENR: 8 live articles (Google)
+[news] PRESIGHT: 5 live articles (Google)
+[news] RAKBANK: 6 live articles (Google)
+[news] SIB: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): EMPOWER, PARKIN, SHUAA, TALABAT
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMPOWER: no/invalid output from nemotron — trying next
+[analyst] EMPOWER: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] PARKIN: no/invalid output from nemotron — trying next
+[analyst] PARKIN: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] SHUAA: no/invalid output from nemotron — trying next
+[analyst] SHUAA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] TALABAT: no/invalid output from nemotron — trying next
+[analyst] TALABAT: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): GFH, SHUAA, TALABAT, TECOM
+[mizan] GFH: wrote fundamentals (high, 2025-12-31)
+[mizan] SHUAA: wrote fundamentals (high, 2025-12-31)
+[mizan] TALABAT: not found / insufficient (kept modeled)
+[mizan] TECOM: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 3/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 31): EMSTEEL, GHITHA, PUREHEALTH, SPACE42, TAQA, AIRARABIA
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: 1 live articles (Google)
+[news] PUREHEALTH: 1 live articles (Google)
+[news] SPACE42: 8 live articles (Google)
+[news] TAQA: 8 live articles (Google)
+[news] AIRARABIA: 8 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 4 eligible): ADNH, ADIB, ADNOCDIST, ADNOCDRILL
+[mizan] ADNH: wrote fundamentals (high, 2024-12-31)
+[mizan] ADIB: not found / insufficient (kept modeled)
+[mizan] ADNOCDIST: not found / insufficient (kept modeled)
+[mizan] ADNOCDRILL: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 31): EMSTEEL, ARMX, DEYAAR, DIB, DIN, RAKPROP
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] ARMX: 4 live articles (Google)
+[news] DEYAAR: 6 live articles (Google)
+[news] DIB: 8 live articles (Google)
+[news] DIN: 7 live articles (Google)
+[news] RAKPROP: 2 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 4 eligible): ADNOCGAS, ADPORTS, AGTHIA, ALDAR
+[mizan] ADNOCGAS: not found / insufficient (kept modeled)
+[mizan] ADPORTS: wrote fundamentals (high, 2025-12-31)
+[mizan] AGTHIA: wrote fundamentals (high, 2024-12-31)
+[mizan] ALDAR: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 3/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 31): EMSTEEL, DTC, EMAAR, EMAARDEV, EMIRATESNBD, GFH
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] DTC: 8 live articles (Google)
+[news] EMAAR: 8 live articles (Google)
+[news] EMAARDEV: 8 live articles (Google)
+[news] EMIRATESNBD: 8 live articles (Google)
+[news] GFH: 1 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(6), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 4 eligible): AMERICANA, BOROUGE, FAB, FERTIGLB
+[mizan] AMERICANA: not found / insufficient (kept modeled)
+[mizan] BOROUGE: wrote fundamentals (high, None)
+[mizan] FAB: wrote fundamentals (high, 2025-12-31)
+[mizan] FERTIGLB: not found / insufficient (kept modeled)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 30): EMSTEEL, PARKIN, MASHREQ, SALIK, DU, SHUAA
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] PARKIN: 7 live articles (Google)
+[news] MASHREQ: 2 live articles (Google)
+[news] SALIK: 5 live articles (Google)
+[news] DU: 3 live articles (Google)
+[news] SHUAA: 8 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): TECOM, 2POINTZERO, ADNH, FAB
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] TECOM: no/invalid output from nemotron — trying next
+[analyst] TECOM: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] 2POINTZERO: no/invalid output from nemotron — trying next
+[analyst] 2POINTZERO: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNH: no/invalid output from nemotron — trying next
+[analyst] ADNH: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] FAB: no/invalid output from nemotron — trying next
+[analyst] FAB: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): IHC, PUREHEALTH, TAQA, AIRARABIA
+[mizan] IHC: wrote fundamentals (high, None)
+[mizan] PUREHEALTH: wrote fundamentals (high, 2025-12-31)
+[mizan] TAQA: wrote fundamentals (high, 2024-12-31)
+[mizan] AIRARABIA: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 29): EMSTEEL, CBD, TALABAT, TECOM, 2POINTZERO, ADCB
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] CBD: 2 live articles (Google)
+[news] TALABAT: 5 live articles (Google)
+[news] TECOM: 4 live articles (Google)
+[news] 2POINTZERO: 1 live articles (Google)
+[news] ADCB: 7 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): EMIRATESNBD, DIB, SALIK, ALDAR
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMIRATESNBD: no/invalid output from nemotron — trying next
+[analyst] EMIRATESNBD: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DIB: no/invalid output from nemotron — trying next
+[analyst] DIB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] SALIK: no/invalid output from nemotron — trying next
+[analyst] SALIK: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ALDAR: no/invalid output from nemotron — trying next
+[analyst] ALDAR: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): ARMX, DEWA, DIB, DU
+[mizan] ARMX: not found / insufficient (kept modeled)
+[mizan] DEWA: wrote fundamentals (high, 2025-12-31)
+[mizan] DIB: not found / insufficient (kept modeled)
+[mizan] DU: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 28): EMSTEEL, ADIB, EMPOWER, ADNOCDIST, ADNOCDRILL, ADNH
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] ADIB: 8 live articles (Google)
+[news] EMPOWER: 3 live articles (Google)
+[news] ADNOCDIST: 8 live articles (Google)
+[news] ADNOCDRILL: 8 live articles (Google)
+[news] ADNH: 4 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(0), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): IHC, EMAAR, DEWA, ADCB
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] IHC: no/invalid output from nemotron — trying next
+[analyst] IHC: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMAAR: no/invalid output from nemotron — trying next
+[analyst] EMAAR: no/invalid output from freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DEWA: no/invalid output from nemotron — trying next
+[analyst] DEWA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADCB: no/invalid output from nemotron — trying next
+[analyst] ADCB: narrated by freeagent
+[analyst] done: 3/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): EMAAR, EMAARDEV, EMIRATESNBD, EMPOWER
+[mizan] EMAAR: not found / insufficient (kept modeled)
+[mizan] EMAARDEV: wrote fundamentals (high, FY2024)
+[mizan] EMIRATESNBD: not found / insufficient (kept modeled)
+[mizan] EMPOWER: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 28): EMSTEEL, ADNOCGAS, ADNOCLS, ADPORTS, DEWA, AGTHIA
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] ADNOCGAS: 8 live articles (Google)
+[news] ADNOCLS: 8 live articles (Google)
+[news] ADPORTS: 8 live articles (Google)
+[news] DEWA: 1 live articles (Google)
+[news] AGTHIA: 5 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 5): EMAAR, ADIB, TAQA, ADNOCDIST
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMAAR: no/invalid output from nemotron — trying next
+[analyst] EMAAR: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADIB: no/invalid output from nemotron — trying next
+[analyst] ADIB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] TAQA: no/invalid output from nemotron — trying next
+[analyst] TAQA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCDIST: no/invalid output from nemotron — trying next
+[analyst] ADNOCDIST: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): MASHREQ, PARKIN, SALIK, 2POINTZERO
+[mizan] MASHREQ: wrote fundamentals (high, FY2025)
+[mizan] PARKIN: wrote fundamentals (high, 2025-12-31)
+[mizan] SALIK: wrote fundamentals (high, 2025-12-31)
+[mizan] 2POINTZERO: wrote fundamentals (high, 2024-12-31)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 28): EMSTEEL, ALDAR, AMERICANA, BOROUGE, ALPHADHABI, BURJEEL
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] ALDAR: 5 live articles (Google)
+[news] AMERICANA: 8 live articles (Google)
+[news] BOROUGE: 8 live articles (Google)
+[news] ALPHADHABI: 7 live articles (Google)
+[news] BURJEEL: 8 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (3 of 3): ADNOCDRILL, ADNOCGAS, ADNOCLS
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCDRILL: no/invalid output from nemotron — trying next
+[analyst] ADNOCDRILL: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCGAS: no/invalid output from nemotron — trying next
+[analyst] ADNOCGAS: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCLS: no/invalid output from nemotron — trying next
+[analyst] ADNOCLS: narrated by freeagent
+[analyst] done: 3/3 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): ADCB, ADNOCLS, ALPHADHABI, BURJEEL
+[mizan] ADCB: not found / insufficient (kept modeled)
+[mizan] ADNOCLS: not found / insufficient (kept modeled)
+[mizan] ALPHADHABI: wrote fundamentals (high, 2025-12-31)
+[mizan] BURJEEL: not found / insufficient (kept modeled)
+[mizan] done: 1/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 28): EMSTEEL, DANA, EAND, FAB, FERTIGLB, IHC
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] DANA: 8 live articles (Google)
+[news] EAND: 8 live articles (Google)
+[news] FAB: 8 live articles (Google)
+[news] FERTIGLB: 8 live articles (Google)
+[news] IHC: 5 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 4 eligible): DANA, EAND, EMSTEEL, GHITHA
+[mizan] DANA: wrote fundamentals (high, None)
+[mizan] EAND: wrote fundamentals (high, 2025-12-31)
+[mizan] EMSTEEL: wrote fundamentals (high, None)
+[mizan] GHITHA: wrote fundamentals (high, 2024-12-31)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 28): EMSTEEL, JULPHAR, MODON, NMDC, NMDCENR, PRESIGHT
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] JULPHAR: 3 live articles (Google)
+[news] MODON: 1 live articles (Google)
+[news] NMDC: 8 live articles (Google)
+[news] NMDCENR: 5 live articles (Google)
+[news] PRESIGHT: 5 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (1 of 1 eligible): JULPHAR
+[mizan] JULPHAR: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 1/1 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 28): EMSTEEL, RAKBANK, SIB, GHITHA, PUREHEALTH, SPACE42
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] RAKBANK: 7 live articles (Google)
+[news] SIB: 7 live articles (Google)
+[news] GHITHA: 0 articles — kept prior
+[news] PUREHEALTH: 1 live articles (Google)
+[news] SPACE42: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 29): EMSTEEL, GHITHA, TAQA, AIRARABIA, ARMX, DEYAAR
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: 0 articles — kept prior
+[news] TAQA: 8 live articles (Google)
+[news] AIRARABIA: 8 live articles (Google)
+[news] ARMX: 4 live articles (Google)
+[news] DEYAAR: 6 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 30): EMSTEEL, GHITHA, DIB, DIN, RAKPROP, DTC
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] DIB: 7 live articles (Google)
+[news] DIN: 8 live articles (Google)
+[news] RAKPROP: 2 live articles (Google)
+[news] DTC: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 31): EMSTEEL, GHITHA, EMAAR, EMAARDEV, EMIRATESNBD, GFH
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] EMAAR: 8 live articles (Google)
+[news] EMAARDEV: 8 live articles (Google)
+[news] EMIRATESNBD: 8 live articles (Google)
+[news] GFH: 1 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): ADPORTS, AGTHIA, ALPHADHABI, AMERICANA
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADPORTS: no/invalid output from nemotron — trying next
+[analyst] ADPORTS: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] AGTHIA: no/invalid output from nemotron — trying next
+[analyst] AGTHIA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ALPHADHABI: no/invalid output from nemotron — trying next
+[analyst] ALPHADHABI: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] AMERICANA: no/invalid output from nemotron — trying next
+[analyst] AMERICANA: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 32): EMSTEEL, GHITHA, PARKIN, MASHREQ, SALIK, DU
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: 1 live articles (Google)
+[news] PARKIN: 7 live articles (Google)
+[news] MASHREQ: 3 live articles (Google)
+[news] SALIK: 5 live articles (Google)
+[news] DU: 3 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (3 of 3): DANA, EAND, BURJEEL
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DANA: no/invalid output from nemotron — trying next
+[analyst] DANA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EAND: no/invalid output from nemotron — trying next
+[analyst] EAND: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] BURJEEL: no/invalid output from nemotron — trying next
+[analyst] BURJEEL: narrated by freeagent
+[analyst] done: 3/3 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 32): EMSTEEL, SHUAA, CBD, TALABAT, TECOM, 2POINTZERO
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] SHUAA: 8 live articles (Google)
+[news] CBD: 1 live articles (Google)
+[news] TALABAT: 5 live articles (Google)
+[news] TECOM: 5 live articles (Google)
+[news] 2POINTZERO: 2 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): BOROUGE, EMSTEEL, FERTIGLB, GHITHA
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] BOROUGE: no/invalid output from nemotron — trying next
+[analyst] BOROUGE: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMSTEEL: no/invalid output from nemotron — trying next
+[analyst] EMSTEEL: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] FERTIGLB: no/invalid output from nemotron — trying next
+[analyst] FERTIGLB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] GHITHA: no/invalid output from nemotron — trying next
+[analyst] GHITHA: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (3 of 3 eligible): MODON, NMDC, NMDCENR
+[mizan] MODON: wrote fundamentals (high, 2025-12-31)
+[mizan] NMDC: not found / insufficient (kept modeled)
+[mizan] NMDCENR: wrote fundamentals (high, None)
+[mizan] done: 2/3 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 31): EMSTEEL, ADCB, ADIB, EMPOWER, ADNOCDIST, ADNOCDRILL
+[news] EMSTEEL: 0 articles — kept prior
+[news] ADCB: 4 live articles (Google)
+[news] ADIB: 8 live articles (Google)
+[news] EMPOWER: 3 live articles (Google)
+[news] ADNOCDIST: 8 live articles (Google)
+[news] ADNOCDRILL: 8 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): JULPHAR, MODON, NMDC, NMDCENR
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] JULPHAR: no/invalid output from nemotron — trying next
+[analyst] JULPHAR: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] MODON: no/invalid output from nemotron — trying next
+[analyst] MODON: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] NMDC: no/invalid output from nemotron — trying next
+[analyst] NMDC: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] NMDCENR: no/invalid output from nemotron — trying next
+[analyst] NMDCENR: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (1 of 1 eligible): PRESIGHT
+[mizan] PRESIGHT: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 1/1 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 30): EMSTEEL, ADNH, ADNOCGAS, ADNOCLS, ADPORTS, DEWA
+[news] EMSTEEL: 0 articles — kept prior
+[news] ADNH: 4 live articles (Google)
+[news] ADNOCGAS: 8 live articles (Google)
+[news] ADNOCLS: 8 live articles (Google)
+[news] ADPORTS: 8 live articles (Google)
+[news] DEWA: 1 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): PRESIGHT, PUREHEALTH, RAKBANK, RAKPROP
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] PRESIGHT: no/invalid output from nemotron — trying next
+[analyst] PRESIGHT: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] PUREHEALTH: no/invalid output from nemotron — trying next
+[analyst] PUREHEALTH: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] RAKBANK: no/invalid output from nemotron — trying next
+[analyst] RAKBANK: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] RAKPROP: no/invalid output from nemotron — trying next
+[analyst] RAKPROP: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 8 eligible): RAKBANK, RAKPROP, SIB, SPACE42
+[mizan] RAKBANK: not found / insufficient (kept modeled)
+[mizan] RAKPROP: not found / insufficient (kept modeled)
+[mizan] SIB: wrote fundamentals (high, 2025-12-31)
+[mizan] SPACE42: not found / insufficient (kept modeled)
+[mizan] done: 1/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 29): EMSTEEL, AGTHIA, ALDAR, AMERICANA, BOROUGE, ALPHADHABI
+[news] EMSTEEL: 0 articles — kept prior
+[news] AGTHIA: 5 live articles (Google)
+[news] ALDAR: 4 live articles (Google)
+[news] AMERICANA: 8 live articles (Google)
+[news] BOROUGE: 8 live articles (Google)
+[news] ALPHADHABI: 7 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(5), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): SIB, SPACE42, ARMX, AIRARABIA
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] SIB: no/invalid output from nemotron — trying next
+[analyst] SIB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] SPACE42: no/invalid output from nemotron — trying next
+[analyst] SPACE42: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ARMX: no/invalid output from nemotron — trying next
+[analyst] ARMX: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] AIRARABIA: no/invalid output from nemotron — trying next
+[analyst] AIRARABIA: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 8 eligible): CBD, DEYAAR, DIN, DTC
+[mizan] CBD: wrote fundamentals (high, 2025-12-31)
+[mizan] DEYAAR: not found / insufficient (kept modeled)
+[mizan] DIN: wrote fundamentals (high, None)
+[mizan] DTC: not found / insufficient (kept modeled)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 28): EMSTEEL, BURJEEL, DANA, EAND, FAB, FERTIGLB
+[news] EMSTEEL: 0 articles — kept prior
+[news] BURJEEL: 8 live articles (Google)
+[news] DANA: 8 live articles (Google)
+[news] EAND: 8 live articles (Google)
+[news] FAB: 8 live articles (Google)
+[news] FERTIGLB: 8 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): DEYAAR, DIN, CBD, DTC
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DEYAAR: no/invalid output from nemotron — trying next
+[analyst] DEYAAR: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DIN: no/invalid output from nemotron — trying next
+[analyst] DIN: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] CBD: no/invalid output from nemotron — trying next
+[analyst] CBD: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DTC: no/invalid output from nemotron — trying next
+[analyst] DTC: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 8 eligible): GFH, SHUAA, TALABAT, TECOM
+[mizan] GFH: wrote fundamentals (high, 2025-12-31)
+[mizan] SHUAA: wrote fundamentals (high, None)
+[mizan] TALABAT: not found / insufficient (kept modeled)
+[mizan] TECOM: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 3/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 28): EMSTEEL, IHC, JULPHAR, MODON, NMDC, NMDCENR
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] IHC: 5 live articles (Google)
+[news] JULPHAR: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] JULPHAR: 0 articles — kept prior
+[news] MODON: 1 live articles (Google)
+[news] NMDC: 8 live articles (Google)
+[news] NMDCENR: 5 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): DU, EMAARDEV, GFH, MASHREQ
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DU: no/invalid output from nemotron — trying next
+[analyst] DU: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMAARDEV: no/invalid output from nemotron — trying next
+[analyst] EMAARDEV: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] GFH: no/invalid output from nemotron — trying next
+[analyst] GFH: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] MASHREQ: no/invalid output from nemotron — trying next
+[analyst] MASHREQ: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 8 eligible): ADNH, ADIB, ADNOCDIST, ADNOCDRILL
+[mizan] ADNH: wrote fundamentals (high, 2024-12-31)
+[mizan] ADIB: not found / insufficient (kept modeled)
+[mizan] ADNOCDIST: not found / insufficient (kept modeled)
+[mizan] ADNOCDRILL: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 29): EMSTEEL, JULPHAR, PRESIGHT, RAKBANK, SIB, PUREHEALTH
+[news] EMSTEEL: 0 articles — kept prior
+[news] JULPHAR: 0 articles — kept prior
+[news] PRESIGHT: 5 live articles (Google)
+[news] RAKBANK: 7 live articles (Google)
+[news] SIB: 7 live articles (Google)
+[news] PUREHEALTH: 1 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 8 eligible): ADNOCGAS, ADPORTS, AGTHIA, ALDAR
+[mizan] ADNOCGAS: not found / insufficient (kept modeled)
+[mizan] ADPORTS: wrote fundamentals (high, 2025-12-31)
+[mizan] AGTHIA: wrote fundamentals (high, 2024-12-31)
+[mizan] ALDAR: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 3/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 30): EMSTEEL, JULPHAR, SPACE42, TAQA, AIRARABIA, ARMX
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] JULPHAR: 3 live articles (Google)
+[news] SPACE42: 8 live articles (Google)
+[news] TAQA: 8 live articles (Google)
+[news] AIRARABIA: 8 live articles (Google)
+[news] ARMX: 5 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): EMPOWER, PARKIN, SHUAA, TALABAT
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMPOWER: no/invalid output from nemotron — trying next
+[analyst] EMPOWER: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] PARKIN: no/invalid output from nemotron — trying next
+[analyst] PARKIN: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] SHUAA: no/invalid output from nemotron — trying next
+[analyst] SHUAA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] TALABAT: no/invalid output from nemotron — trying next
+[analyst] TALABAT: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 8 eligible): AMERICANA, BOROUGE, FAB, FERTIGLB
+[mizan] AMERICANA: not found / insufficient (kept modeled)
+[mizan] BOROUGE: wrote fundamentals (high, 2025-12-31)
+[mizan] FAB: wrote fundamentals (high, 2025-12-31)
+[mizan] FERTIGLB: not found / insufficient (kept modeled)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 30): EMSTEEL, DEYAAR, DIB, DIN, RAKPROP, DTC
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] DEYAAR: 5 live articles (Google)
+[news] DIB: 7 live articles (Google)
+[news] DIN: 8 live articles (Google)
+[news] RAKPROP: 2 live articles (Google)
+[news] DTC: 8 live articles (Google)
+[news] done: 5/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 8 eligible): IHC, PUREHEALTH, TAQA, AIRARABIA
+[mizan] IHC: wrote fundamentals (high, 2025-12-31)
+[mizan] PUREHEALTH: wrote fundamentals (high, 2025-12-31)
+[mizan] TAQA: wrote fundamentals (high, 2024-12-31)
+[mizan] AIRARABIA: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 30): EMSTEEL, EMAAR, EMAARDEV, EMIRATESNBD, GFH, GHITHA
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] EMAAR: 8 live articles (Google)
+[news] EMAARDEV: 8 live articles (Google)
+[news] EMIRATESNBD: 8 live articles (Google)
+[news] GFH: 1 live articles (Google)
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(2), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 8 eligible): ARMX, DEWA, DIB, DU
+[mizan] ARMX: not found / insufficient (kept modeled)
+[mizan] DEWA: wrote fundamentals (high, 2025-12-31)
+[mizan] DIB: not found / insufficient (kept modeled)
+[mizan] DU: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 31): EMSTEEL, GHITHA, PARKIN, MASHREQ, SALIK, DU
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] PARKIN: 7 live articles (Google)
+[news] MASHREQ: 3 live articles (Google)
+[news] SALIK: 5 live articles (Google)
+[news] DU: 3 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 7 eligible): EMAAR, EMAARDEV, EMIRATESNBD, EMPOWER
+[mizan] EMAAR: not found / insufficient (kept modeled)
+[mizan] EMAARDEV: wrote fundamentals (high, 2024-12-31)
+[mizan] EMIRATESNBD: not found / insufficient (kept modeled)
+[mizan] EMPOWER: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 31): EMSTEEL, GHITHA, SHUAA, CBD, TALABAT, TECOM
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] SHUAA: 7 live articles (Google)
+[news] CBD: 1 live articles (Google)
+[news] TALABAT: 5 live articles (Google)
+[news] TECOM: 4 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): TECOM, 2POINTZERO, ADNH, FAB
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] TECOM: no/invalid output from nemotron — trying next
+[analyst] TECOM: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] 2POINTZERO: no/invalid output from nemotron — trying next
+[analyst] 2POINTZERO: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNH: no/invalid output from nemotron — trying next
+[analyst] ADNH: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] FAB: no/invalid output from nemotron — trying next
+[analyst] FAB: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 6 eligible): MASHREQ, PARKIN, SALIK, 2POINTZERO
+[mizan] MASHREQ: wrote fundamentals (high, 2025-12-31)
+[mizan] PARKIN: wrote fundamentals (high, 2025-12-31)
+[mizan] SALIK: wrote fundamentals (high, 2025-12-31)
+[mizan] 2POINTZERO: wrote fundamentals (high, 2024-12-31)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 31): EMSTEEL, GHITHA, 2POINTZERO, ADCB, ADIB, EMPOWER
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] 2POINTZERO: 1 live articles (Google)
+[news] ADCB: 4 live articles (Google)
+[news] ADIB: 8 live articles (Google)
+[news] EMPOWER: 3 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=elevated(2), global_rates=high(6)
+[analyst] stale batch (4 of 4): EMIRATESNBD, DIB, SALIK, ALDAR
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMIRATESNBD: no/invalid output from nemotron — trying next
+[analyst] EMIRATESNBD: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DIB: no/invalid output from nemotron — trying next
+[analyst] DIB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] SALIK: no/invalid output from nemotron — trying next
+[analyst] SALIK: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ALDAR: no/invalid output from nemotron — trying next
+[analyst] ALDAR: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 8 eligible): ADCB, ADNOCLS, ALPHADHABI, BURJEEL
+[mizan.fetch] wikipedia failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[mizan] ADCB: web fetch returned nothing; kept modeled
+[mizan.fetch] wikipedia failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[mizan] ADNOCLS: web fetch returned nothing; kept modeled
+[mizan.fetch] wikipedia failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[mizan] ALPHADHABI: web fetch returned nothing; kept modeled
+[mizan.fetch] wikipedia failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[mizan] BURJEEL: web fetch returned nothing; kept modeled
+[mizan] done: 0/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 32): EMSTEEL, GHITHA, ADNOCDIST, ADNOCDRILL, ADNH, ADNOCGAS
+[news] EMSTEEL: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] EMSTEEL: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] GHITHA: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] GHITHA: 0 articles — kept prior
+[news] ADNOCDIST: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCDIST: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCDIST: 0 articles — kept prior
+[news] ADNOCDRILL: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCDRILL: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCDRILL: 0 articles — kept prior
+[news] ADNH: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNH: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNH: 0 articles — kept prior
+[news] ADNOCGAS: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCGAS: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCGAS: 0 articles — kept prior
+[news] done: 0/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] oil_opec: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] hormuz: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] red_sea: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] regional_conflict: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] sanctions: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] global_rates: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] all fetches failed — kept prior data/geo.json
+[analyst] stale batch (3 of 3): IHC, DEWA, ADCB
+[ai:cli:nemotron] exit 1: 
+[analyst] IHC: no/invalid output from nemotron — trying next
+[ai:cli:freeagent] exit 1: 
+[analyst] IHC: no/invalid output from freeagent
+[ai:cli:nemotron] exit 1: 
+[analyst] DEWA: no/invalid output from nemotron — trying next
+[ai:cli:freeagent] exit 1: 
+[analyst] DEWA: no/invalid output from freeagent
+[ai:cli:nemotron] exit 1: 
+[analyst] ADCB: no/invalid output from nemotron — trying next
+[ai:cli:freeagent] exit 1: 
+[analyst] ADCB: no/invalid output from freeagent
+[analyst] done: 0/3 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 5 eligible): DANA, EAND, EMSTEEL, GHITHA
+[mizan.fetch] wikipedia failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[mizan] DANA: web fetch returned nothing; kept modeled
+[mizan.fetch] wikipedia failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[mizan] EAND: web fetch returned nothing; kept modeled
+[mizan.fetch] wikipedia failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[mizan] EMSTEEL: web fetch returned nothing; kept modeled
+[mizan.fetch] wikipedia failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[mizan] GHITHA: web fetch returned nothing; kept modeled
+[mizan] done: 0/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 37): EMSTEEL, GHITHA, ADNOCDIST, ADNOCDRILL, ADNH, ADNOCGAS
+[news] EMSTEEL: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] EMSTEEL: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] GHITHA: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] GHITHA: 0 articles — kept prior
+[news] ADNOCDIST: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCDIST: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCDIST: 0 articles — kept prior
+[news] ADNOCDRILL: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCDRILL: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCDRILL: 0 articles — kept prior
+[news] ADNH: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNH: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNH: 0 articles — kept prior
+[news] ADNOCGAS: google news failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCGAS: gdelt fallback failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[news] ADNOCGAS: 0 articles — kept prior
+[news] done: 0/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] oil_opec: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] hormuz: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] red_sea: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] regional_conflict: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] sanctions: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] global_rates: fetch failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>)
+[geo] all fetches failed — kept prior data/geo.json
+[analyst] stale batch (4 of 7): IHC, DEWA, ADCB, EMAAR
+[ai:cli:nemotron] exit 1: 
+[analyst] IHC: no/invalid output from nemotron — trying next
+[ai:cli:freeagent] exit 1: 
+[analyst] IHC: no/invalid output from freeagent
+[ai:cli:nemotron] exit 1: 
+[analyst] DEWA: no/invalid output from nemotron — trying next
+[ai:cli:freeagent] exit 1: 
+[analyst] DEWA: no/invalid output from freeagent
+[ai:cli:nemotron] exit 1: 
+[analyst] ADCB: no/invalid output from nemotron — trying next
+[ai:cli:freeagent] exit 1: 
+[analyst] ADCB: no/invalid output from freeagent
+[ai:cli:nemotron] exit 1: 
+[analyst] EMAAR: no/invalid output from nemotron — trying next
+[ai:cli:freeagent] exit 1: 
+[analyst] EMAAR: no/invalid output from freeagent
+[analyst] done: 0/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (1 of 1 eligible): JULPHAR
+[mizan] JULPHAR: wrote fundamentals (high, None)
+[mizan] done: 1/1 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 41): EMSTEEL, GHITHA, ADNOCDIST, ADNOCDRILL, ADNH, ADNOCGAS
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] ADNOCDIST: 8 live articles (Google)
+[news] ADNOCDRILL: 8 live articles (Google)
+[news] ADNH: 4 live articles (Google)
+[news] ADNOCGAS: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=elevated(2), global_rates=high(6)
+[analyst] stale batch (4 of 10): IHC, DEWA, ADCB, EMAAR
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] IHC: no/invalid output from nemotron — trying next
+[analyst] IHC: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DEWA: no/invalid output from nemotron — trying next
+[analyst] DEWA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADCB: no/invalid output from nemotron — trying next
+[analyst] ADCB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMAAR: no/invalid output from nemotron — trying next
+[analyst] EMAAR: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 41): EMSTEEL, GHITHA, ADNOCLS, ADPORTS, DEWA, AGTHIA
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: 0 articles — kept prior
+[news] ADNOCLS: 8 live articles (Google)
+[news] ADPORTS: 8 live articles (Google)
+[news] DEWA: 2 live articles (Google)
+[news] AGTHIA: 4 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=elevated(2), global_rates=high(6)
+[analyst] stale batch (4 of 6): ADIB, TAQA, ADNOCDIST, ADNOCDRILL
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADIB: no/invalid output from nemotron — trying next
+[analyst] ADIB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] TAQA: no/invalid output from nemotron — trying next
+[analyst] TAQA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCDIST: no/invalid output from nemotron — trying next
+[analyst] ADNOCDIST: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCDRILL: no/invalid output from nemotron — trying next
+[analyst] ADNOCDRILL: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 41): EMSTEEL, GHITHA, ALDAR, AMERICANA, BOROUGE, ALPHADHABI
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] ALDAR: 4 live articles (Google)
+[news] AMERICANA: 7 live articles (Google)
+[news] BOROUGE: 8 live articles (Google)
+[news] ALPHADHABI: 4 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=elevated(2), global_rates=high(6)
+[analyst] stale batch (2 of 2): ADNOCGAS, ADNOCLS
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCGAS: no/invalid output from nemotron — trying next
+[analyst] ADNOCGAS: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCLS: no/invalid output from nemotron — trying next
+[analyst] ADNOCLS: narrated by freeagent
+[analyst] done: 2/2 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 41): EMSTEEL, GHITHA, BURJEEL, DANA, EAND, FAB
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] BURJEEL: 8 live articles (Google)
+[news] DANA: 8 live articles (Google)
+[news] EAND: 8 live articles (Google)
+[news] FAB: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=elevated(2), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 37): EMSTEEL, GHITHA, FERTIGLB, IHC, MODON, NMDC
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] FERTIGLB: 4 live articles (Google)
+[news] IHC: 5 live articles (Google)
+[news] MODON: 1 live articles (Google)
+[news] NMDC: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=elevated(2), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (3 of 3 eligible): MODON, NMDC, NMDCENR
+[mizan] MODON: wrote fundamentals (high, 2025-12-31)
+[mizan] NMDC: not found / insufficient (kept modeled)
+[mizan] NMDCENR: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 2/3 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 33): EMSTEEL, GHITHA, NMDCENR, PRESIGHT, RAKBANK, SIB
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] NMDCENR: 0 articles — kept prior
+[news] PRESIGHT: 5 live articles (Google)
+[news] RAKBANK: 5 live articles (Google)
+[news] SIB: 6 live articles (Google)
+[news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=elevated(2), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] nothing stale (all touched within 20h) — skip
+[news] stale batch (6 of 34): EMSTEEL, GHITHA, NMDCENR, PUREHEALTH, JULPHAR, SPACE42
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] NMDCENR: 3 live articles (Google)
+[news] PUREHEALTH: 2 live articles (Google)
+[news] JULPHAR: 3 live articles (Google)
+[news] SPACE42: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=elevated(2), global_rates=high(6)
+[analyst] stale batch (4 of 4): ADPORTS, AGTHIA, ALPHADHABI, AMERICANA
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADPORTS: no/invalid output from nemotron — trying next
+[analyst] ADPORTS: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] AGTHIA: no/invalid output from nemotron — trying next
+[analyst] AGTHIA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ALPHADHABI: no/invalid output from nemotron — trying next
+[analyst] ALPHADHABI: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] AMERICANA: no/invalid output from nemotron — trying next
+[analyst] AMERICANA: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (1 of 1 eligible): PRESIGHT
+[mizan] PRESIGHT: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 1/1 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 34): EMSTEEL, GHITHA, TAQA, AIRARABIA, ARMX, DEYAAR
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] TAQA: 8 live articles (Google)
+[news] AIRARABIA: 8 live articles (Google)
+[news] ARMX: 3 live articles (Google)
+[news] DEYAAR: 6 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (3 of 3): DANA, EAND, BURJEEL
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DANA: no/invalid output from nemotron — trying next
+[analyst] DANA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EAND: no/invalid output from nemotron — trying next
+[analyst] EAND: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] BURJEEL: no/invalid output from nemotron — trying next
+[analyst] BURJEEL: narrated by freeagent
+[analyst] done: 3/3 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): RAKBANK, RAKPROP, SIB, SPACE42
+[mizan] RAKBANK: not found / insufficient (kept modeled)
+[mizan] RAKPROP: not found / insufficient (kept modeled)
+[mizan] SIB: wrote fundamentals (high, 2025-12-31)
+[mizan] SPACE42: not found / insufficient (kept modeled)
+[mizan] done: 1/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 34): EMSTEEL, GHITHA, DIB, DIN, RAKPROP, DTC
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] DIB: 5 live articles (Google)
+[news] DIN: 8 live articles (Google)
+[news] RAKPROP: 2 live articles (Google)
+[news] DTC: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(6), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): BOROUGE, EMSTEEL, FERTIGLB, GHITHA
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] BOROUGE: no/invalid output from nemotron — trying next
+[analyst] BOROUGE: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMSTEEL: no/invalid output from nemotron — trying next
+[analyst] EMSTEEL: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] FERTIGLB: no/invalid output from nemotron — trying next
+[analyst] FERTIGLB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] GHITHA: no/invalid output from nemotron — trying next
+[analyst] GHITHA: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): CBD, DEYAAR, DIN, DTC
+[mizan] CBD: wrote fundamentals (high, 2025-12-31)
+[mizan] DEYAAR: not found / insufficient (kept modeled)
+[mizan] DIN: wrote fundamentals (high, None)
+[mizan.fetch] wikipedia failed (The read operation timed out)
+[mizan] DTC: not found / insufficient (kept modeled)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 34): EMSTEEL, GHITHA, EMAAR, EMAARDEV, EMIRATESNBD, GFH
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] EMAAR: 8 live articles (Google)
+[news] EMAARDEV: 8 live articles (Google)
+[news] EMIRATESNBD: 8 live articles (Google)
+[news] GFH: 1 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): JULPHAR, MODON, NMDC, NMDCENR
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] JULPHAR: no/invalid output from nemotron — trying next
+[analyst] JULPHAR: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] MODON: no/invalid output from nemotron — trying next
+[analyst] MODON: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] NMDC: no/invalid output from nemotron — trying next
+[analyst] NMDC: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] NMDCENR: no/invalid output from nemotron — trying next
+[analyst] NMDCENR: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): GFH, SHUAA, TALABAT, TECOM
+[mizan] GFH: wrote fundamentals (high, 2025-12-31)
+[mizan] SHUAA: wrote fundamentals (high, None)
+[mizan] TALABAT: not found / insufficient (kept modeled)
+[mizan] TECOM: wrote fundamentals (high, None)
+[mizan] done: 3/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 34): EMSTEEL, GHITHA, PARKIN, MASHREQ, SALIK, DU
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] PARKIN: 7 live articles (Google)
+[news] MASHREQ: 3 live articles (Google)
+[news] SALIK: 5 live articles (Google)
+[news] DU: 3 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): PRESIGHT, PUREHEALTH, RAKBANK, RAKPROP
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] PRESIGHT: no/invalid output from nemotron — trying next
+[analyst] PRESIGHT: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] PUREHEALTH: no/invalid output from nemotron — trying next
+[analyst] PUREHEALTH: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] RAKBANK: no/invalid output from nemotron — trying next
+[analyst] RAKBANK: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] RAKPROP: no/invalid output from nemotron — trying next
+[analyst] RAKPROP: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 7 eligible): ADNH, ADIB, ADNOCDIST, ADNOCDRILL
+[mizan] ADNH: wrote fundamentals (high, 2024-12-31)
+[mizan] ADIB: not found / insufficient (kept modeled)
+[mizan] ADNOCDIST: not found / insufficient (kept modeled)
+[mizan] ADNOCDRILL: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 33): EMSTEEL, GHITHA, SHUAA, CBD, TALABAT, TECOM
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] SHUAA: 4 live articles (Google)
+[news] CBD: 1 live articles (Google)
+[news] TALABAT: 5 live articles (Google)
+[news] TECOM: 2 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): SIB, SPACE42, ARMX, AIRARABIA
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] SIB: no/invalid output from nemotron — trying next
+[analyst] SIB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] SPACE42: no/invalid output from nemotron — trying next
+[analyst] SPACE42: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ARMX: no/invalid output from nemotron — trying next
+[analyst] ARMX: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] AIRARABIA: no/invalid output from nemotron — trying next
+[analyst] AIRARABIA: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 8 eligible): ADNOCGAS, ADPORTS, AGTHIA, ALDAR
+[mizan] ADNOCGAS: not found / insufficient (kept modeled)
+[mizan] ADPORTS: wrote fundamentals (high, 2025-12-31)
+[mizan] AGTHIA: wrote fundamentals (high, 2024-12-31)
+[mizan] ALDAR: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 3/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 33): EMSTEEL, GHITHA, 2POINTZERO, ADCB, ADIB, EMPOWER
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] 2POINTZERO: 2 live articles (Google)
+[news] ADCB: 3 live articles (Google)
+[news] ADIB: 6 live articles (Google)
+[news] EMPOWER: 3 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=elevated(6)
+[analyst] stale batch (4 of 4): DEYAAR, DIN, CBD, DTC
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DEYAAR: no/invalid output from nemotron — trying next
+[analyst] DEYAAR: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DIN: no/invalid output from nemotron — trying next
+[analyst] DIN: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] CBD: no/invalid output from nemotron — trying next
+[analyst] CBD: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DTC: no/invalid output from nemotron — trying next
+[analyst] DTC: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 8 eligible): AMERICANA, BOROUGE, FAB, FERTIGLB
+[mizan] AMERICANA: not found / insufficient (kept modeled)
+[mizan] BOROUGE: wrote fundamentals (high, None)
+[mizan] FAB: wrote fundamentals (high, 2025-12-31)
+[mizan] FERTIGLB: not found / insufficient (kept modeled)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 33): EMSTEEL, GHITHA, ADNOCDIST, ADNOCDRILL, ADNH, ADNOCGAS
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] ADNOCDIST: 8 live articles (Google)
+[news] ADNOCDRILL: 8 live articles (Google)
+[news] ADNH: 4 live articles (Google)
+[news] ADNOCGAS: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] stale batch (4 of 4): DU, EMAARDEV, GFH, MASHREQ
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DU: no/invalid output from nemotron — trying next
+[analyst] DU: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMAARDEV: no/invalid output from nemotron — trying next
+[analyst] EMAARDEV: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] GFH: no/invalid output from nemotron — trying next
+[analyst] GFH: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] MASHREQ: no/invalid output from nemotron — trying next
+[analyst] MASHREQ: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 8 eligible): IHC, PUREHEALTH, TAQA, AIRARABIA
+[mizan] IHC: wrote fundamentals (high, None)
+[mizan] PUREHEALTH: wrote fundamentals (high, None)
+[mizan] TAQA: wrote fundamentals (high, 2024-12-31)
+[mizan] AIRARABIA: wrote fundamentals (high, None)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 33): EMSTEEL, GHITHA, ADNOCLS, ADPORTS, DEWA, AGTHIA
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] ADNOCLS: 8 live articles (Google)
+[news] ADPORTS: 8 live articles (Google)
+[news] DEWA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] DEWA: 0 articles — kept prior
+[news] AGTHIA: 4 live articles (Google)
+[news] done: 3/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 8 eligible): ARMX, DEWA, DIB, DU
+[mizan] ARMX: not found / insufficient (kept modeled)
+[mizan] DEWA: wrote fundamentals (high, 2025-12-31)
+[mizan] DIB: not found / insufficient (kept modeled)
+[mizan] DU: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 34): EMSTEEL, GHITHA, DEWA, ALDAR, AMERICANA, BOROUGE
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] DEWA: 2 live articles (Google)
+[news] ALDAR: 5 live articles (Google)
+[news] AMERICANA: 7 live articles (Google)
+[news] BOROUGE: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=low(0)
+[analyst] stale batch (4 of 4): EMPOWER, PARKIN, SHUAA, TALABAT
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMPOWER: no/invalid output from nemotron — trying next
+[analyst] EMPOWER: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] PARKIN: no/invalid output from nemotron — trying next
+[analyst] PARKIN: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] SHUAA: no/invalid output from nemotron — trying next
+[analyst] SHUAA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] TALABAT: no/invalid output from nemotron — trying next
+[analyst] TALABAT: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 8 eligible): EMAAR, EMAARDEV, EMIRATESNBD, EMPOWER
+[mizan] EMAAR: wrote fundamentals (high, 2025-12-31)
+[mizan] EMAARDEV: wrote fundamentals (high, 2024-12-31)
+[mizan] EMIRATESNBD: not found / insufficient (kept modeled)
+[mizan] EMPOWER: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 3/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 34): EMSTEEL, GHITHA, ALPHADHABI, BURJEEL, DANA, EAND
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: 0 articles — kept prior
+[news] ALPHADHABI: 6 live articles (Google)
+[news] BURJEEL: 8 live articles (Google)
+[news] DANA: 8 live articles (Google)
+[news] EAND: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(6), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=high(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 8 eligible): MASHREQ, PARKIN, SALIK, 2POINTZERO
+[mizan] MASHREQ: wrote fundamentals (high, None)
+[mizan] PARKIN: wrote fundamentals (high, 2025-12-31)
+[mizan.fetch] wikipedia failed (<urlopen error _ssl.c:1063: The handshake operation timed out>)
+[mizan] SALIK: wrote fundamentals (high, None)
+[mizan] 2POINTZERO: wrote fundamentals (high, 2024-12-31)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 34): EMSTEEL, GHITHA, FAB, FERTIGLB, IHC, MODON
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] FAB: 8 live articles (Google)
+[news] FERTIGLB: 2 live articles (Google)
+[news] IHC: 6 live articles (Google)
+[news] MODON: 1 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=elevated(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 8 eligible): ADCB, ADNOCLS, ALPHADHABI, BURJEEL
+[mizan] ADCB: not found / insufficient (kept modeled)
+[mizan] ADNOCLS: not found / insufficient (kept modeled)
+[mizan] ALPHADHABI: wrote fundamentals (high, 2025-12-31)
+[mizan] BURJEEL: not found / insufficient (kept modeled)
+[mizan] done: 1/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 34): EMSTEEL, GHITHA, NMDC, PRESIGHT, RAKBANK, SIB
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] NMDC: 8 live articles (Google)
+[news] PRESIGHT: 5 live articles (Google)
+[news] RAKBANK: 5 live articles (Google)
+[news] SIB: 6 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=elevated(6)
+[analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 5 eligible): DANA, EAND, EMSTEEL, GHITHA
+[mizan] DANA: wrote fundamentals (high, None)
+[mizan] EAND: wrote fundamentals (high, None)
+[mizan] EMSTEEL: wrote fundamentals (high, None)
+[mizan] GHITHA: wrote fundamentals (high, 2024-12-31)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 34): EMSTEEL, GHITHA, NMDCENR, PUREHEALTH, JULPHAR, SPACE42
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] NMDCENR: 3 live articles (Google)
+[news] PUREHEALTH: 2 live articles (Google)
+[news] JULPHAR: 3 live articles (Google)
+[news] SPACE42: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(4), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=elevated(6)
+[analyst] stale batch (4 of 4): TECOM, 2POINTZERO, ADNH, FAB
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] TECOM: no/invalid output from nemotron — trying next
+[analyst] TECOM: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] 2POINTZERO: no/invalid output from nemotron — trying next
+[analyst] 2POINTZERO: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNH: no/invalid output from nemotron — trying next
+[analyst] ADNH: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] FAB: no/invalid output from nemotron — trying next
+[analyst] FAB: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
