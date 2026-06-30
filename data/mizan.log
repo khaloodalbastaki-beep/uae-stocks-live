@@ -6141,3 +6141,17 @@ session_id: 20260626_063020_a62d4f
 [analyst] ALDAR: no/invalid output from nemotron — trying next
 [analyst] ALDAR: narrated by freeagent
 [analyst] done: 1/1 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (1 of 1 eligible): PRESIGHT
+[mizan] PRESIGHT: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 1/1 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 33): EMSTEEL, GHITHA, JULPHAR, SPACE42, TAQA, AIRARABIA
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] JULPHAR: 3 live articles (Google)
+[news] SPACE42: 8 live articles (Google)
+[news] TAQA: 8 live articles (Google)
+[news] AIRARABIA: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(6), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=elevated(6)
+[analyst] nothing stale (all narrated within 24h) — skip
