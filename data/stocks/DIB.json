@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "DIB",
-    "price": 7.5,
-    "change": 0.1,
-    "change_pct": 0.0132,
-    "volume": 4427521,
-    "market_cap": 42479000000.0,
-    "high_52w": 8.1,
-    "low_52w": 6.17,
+    "price": 7.52,
+    "change": 0.02,
+    "change_pct": 0.0026,
+    "volume": 0,
+    "market_cap": null,
+    "high_52w": 7.711,
+    "low_52w": 7.464,
     "spark": [
-      7.161,
-      7.02,
-      6.956,
-      7.035,
-      7.169,
-      7.276,
-      7.156,
-      7.039,
-      7.166,
-      7.219,
-      7.105,
-      7.031,
-      6.935,
-      6.901,
-      6.934,
-      7.009,
-      6.989,
-      6.984,
-      7.113,
-      7.226,
-      7.289,
-      7.151,
-      7.134,
-      7.135,
-      7.011,
-      6.881,
-      6.966,
-      6.852,
-      6.979,
-      7.5
+      7.537,
+      7.464,
+      7.522,
+      7.493,
+      7.491,
+      7.582,
+      7.539,
+      7.576,
+      7.537,
+      7.563,
+      7.617,
+      7.601,
+      7.571,
+      7.664,
+      7.626,
+      7.71,
+      7.683,
+      7.605,
+      7.609,
+      7.711,
+      7.664,
+      7.647,
+      7.635,
+      7.548,
+      7.563,
+      7.563,
+      7.575,
+      7.578,
+      7.577,
+      7.52
     ],
     "prov": {
-      "source_type": "mock",
-      "source_name": "Demo seed",
-      "data_quality": "demo",
-      "retrieved_at": "2026-06-30T10:23:37+00:00",
+      "source_type": "official",
+      "source_name": "DFM (delayed)",
+      "data_quality": "delayed",
+      "retrieved_at": "2026-06-30T10:39:41.719Z",
       "url": null,
       "lang": null
     }
@@ -197,11 +197,11 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0467,
-          "points": 77.83333333333333,
+          "raw": 0.0465,
+          "points": 77.5,
           "weight": 0.18,
-          "note": "4.67% yield",
-          "contribution": 14.0
+          "note": "4.65% yield",
+          "contribution": 13.9
         },
         {
           "key": "payout",
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0467,
+    "dividend_yield": 0.0465,
     "payout_ratio": 0.36,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -292,11 +292,11 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": 42479000000.0,
-      "volume": 4427521,
-      "high_52w": 8.1,
-      "low_52w": 6.17,
-      "dividend_yield": 0.0467
+      "market_cap": null,
+      "volume": 0,
+      "high_52w": 7.711,
+      "low_52w": 7.464,
+      "dividend_yield": 0.0465
     },
     "top_catalysts": [
       "Dependable dividend characteristics (Dividend 68/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "DIB-1-1782545017",
+      "id": "DIB-1-1782545981",
       "symbol": "DIB",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-27T07:23:37+00:00",
+      "published_at": "2026-06-27T07:39:41+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIB-2-1778901817",
+      "id": "DIB-2-1778902781",
       "symbol": "DIB",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-05-16T03:23:37+00:00",
+      "published_at": "2026-05-16T03:39:41+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIB-3-1778804617",
+      "id": "DIB-3-1778805581",
       "symbol": "DIB",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-15T00:23:37+00:00",
+      "published_at": "2026-05-15T00:39:41+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DIB-0-1777422217",
+      "id": "DIB-0-1777423181",
       "symbol": "DIB",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-29T00:23:37+00:00",
+      "published_at": "2026-04-29T00:39:41+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DIB-4-1775100217",
+      "id": "DIB-4-1775101181",
       "symbol": "DIB",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-02T03:23:37+00:00",
+      "published_at": "2026-04-02T03:39:41+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -430,7 +430,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       },
@@ -498,7 +498,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       }
@@ -523,7 +523,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       }
@@ -549,7 +549,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       }
@@ -570,7 +570,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       }
@@ -589,7 +589,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       }
@@ -608,7 +608,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       }
@@ -627,7 +627,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       }
@@ -646,7 +646,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T10:23:37+00:00",
+        "retrieved_at": "2026-06-30T10:39:41+00:00",
         "url": null,
         "lang": null
       }
@@ -676,7 +676,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-30T10:23:37+00:00",
+      "retrieved_at": "2026-06-30T10:39:41+00:00",
       "url": null,
       "lang": null
     }
@@ -720,11 +720,11 @@
     "fair_value": 10.746,
     "fair_low": 9.405,
     "fair_high": 12.596,
-    "price": 7.5,
-    "upside_pct": 0.4328,
+    "price": 7.52,
+    "upside_pct": 0.429,
     "rating": "undervalued",
     "confidence": "medium",
-    "summary": "Model fair value AED 10.75 is 43% above the AED 7.50 price — undervalued. Driven mainly by book value vs ROE; assumes ~9% growth and a 10.5% discount rate, 14% ROE. Medium confidence (range AED 9.40–12.60).",
+    "summary": "Model fair value AED 10.75 is 43% above the AED 7.52 price — undervalued. Driven mainly by book value vs ROE; assumes ~9% growth and a 10.5% discount rate, 14% ROE. Medium confidence (range AED 9.40–12.60).",
     "methods": {
       "ddm": 6.682,
       "pb": 12.185,
@@ -776,12 +776,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-30T10:23:37+00:00",
+        "as_of": "2026-06-30T10:39:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T10:23:37+00:00",
+          "retrieved_at": "2026-06-30T10:39:41+00:00",
           "url": null,
           "lang": null
         }
@@ -792,12 +792,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-30T10:23:37+00:00",
+        "as_of": "2026-06-30T10:39:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T10:23:37+00:00",
+          "retrieved_at": "2026-06-30T10:39:41+00:00",
           "url": null,
           "lang": null
         }
@@ -808,12 +808,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-30T10:23:37+00:00",
+        "as_of": "2026-06-30T10:39:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T10:23:37+00:00",
+          "retrieved_at": "2026-06-30T10:39:41+00:00",
           "url": null,
           "lang": null
         }
@@ -824,12 +824,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-30T10:23:37+00:00",
+        "as_of": "2026-06-30T10:39:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T10:23:37+00:00",
+          "retrieved_at": "2026-06-30T10:39:41+00:00",
           "url": null,
           "lang": null
         }
@@ -840,12 +840,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-30T10:23:37+00:00",
+        "as_of": "2026-06-30T10:39:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T10:23:37+00:00",
+          "retrieved_at": "2026-06-30T10:39:41+00:00",
           "url": null,
           "lang": null
         }
@@ -856,12 +856,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-30T10:23:37+00:00",
+        "as_of": "2026-06-30T10:39:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T10:23:37+00:00",
+          "retrieved_at": "2026-06-30T10:39:41+00:00",
           "url": null,
           "lang": null
         }
@@ -871,7 +871,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-29T08:23:37+00:00",
+        "published_at": "2026-06-29T08:39:41+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -879,7 +879,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T10:23:37+00:00",
+          "retrieved_at": "2026-06-30T10:39:41+00:00",
           "url": null,
           "lang": null
         }
@@ -887,7 +887,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-29T08:23:37+00:00",
+        "published_at": "2026-06-29T08:39:41+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -895,7 +895,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T10:23:37+00:00",
+          "retrieved_at": "2026-06-30T10:39:41+00:00",
           "url": null,
           "lang": null
         }
@@ -903,7 +903,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-27T16:23:37+00:00",
+        "published_at": "2026-06-27T16:39:41+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -911,7 +911,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T10:23:37+00:00",
+          "retrieved_at": "2026-06-30T10:39:41+00:00",
           "url": null,
           "lang": null
         }
@@ -958,9 +958,8 @@
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 59.8,
+        "score": 56.6,
         "reasons": [
-          "Positive price momentum (+1.3% on the session in demo data)",
           "Recent disclosure tone skews positive"
         ],
         "risks": [
@@ -981,11 +980,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-30T10:23:37+00:00",
+    "generated_at": "2026-06-30T10:39:41+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-30T06:04:53+00:00"
   },
-  "generated_at": "2026-06-30T10:23:37+00:00",
+  "generated_at": "2026-06-30T10:39:41+00:00",
   "peers": {
     "archetype": "bank",
     "self": {
@@ -995,15 +994,15 @@
       "pe": 7.7,
       "pb": 1.02,
       "roe": 0.1411,
-      "dy": 0.0467,
-      "upside": 0.4328
+      "dy": 0.0465,
+      "upside": 0.429
     },
     "medians": {
-      "pe": 7.7,
+      "pe": 7.8,
       "pb": 1.28,
       "roe": 0.166,
-      "dy": 0.043,
-      "upside": 0.433
+      "dy": 0.034,
+      "upside": 0.411
     },
     "peers": [
       {
@@ -1014,17 +1013,17 @@
         "pb": 1.28,
         "roe": 0.129,
         "dy": 0.0439,
-        "upside": 0.0839
+        "upside": 0.0854
       },
       {
         "symbol": "ADIB",
         "name_en": "Abu Dhabi Islamic Bank",
         "archetype": "bank",
         "pe": 11.8,
-        "pb": 2.33,
+        "pb": 2.34,
         "roe": 0.2209,
-        "dy": 0.0472,
-        "upside": 0.1453
+        "dy": 0.047,
+        "upside": 0.1386
       },
       {
         "symbol": "FAB",
@@ -1040,11 +1039,11 @@
         "symbol": "RAKBANK",
         "name_en": "National Bank of Ras Al Khaimah",
         "archetype": "bank",
-        "pe": 7.1,
-        "pb": 1.29,
+        "pe": 7.0,
+        "pb": 1.28,
         "roe": 0.1831,
-        "dy": 0.0691,
-        "upside": 0.6966
+        "dy": 0.0696,
+        "upside": 0.7097
       },
       {
         "symbol": "SIB",
