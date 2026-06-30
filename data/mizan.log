@@ -6094,3 +6094,19 @@ session_id: 20260626_063020_a62d4f
 [analyst] FAB: no/invalid output from nemotron — trying next
 [analyst] FAB: no/invalid output from freeagent
 [analyst] done: 3/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (3 of 3 eligible): MODON, NMDC, NMDCENR
+[mizan] MODON: wrote fundamentals (high, 2025-12-31)
+[mizan] NMDC: not found / insufficient (kept modeled)
+[mizan] NMDCENR: wrote fundamentals (high, 2025-12-31)
+[mizan] done: 2/3 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 33): EMSTEEL, GHITHA, IHC, MODON, NMDC, PRESIGHT
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] IHC: 6 live articles (Google)
+[news] MODON: 1 live articles (Google)
+[news] NMDC: 8 live articles (Google)
+[news] PRESIGHT: 6 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(6), hormuz=high(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=elevated(6)
