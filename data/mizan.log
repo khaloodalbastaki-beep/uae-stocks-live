@@ -6185,3 +6185,34 @@ session_id: 20260626_063020_a62d4f
 [analyst] EMAAR: no/invalid output from nemotron — trying next
 [analyst] EMAAR: narrated by freeagent
 [analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): CBD, DEYAAR, DIN, DTC
+[mizan] CBD: wrote fundamentals (high, 2025-12-31)
+[mizan] DEYAAR: not found / insufficient (kept modeled)
+[mizan] DIN: wrote fundamentals (high, None)
+[mizan] DTC: not found / insufficient (kept modeled)
+[mizan] done: 2/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 33): EMSTEEL, GHITHA, RAKPROP, DTC, EMAAR, EMAARDEV
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] GHITHA: 0 articles — kept prior
+[news] RAKPROP: 2 live articles (Google)
+[news] DTC: 8 live articles (Google)
+[news] EMAAR: 8 live articles (Google)
+[news] EMAARDEV: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=low(6), hormuz=elevated(6), red_sea=low(0), regional_conflict=high(6), sanctions=low(1), global_rates=elevated(6)
+[analyst] stale batch (4 of 4): ADIB, TAQA, ADNOCDIST, ADNOCDRILL
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADIB: no/invalid output from nemotron — trying next
+[analyst] ADIB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] TAQA: no/invalid output from nemotron — trying next
+[analyst] TAQA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCDIST: no/invalid output from nemotron — trying next
+[analyst] ADNOCDIST: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADNOCDRILL: no/invalid output from nemotron — trying next
+[analyst] ADNOCDRILL: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
