@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "DFM (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-29T12:44:56.042Z",
+      "retrieved_at": "2026-06-30T05:01:04.200Z",
       "url": null,
       "lang": null
     }
@@ -191,7 +191,7 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 61,
+      "score": 59,
       "grade": "C+",
       "subfactors": [
         {
@@ -242,11 +242,11 @@
         {
           "key": "freq",
           "label": "Frequency & regularity",
-          "raw": "semi",
-          "points": 75.0,
+          "raw": "annual",
+          "points": 55.0,
           "weight": 0.1,
-          "note": "semi distribution, 3y streak",
-          "contribution": 7.5
+          "note": "annual distribution, 3y streak",
+          "contribution": 5.5
         }
       ]
     },
@@ -274,13 +274,13 @@
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
-    "frequency": "semi",
+    "frequency": "annual",
     "years_paid": 3
   },
   "fundamentals_source": {
     "real": true,
     "as_of": "2025-12-31",
-    "source": "Media Office",
+    "source": "mediaoffice",
     "source_url": "https://www.mediaoffice.ae/en/news/2026/february/10-02/empower-records-historic-financial-performance",
     "extractor": "mizan/ollama",
     "confidence": "high"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "EMPOWER-0-1781775896",
+      "id": "EMPOWER-0-1781834464",
       "symbol": "EMPOWER",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-18T09:44:56+00:00",
+      "published_at": "2026-06-19T02:01:04+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMPOWER-4-1780541096",
+      "id": "EMPOWER-4-1780599664",
       "symbol": "EMPOWER",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-06-04T02:44:56+00:00",
+      "published_at": "2026-06-04T19:01:04+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMPOWER-6-1778305496",
+      "id": "EMPOWER-6-1778364064",
       "symbol": "EMPOWER",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-05-09T05:44:56+00:00",
+      "published_at": "2026-05-09T22:01:04+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMPOWER-7-1777873496",
+      "id": "EMPOWER-7-1777932064",
       "symbol": "EMPOWER",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-05-04T05:44:56+00:00",
+      "published_at": "2026-05-04T22:01:04+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMPOWER-2-1777801496",
+      "id": "EMPOWER-2-1777860064",
       "symbol": "EMPOWER",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-03T09:44:56+00:00",
+      "published_at": "2026-05-04T02:01:04+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMPOWER-5-1776141896",
+      "id": "EMPOWER-5-1776200464",
       "symbol": "EMPOWER",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-14T04:44:56+00:00",
+      "published_at": "2026-04-14T21:01:04+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "EMPOWER-3-1775205896",
+      "id": "EMPOWER-3-1775264464",
       "symbol": "EMPOWER",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-03T08:44:56+00:00",
+      "published_at": "2026-04-04T01:01:04+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "EMPOWER-1-1775025896",
+      "id": "EMPOWER-1-1775084464",
       "symbol": "EMPOWER",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-01T06:44:56+00:00",
+      "published_at": "2026-04-01T23:01:04+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
@@ -523,7 +523,7 @@
       "published_at": "2026-06-25T14:00:43+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-29T10:54:25+00:00",
+      "retrieved_at": "2026-06-30T00:50:05+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -533,7 +533,7 @@
       "published_at": "2026-06-27T04:36:07+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-29T10:54:25+00:00",
+      "retrieved_at": "2026-06-30T00:50:05+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -543,7 +543,7 @@
       "published_at": "2026-05-07T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-29T10:54:25+00:00",
+      "retrieved_at": "2026-06-30T00:50:05+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -551,7 +551,7 @@
     {
       "symbol": "EMPOWER",
       "kind": "board",
-      "date": "2026-07-06",
+      "date": "2026-07-07",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -566,7 +566,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -574,7 +574,7 @@
     {
       "symbol": "EMPOWER",
       "kind": "agm",
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -591,7 +591,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -599,7 +599,7 @@
     {
       "symbol": "EMPOWER",
       "kind": "board",
-      "date": "2026-01-14",
+      "date": "2026-01-15",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -617,7 +617,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -628,17 +628,17 @@
       "symbol": "EMPOWER",
       "amount": 0.0581,
       "currency": "AED",
-      "agm_date": "2026-07-24",
-      "entitlement_date": "2026-08-13",
-      "ex_date": "2026-08-12",
-      "payment_date": "2026-09-02",
+      "agm_date": "2026-07-25",
+      "entitlement_date": "2026-08-14",
+      "ex_date": "2026-08-13",
+      "payment_date": "2026-09-03",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -647,17 +647,17 @@
       "symbol": "EMPOWER",
       "amount": 0.0581,
       "currency": "AED",
-      "agm_date": "2026-06-01",
-      "entitlement_date": "2026-06-19",
-      "ex_date": "2026-06-18",
-      "payment_date": "2026-07-05",
+      "agm_date": "2026-06-02",
+      "entitlement_date": "2026-06-20",
+      "ex_date": "2026-06-19",
+      "payment_date": "2026-07-06",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -666,17 +666,17 @@
       "symbol": "EMPOWER",
       "amount": 0.0581,
       "currency": "AED",
-      "agm_date": "2025-11-29",
-      "entitlement_date": "2025-12-17",
-      "ex_date": "2025-12-16",
-      "payment_date": "2026-01-02",
+      "agm_date": "2025-11-30",
+      "entitlement_date": "2025-12-18",
+      "ex_date": "2025-12-17",
+      "payment_date": "2026-01-03",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -685,17 +685,17 @@
       "symbol": "EMPOWER",
       "amount": 0.0581,
       "currency": "AED",
-      "agm_date": "2025-05-31",
-      "entitlement_date": "2025-06-18",
-      "ex_date": "2025-06-17",
-      "payment_date": "2025-07-04",
+      "agm_date": "2025-06-01",
+      "entitlement_date": "2025-06-19",
+      "ex_date": "2025-06-18",
+      "payment_date": "2025-07-05",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -704,17 +704,17 @@
       "symbol": "EMPOWER",
       "amount": 0.0581,
       "currency": "AED",
-      "agm_date": "2024-12-03",
-      "entitlement_date": "2024-12-21",
-      "ex_date": "2024-12-20",
-      "payment_date": "2025-01-06",
+      "agm_date": "2024-12-04",
+      "entitlement_date": "2024-12-22",
+      "ex_date": "2024-12-21",
+      "payment_date": "2025-01-07",
       "frequency": "semi",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -744,7 +744,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-29T12:44:56+00:00",
+      "retrieved_at": "2026-06-30T05:01:04+00:00",
       "url": null,
       "lang": null
     }
@@ -825,12 +825,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -841,12 +841,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -857,12 +857,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -873,12 +873,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -889,12 +889,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -905,12 +905,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -920,7 +920,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-28T10:44:56+00:00",
+        "published_at": "2026-06-29T03:01:04+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -928,7 +928,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -936,7 +936,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-28T10:44:56+00:00",
+        "published_at": "2026-06-29T03:01:04+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -944,7 +944,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -952,7 +952,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-26T18:44:56+00:00",
+        "published_at": "2026-06-27T11:01:04+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -960,7 +960,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -973,34 +973,35 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "A high-materiality disclosure (88/100) with a positive tone entered the recent flow.",
-        "Two dated updates from recent days — actuals/estimates and a 2027 forecast — keep the name in active coverage.",
-        "Q1 growth surge from early May underpins the recent fundamental anchor.",
-        "Stability (60/100) and dividend (61/100) scores provide a near-term defensive floor."
+        "Recent disclosure tone skews positive, supported by a high-materiality rating (88/100) in the short-term flow.",
+        "The most current dated news (2026-06-27 and 2026-06-25) consists of actuals/estimates and price-target forecasts from TradingView, keeping near-term expectations anchored.",
+        "Utility-like stability (score 60/100) and dividend (61/100) traits provide a defensive floor for short-term holding.",
+        "No acute company-specific news has emerged to override the Neutral (medium) stance."
       ],
       "risks": [
-        "Negative price momentum (-1.8% on the session in demo data) pressures the near-term technical picture.",
-        "Weak growth signal (Growth 22/100) leaves the near-term catalyst pool shallow.",
-        "Mixed fundamentals with no single pillar standing out cap conviction.",
-        "Gulf security tensions are elevated, adding a regional risk premium to utilities exposure."
+        "A surprise filing or sector-wide move could quickly shift the short-term picture, as flagged in the risk watch.",
+        "Geopolitical risk for the Utilities sector is high; regional conflict and Gulf security tensions could spill into sentiment without a company-specific trigger.",
+        "Oil price falls signal easing supply risks but also softer macro demand, which could indirectly weigh on UAE utility demand growth.",
+        "The Q1 growth surge reported in May 2026 is 54d old and stale as a forward-looking reasoning pillar."
       ],
-      "what_would_change_view": "A sustained break of the current negative price momentum combined with visible follow-through on the Q1 growth narrative would raise conviction; conversely, a deterioration in regional stability or a dividend signal downgrade would lower it further."
+      "what_would_change_view": "A company filing that materially alters forward guidance or a sector-wide regulatory/market shock would be required to override the current Neutral (medium) short-term stance within the horizon."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Stability (60/100) and dividend (61/100) underpin the defensive long-term utility case.",
-        "The Q1 growth surge reported in early May shows periods of operational expansion.",
-        "Recent positive disclosure tone could presage an improving long-term management outlook."
+        "Dividend (61/100) and Stability (60/100) scores support a baseline case of predictable, if modest, long-term returns.",
+        "Mixed fundamentals mean the long-term outcome remains range-bound rather than sharply directional.",
+        "Absence of a major distress signal in the recent disclosure flow preserves the Neutral (low) base case.",
+        "Historical Q1 growth surge shows operational capability, though its longevity is unproven and pre-dates the current news flow."
       ],
       "risks": [
-        "Weak growth signal (Growth 22/100) is a structural constraint on long-term returns.",
-        "Mixed fundamentals with no standout pillar weaken the multi-year thesis.",
-        "High geopolitical risk level, particularly Gulf security proxy dynamics, creates lasting regional uncertainty.",
-        "The latest concrete fundamental update is from early May, meaning long-term conviction rests on thin current evidence."
+        "Weak Growth score (22/100) remains the central long-term headwind and suppresses recovery scenarios.",
+        "The most recent dated news does not indicate new long-cycle contracts or expansion projects that would improve growth trajectory.",
+        "High sectoral geopolitical risk, if sustained, could raise recurring costs or capital constraints over multi-year horizons even without direct conflict.",
+        "Mixed fundamentals with no standout pillar heighten the risk of earnings quality disappointment over time."
       ],
-      "what_would_change_view": "A confirmed, sustained improvement in the growth pillar combined with a recovery in price trend would shift the long-term stance to Positive; a dividend cut or further weakening of growth fundamentals would confirm the Neutral (low) view or shift negative."
+      "what_would_change_view": "Either a material and sustained upgrading of the Growth score or the announcement of a concrete multi-year expansion project would be needed to shift the long-term Neutral (low) stance."
     },
     "_signal": {
       "short": {
@@ -1018,7 +1019,7 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 44.3,
+        "score": 43.8,
         "reasons": [
           "Mixed fundamentals; no single pillar stands out"
         ],
@@ -1029,11 +1030,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-29T12:44:56+00:00",
+    "generated_at": "2026-06-30T05:01:04+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-29T00:25:44+00:00"
+    "narrated_at": "2026-06-30T00:51:03+00:00"
   },
-  "generated_at": "2026-06-29T12:44:56+00:00",
+  "generated_at": "2026-06-30T05:01:04+00:00",
   "peers": {
     "archetype": "utility",
     "self": {

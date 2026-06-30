@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-29T12:44:56.042Z",
+      "retrieved_at": "2026-06-30T05:01:04.200Z",
       "url": null,
       "lang": null
     }
@@ -191,8 +191,8 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 61,
-      "grade": "C+",
+      "score": 55,
+      "grade": "C",
       "subfactors": [
         {
           "key": "yield",
@@ -242,15 +242,15 @@
         {
           "key": "freq",
           "label": "Frequency & regularity",
-          "raw": "annual",
-          "points": 55.0,
+          "raw": "none",
+          "points": 0.0,
           "weight": 0.1,
-          "note": "annual distribution, 3y streak",
-          "contribution": 5.5
+          "note": "none distribution, 3y streak",
+          "contribution": 0.0
         }
       ]
     },
-    "headline": 45,
+    "headline": 43,
     "headline_grade": "D+",
     "archetype": "ports",
     "engine": "deterministic-v1"
@@ -274,12 +274,12 @@
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
-    "frequency": "annual",
+    "frequency": "none",
     "years_paid": 3
   },
   "fundamentals_source": {
     "real": true,
-    "as_of": "2025-12-31",
+    "as_of": null,
     "source": "AD Ports Group",
     "source_url": "https://www.adportsgroup.com/en/news-and-media/2026/02/12/ad-ports-group-reports-record-2025-revenue",
     "extractor": "mizan/ollama",
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "ADPORTS-2-1779191096",
+      "id": "ADPORTS-2-1779249664",
       "symbol": "ADPORTS",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-19T11:44:56+00:00",
+      "published_at": "2026-05-20T04:01:04+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ADPORTS-3-1778993096",
+      "id": "ADPORTS-3-1779051664",
       "symbol": "ADPORTS",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-05-17T04:44:56+00:00",
+      "published_at": "2026-05-17T21:01:04+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ADPORTS-1-1776318296",
+      "id": "ADPORTS-1-1776376864",
       "symbol": "ADPORTS",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-16T05:44:56+00:00",
+      "published_at": "2026-04-16T22:01:04+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ADPORTS-0-1776253496",
+      "id": "ADPORTS-0-1776312064",
       "symbol": "ADPORTS",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-15T11:44:56+00:00",
+      "published_at": "2026-04-16T04:01:04+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -404,7 +404,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
@@ -419,7 +419,7 @@
       "published_at": "2026-06-25T10:36:26+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-28T23:21:46+00:00",
+      "retrieved_at": "2026-06-30T02:55:27+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -429,17 +429,7 @@
       "published_at": "2026-06-24T07:00:50+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-28T23:21:46+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "UAE's AD Ports Group acquires additional stake in local feeder company",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUEtacjdpMEFkSUlGcUNNNXpzQXFLMDFmamplR01BMmRhYXZ5aEh2WFYxTjR6bFgwRHZnZmU1RzZWbG51alREdU51WWlSSWx6czNlYXNfd2FVSE5jUUJpc1ZCNFE3Q2gtR1RXWklwQnFzR3Z6aUlSTVJ2bVpKWlBVX2lPSVhQSldpcklMbFpCNkk0X2hpQ0hHcHJESnJyQXdVdGV2YVJkUk5EQ1o0WDQySWhpWEU0QktO0gHGAUFVX3lxTE9tRzhld1kycWxoeWtNbHBWZ0N6dHAxY3FZQmRnYVoxdURRc2ZfWVIySFMyc1pYMWh5T3A2ZmhHcUFRSS1Ja1daSDVLaUZzTVBWbjJseGQ3THJTeTFrQkpJUGJoVGZyMkdBS0VEUDVwR3lPR2tFYlJjbFFsZzhaZTBpSC1xTkllZkUxU3pCYW80dVFQM0RXdTctTUxnTG54V3lZemdZTFhYZS0zdExNWWpkMDBtaTR3dUh5WndUSkU5VEl5OXQzZw?oc=5",
-      "domain": "bairdmaritime.com",
-      "published_at": "2026-06-24T05:57:03+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-28T23:21:46+00:00",
+      "retrieved_at": "2026-06-30T02:55:27+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -449,7 +439,17 @@
       "published_at": "2026-06-25T00:51:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-28T23:21:46+00:00",
+      "retrieved_at": "2026-06-30T02:55:27+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "UAE's AD Ports Group acquires additional stake in local feeder company",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUEtacjdpMEFkSUlGcUNNNXpzQXFLMDFmamplR01BMmRhYXZ5aEh2WFYxTjR6bFgwRHZnZmU1RzZWbG51alREdU51WWlSSWx6czNlYXNfd2FVSE5jUUJpc1ZCNFE3Q2gtR1RXWklwQnFzR3Z6aUlSTVJ2bVpKWlBVX2lPSVhQSldpcklMbFpCNkk0X2hpQ0hHcHJESnJyQXdVdGV2YVJkUk5EQ1o0WDQySWhpWEU0QktO0gHGAUFVX3lxTE9tRzhld1kycWxoeWtNbHBWZ0N6dHAxY3FZQmRnYVoxdURRc2ZfWVIySFMyc1pYMWh5T3A2ZmhHcUFRSS1Ja1daSDVLaUZzTVBWbjJseGQ3THJTeTFrQkpJUGJoVGZyMkdBS0VEUDVwR3lPR2tFYlJjbFFsZzhaZTBpSC1xTkllZkUxU3pCYW80dVFQM0RXdTctTUxnTG54V3lZemdZTFhYZS0zdExNWWpkMDBtaTR3dUh5WndUSkU5VEl5OXQzZw?oc=5",
+      "domain": "bairdmaritime.com",
+      "published_at": "2026-06-24T05:57:03+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-30T02:55:27+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -459,27 +459,7 @@
       "published_at": "2026-06-24T12:55:37+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-28T23:21:46+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "AD Ports expands GFS stake to 81 per cent",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rRkRQZkkzNjZ1TEZWLUdmX1FtZTRZWlVfVVJFdlp5YS1jRWczMzRyYnJGQ1lGYXJtR1dUSnRXejY0MEk4MGVNR2kydTRjbW9KNXcyRGVSY1JNVVJUTGRRZTMwRENjM192cGNpTXozVnRUdVlZaXZremt3NmZVdw?oc=5",
-      "domain": "porttechnology.org",
-      "published_at": "2026-06-24T09:41:04+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-28T23:21:46+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "AD Ports raises its GFS stake to 81%",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMWFBY1NtUXlxenBtS0FiaG9SalNVU25OQ3dnUUtZamJfQVRZVnVmVTl3VlJsVGREdm00SGRQWkhiaGhLaUFUVDk1bWJEci1lQkZrUlZqT0J5YWZ3X19KdE1VdTNyeEtZMktzZm5mTzZDanJEUG9RaEUta3AwT3JyOVFLemd1MTVvWFE?oc=5",
-      "domain": "enterpriseam.com",
-      "published_at": "2026-06-25T00:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-28T23:21:46+00:00",
+      "retrieved_at": "2026-06-30T02:55:27+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -489,7 +469,27 @@
       "published_at": "2026-06-24T05:42:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-28T23:21:46+00:00",
+      "retrieved_at": "2026-06-30T02:55:27+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "AD Ports Group raises Global Feeder Shipping stake to 81 percent in $300 million deal",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNemwtS1FLR1ZaODRmbG14aTJ5Ylk1LWkyQWNBOFVFWmFTUEExamxoMkx0MDc4SmpZM2Q1Qm5QMXp3eDFLMTY0X3NkczZkQmVFY2QyQ0kxd1hsRHpKY0w0MElQbTV3d2pDX1pReVp0VXdBWHJvOWlSel9RdEI3SkVDYUFudjlqVTdLNXF4elhLNlhSUlN6M0R2SHdEeFdnLU5fa29XSi1BYWJ2VGJNQ3FaNFBtc0tzRkJpSmVQSw?oc=5",
+      "domain": "economymiddleeast.com",
+      "published_at": "2026-06-24T13:16:03+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-30T02:55:27+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "AD Ports Group increases stake in Global Feeder Shipping to 81% | Gulf Today - newspaper",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcEE0N0NjblJVUzFpV0RrODNkYzJBa19URnF0NmxxZndtQ21pTTQxZ21sM0Zkd25adHVDQjlOSEVoSTYya0JOQUc4R25TTnRzRUtWUmtnNURIcHA0MWdIS0hlMGRKbnRpc2ZKQjdtWUd1MVVacTBvMzhhVUJzSGhiREMyU2FoQUVfekdvUWN6cTFQSk8yZExMaWFaYzZwb0k4ZGV6X05GbURBQ3RhSlFRUzhuc0pnZw?oc=5",
+      "domain": "magzter.com",
+      "published_at": "2026-06-28T05:13:47+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-30T02:55:27+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -497,7 +497,7 @@
     {
       "symbol": "ADPORTS",
       "kind": "board",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -512,7 +512,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -520,7 +520,7 @@
     {
       "symbol": "ADPORTS",
       "kind": "agm",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -537,7 +537,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -545,7 +545,7 @@
     {
       "symbol": "ADPORTS",
       "kind": "board",
-      "date": "2026-02-18",
+      "date": "2026-02-19",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -563,7 +563,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -574,17 +574,17 @@
       "symbol": "ADPORTS",
       "amount": 0.0163,
       "currency": "AED",
-      "agm_date": "2026-07-13",
-      "entitlement_date": "2026-08-02",
-      "ex_date": "2026-08-01",
-      "payment_date": "2026-08-22",
+      "agm_date": "2026-07-14",
+      "entitlement_date": "2026-08-03",
+      "ex_date": "2026-08-02",
+      "payment_date": "2026-08-23",
       "frequency": "quarterly",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -593,17 +593,17 @@
       "symbol": "ADPORTS",
       "amount": 0.0163,
       "currency": "AED",
-      "agm_date": "2026-05-26",
-      "entitlement_date": "2026-06-13",
-      "ex_date": "2026-06-12",
-      "payment_date": "2026-06-29",
+      "agm_date": "2026-05-27",
+      "entitlement_date": "2026-06-14",
+      "ex_date": "2026-06-13",
+      "payment_date": "2026-06-30",
       "frequency": "quarterly",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -612,17 +612,17 @@
       "symbol": "ADPORTS",
       "amount": 0.0163,
       "currency": "AED",
-      "agm_date": "2026-02-24",
-      "entitlement_date": "2026-03-14",
-      "ex_date": "2026-03-13",
-      "payment_date": "2026-03-30",
+      "agm_date": "2026-02-25",
+      "entitlement_date": "2026-03-15",
+      "ex_date": "2026-03-14",
+      "payment_date": "2026-03-31",
       "frequency": "quarterly",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -631,17 +631,17 @@
       "symbol": "ADPORTS",
       "amount": 0.0163,
       "currency": "AED",
-      "agm_date": "2025-11-24",
-      "entitlement_date": "2025-12-12",
-      "ex_date": "2025-12-11",
-      "payment_date": "2025-12-28",
+      "agm_date": "2025-11-25",
+      "entitlement_date": "2025-12-13",
+      "ex_date": "2025-12-12",
+      "payment_date": "2025-12-29",
       "frequency": "quarterly",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -650,17 +650,17 @@
       "symbol": "ADPORTS",
       "amount": 0.0163,
       "currency": "AED",
-      "agm_date": "2025-08-27",
-      "entitlement_date": "2025-09-14",
-      "ex_date": "2025-09-13",
-      "payment_date": "2025-09-30",
+      "agm_date": "2025-08-28",
+      "entitlement_date": "2025-09-15",
+      "ex_date": "2025-09-14",
+      "payment_date": "2025-10-01",
       "frequency": "quarterly",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -669,17 +669,17 @@
       "symbol": "ADPORTS",
       "amount": 0.0163,
       "currency": "AED",
-      "agm_date": "2025-06-02",
-      "entitlement_date": "2025-06-20",
-      "ex_date": "2025-06-19",
-      "payment_date": "2025-07-06",
+      "agm_date": "2025-06-03",
+      "entitlement_date": "2025-06-21",
+      "ex_date": "2025-06-20",
+      "payment_date": "2025-07-07",
       "frequency": "quarterly",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -688,17 +688,17 @@
       "symbol": "ADPORTS",
       "amount": 0.0163,
       "currency": "AED",
-      "agm_date": "2025-02-22",
-      "entitlement_date": "2025-03-12",
-      "ex_date": "2025-03-11",
-      "payment_date": "2025-03-28",
+      "agm_date": "2025-02-23",
+      "entitlement_date": "2025-03-13",
+      "ex_date": "2025-03-12",
+      "payment_date": "2025-03-29",
       "frequency": "quarterly",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -707,17 +707,17 @@
       "symbol": "ADPORTS",
       "amount": 0.0163,
       "currency": "AED",
-      "agm_date": "2024-11-26",
-      "entitlement_date": "2024-12-14",
-      "ex_date": "2024-12-13",
-      "payment_date": "2024-12-30",
+      "agm_date": "2024-11-27",
+      "entitlement_date": "2024-12-15",
+      "ex_date": "2024-12-14",
+      "payment_date": "2024-12-31",
       "frequency": "quarterly",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -726,17 +726,17 @@
       "symbol": "ADPORTS",
       "amount": 0.0163,
       "currency": "AED",
-      "agm_date": "2024-09-09",
-      "entitlement_date": "2024-09-27",
-      "ex_date": "2024-09-26",
-      "payment_date": "2024-10-13",
+      "agm_date": "2024-09-10",
+      "entitlement_date": "2024-09-28",
+      "ex_date": "2024-09-27",
+      "payment_date": "2024-10-14",
       "frequency": "quarterly",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -766,7 +766,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-29T12:44:56+00:00",
+      "retrieved_at": "2026-06-30T05:01:04+00:00",
       "url": null,
       "lang": null
     }
@@ -847,12 +847,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -863,12 +863,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -879,12 +879,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -895,12 +895,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -911,12 +911,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -927,12 +927,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -942,7 +942,7 @@
       {
         "title": "Shipping headline — global macro update 1",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-28T00:44:56+00:00",
+        "published_at": "2026-06-28T17:01:04+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 3.19,
@@ -950,7 +950,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -958,7 +958,7 @@
       {
         "title": "Shipping headline — global macro update 2",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-28T15:44:56+00:00",
+        "published_at": "2026-06-29T08:01:04+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 0.38,
@@ -966,7 +966,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -974,7 +974,7 @@
       {
         "title": "Shipping headline — global macro update 3",
         "theme": "ENERGY",
-        "published_at": "2026-06-28T20:44:56+00:00",
+        "published_at": "2026-06-29T13:01:04+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": -3.36,
@@ -982,7 +982,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -990,7 +990,7 @@
       {
         "title": "Shipping headline — global macro update 4",
         "theme": "TRADE",
-        "published_at": "2026-06-27T00:44:56+00:00",
+        "published_at": "2026-06-27T17:01:04+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 1.65,
@@ -998,7 +998,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -1006,7 +1006,7 @@
       {
         "title": "Shipping headline — global macro update 5",
         "theme": "MARITIME",
-        "published_at": "2026-06-28T05:44:56+00:00",
+        "published_at": "2026-06-28T22:01:04+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 1.15,
@@ -1014,7 +1014,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -1022,7 +1022,7 @@
       {
         "title": "Shipping headline — global macro update 6",
         "theme": "ENERGY",
-        "published_at": "2026-06-27T20:44:56+00:00",
+        "published_at": "2026-06-28T13:01:04+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": 2.1,
@@ -1030,7 +1030,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -1043,31 +1043,35 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Recent high-materiality disclosure (~80/100) skews positive per short-signal notes.",
-        "AD Ports raised its Global Feeder Shipping stake to 81% via an AED 1.1 billion acquisition of an additional 30% stake, reported on 2026-06-24 and 2026-06-25.",
-        "Stability (60) and Dividend (61) scores are stronger than Growth (21), suggesting near-term defensive resilience in the logistics platform."
+        "A high-materiality disclosure (80/100) with positive tone crosses the recent flow, led by the additional 30% stake acquisition in Global Feeder Shipping that lifts AD Ports' holding to 81%.",
+        "Six independent outlets report the same transaction across the same few days, giving strong corroboration that the deal move is confirmed.",
+        "The transaction expands the integrated logistics and feeder-shipping footprint and signals management willingness to deploy capital for scale.",
+        "Recent disclosure tone skewing positive supports near-term sentiment staying resilient around the news."
       ],
       "risks": [
-        "A surprise filing or sector-wide move could shift the picture quickly, per short-signal risk notes.",
-        "Logistics & Transport sector geopolitical risk is high (as of 2026-06-28), with Strait of Hormuz/Iran and regional Gulf security both elevated to high.",
-        "Weak growth signal (Growth 21/100) caps near-term upside even with the GFS transaction."
+        "Funding the roughly AED 1.1B outlay could pressure leverage or dilute equity in the near term.",
+        "Strait of Hormuz tanker traffic has slowed after U.S.-Iran strikes, creating direct route-risk exposure for the logistics chain.",
+        "Regional conflict risk is rated high; further escalation could disrupt Gulf trade flows and offset the acquisition benefit.",
+        "A surprise filing or a sector-wide move could shift the short-term picture quickly."
       ],
-      "what_would_change_view": "A material improvement in disclosed company tone or a confirmed direct operational disruption tied to geopolitical events."
+      "what_would_change_view": "The near-term view would turn constructive if post-deal revenue and throughput data confirm the stake lift is earnings-accretive within a quarter, or turn defensive if geopolitical tensions severely restrict shipping through the Strait of Hormuz or a surprise filing surfaces."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Mixed fundamentals with no single pillar standing out, per long-signal notes.",
-        "The GFS 81% stake deepens vertical integration in logistics shipping over time.",
-        "Dividend score of 61 supports a baseline return profile for long-term holders."
+        "Moderate Stability (60) and Dividend (61) provide a defensive base even as Growth (21) remains subdued.",
+        "Longer-term integration of the Global Feeder Shipping stake fits a regional ports-and-logistics consolidation narrative.",
+        "The UAE's strategic positioning as a trade hub supports structural demand for terminal and feeder services.",
+        "Mixed fundamentals are offset by the absence of acute financial distress in the baseline profile."
       ],
       "risks": [
-        "Weak growth signal (Growth 21/100) is the clearest long-term headwind.",
-        "High geopolitical risk level for Logistics & Transport introduces ongoing structural uncertainty.",
-        "If the GFS acquisition dilutes balance-sheet strength, dividend and stability could come under pressure."
+        "Weak growth signal — Growth 21/100 — is the dominant long-term constraint and limits compounding prospects.",
+        "High sector geopolitical risk may persist for years, structurally capping the multiple if trade lanes remain vulnerable.",
+        "Integration risk from a large stake purchase in Global Feeder Shipping could underdeliver over time.",
+        "If the core business does not re-accelerate, dividend sustainability could eventually face pressure."
       ],
-      "what_would_change_view": "A sustained rebound in the growth score beyond current weak levels or a material normalization of geopolitical risk specifically affecting logistics corridors."
+      "what_would_change_view": "The long-term view would shift to positive only if a visible growth inflection — likely from the Global Feeder Shipping integration — emerges within a year, and would shift negative if Growth remains stuck near current lows while geopolitical tensions structurally scar trade flows or weaken the dividend profile."
     },
     "_signal": {
       "short": {
@@ -1085,7 +1089,7 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 43.8,
+        "score": 42.5,
         "reasons": [
           "Mixed fundamentals; no single pillar stands out"
         ],
@@ -1096,11 +1100,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-29T12:44:56+00:00",
+    "generated_at": "2026-06-30T05:01:04+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-28T14:43:26+00:00"
+    "narrated_at": "2026-06-29T15:07:29+00:00"
   },
-  "generated_at": "2026-06-29T12:44:56+00:00",
+  "generated_at": "2026-06-30T05:01:04+00:00",
   "peers": {
     "archetype": "ports",
     "self": {

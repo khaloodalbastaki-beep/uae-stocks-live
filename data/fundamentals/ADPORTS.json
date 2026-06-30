@@ -1,18 +1,18 @@
 {
   "symbol": "ADPORTS",
-  "as_of": "2025-12-31",
+  "as_of": null,
   "currency": "AED",
   "source": "AD Ports Group",
   "source_url": "https://www.adportsgroup.com/en/news-and-media/2026/02/12/ad-ports-group-reports-record-2025-revenue",
   "extractor": "mizan/ollama",
   "confidence": "high",
-  "retrieved_at": "2026-06-28T21:11:08+00:00",
+  "retrieved_at": "2026-06-29T17:15:04+00:00",
   "reported": {
     "revenue": 20800000000,
     "revenue_prior": null,
     "net_income": 2100000000,
     "net_income_prior": null,
-    "net_margin": null,
+    "net_margin": 0.101,
     "net_margin_prior": null,
     "total_debt": null,
     "ebitda": 5100000000,
@@ -22,7 +22,7 @@
     "payout_ratio": null,
     "fcf": null,
     "cut_history_5y": null,
-    "dividend_frequency": null,
+    "dividend_frequency": "none",
     "years_paid": null
   }
 }

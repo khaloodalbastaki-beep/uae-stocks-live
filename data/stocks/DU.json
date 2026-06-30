@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "DFM (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-29T12:44:56.042Z",
+      "retrieved_at": "2026-06-30T05:01:04.200Z",
       "url": null,
       "lang": null
     }
@@ -121,8 +121,8 @@
     },
     "stability": {
       "pillar": "stability",
-      "score": 60,
-      "grade": "C+",
+      "score": 67,
+      "grade": "B",
       "subfactors": [
         {
           "key": "lev",
@@ -145,11 +145,11 @@
         {
           "key": "ocf",
           "label": "Operating cash-flow consistency",
-          "raw": 0.7,
-          "points": 57.14285714285714,
+          "raw": 1.0,
+          "points": 100.0,
           "weight": 0.18,
-          "note": "lumpy cash flow",
-          "contribution": 10.3
+          "note": "steady cash generation",
+          "contribution": 18.0
         },
         {
           "key": "vol",
@@ -191,17 +191,17 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 56,
+      "score": 62,
       "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0055,
-          "points": 9.166666666666666,
+          "raw": 0.0555,
+          "points": 92.5,
           "weight": 0.18,
-          "note": "0.55% yield",
-          "contribution": 1.6
+          "note": "5.55% yield",
+          "contribution": 16.6
         },
         {
           "key": "payout",
@@ -215,11 +215,11 @@
         {
           "key": "fcf",
           "label": "Free-cash-flow coverage",
-          "raw": 1.76,
-          "points": 82.85714285714288,
+          "raw": 1.2,
+          "points": 42.85714285714286,
           "weight": 0.22,
           "note": "comfortably covered",
-          "contribution": 18.2
+          "contribution": 9.4
         },
         {
           "key": "debt",
@@ -250,7 +250,7 @@
         }
       ]
     },
-    "headline": 43,
+    "headline": 47,
     "headline_grade": "D+",
     "archetype": "telecom",
     "engine": "deterministic-v1"
@@ -264,14 +264,14 @@
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
     "current_ratio": 1.3,
-    "ocf_consistency": 0.7,
+    "ocf_consistency": 1.0,
     "price_volatility": 0.3,
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0055,
+    "dividend_yield": 0.0555,
     "payout_ratio": 1.0,
-    "fcf_coverage": 1.76,
+    "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
     "frequency": "annual",
@@ -296,10 +296,11 @@
       "volume": 0,
       "high_52w": 11.54,
       "low_52w": 10.682,
-      "dividend_yield": 0.0055
+      "dividend_yield": 0.0555
     },
     "top_catalysts": [
-      "Mixed fundamentals; no single pillar stands out"
+      "Resilient balance sheet / stability (Stability 67/100)",
+      "Dependable dividend characteristics (Dividend 62/100)"
     ],
     "top_risks": [
       "Weak growth signal (Growth 21/100)"
@@ -307,13 +308,13 @@
   },
   "disclosures": [
     {
-      "id": "DU-2-1782445496",
+      "id": "DU-2-1782504064",
       "symbol": "DU",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-26T03:44:56+00:00",
+      "published_at": "2026-06-26T20:01:04+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -326,20 +327,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DU-7-1779878696",
+      "id": "DU-7-1779937264",
       "symbol": "DU",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-27T10:44:56+00:00",
+      "published_at": "2026-05-28T03:01:04+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -352,20 +353,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DU-4-1779799496",
+      "id": "DU-4-1779858064",
       "symbol": "DU",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-05-26T12:44:56+00:00",
+      "published_at": "2026-05-27T05:01:04+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -378,20 +379,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DU-8-1779083096",
+      "id": "DU-8-1779141664",
       "symbol": "DU",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-18T05:44:56+00:00",
+      "published_at": "2026-05-18T22:01:04+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -404,20 +405,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DU-3-1777884296",
+      "id": "DU-3-1777942864",
       "symbol": "DU",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-05-04T08:44:56+00:00",
+      "published_at": "2026-05-05T01:01:04+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -430,20 +431,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DU-1-1777437896",
+      "id": "DU-1-1777496464",
       "symbol": "DU",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-29T04:44:56+00:00",
+      "published_at": "2026-04-29T21:01:04+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -456,20 +457,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DU-0-1776044696",
+      "id": "DU-0-1776103264",
       "symbol": "DU",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-04-13T01:44:56+00:00",
+      "published_at": "2026-04-13T18:01:04+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -482,20 +483,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DU-6-1775713496",
+      "id": "DU-6-1775772064",
       "symbol": "DU",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-09T05:44:56+00:00",
+      "published_at": "2026-04-09T22:01:04+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -508,20 +509,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DU-5-1775119496",
+      "id": "DU-5-1775178064",
       "symbol": "DU",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-02T08:44:56+00:00",
+      "published_at": "2026-04-03T01:01:04+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -534,7 +535,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       },
@@ -543,13 +544,33 @@
   ],
   "news": [
     {
+      "title": "Emirates Integrated Telecommunications Company PJSC Actuals & Estimates (DFM:DU)",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFV0twbDUtRWNnYTYwTjRfdFdWUHlBX0lYVk0teUIxcl9jbUpFNnJHejN2RjdmVDVQY1JsWldkcmVIaDFHdTJ4SjRobEhpbm1BTGE3RDh2dVJQdkQ4aVMzRHJnMmk4OC15QXM5TTZ3U3VFMjRhT0dITDR6d0JnR0E?oc=5",
+      "domain": "tradingview.com",
+      "published_at": "2026-06-26T04:05:06+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-29T22:42:49+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "DU Forecast — Price Target — Prediction for 2027",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzYmZBWHNiM0IzSmM4Y2JmYXVQaWJtY2Y5ZlVPMFRnc0ZiY1hhcEh2LUdjQnBWN3BvVE9uSFRmX2ZfZ0U2dzA5MUxMd1UwaGoxWUZlOVJEUmlyUkFJVjJwb3NtWUlVMVBxcTg1S0hfQnp1XzA?oc=5",
+      "domain": "tradingview.com",
+      "published_at": "2026-06-26T02:53:50+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-29T22:42:49+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
       "title": "UAE’s du launches secondary public offering of Mubadala-owned shares",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa2o4aHI0WmljbjFHMEg2TmZzX0M2bk5fclQ3NWlNVkprSS04NXRPeHVIWUZmeDNqakNjRlE1N0g4NXZPbG1wQ2hvYTdNTUtWbTV2d3pVX1U2cERaOXJFbl9uWHBrZ3hFSHEzc3N3UDR3TjYtTF9JU0lPSHpOVGdyVlZKU1pzcW1KRC1OQU13?oc=5",
       "domain": "gulfbusiness.com",
       "published_at": "2026-05-17T01:11:10+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-29T08:45:41+00:00",
+      "retrieved_at": "2026-06-29T22:42:49+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -557,7 +578,7 @@
     {
       "symbol": "DU",
       "kind": "board",
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -572,7 +593,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -580,7 +601,7 @@
     {
       "symbol": "DU",
       "kind": "agm",
-      "date": "2026-08-07",
+      "date": "2026-08-08",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -597,7 +618,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -605,7 +626,7 @@
     {
       "symbol": "DU",
       "kind": "board",
-      "date": "2026-02-28",
+      "date": "2026-03-01",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -623,7 +644,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -634,17 +655,17 @@
       "symbol": "DU",
       "amount": 0.1086,
       "currency": "AED",
-      "agm_date": "2026-07-08",
-      "entitlement_date": "2026-07-28",
-      "ex_date": "2026-07-27",
-      "payment_date": "2026-08-17",
+      "agm_date": "2026-07-09",
+      "entitlement_date": "2026-07-29",
+      "ex_date": "2026-07-28",
+      "payment_date": "2026-08-18",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -653,17 +674,17 @@
       "symbol": "DU",
       "amount": 0.1086,
       "currency": "AED",
-      "agm_date": "2026-05-25",
-      "entitlement_date": "2026-06-12",
-      "ex_date": "2026-06-11",
-      "payment_date": "2026-06-28",
+      "agm_date": "2026-05-26",
+      "entitlement_date": "2026-06-13",
+      "ex_date": "2026-06-12",
+      "payment_date": "2026-06-29",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -672,17 +693,17 @@
       "symbol": "DU",
       "amount": 0.1086,
       "currency": "AED",
-      "agm_date": "2025-06-01",
-      "entitlement_date": "2025-06-19",
-      "ex_date": "2025-06-18",
-      "payment_date": "2025-07-05",
+      "agm_date": "2025-06-02",
+      "entitlement_date": "2025-06-20",
+      "ex_date": "2025-06-19",
+      "payment_date": "2025-07-06",
       "frequency": "annual",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-29T12:44:56+00:00",
+        "retrieved_at": "2026-06-30T05:01:04+00:00",
         "url": null,
         "lang": null
       }
@@ -712,7 +733,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-29T12:44:56+00:00",
+      "retrieved_at": "2026-06-30T05:01:04+00:00",
       "url": null,
       "lang": null
     }
@@ -740,11 +761,11 @@
       560000000.0
     ],
     "operating_cash_flow": [
-      511400000.0,
-      537000000.0,
-      563800000.0,
-      592000000.0,
-      621600000.0
+      552900000.0,
+      580500000.0,
+      609500000.0,
+      640000000.0,
+      672000000.0
     ],
     "ratios": {
       "net_margin": 0.16,
@@ -793,12 +814,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -809,12 +830,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -825,12 +846,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -841,12 +862,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -857,12 +878,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -873,12 +894,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-29T12:44:56+00:00",
+        "as_of": "2026-06-30T05:01:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -888,7 +909,7 @@
       {
         "title": "Us headline — global macro update 1",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-29T02:44:56+00:00",
+        "published_at": "2026-06-29T19:01:04+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -1.29,
@@ -896,7 +917,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -904,7 +925,7 @@
       {
         "title": "Us headline — global macro update 2",
         "theme": "ENERGY",
-        "published_at": "2026-06-29T03:44:56+00:00",
+        "published_at": "2026-06-29T20:01:04+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 2.88,
@@ -912,7 +933,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -920,7 +941,7 @@
       {
         "title": "Us headline — global macro update 3",
         "theme": "TOURISM",
-        "published_at": "2026-06-28T05:44:56+00:00",
+        "published_at": "2026-06-28T22:01:04+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -5.76,
@@ -928,7 +949,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-29T12:44:56+00:00",
+          "retrieved_at": "2026-06-30T05:01:04+00:00",
           "url": null,
           "lang": null
         }
@@ -941,35 +962,32 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "A high-materiality disclosure (rated 78/100) is in the recent flow and its tone currently skews positive, per the latest dated signal note.",
-        "The newest dated items are the tradingview actuals/estimates and 2027 forecast (both 3 days ago), keeping near-term focus on forward guidance.",
-        "The 43-day-old secondary public offering of Mubadala-owned shares does not appear as a current supply trigger in the most recent flow.",
-        "Elevated regional geopolitical risk for the Telecom sector is present but remains a background caution without a fresh company-specific linkage."
+        "A high-materiality disclosure (78/100) with a skew-positive tone is in the recent flow.",
+        "Recent dated items include actuals/estimates and a 2027 price-forecast article from 4 days ago.",
+        "UAE’s du launched a secondary public offering of Mubadala-owned shares (44 days ago); the market may still be pricing the new float."
       ],
       "risks": [
-        "A surprise filing or a sector-wide move could shift the picture quickly, as flagged in the short-signal risk note.",
-        "The weak growth score (21/100) leaves little room for error if near-term estimates slip.",
-        "A sudden escalation in regional proxy tensions could widen the sector discount even without a du-specific event.",
-        "The recent positive disclosure tone may not be durable if the next filing disappoints."
+        "A surprise filing or a sector-wide move could shift the picture quickly.",
+        "Telecom sector geopolitical risk is rated high (as of 2026-06-29), which could spill into sentiment even without company-specific triggers.",
+        "The Mubadala secondary offering news may create a near-term ownership or liquidity overhang.",
+        "The 2027 forecast article is undetailed in the provided streams, limiting actionable conviction."
       ],
-      "what_would_change_view": "A material upward revision to near-term guidance or a sector-wide easing of the current supply pressures."
+      "what_would_change_view": "A concrete update from the high-materiality disclosure that confirms or reverses the positive skew, or an unexpected regulatory or earnings filing, would shift the near-term view."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Stability (60/100) and Dividend (56/100) scores provide a long-term defensive floor and income underpinning.",
-        "Mixed fundamentals and an absence of a single dominant pillar suggest a balanced, if unspectacular, baseline.",
-        "The long-signal stream does not flag any structural distress, implying operational continuity.",
-        "No dated long-term capex or M&A news has disrupted the steady-state narrative in the available feeds."
+        "Stability (60/100) and Dividend (56/100) scores provide a moderate defensive base.",
+        "Mixed fundamentals with no single pillar standing out align with a neutral long-term stance."
       ],
       "risks": [
-        "The weak growth signal (21/100) is a persistent structural headwind for long-term total return.",
-        "Mixed fundamentals mean no durable catalyst is visible to drive a meaningful re-rating higher.",
-        "High geopolitical risk for the Telecom sector remains a tail risk that could compress valuation multiples over time.",
-        "The 43-day-old SPO may indicate strategic shareholding shifts rather than long-term support for the float."
+        "Weak growth signal (Growth 21/100) is a structural headwind.",
+        "Telecom sector geopolitical risk remains high and could sustain a sector discount.",
+        "The Mubadala secondary offering (44 days ago) could alter long-term ownership and capital structure.",
+        "No company-specific catalyst is visible in the recent news stream to offset the weak growth."
       ],
-      "what_would_change_view": "A sustained material upgrade to the growth score from current levels, or disclosure of a durable new revenue pillar."
+      "what_would_change_view": "A material improvement in the growth score or a transformative deal or regulatory change would be required to shift the long-term neutral view."
     },
     "_signal": {
       "short": {
@@ -987,9 +1005,10 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 42.7,
+        "score": 46.6,
         "reasons": [
-          "Mixed fundamentals; no single pillar stands out"
+          "Resilient balance sheet / stability (Stability 67/100)",
+          "Dependable dividend characteristics (Dividend 62/100)"
         ],
         "risks": [
           "Weak growth signal (Growth 21/100)"
@@ -998,11 +1017,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-29T12:44:56+00:00",
+    "generated_at": "2026-06-30T05:01:04+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-28T22:17:37+00:00"
+    "narrated_at": "2026-06-29T22:43:49+00:00"
   },
-  "generated_at": "2026-06-29T12:44:56+00:00",
+  "generated_at": "2026-06-30T05:01:04+00:00",
   "peers": {
     "archetype": "telecom",
     "self": {
@@ -1012,14 +1031,14 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.0055,
+      "dy": 0.0555,
       "upside": null
     },
     "medians": {
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.005,
+      "dy": 0.03,
       "upside": null
     },
     "peers": [
