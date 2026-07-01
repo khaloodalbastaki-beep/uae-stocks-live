@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-30T12:48:37.488Z",
+      "retrieved_at": "2026-07-01T05:04:41.502Z",
       "url": null,
       "lang": null
     }
@@ -93,7 +93,7 @@
         {
           "key": "margin",
           "label": "Margin direction",
-          "raw": -0.1928,
+          "raw": -0.1927,
           "points": 0.0,
           "weight": 0.14,
           "note": "compressing margins",
@@ -191,8 +191,8 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 67,
-      "grade": "B",
+      "score": 63,
+      "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
@@ -206,11 +206,11 @@
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.5,
-          "points": 96.6,
+          "raw": 0.67,
+          "points": 74.5,
           "weight": 0.2,
-          "note": "50% of earnings paid out",
-          "contribution": 19.3
+          "note": "67% of earnings paid out",
+          "contribution": 14.9
         },
         {
           "key": "fcf",
@@ -250,7 +250,7 @@
         }
       ]
     },
-    "headline": 45,
+    "headline": 44,
     "headline_grade": "D+",
     "archetype": "utility",
     "engine": "deterministic-v1"
@@ -259,7 +259,7 @@
     "revenue_growth": 0.0592,
     "profit_growth": -0.5754,
     "revenue_cagr_3y": 0.0592,
-    "margin_trend": -0.1928,
+    "margin_trend": -0.1927,
     "reinvestment": 0.5,
     "catalysts": 0,
     "net_debt_to_ebitda": 2.0,
@@ -270,7 +270,7 @@
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
     "dividend_yield": 0.016,
-    "payout_ratio": 0.5,
+    "payout_ratio": 0.67,
     "fcf_coverage": 1.39,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
@@ -299,7 +299,7 @@
       "dividend_yield": 0.016
     },
     "top_catalysts": [
-      "Dependable dividend characteristics (Dividend 67/100)"
+      "Dependable dividend characteristics (Dividend 63/100)"
     ],
     "top_risks": [
       "Weak growth signal (Growth 18/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "TAQA-2-1782006517",
+      "id": "TAQA-2-1782065081",
       "symbol": "TAQA",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-21T01:48:37+00:00",
+      "published_at": "2026-06-21T18:04:41+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-0-1781945317",
+      "id": "TAQA-0-1782003881",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-20T08:48:37+00:00",
+      "published_at": "2026-06-21T01:04:41+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-7-1780458517",
+      "id": "TAQA-7-1780517081",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-06-03T03:48:37+00:00",
+      "published_at": "2026-06-03T20:04:41+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-3-1778986117",
+      "id": "TAQA-3-1779044681",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-05-17T02:48:37+00:00",
+      "published_at": "2026-05-17T19:04:41+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-4-1777459717",
+      "id": "TAQA-4-1777518281",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-29T10:48:37+00:00",
+      "published_at": "2026-04-30T03:04:41+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-5-1777438117",
+      "id": "TAQA-5-1777496681",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-29T04:48:37+00:00",
+      "published_at": "2026-04-29T21:04:41+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-1-1777283317",
+      "id": "TAQA-1-1777341881",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-27T09:48:37+00:00",
+      "published_at": "2026-04-28T02:04:41+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-6-1776228517",
+      "id": "TAQA-6-1776287081",
       "symbol": "TAQA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-15T04:48:37+00:00",
+      "published_at": "2026-04-15T21:04:41+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
@@ -517,13 +517,23 @@
   ],
   "news": [
     {
+      "title": "Abu Dhabi National Energy Company Actuals & Estimates (ADX:TAQA)",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONEtNVkdfT0xTc0tjNDdqS3VXR09tRTloUHJKa0U0d0xSNEthYjdmS0hHbmstQjRac3VOTnpGRnZURW1hWW4xR1pzb0w5eFNCYmJDbzNZQ1dVOXg1c3hxYnhlZlpMMDdXYWx6cTZ4NnBZTkUzYk9BZjZvUVJMSFlDbmdR?oc=5",
+      "domain": "tradingview.com",
+      "published_at": "2026-06-25T23:26:53+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-30T22:06:45+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
       "title": "Abu Dhabi wealth fund L'imad boosts stake in utility Taqa",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdkNYMEJtOEJMWmVDVEVIbjRMb1pHOEtaZjUzdDVGTVdXY3FMOXhVbFR0bk8yR21oNnZSWldubnREdU9YVXlxTHpZeXdNRXQxdXJrM0lGbEVjbXNudzcwcXljZHI2eE1RYTkzR1N2TmtidFV1T0oyUXhSZ1dlZVQ0V1J0Z0lfVGNJSFVSUXdVdzFEbjBFZlhYODZwU2F5Q3NxM0NNVnBkUU9ZNmR5VTI4M3RVTlBQRVU?oc=5",
       "domain": "thenationalnews.com",
       "published_at": "2026-06-10T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-30T08:08:12+00:00",
+      "retrieved_at": "2026-06-30T22:06:45+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -533,7 +543,7 @@
       "published_at": "2026-06-11T12:21:08+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-30T08:08:12+00:00",
+      "retrieved_at": "2026-06-30T22:06:45+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -543,7 +553,7 @@
       "published_at": "2026-06-19T10:38:38+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-30T08:08:12+00:00",
+      "retrieved_at": "2026-06-30T22:06:45+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -553,7 +563,7 @@
       "published_at": "2026-06-11T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-30T08:08:12+00:00",
+      "retrieved_at": "2026-06-30T22:06:45+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -563,7 +573,17 @@
       "published_at": "2026-06-11T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-30T08:08:12+00:00",
+      "retrieved_at": "2026-06-30T22:06:45+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "L’imad subsidiary increases Taqa stake to more than 98%",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZFV0SXF0U3RmZ1l6RG03d25PM2dNeDlGUXhUZ3FDamhtYzNfN1VxZ3NpYWRRMWFlZlpabUlpNnNyc3RMSDNZUDRKVHo1TzN0VlpiM3J3eTQ1QTBCR3pDcEY3RnVxaUZpMVRsbmx1WEZDSGdiUld3V0ZYZEljOEJiLW40MmxacmsybnpWRmI5WjlJd2hvM0E?oc=5",
+      "domain": "agbi.com",
+      "published_at": "2026-06-11T07:00:00+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-30T22:06:45+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -573,27 +593,7 @@
       "published_at": "2026-06-12T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-30T08:08:12+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Chinese group wins $1.7 billion EPC deal for Abu Dhabi Taweelah C power project",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWmNYQlNERzJEaU9meXZESjFRYmEwQlA4TWRDUlI2eUkxM0U1X1ZiUC0xUXV2UVljdTQ4RlowZl92YnlNOGVJT2FGNjliYWVxZDhvQlBCTFpBcUo3WlZ4aC1qVDl5YnlIVGg3dUtsSFdwMDFac2o5T01fZG5YMEw4cWxzc29DTVliZlNjNXNadzhqUlM1eENjeXk0M3lnMTNNdWx0SlgtWkt1dUk1ajBQNGVR?oc=5",
-      "domain": "utilities-me.com",
-      "published_at": "2026-06-09T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-30T08:08:12+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "TAQA-Led Consortium Secures Major Taweelah C IPP Power Project Contract In Abu Dhabi",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQm1jaWtaMUhRUGZ0YS1fa3praTdBeWZVSlE4VDE0UHE2N2d2MXhUZlhwa0JhR0ZCZVVSLTdEV244XzFsQlhiOW85S0VOVmpqcVZaV2xFLTJCdDk0ZmFzdjFCQjQ3ZU1tenFzV0JTNjl3TFRWMEtqSVpGSVZyaThGSjNwb0pnVnZTNklXbXUxbUNDQldXbzBDVmZWdWxESG5mNEFJSWQ0RXBxeS1naWk3dU9XWTk4QkhGTUk4?oc=5",
-      "domain": "mepmiddleeast.com",
-      "published_at": "2026-06-04T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-30T08:08:12+00:00",
+      "retrieved_at": "2026-06-30T22:06:45+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -601,7 +601,7 @@
     {
       "symbol": "TAQA",
       "kind": "board",
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -616,7 +616,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       }
@@ -624,7 +624,7 @@
     {
       "symbol": "TAQA",
       "kind": "agm",
-      "date": "2026-08-09",
+      "date": "2026-08-10",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       }
@@ -649,7 +649,7 @@
     {
       "symbol": "TAQA",
       "kind": "board",
-      "date": "2026-04-19",
+      "date": "2026-04-20",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -667,7 +667,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       }
@@ -678,17 +678,17 @@
       "symbol": "TAQA",
       "amount": 0.0907,
       "currency": "AED",
-      "agm_date": "2026-07-09",
-      "entitlement_date": "2026-07-29",
-      "ex_date": "2026-07-28",
-      "payment_date": "2026-08-18",
+      "agm_date": "2026-07-10",
+      "entitlement_date": "2026-07-30",
+      "ex_date": "2026-07-29",
+      "payment_date": "2026-08-19",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       }
@@ -697,17 +697,17 @@
       "symbol": "TAQA",
       "amount": 0.0907,
       "currency": "AED",
-      "agm_date": "2026-05-24",
-      "entitlement_date": "2026-06-11",
-      "ex_date": "2026-06-10",
-      "payment_date": "2026-06-27",
+      "agm_date": "2026-05-25",
+      "entitlement_date": "2026-06-12",
+      "ex_date": "2026-06-11",
+      "payment_date": "2026-06-28",
       "frequency": "semi",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       }
@@ -716,17 +716,17 @@
       "symbol": "TAQA",
       "amount": 0.0907,
       "currency": "AED",
-      "agm_date": "2025-12-10",
-      "entitlement_date": "2025-12-28",
-      "ex_date": "2025-12-27",
-      "payment_date": "2026-01-13",
+      "agm_date": "2025-12-11",
+      "entitlement_date": "2025-12-29",
+      "ex_date": "2025-12-28",
+      "payment_date": "2026-01-14",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       }
@@ -735,17 +735,17 @@
       "symbol": "TAQA",
       "amount": 0.0907,
       "currency": "AED",
-      "agm_date": "2025-06-01",
-      "entitlement_date": "2025-06-19",
-      "ex_date": "2025-06-18",
-      "payment_date": "2025-07-05",
+      "agm_date": "2025-06-02",
+      "entitlement_date": "2025-06-20",
+      "ex_date": "2025-06-19",
+      "payment_date": "2025-07-06",
       "frequency": "semi",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       }
@@ -754,17 +754,17 @@
       "symbol": "TAQA",
       "amount": 0.0907,
       "currency": "AED",
-      "agm_date": "2024-11-25",
-      "entitlement_date": "2024-12-13",
-      "ex_date": "2024-12-12",
-      "payment_date": "2024-12-29",
+      "agm_date": "2024-11-26",
+      "entitlement_date": "2024-12-14",
+      "ex_date": "2024-12-13",
+      "payment_date": "2024-12-30",
       "frequency": "semi",
       "fiscal_year": "2024",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       }
@@ -794,7 +794,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-30T12:48:37+00:00",
+      "retrieved_at": "2026-07-01T05:04:41+00:00",
       "url": null,
       "lang": null
     }
@@ -832,7 +832,7 @@
       "net_margin": 0.02,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.5
+      "payout_ratio": 0.67
     },
     "revenue_cagr_3y": 0.0592,
     "data_quality": "demo"
@@ -875,12 +875,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -891,12 +891,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -907,12 +907,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -923,12 +923,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -939,12 +939,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -955,12 +955,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -970,7 +970,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-29T10:48:37+00:00",
+        "published_at": "2026-06-30T03:04:41+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -978,7 +978,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -986,7 +986,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-29T10:48:37+00:00",
+        "published_at": "2026-06-30T03:04:41+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -994,7 +994,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -1002,7 +1002,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-27T18:48:37+00:00",
+        "published_at": "2026-06-28T11:04:41+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -1010,7 +1010,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -1068,9 +1068,9 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 43.9,
+        "score": 43.0,
         "reasons": [
-          "Dependable dividend characteristics (Dividend 67/100)"
+          "Dependable dividend characteristics (Dividend 63/100)"
         ],
         "risks": [
           "Weak growth signal (Growth 18/100)"
@@ -1079,11 +1079,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-30T12:48:37+00:00",
+    "generated_at": "2026-07-01T05:04:41+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-30T10:18:21+00:00"
   },
-  "generated_at": "2026-06-30T12:48:37+00:00",
+  "generated_at": "2026-07-01T05:04:41+00:00",
   "peers": {
     "archetype": "utility",
     "self": {

@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-06-30T12:48:37.488Z",
+      "retrieved_at": "2026-07-01T05:04:41.502Z",
       "url": null,
       "lang": null
     }
@@ -191,26 +191,26 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 61,
+      "score": 56,
       "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0025,
-          "points": 4.166666666666667,
+          "raw": 0.0253,
+          "points": 42.16666666666667,
           "weight": 0.18,
-          "note": "0.25% yield",
-          "contribution": 0.8
+          "note": "2.53% yield",
+          "contribution": 7.6
         },
         {
           "key": "payout",
           "label": "Payout ratio",
-          "raw": 0.5,
-          "points": 96.6,
+          "raw": 0.13,
+          "points": 33.7,
           "weight": 0.2,
-          "note": "50% of earnings paid out",
-          "contribution": 19.3
+          "note": "13% of earnings paid out",
+          "contribution": 6.7
         },
         {
           "key": "fcf",
@@ -250,7 +250,7 @@
         }
       ]
     },
-    "headline": 47,
+    "headline": 46,
     "headline_grade": "D+",
     "archetype": "holding",
     "engine": "deterministic-v1"
@@ -269,8 +269,8 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0025,
-    "payout_ratio": 0.5,
+    "dividend_yield": 0.0253,
+    "payout_ratio": 0.13,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
@@ -280,7 +280,7 @@
   "fundamentals_source": {
     "real": true,
     "as_of": "2025-12-31",
-    "source": "Alpha Dhabi press release",
+    "source": "Alpha Dhabi Holding press release",
     "source_url": "https://alphadhabi.com/news/alpha-dhabi-reports-record-results-with-highest-ever-full-year-revenue-of-aed-78-8-billion-and-strongest-ever-net-profit-of-aed-15-0-billion/",
     "extractor": "mizan/ollama",
     "confidence": "high"
@@ -296,7 +296,7 @@
       "volume": 11244960,
       "high_52w": 8.181,
       "low_52w": 7.72,
-      "dividend_yield": 0.0025
+      "dividend_yield": 0.0253
     },
     "top_catalysts": [
       "Mixed fundamentals; no single pillar stands out"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "ALPHADHABI-4-1782737317",
+      "id": "ALPHADHABI-4-1782795881",
       "symbol": "ALPHADHABI",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-29T12:48:37+00:00",
+      "published_at": "2026-06-30T05:04:41+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ALPHADHABI-3-1780721317",
+      "id": "ALPHADHABI-3-1780779881",
       "symbol": "ALPHADHABI",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-06-06T04:48:37+00:00",
+      "published_at": "2026-06-06T21:04:41+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ALPHADHABI-6-1780285717",
+      "id": "ALPHADHABI-6-1780344281",
       "symbol": "ALPHADHABI",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-01T03:48:37+00:00",
+      "published_at": "2026-06-01T20:04:41+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ALPHADHABI-8-1779972517",
+      "id": "ALPHADHABI-8-1780031081",
       "symbol": "ALPHADHABI",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-28T12:48:37+00:00",
+      "published_at": "2026-05-29T05:04:41+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ALPHADHABI-7-1778813317",
+      "id": "ALPHADHABI-7-1778871881",
       "symbol": "ALPHADHABI",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-05-15T02:48:37+00:00",
+      "published_at": "2026-05-15T19:04:41+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ALPHADHABI-1-1777945717",
+      "id": "ALPHADHABI-1-1778004281",
       "symbol": "ALPHADHABI",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-05-05T01:48:37+00:00",
+      "published_at": "2026-05-05T18:04:41+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ALPHADHABI-5-1777625317",
+      "id": "ALPHADHABI-5-1777683881",
       "symbol": "ALPHADHABI",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-05-01T08:48:37+00:00",
+      "published_at": "2026-05-02T01:04:41+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ALPHADHABI-2-1775281717",
+      "id": "ALPHADHABI-2-1775340281",
       "symbol": "ALPHADHABI",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-04T05:48:37+00:00",
+      "published_at": "2026-04-04T22:04:41+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -508,20 +508,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ALPHADHABI-0-1775206117",
+      "id": "ALPHADHABI-0-1775264681",
       "symbol": "ALPHADHABI",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-04-03T08:48:37+00:00",
+      "published_at": "2026-04-04T01:04:41+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -534,7 +534,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       },
@@ -549,7 +549,7 @@
       "published_at": "2026-06-28T13:02:03+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-30T03:56:30+00:00",
+      "retrieved_at": "2026-06-30T17:46:16+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -559,37 +559,7 @@
       "published_at": "2026-06-26T03:11:47+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-30T03:56:30+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "ALPHADHABI Forecast — Price Target — Prediction for 2027",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMUDFWUW1LQ3RLNkNXbGRuQjAzWjF1NGI1RlJLSTZ1Y2E3RzlyXzNrQkV6Z2VDV0tMM1dHZDdZclVsZkJNcFppazMya3h2UUZHWVJSNklfM2RYanZUUWZVd2xnR1FiU1paN1RhRUE0UzVEVGxnVURuOE9KcWxUZw?oc=5",
-      "domain": "tradingview.com",
-      "published_at": "2026-06-25T17:14:20+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-30T03:56:30+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Alpha Dhabi sustains strong growth momentum into Q1 2026 with revenue reaching 18.8bln and net profit at 3.8bln",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPUjlnOVdRNW5VWlA0bXFtZlI1d0piV3A2dWdfaUlyNVJPQzktUkpqZHJOVWQxQnE2OXlGdHBfOHVHZ0c1d3JhMW1sTjRPMXhQSGZ0YU8zaEppaFhlSnQ5YjRzNG5xbXZVakRveWxwNzB5ZnFTVXZHVnpCTjAtZHJIcHdYOVRqYnZ6ZFR6OVVzdmZpYzFvOUNMSkxtbHFmNWs5MU1yejFVcjVoRXdZRXY2NW1fb0JfbFJuUG1xa05qVDNBMEV0Z3JlMVpuZENhNWxQbVhCWGtYdldncl9DaHVZWU1sM2ZNYXc2REJaWVJua2liSXJNbUlfVW9Xcm5uaUFpNFE?oc=5",
-      "domain": "zawya.com",
-      "published_at": "2026-05-04T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-30T03:56:30+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Alpha Dhabi Q1 profit jumps 81 per cent on diversified portfolio growth",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDZqRjFWd0o5ZzgySklPOEhlcnIwWWMtY3ZHY3J5ZklGYmtjLXZyX3dJNi00ZFVzT2VGTUFtVmNHR2VkSkY4bFRsSkpoMDl4Yk5ubzFUMEgySmpMVFNLVWNyRnlIWVVQRzJpdmlZLUhOWXNWeTBjb1FLUXpJRmJhdkRMcTY1MEU4XzVpZ0VtR3ppY0Z6SWlQRWxmN0JlVnJXR0liQzVrc1d6ZjlkZTZR?oc=5",
-      "domain": "gulfbusiness.com",
-      "published_at": "2026-05-05T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-06-30T03:56:30+00:00",
+      "retrieved_at": "2026-06-30T17:46:16+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -599,7 +569,37 @@
       "published_at": "2026-05-05T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-30T03:56:30+00:00",
+      "retrieved_at": "2026-06-30T17:46:16+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "ALPHADHABI Forecast — Price Target — Prediction for 2027",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMUDFWUW1LQ3RLNkNXbGRuQjAzWjF1NGI1RlJLSTZ1Y2E3RzlyXzNrQkV6Z2VDV0tMM1dHZDdZclVsZkJNcFppazMya3h2UUZHWVJSNklfM2RYanZUUWZVd2xnR1FiU1paN1RhRUE0UzVEVGxnVURuOE9KcWxUZw?oc=5",
+      "domain": "tradingview.com",
+      "published_at": "2026-06-25T17:14:20+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-30T17:46:16+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Alpha Dhabi sustains strong growth momentum into Q1 2026 with revenue reaching 18.8bln and net profit at 3.8bln",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPUjlnOVdRNW5VWlA0bXFtZlI1d0piV3A2dWdfaUlyNVJPQzktUkpqZHJOVWQxQnE2OXlGdHBfOHVHZ0c1d3JhMW1sTjRPMXhQSGZ0YU8zaEppaFhlSnQ5YjRzNG5xbXZVakRveWxwNzB5ZnFTVXZHVnpCTjAtZHJIcHdYOVRqYnZ6ZFR6OVVzdmZpYzFvOUNMSkxtbHFmNWs5MU1yejFVcjVoRXdZRXY2NW1fb0JfbFJuUG1xa05qVDNBMEV0Z3JlMVpuZENhNWxQbVhCWGtYdldncl9DaHVZWU1sM2ZNYXc2REJaWVJua2liSXJNbUlfVW9Xcm5uaUFpNFE?oc=5",
+      "domain": "zawya.com",
+      "published_at": "2026-05-04T07:00:00+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-30T17:46:16+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Alpha Dhabi Q1 profit jumps 81 per cent on diversified portfolio growth",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDZqRjFWd0o5ZzgySklPOEhlcnIwWWMtY3ZHY3J5ZklGYmtjLXZyX3dJNi00ZFVzT2VGTUFtVmNHR2VkSkY4bFRsSkpoMDl4Yk5ubzFUMEgySmpMVFNLVWNyRnlIWVVQRzJpdmlZLUhOWXNWeTBjb1FLUXpJRmJhdkRMcTY1MEU4XzVpZ0VtR3ppY0Z6SWlQRWxmN0JlVnJXR0liQzVrc1d6ZjlkZTZR?oc=5",
+      "domain": "gulfbusiness.com",
+      "published_at": "2026-05-05T07:00:00+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-06-30T17:46:16+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -609,7 +609,7 @@
       "published_at": "2026-05-04T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-30T03:56:30+00:00",
+      "retrieved_at": "2026-06-30T17:46:16+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -619,7 +619,7 @@
       "published_at": "2026-05-06T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-06-30T03:56:30+00:00",
+      "retrieved_at": "2026-06-30T17:46:16+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -627,7 +627,7 @@
     {
       "symbol": "ALPHADHABI",
       "kind": "board",
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -642,7 +642,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       }
@@ -650,7 +650,7 @@
     {
       "symbol": "ALPHADHABI",
       "kind": "agm",
-      "date": "2026-08-02",
+      "date": "2026-08-03",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -667,7 +667,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       }
@@ -675,7 +675,7 @@
     {
       "symbol": "ALPHADHABI",
       "kind": "board",
-      "date": "2025-12-20",
+      "date": "2025-12-21",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -693,7 +693,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-06-30T12:48:37+00:00",
+        "retrieved_at": "2026-07-01T05:04:41+00:00",
         "url": null,
         "lang": null
       }
@@ -724,7 +724,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-06-30T12:48:37+00:00",
+      "retrieved_at": "2026-07-01T05:04:41+00:00",
       "url": null,
       "lang": null
     }
@@ -762,7 +762,7 @@
       "net_margin": 0.16,
       "net_debt_to_ebitda": 2.0,
       "current_ratio": 1.3,
-      "payout_ratio": 0.5
+      "payout_ratio": 0.13
     },
     "revenue_cagr_3y": 0.0,
     "data_quality": "demo"
@@ -805,12 +805,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -821,12 +821,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -837,12 +837,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -853,12 +853,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -869,12 +869,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -885,12 +885,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-06-30T12:48:37+00:00",
+        "as_of": "2026-07-01T05:04:41+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -900,7 +900,7 @@
       {
         "title": "Uae headline — global macro update 1",
         "theme": "MARITIME",
-        "published_at": "2026-06-30T11:48:37+00:00",
+        "published_at": "2026-07-01T04:04:41+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": -3.59,
@@ -908,7 +908,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -916,7 +916,7 @@
       {
         "title": "Uae headline — global macro update 2",
         "theme": "TOURISM",
-        "published_at": "2026-06-28T00:48:37+00:00",
+        "published_at": "2026-06-28T17:04:41+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -2.92,
@@ -924,7 +924,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -932,7 +932,7 @@
       {
         "title": "Uae headline — global macro update 3",
         "theme": "ENERGY",
-        "published_at": "2026-06-29T12:48:37+00:00",
+        "published_at": "2026-06-30T05:04:41+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.7,
@@ -940,7 +940,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -948,7 +948,7 @@
       {
         "title": "Uae headline — global macro update 4",
         "theme": "TRADE",
-        "published_at": "2026-06-27T16:48:37+00:00",
+        "published_at": "2026-06-28T09:04:41+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -0.29,
@@ -956,7 +956,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -964,7 +964,7 @@
       {
         "title": "Uae headline — global macro update 5",
         "theme": "TOURISM",
-        "published_at": "2026-06-29T20:48:37+00:00",
+        "published_at": "2026-06-30T13:04:41+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 0.65,
@@ -972,7 +972,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-06-30T12:48:37+00:00",
+          "retrieved_at": "2026-07-01T05:04:41+00:00",
           "url": null,
           "lang": null
         }
@@ -985,35 +985,35 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Recent flow includes forward EV/Revenue coverage (1d ago) and a 2027 price-target forecast (4d ago), keeping valuation debate active.",
-        "Q1 results from ~55 days ago showed profit rising 81% with revenue crossing $5bn, confirming large aggregate earnings potential.",
-        "Dividend score of 68/100 indicates dependable income characteristics that support short-term holding power.",
-        "A high-materiality disclosure (86/100) has entered the short-signal flow and can cause incremental near-term repositioning."
+        "Q1 profit rose ~81% with revenue crossing $5bn, reported 56 days ago, providing underlying earnings support as the most recent company-specific disclosure.",
+        "EV/Revenue forward multiple and a 2027 price target prediction each surfaced in the last 5 days, indicating renewed analyst/model attention on valuation framing.",
+        "Stability (60/100) and Dividend (61/100) scores are the strongest pillars in the house set, offering a floor in a mixed signal environment.",
+        "Mixed fundamentals with no single pillar dominating mean downside catalysts are not piling on top of any one weak spot."
       ],
       "risks": [
-        "Negative price momentum (-0.9% on the latest session) indicates near-term supply pressure.",
-        "Growth score of 27/100 is weak, leaving little organic earnings velocity.",
-        "The materiality disclosure may escalate into a headline governance or regulatory event.",
-        "Older dated fundamental coverage beyond the Q1 print limits near-term clarity."
+        "A high-materiality disclosure (scored 86/100) has entered the recent flow and could shift the picture quickly if its substance is adverse.",
+        "Growth score is very weak at 27/100, constraining upside momentum despite the earnings jump.",
+        "Sector-wide geopolitical risk is rated high (holding/diversified sector), with elevated Gulf security exposure.",
+        "A surprise filing or a concentrated sector move could shift the picture before the fundamentals reassert."
       ],
-      "what_would_change_view": "A quick follow-on quarter extending the Q1 profit trajectory, combined with the disclosure resolving without regulatory escalation, would move short-term to Positive; a concrete quantification of the disclosure into earnings or balance-sheet risk would warrant Negative."
+      "what_would_change_view": "A material, dated disclosure (within days) that removes or confirms the high-materiality concern, or a meaningful update to the growth score, would move the stance."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Dependable dividend (68/100) supported by a diversified portfolio provides a yield-and-stability anchor.",
-        "Q1 profit rising 81% and revenue crossing $5bn confirms the conglomerate can generate large portfolio-level gains.",
-        "Stability score of 60/100 supports a moderate-quality holding profile relative to more cyclical peers.",
-        "Forward valuation frameworks (EV/Revenue and 2027 price-target analyses) suggest sustained institutional attention."
+        "Q1 profit surged ~81% and revenue crossed $5bn: older but relevant establishing evidence of portfolio-scale diversification working.",
+        "Dividend score of 61/100 and Stability of 60/100 are the strongest structural pillars, supporting a multi-year income and quality read.",
+        "No single pillar stands out as severely degraded, preventing a harsh long-term re-rating on fundamentals alone.",
+        "Forward valuation framing (EV/Revenue, 2027 target) surfaced recently, suggesting analysts are looking at medium-term trajectory."
       ],
       "risks": [
-        "Growth score of 27/100 is the weakest input, raising doubts about compounding beyond one-off gains.",
-        "Sector-level geopolitical risk is high as of 2026-06-29, with regional conflict and Gulf security at elevated levels, which can pressure Dubai-listed holdings over time.",
-        "Oil & OPEC+ volatility remains a background swing factor for the broader holding/diversified sector.",
-        "The newest dated fundamental hard news is roughly 55 days old, increasing reliance on future earnings refreshes to sustain the thesis."
+        "Growth signal is the clear weakness at 27/100; without an inflection, long-term re-rating upside is structurally capped.",
+        "Geopolitical risk for holding/diversified sector is rated high as of 2026-06-30; elevated regional security exposures could persist into the multi-year view.",
+        "High-materiality disclosure in the recent flow — if it reveals structural issues, it would weigh on the long-term quality read.",
+        "Signals mix and contradict; absent a coherent pillar, long-term conviction remains structurally low."
       ],
-      "what_would_change_view": "Sustained 2–3 quarter earnings conversion into recurring top-line and bottom-line growth, plus a growing dividend policy, would justify a Positive long-term stance; a disclosure-driven impairment of capital or credit access would force Negative."
+      "what_would_change_view": "A confirmed, dated improvement in the growth score or a reduction in the sector geopolitical risk rating, backed by consecutive quarters of evidence, would raise the long-term stance."
     },
     "_signal": {
       "short": {
@@ -1030,7 +1030,7 @@
       "long": {
         "stance": "Neutral",
         "confidence": "low",
-        "score": 46.4,
+        "score": 45.3,
         "reasons": [
           "Mixed fundamentals; no single pillar stands out"
         ],
@@ -1041,11 +1041,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-06-30T12:48:37+00:00",
+    "generated_at": "2026-07-01T05:04:41+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-29T15:10:01+00:00"
+    "narrated_at": "2026-06-30T15:39:21+00:00"
   },
-  "generated_at": "2026-06-30T12:48:37+00:00",
+  "generated_at": "2026-07-01T05:04:41+00:00",
   "peers": {
     "archetype": "holding",
     "self": {
@@ -1055,7 +1055,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.0025,
+      "dy": 0.0253,
       "upside": null
     },
     "medians": {
