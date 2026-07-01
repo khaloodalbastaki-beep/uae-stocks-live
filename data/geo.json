@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-01T08:41:07+00:00",
+  "as_of": "2026-07-01T09:44:12+00:00",
   "risk_level": "high",
   "method": "heuristic from recent (<=3d) headline volume + escalation keywords; not a rating",
   "drivers": [
@@ -36,19 +36,13 @@
         "Petrochemicals",
         "Logistics & Transport"
       ],
-      "risk": "high",
+      "risk": "elevated",
       "items": [
         {
           "title": "Strait of Hormuz oil flowing back to pre-Iran war levels, Vance says",
           "published_at": "2026-06-30T20:38:41+00:00",
           "domain": "nypost.com",
           "age_days": 0.5
-        },
-        {
-          "title": "Strait of Hormuz shipping traffic rebounds after strikes between Iran, US",
-          "published_at": "2026-06-30T17:01:00+00:00",
-          "domain": "thehill.com",
-          "age_days": 0.7
         },
         {
           "title": "Iran Strikes Vessel in Strait of Hormuz, Pausing Escort Operations",
@@ -63,16 +57,22 @@
           "age_days": 5.6
         },
         {
-          "title": "U.S., Iran Carry Out New Strikes, Testing Fragile Ceasefire",
-          "published_at": "2026-06-28T07:53:00+00:00",
-          "domain": "wsj.com",
-          "age_days": 3.0
+          "title": "UN agency pauses evacuation of ships through the Strait of Hormuz after attack on vessel",
+          "published_at": "2026-06-25T22:34:00+00:00",
+          "domain": "apnews.com",
+          "age_days": 5.5
         },
         {
-          "title": "Even amid strikes, shipping traffic remains elevated in the Strait of Hormuz",
-          "published_at": "2026-06-29T20:19:42+00:00",
-          "domain": "finance.yahoo.com",
-          "age_days": 1.5
+          "title": "Oil tankers with 35 million barrels stuck in Persian Gulf exited Strait of Hormuz since Iran deal",
+          "published_at": "2026-06-24T16:03:41+00:00",
+          "domain": "cnbc.com",
+          "age_days": 6.7
+        },
+        {
+          "title": "Iran Strikes Ship in Strait of Hormuz, Undermining Efforts to Restore Traffic",
+          "published_at": "2026-06-25T12:30:54+00:00",
+          "domain": "nytimes.com",
+          "age_days": 5.9
         }
       ]
     },
@@ -104,7 +104,7 @@
           "title": "Iran threatens \"complete halt\" to talks after trading strikes with U.S.; Washington official says talks to continue",
           "published_at": "2026-06-29T03:20:00+00:00",
           "domain": "cbsnews.com",
-          "age_days": 2.2
+          "age_days": 2.3
         },
         {
           "title": "Shadow war: how use of proxy forces by Iran, Israel and US is driving Middle East instability",
@@ -128,7 +128,7 @@
           "title": "Fresh hostilities in Gulf suggest US-Iran memorandum was too broadly worded",
           "published_at": "2026-06-28T15:02:00+00:00",
           "domain": "theguardian.com",
-          "age_days": 2.7
+          "age_days": 2.8
         }
       ]
     },
@@ -156,6 +156,12 @@
       "risk": "high",
       "items": [
         {
+          "title": "Gold Steadies as US-Iran Peace Talks Frame Inflation Outlook",
+          "published_at": "2026-07-01T08:25:24+00:00",
+          "domain": "bloomberg.com",
+          "age_days": 0.1
+        },
+        {
           "title": "Fed's Hammack tells CNBC rate hikes may be needed to quell high inflation",
           "published_at": "2026-06-30T16:28:06+00:00",
           "domain": "reuters.com",
@@ -165,13 +171,13 @@
           "title": "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
           "published_at": "2026-06-30T15:35:50+00:00",
           "domain": "cnbc.com",
-          "age_days": 0.7
+          "age_days": 0.8
         },
         {
           "title": "Fed Chair's Plan Could Reshape Interest Rates This Year",
           "published_at": "2026-06-29T12:40:00+00:00",
           "domain": "investopedia.com",
-          "age_days": 1.8
+          "age_days": 1.9
         },
         {
           "title": "Wednesday is Warsh's first appearance since his inaugural Fed meeting. Will he demystify his thinking?",
@@ -180,16 +186,10 @@
           "age_days": 0.6
         },
         {
-          "title": "Gold Steadies as US-Iran Peace Talks Frame Inflation Outlook",
-          "published_at": "2026-07-01T06:04:00+00:00",
-          "domain": "bloomberg.com",
-          "age_days": 0.1
-        },
-        {
           "title": "Justices give Fed a shield against Trump as potential rate hikes loom",
           "published_at": "2026-06-29T20:07:22+00:00",
           "domain": "politico.com",
-          "age_days": 1.5
+          "age_days": 1.6
         }
       ]
     }
