@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "NMDC",
-    "price": 22.34,
-    "change": 0.341,
-    "change_pct": 0.0155,
-    "volume": 7485,
+    "price": 22.22,
+    "change": 0.22,
+    "change_pct": 0.01,
+    "volume": 8229,
     "market_cap": null,
-    "high_52w": 23.841,
-    "low_52w": 21.637,
+    "high_52w": 23.503,
+    "low_52w": 21.748,
     "spark": [
-      21.637,
-      21.816,
-      22.081,
-      22.293,
-      22.429,
-      22.422,
-      22.672,
-      22.597,
+      21.748,
+      22.015,
+      22.277,
+      22.366,
+      22.144,
       22.386,
-      22.633,
-      22.894,
-      23.177,
-      23.179,
-      23.319,
-      23.139,
-      23.011,
-      23.216,
-      23.509,
-      23.78,
-      23.519,
-      23.53,
-      23.287,
-      23.395,
-      23.723,
-      23.676,
-      23.841,
-      23.675,
-      23.556,
-      23.48,
-      22.34
+      22.695,
+      22.957,
+      23.253,
+      23.067,
+      23.082,
+      22.94,
+      22.926,
+      22.989,
+      23.199,
+      23.058,
+      23.276,
+      23.207,
+      23.369,
+      23.503,
+      23.278,
+      23.258,
+      23.363,
+      23.144,
+      23.119,
+      22.931,
+      22.798,
+      22.588,
+      22.604,
+      22.22
     ],
     "prov": {
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-07-01T06:40:48.081Z",
+      "retrieved_at": "2026-07-01T06:56:56.243Z",
       "url": null,
       "lang": null
     }
@@ -197,11 +197,11 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0448,
-          "points": 74.66666666666667,
+          "raw": 0.045,
+          "points": 75.0,
           "weight": 0.18,
-          "note": "4.48% yield",
-          "contribution": 13.4
+          "note": "4.50% yield",
+          "contribution": 13.5
         },
         {
           "key": "payout",
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0448,
+    "dividend_yield": 0.045,
     "payout_ratio": 0.23,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -293,10 +293,10 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 7485,
-      "high_52w": 23.841,
-      "low_52w": 21.637,
-      "dividend_yield": 0.0448
+      "volume": 8229,
+      "high_52w": 23.503,
+      "low_52w": 21.748,
+      "dividend_yield": 0.045
     },
     "top_catalysts": [
       "Dependable dividend characteristics (Dividend 64/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "NMDC-0-1782614448",
+      "id": "NMDC-0-1782615416",
       "symbol": "NMDC",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-28T02:40:48+00:00",
+      "published_at": "2026-06-28T02:56:56+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T06:40:48+00:00",
+        "retrieved_at": "2026-07-01T06:56:56+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-2-1782006048",
+      "id": "NMDC-2-1782007016",
       "symbol": "NMDC",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-06-21T01:40:48+00:00",
+      "published_at": "2026-06-21T01:56:56+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T06:40:48+00:00",
+        "retrieved_at": "2026-07-01T06:56:56+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-3-1781487648",
+      "id": "NMDC-3-1781488616",
       "symbol": "NMDC",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-15T01:40:48+00:00",
+      "published_at": "2026-06-15T01:56:56+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T06:40:48+00:00",
+        "retrieved_at": "2026-07-01T06:56:56+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-5-1780612848",
+      "id": "NMDC-5-1780613816",
       "symbol": "NMDC",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-04T22:40:48+00:00",
+      "published_at": "2026-06-04T22:56:56+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T06:40:48+00:00",
+        "retrieved_at": "2026-07-01T06:56:56+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-6-1778301648",
+      "id": "NMDC-6-1778302616",
       "symbol": "NMDC",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-09T04:40:48+00:00",
+      "published_at": "2026-05-09T04:56:56+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T06:40:48+00:00",
+        "retrieved_at": "2026-07-01T06:56:56+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-1-1777866048",
+      "id": "NMDC-1-1777867016",
       "symbol": "NMDC",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-05-04T03:40:48+00:00",
+      "published_at": "2026-05-04T03:56:56+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T06:40:48+00:00",
+        "retrieved_at": "2026-07-01T06:56:56+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "NMDC-4-1776897648",
+      "id": "NMDC-4-1776898616",
       "symbol": "NMDC",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-22T22:40:48+00:00",
+      "published_at": "2026-04-22T22:56:56+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -482,7 +482,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T06:40:48+00:00",
+        "retrieved_at": "2026-07-01T06:56:56+00:00",
         "url": null,
         "lang": null
       },
@@ -590,7 +590,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T06:40:48+00:00",
+        "retrieved_at": "2026-07-01T06:56:56+00:00",
         "url": null,
         "lang": null
       }
@@ -615,7 +615,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T06:40:48+00:00",
+        "retrieved_at": "2026-07-01T06:56:56+00:00",
         "url": null,
         "lang": null
       }
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T06:40:48+00:00",
+        "retrieved_at": "2026-07-01T06:56:56+00:00",
         "url": null,
         "lang": null
       }
@@ -672,7 +672,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-07-01T06:40:48+00:00",
+      "retrieved_at": "2026-07-01T06:56:56+00:00",
       "url": null,
       "lang": null
     }
@@ -716,11 +716,11 @@
     "fair_value": 59.642,
     "fair_low": 54.714,
     "fair_high": 65.569,
-    "price": 22.34,
-    "upside_pct": 1.6697,
+    "price": 22.22,
+    "upside_pct": 1.6842,
     "rating": "undervalued",
     "confidence": "low",
-    "summary": "Model fair value AED 59.64 is 167% above the AED 22.34 price — undervalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 11.0% discount rate, 23% ROE. Low confidence (range AED 54.71–65.57).",
+    "summary": "Model fair value AED 59.64 is 168% above the AED 22.22 price — undervalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 11.0% discount rate, 23% ROE. Low confidence (range AED 54.71–65.57).",
     "methods": {
       "ddm": 17.5,
       "pb": 55.891,
@@ -781,12 +781,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-07-01T06:40:48+00:00",
+        "as_of": "2026-07-01T06:56:56+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T06:40:48+00:00",
+          "retrieved_at": "2026-07-01T06:56:56+00:00",
           "url": null,
           "lang": null
         }
@@ -797,12 +797,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-07-01T06:40:48+00:00",
+        "as_of": "2026-07-01T06:56:56+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T06:40:48+00:00",
+          "retrieved_at": "2026-07-01T06:56:56+00:00",
           "url": null,
           "lang": null
         }
@@ -813,12 +813,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T06:40:48+00:00",
+        "as_of": "2026-07-01T06:56:56+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T06:40:48+00:00",
+          "retrieved_at": "2026-07-01T06:56:56+00:00",
           "url": null,
           "lang": null
         }
@@ -829,12 +829,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T06:40:48+00:00",
+        "as_of": "2026-07-01T06:56:56+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T06:40:48+00:00",
+          "retrieved_at": "2026-07-01T06:56:56+00:00",
           "url": null,
           "lang": null
         }
@@ -845,12 +845,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T06:40:48+00:00",
+        "as_of": "2026-07-01T06:56:56+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T06:40:48+00:00",
+          "retrieved_at": "2026-07-01T06:56:56+00:00",
           "url": null,
           "lang": null
         }
@@ -861,12 +861,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-07-01T06:40:48+00:00",
+        "as_of": "2026-07-01T06:56:56+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T06:40:48+00:00",
+          "retrieved_at": "2026-07-01T06:56:56+00:00",
           "url": null,
           "lang": null
         }
@@ -876,7 +876,7 @@
       {
         "title": "Uae headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-28T20:40:48+00:00",
+        "published_at": "2026-06-28T20:56:56+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": 5.7,
@@ -884,7 +884,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T06:40:48+00:00",
+          "retrieved_at": "2026-07-01T06:56:56+00:00",
           "url": null,
           "lang": null
         }
@@ -892,7 +892,7 @@
       {
         "title": "Uae headline — global macro update 2",
         "theme": "TRADE",
-        "published_at": "2026-06-28T13:40:48+00:00",
+        "published_at": "2026-06-28T13:56:56+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": 5.23,
@@ -900,7 +900,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T06:40:48+00:00",
+          "retrieved_at": "2026-07-01T06:56:56+00:00",
           "url": null,
           "lang": null
         }
@@ -908,7 +908,7 @@
       {
         "title": "Uae headline — global macro update 3",
         "theme": "MARITIME",
-        "published_at": "2026-06-29T06:40:48+00:00",
+        "published_at": "2026-06-29T06:56:56+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -4.65,
@@ -916,7 +916,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T06:40:48+00:00",
+          "retrieved_at": "2026-07-01T06:56:56+00:00",
           "url": null,
           "lang": null
         }
@@ -924,7 +924,7 @@
       {
         "title": "Uae headline — global macro update 4",
         "theme": "ENERGY",
-        "published_at": "2026-06-29T20:40:48+00:00",
+        "published_at": "2026-06-29T20:56:56+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 2.8,
@@ -932,7 +932,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T06:40:48+00:00",
+          "retrieved_at": "2026-07-01T06:56:56+00:00",
           "url": null,
           "lang": null
         }
@@ -975,9 +975,9 @@
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 50.5,
+        "score": 48.8,
         "reasons": [
-          "Positive price momentum (+1.6% on the session in demo data)",
+          "Positive price momentum (+1.0% on the session in demo data)",
           "A high-materiality disclosure (82/100) is in the recent flow"
         ],
         "risks": [
@@ -998,11 +998,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-07-01T06:40:48+00:00",
+    "generated_at": "2026-07-01T06:56:56+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-06-30T18:53:25+00:00"
   },
-  "generated_at": "2026-07-01T06:40:48+00:00",
+  "generated_at": "2026-07-01T06:56:56+00:00",
   "peers": {
     "archetype": "industrials",
     "self": {
@@ -1010,17 +1010,17 @@
       "name_en": "NMDC Group",
       "archetype": "industrials",
       "pe": 5.2,
-      "pb": 1.19,
+      "pb": 1.18,
       "roe": 0.2283,
-      "dy": 0.0448,
-      "upside": 1.6697
+      "dy": 0.045,
+      "upside": 1.6842
     },
     "medians": {
       "pe": 5.2,
-      "pb": 1.19,
+      "pb": 1.18,
       "roe": 0.228,
       "dy": 0.022,
-      "upside": 1.67
+      "upside": 1.684
     },
     "peers": [
       {
