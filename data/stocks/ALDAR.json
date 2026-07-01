@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "ALDAR",
-    "price": 8.27,
-    "change": -0.01,
-    "change_pct": -0.0012,
-    "volume": 11010927,
+    "price": 8.23,
+    "change": -0.05,
+    "change_pct": -0.006,
+    "volume": 11885931,
     "market_cap": null,
-    "high_52w": 8.353,
-    "low_52w": 8.062,
+    "high_52w": 8.362,
+    "low_52w": 7.978,
     "spark": [
-      8.14,
-      8.062,
-      8.102,
-      8.128,
-      8.236,
-      8.282,
-      8.353,
-      8.295,
-      8.214,
-      8.275,
-      8.189,
-      8.161,
-      8.219,
-      8.183,
-      8.29,
-      8.242,
-      8.236,
+      8.0,
+      8.08,
+      8.176,
+      8.095,
+      8.002,
+      7.981,
+      8.053,
+      8.035,
+      8.018,
+      8.01,
+      7.978,
+      8.07,
+      8.154,
+      8.187,
+      8.114,
+      8.131,
+      8.232,
+      8.193,
+      8.268,
+      8.294,
+      8.284,
+      8.314,
+      8.362,
+      8.292,
+      8.321,
+      8.253,
+      8.162,
+      8.221,
       8.208,
-      8.149,
-      8.169,
-      8.151,
-      8.236,
-      8.17,
-      8.159,
-      8.072,
-      8.156,
-      8.252,
-      8.271,
-      8.331,
-      8.27
+      8.23
     ],
     "prov": {
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-07-01T09:54:15.012Z",
+      "retrieved_at": "2026-07-01T10:10:16.395Z",
       "url": null,
       "lang": null
     }
@@ -197,11 +197,11 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0248,
-          "points": 41.333333333333336,
+          "raw": 0.0249,
+          "points": 41.5,
           "weight": 0.18,
-          "note": "2.48% yield",
-          "contribution": 7.4
+          "note": "2.49% yield",
+          "contribution": 7.5
         },
         {
           "key": "payout",
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0248,
+    "dividend_yield": 0.0249,
     "payout_ratio": 0.18,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -293,10 +293,10 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 11010927,
-      "high_52w": 8.353,
-      "low_52w": 8.062,
-      "dividend_yield": 0.0248
+      "volume": 11885931,
+      "high_52w": 8.362,
+      "low_52w": 7.978,
+      "dividend_yield": 0.0249
     },
     "top_catalysts": [
       "Mixed fundamentals; no single pillar stands out"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "ALDAR-3-1782712455",
+      "id": "ALDAR-3-1782713416",
       "symbol": "ALDAR",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-29T05:54:15+00:00",
+      "published_at": "2026-06-29T06:10:16+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ALDAR-6-1782694455",
+      "id": "ALDAR-6-1782695416",
       "symbol": "ALDAR",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-06-29T00:54:15+00:00",
+      "published_at": "2026-06-29T01:10:16+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ALDAR-4-1782089655",
+      "id": "ALDAR-4-1782090616",
       "symbol": "ALDAR",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-06-22T00:54:15+00:00",
+      "published_at": "2026-06-22T01:10:16+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ALDAR-8-1781139255",
+      "id": "ALDAR-8-1781140216",
       "symbol": "ALDAR",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-06-11T00:54:15+00:00",
+      "published_at": "2026-06-11T01:10:16+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ALDAR-0-1779591255",
+      "id": "ALDAR-0-1779592216",
       "symbol": "ALDAR",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-05-24T02:54:15+00:00",
+      "published_at": "2026-05-24T03:10:16+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ALDAR-5-1778885655",
+      "id": "ALDAR-5-1778886616",
       "symbol": "ALDAR",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-15T22:54:15+00:00",
+      "published_at": "2026-05-15T23:10:16+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ALDAR-7-1777071255",
+      "id": "ALDAR-7-1777072216",
       "symbol": "ALDAR",
       "event_type": "acquisition",
       "title_src": "Acquisition / strategic transaction",
       "title_en": "Acquisition / strategic transaction",
       "title_lang": "en",
-      "published_at": "2026-04-24T22:54:15+00:00",
+      "published_at": "2026-04-24T23:10:16+00:00",
       "body_excerpt": "Company entered an agreement to acquire a strategic asset, subject to approvals.",
       "url": null,
       "summary_en": "Acquisition / strategic transaction. Company entered an agreement to acquire a strategic asset, subject to approvals.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ALDAR-1-1777006455",
+      "id": "ALDAR-1-1777007416",
       "symbol": "ALDAR",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-04-24T04:54:15+00:00",
+      "published_at": "2026-04-24T05:10:16+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -508,20 +508,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ALDAR-2-1775973255",
+      "id": "ALDAR-2-1775974216",
       "symbol": "ALDAR",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-12T05:54:15+00:00",
+      "published_at": "2026-04-12T06:10:16+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -534,7 +534,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       },
@@ -612,7 +612,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       }
@@ -637,7 +637,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       }
@@ -663,7 +663,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       }
@@ -684,7 +684,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       }
@@ -703,7 +703,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       }
@@ -722,7 +722,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T09:54:15+00:00",
+        "retrieved_at": "2026-07-01T10:10:16+00:00",
         "url": null,
         "lang": null
       }
@@ -752,7 +752,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-07-01T09:54:15+00:00",
+      "retrieved_at": "2026-07-01T10:10:16+00:00",
       "url": null,
       "lang": null
     }
@@ -842,12 +842,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-07-01T09:54:15+00:00",
+        "as_of": "2026-07-01T10:10:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T09:54:15+00:00",
+          "retrieved_at": "2026-07-01T10:10:16+00:00",
           "url": null,
           "lang": null
         }
@@ -858,12 +858,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-07-01T09:54:15+00:00",
+        "as_of": "2026-07-01T10:10:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T09:54:15+00:00",
+          "retrieved_at": "2026-07-01T10:10:16+00:00",
           "url": null,
           "lang": null
         }
@@ -874,12 +874,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T09:54:15+00:00",
+        "as_of": "2026-07-01T10:10:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T09:54:15+00:00",
+          "retrieved_at": "2026-07-01T10:10:16+00:00",
           "url": null,
           "lang": null
         }
@@ -890,12 +890,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T09:54:15+00:00",
+        "as_of": "2026-07-01T10:10:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T09:54:15+00:00",
+          "retrieved_at": "2026-07-01T10:10:16+00:00",
           "url": null,
           "lang": null
         }
@@ -906,12 +906,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T09:54:15+00:00",
+        "as_of": "2026-07-01T10:10:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T09:54:15+00:00",
+          "retrieved_at": "2026-07-01T10:10:16+00:00",
           "url": null,
           "lang": null
         }
@@ -922,12 +922,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-07-01T09:54:15+00:00",
+        "as_of": "2026-07-01T10:10:16+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T09:54:15+00:00",
+          "retrieved_at": "2026-07-01T10:10:16+00:00",
           "url": null,
           "lang": null
         }
@@ -937,7 +937,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-30T07:54:15+00:00",
+        "published_at": "2026-06-30T08:10:16+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -945,7 +945,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T09:54:15+00:00",
+          "retrieved_at": "2026-07-01T10:10:16+00:00",
           "url": null,
           "lang": null
         }
@@ -953,7 +953,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-30T07:54:15+00:00",
+        "published_at": "2026-06-30T08:10:16+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -961,7 +961,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T09:54:15+00:00",
+          "retrieved_at": "2026-07-01T10:10:16+00:00",
           "url": null,
           "lang": null
         }
@@ -969,7 +969,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-28T15:54:15+00:00",
+        "published_at": "2026-06-28T16:10:16+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -977,7 +977,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T09:54:15+00:00",
+          "retrieved_at": "2026-07-01T10:10:16+00:00",
           "url": null,
           "lang": null
         }
@@ -1024,7 +1024,7 @@
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 59.4,
+        "score": 58.0,
         "reasons": [
           "Recent disclosure tone skews positive"
         ],
@@ -1046,11 +1046,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-07-01T09:54:15+00:00",
+    "generated_at": "2026-07-01T10:10:16+00:00",
     "narrator": "freeagent",
     "narrated_at": "2026-07-01T07:38:46+00:00"
   },
-  "generated_at": "2026-07-01T09:54:15+00:00",
+  "generated_at": "2026-07-01T10:10:16+00:00",
   "peers": {
     "archetype": "developer",
     "self": {
@@ -1060,15 +1060,15 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.0248,
+      "dy": 0.0249,
       "upside": null
     },
     "medians": {
       "pe": 6.9,
-      "pb": 0.58,
+      "pb": 0.585,
       "roe": 0.086,
       "dy": 0.0,
-      "upside": 0.269
+      "upside": 0.267
     },
     "peers": [
       {
@@ -1096,10 +1096,10 @@
         "name_en": "Deyaar Development",
         "archetype": "developer",
         "pe": 5.7,
-        "pb": 0.6,
+        "pb": 0.61,
         "roe": 0.1038,
-        "dy": 0.0624,
-        "upside": 0.6301
+        "dy": 0.0623,
+        "upside": 0.626
       },
       {
         "symbol": "EMAAR",
