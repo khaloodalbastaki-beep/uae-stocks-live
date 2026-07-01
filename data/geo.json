@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-01T10:49:49+00:00",
+  "as_of": "2026-07-01T11:56:03+00:00",
   "risk_level": "high",
   "method": "heuristic from recent (<=3d) headline volume + escalation keywords; not a rating",
   "drivers": [
@@ -18,13 +18,13 @@
           "title": "Crude Oil Prices Fall Sharply as Global Supply Risks Ease",
           "published_at": "2026-06-26T19:14:43+00:00",
           "domain": "tradingview.com",
-          "age_days": 4.6
+          "age_days": 4.7
         },
         {
           "title": "WTI Crude Falls Below $70; Iraq Pressures OPEC With \"Retreat to Advance,\" Collapse Risk Surges",
           "published_at": "2026-06-25T14:29:50+00:00",
           "domain": "tradingkey.com",
-          "age_days": 5.8
+          "age_days": 5.9
         }
       ]
     },
@@ -36,19 +36,25 @@
         "Petrochemicals",
         "Logistics & Transport"
       ],
-      "risk": "elevated",
+      "risk": "high",
       "items": [
         {
-          "title": "Strait of Hormuz oil flowing back to pre-Iran war levels, Vance says",
-          "published_at": "2026-06-30T20:38:41+00:00",
-          "domain": "nypost.com",
-          "age_days": 0.6
+          "title": "How Iran could try to control the Strait of Hormuz - and profit from it",
+          "published_at": "2026-07-01T11:44:31+00:00",
+          "domain": "cbsnews.com",
+          "age_days": 0.0
         },
         {
           "title": "Iran Strikes Vessel in Strait of Hormuz, Pausing Escort Operations",
           "published_at": "2026-06-26T09:00:00+00:00",
           "domain": "time.com",
           "age_days": 5.1
+        },
+        {
+          "title": "Strait of Hormuz oil flowing back to pre-Iran war levels, Vance says",
+          "published_at": "2026-06-30T20:38:41+00:00",
+          "domain": "nypost.com",
+          "age_days": 0.6
         },
         {
           "title": "U.N. agency pauses Strait of Hormuz evacuation effort as ship is struck off Oman",
@@ -58,21 +64,15 @@
         },
         {
           "title": "Container ship aground in Strait of Hormuz, says Iran",
-          "published_at": "2026-07-01T10:46:58+00:00",
+          "published_at": "2026-07-01T10:46:52+00:00",
           "domain": "tradewindsnews.com",
           "age_days": 0.0
         },
         {
-          "title": "Oil tankers with 35 million barrels stuck in Persian Gulf exited Strait of Hormuz since Iran deal",
-          "published_at": "2026-06-24T16:03:41+00:00",
-          "domain": "cnbc.com",
-          "age_days": 6.8
-        },
-        {
-          "title": "Iran Strikes Ship in Strait of Hormuz, Undermining Efforts to Restore Traffic",
-          "published_at": "2026-06-25T12:30:54+00:00",
-          "domain": "nytimes.com",
-          "age_days": 5.9
+          "title": "Breakingviews - Tanker data is better Hormuz gauge than oil prices",
+          "published_at": "2026-07-01T11:25:24+00:00",
+          "domain": "reuters.com",
+          "age_days": 0.0
         }
       ]
     },
@@ -105,13 +105,13 @@
           "title": "Iran 'Not Negotiating' With US, Says Chief Negotiator",
           "published_at": "2026-06-30T05:00:00+00:00",
           "domain": "rferl.org",
-          "age_days": 1.2
+          "age_days": 1.3
         },
         {
           "title": "Iran threatens \"complete halt\" to talks after trading strikes with U.S.; Washington official says talks to continue",
           "published_at": "2026-06-29T03:20:00+00:00",
           "domain": "cbsnews.com",
-          "age_days": 2.3
+          "age_days": 2.4
         },
         {
           "title": "Shadow war: how use of proxy forces by Iran, Israel and US is driving Middle East instability",
@@ -132,10 +132,10 @@
           "age_days": 1.0
         },
         {
-          "title": "Fresh hostilities in Gulf suggest US-Iran memorandum was too broadly worded",
-          "published_at": "2026-06-28T15:02:00+00:00",
-          "domain": "theguardian.com",
-          "age_days": 2.8
+          "title": "Iran War Updates: U.S. Officials Say They Are Closing In on Arrangement to Reopen Strait of Hormuz",
+          "published_at": "2026-06-28T07:00:00+00:00",
+          "domain": "nytimes.com",
+          "age_days": 3.2
         }
       ]
     },
@@ -163,16 +163,10 @@
       "risk": "high",
       "items": [
         {
-          "title": "Wall St futures slip as second half of year begins with Mideast worries",
-          "published_at": "2026-07-01T10:48:10+00:00",
+          "title": "Warsh hits the international stage with peers sharing an inflation problem",
+          "published_at": "2026-07-01T10:52:44+00:00",
           "domain": "kfgo.com",
           "age_days": 0.0
-        },
-        {
-          "title": "Fed's Hammack tells CNBC rate hikes may be needed to quell high inflation",
-          "published_at": "2026-06-30T16:28:06+00:00",
-          "domain": "reuters.com",
-          "age_days": 0.8
         },
         {
           "title": "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
@@ -181,22 +175,28 @@
           "age_days": 0.8
         },
         {
-          "title": "Warsh hits the international stage with peers sharing an inflation problem",
-          "published_at": "2026-07-01T10:12:41+00:00",
-          "domain": "ca.finance.yahoo.com",
-          "age_days": 0.0
-        },
-        {
           "title": "Fed Chair's Plan Could Reshape Interest Rates This Year",
           "published_at": "2026-06-29T12:40:00+00:00",
           "domain": "investopedia.com",
-          "age_days": 1.9
+          "age_days": 2.0
         },
         {
           "title": "Gold Steadies as US-Iran Peace Talks Frame Inflation Outlook",
           "published_at": "2026-07-01T08:25:24+00:00",
           "domain": "bloomberg.com",
           "age_days": 0.1
+        },
+        {
+          "title": "Wednesday is Warsh's first appearance since his inaugural Fed meeting. Will he demystify his thinking?",
+          "published_at": "2026-06-30T18:30:00+00:00",
+          "domain": "finance.yahoo.com",
+          "age_days": 0.7
+        },
+        {
+          "title": "Wall St futures slip as second half of year begins with Mideast worries",
+          "published_at": "2026-07-01T11:50:48+00:00",
+          "domain": "whbl.com",
+          "age_days": 0.0
         }
       ]
     }
