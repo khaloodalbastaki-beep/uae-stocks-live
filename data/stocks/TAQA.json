@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "TAQA",
-    "price": 2.63,
-    "change": 0.0,
-    "change_pct": 0.0,
-    "volume": 1321613,
+    "price": 2.64,
+    "change": 0.01,
+    "change_pct": 0.0038,
+    "volume": 1341781,
     "market_cap": null,
-    "high_52w": 2.698,
-    "low_52w": 2.606,
+    "high_52w": 2.64,
+    "low_52w": 2.482,
     "spark": [
-      2.609,
-      2.606,
-      2.642,
-      2.67,
-      2.685,
-      2.698,
-      2.68,
-      2.654,
-      2.66,
-      2.69,
-      2.662,
-      2.64,
-      2.625,
-      2.642,
-      2.671,
-      2.645,
-      2.647,
-      2.646,
-      2.629,
-      2.621,
-      2.635,
-      2.67,
-      2.642,
-      2.659,
-      2.652,
-      2.663,
-      2.641,
-      2.615,
-      2.618,
-      2.63
+      2.547,
+      2.521,
+      2.521,
+      2.533,
+      2.537,
+      2.537,
+      2.57,
+      2.555,
+      2.538,
+      2.512,
+      2.492,
+      2.492,
+      2.49,
+      2.482,
+      2.504,
+      2.495,
+      2.529,
+      2.499,
+      2.531,
+      2.542,
+      2.573,
+      2.551,
+      2.571,
+      2.587,
+      2.57,
+      2.546,
+      2.546,
+      2.58,
+      2.565,
+      2.64
     ],
     "prov": {
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-07-01T10:42:16.872Z",
+      "retrieved_at": "2026-07-01T10:58:35.571Z",
       "url": null,
       "lang": null
     }
@@ -197,10 +197,10 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.016,
-          "points": 26.666666666666668,
+          "raw": 0.0159,
+          "points": 26.5,
           "weight": 0.2,
-          "note": "1.60% yield",
+          "note": "1.59% yield",
           "contribution": 5.3
         },
         {
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.016,
+    "dividend_yield": 0.0159,
     "payout_ratio": 0.67,
     "fcf_coverage": 1.39,
     "net_debt_pressure": 0.3,
@@ -293,10 +293,10 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 1321613,
-      "high_52w": 2.698,
-      "low_52w": 2.606,
-      "dividend_yield": 0.016
+      "volume": 1341781,
+      "high_52w": 2.64,
+      "low_52w": 2.482,
+      "dividend_yield": 0.0159
     },
     "top_catalysts": [
       "Dependable dividend characteristics (Dividend 63/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "TAQA-2-1782085337",
+      "id": "TAQA-2-1782086315",
       "symbol": "TAQA",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-06-21T23:42:17+00:00",
+      "published_at": "2026-06-21T23:58:35+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-0-1782024137",
+      "id": "TAQA-0-1782025115",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-21T06:42:17+00:00",
+      "published_at": "2026-06-21T06:58:35+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-7-1780537337",
+      "id": "TAQA-7-1780538315",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-06-04T01:42:17+00:00",
+      "published_at": "2026-06-04T01:58:35+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-3-1779064937",
+      "id": "TAQA-3-1779065915",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-05-18T00:42:17+00:00",
+      "published_at": "2026-05-18T00:58:35+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-4-1777538537",
+      "id": "TAQA-4-1777539515",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-30T08:42:17+00:00",
+      "published_at": "2026-04-30T08:58:35+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-5-1777516937",
+      "id": "TAQA-5-1777517915",
       "symbol": "TAQA",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-04-30T02:42:17+00:00",
+      "published_at": "2026-04-30T02:58:35+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TAQA-1-1777362137",
+      "id": "TAQA-1-1777363115",
       "symbol": "TAQA",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-04-28T07:42:17+00:00",
+      "published_at": "2026-04-28T07:58:35+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -482,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TAQA-6-1776307337",
+      "id": "TAQA-6-1776308315",
       "symbol": "TAQA",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-16T02:42:17+00:00",
+      "published_at": "2026-04-16T02:58:35+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -508,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       },
@@ -616,7 +616,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       }
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       }
@@ -667,7 +667,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       }
@@ -688,7 +688,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       }
@@ -707,7 +707,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       }
@@ -726,7 +726,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       }
@@ -745,7 +745,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       }
@@ -764,7 +764,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T10:42:17+00:00",
+        "retrieved_at": "2026-07-01T10:58:35+00:00",
         "url": null,
         "lang": null
       }
@@ -794,7 +794,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-07-01T10:42:17+00:00",
+      "retrieved_at": "2026-07-01T10:58:35+00:00",
       "url": null,
       "lang": null
     }
@@ -875,12 +875,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-07-01T10:42:16+00:00",
+        "as_of": "2026-07-01T10:58:35+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T10:42:16+00:00",
+          "retrieved_at": "2026-07-01T10:58:35+00:00",
           "url": null,
           "lang": null
         }
@@ -891,12 +891,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-07-01T10:42:16+00:00",
+        "as_of": "2026-07-01T10:58:35+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T10:42:16+00:00",
+          "retrieved_at": "2026-07-01T10:58:35+00:00",
           "url": null,
           "lang": null
         }
@@ -907,12 +907,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T10:42:16+00:00",
+        "as_of": "2026-07-01T10:58:35+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T10:42:16+00:00",
+          "retrieved_at": "2026-07-01T10:58:35+00:00",
           "url": null,
           "lang": null
         }
@@ -923,12 +923,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T10:42:16+00:00",
+        "as_of": "2026-07-01T10:58:35+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T10:42:16+00:00",
+          "retrieved_at": "2026-07-01T10:58:35+00:00",
           "url": null,
           "lang": null
         }
@@ -939,12 +939,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T10:42:16+00:00",
+        "as_of": "2026-07-01T10:58:35+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T10:42:16+00:00",
+          "retrieved_at": "2026-07-01T10:58:35+00:00",
           "url": null,
           "lang": null
         }
@@ -955,12 +955,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-07-01T10:42:16+00:00",
+        "as_of": "2026-07-01T10:58:35+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T10:42:16+00:00",
+          "retrieved_at": "2026-07-01T10:58:35+00:00",
           "url": null,
           "lang": null
         }
@@ -970,7 +970,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-30T08:42:17+00:00",
+        "published_at": "2026-06-30T08:58:35+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -978,7 +978,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T10:42:17+00:00",
+          "retrieved_at": "2026-07-01T10:58:35+00:00",
           "url": null,
           "lang": null
         }
@@ -986,7 +986,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-30T08:42:17+00:00",
+        "published_at": "2026-06-30T08:58:35+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -994,7 +994,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T10:42:17+00:00",
+          "retrieved_at": "2026-07-01T10:58:35+00:00",
           "url": null,
           "lang": null
         }
@@ -1002,7 +1002,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-28T16:42:17+00:00",
+        "published_at": "2026-06-28T16:58:35+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -1010,7 +1010,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T10:42:17+00:00",
+          "retrieved_at": "2026-07-01T10:58:35+00:00",
           "url": null,
           "lang": null
         }
@@ -1023,41 +1023,41 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "A company-specific high-materiality disclosure (70/100) is in the recent flow, surfacing a near-term catalyst that warrants attention.",
-        "The 7.29% stake transfer from 2PointZero to Abu Dhabi Power Corporation (19–20 days ago) is the most substantive recent headline, confirming interest by an Abu Dhabi state-linked vehicle.",
-        "Infrastructure activity in Abu Dhabi (emergency lagoon contract, 11 days ago) signals continued capex and demand stability for regional utilities.",
-        "Sharply falling crude prices (low geopolitical sub-risk) can help contain input-cost volatility for power generation in the near term."
+        "Recent TradingView actuals and estimates flow (about 5 days old) keeps near-term expectations visible but does not justify a stance shift on its own.",
+        "Moderate Stability (60) and Dividend (63) scores underpin predictable cash generation and reduce near-term downside.",
+        "The 7.29% stake transfer from 2PointZero to Abu Dhabi Power Corp reinforces sovereign-linked ownership without immediate operational change.",
+        "Weak Growth (18) and absence of tangible positive business news cap near-term upside."
       ],
       "risks": [
-        "The high-materiality disclosure may carry unquantified negative information that could surprise the market.",
-        "A surprise filing or sector-wide move could shift the picture quickly, per the short-signal notes.",
-        "The most recent dated news is not company-specific (Abu Dhabi infrastructure contract, 11 days ago), leaving a gap in fresh TAQA headlines and lowering conviction.",
-        "The stake transfer history introduces brief ownership-transition uncertainty until Abu Dhabi Power outlines its strategic intent clearly."
+        "A high-materiality disclosure in the recent flow could rapidly alter sentiment or fundamentals.",
+        "Weak Growth signal (18) makes the stock vulnerable to earnings misses and sentiment shocks.",
+        "A surprise filing or a sector-wide move could shift the picture quickly.",
+        "Utilities sector geopolitics are rated high, so elevated regional tension could spill over into broad selling even without company-specific links."
       ],
-      "what_would_change_view": "A disclosed follow-up to the high-materiality filing with clear financial or legal implications, or a crude-oil reversal that endangers utility margins, would change the short-term view."
+      "what_would_change_view": "A confirmed beat on the TradingView estimates or a material contract/filing would shift short-term view to positive; a guidance cut or macro-driven sector selloff would shift to negative."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "The Dividend score (67/100) and Stability score (60/100) underpin a dependable income-and-defensiveness profile for long-term holders.",
-        "Abu Dhabi wealth-fund and related entities (L'imad, Abu Dhabi Power) consolidated ownership, which may support stable, patient capital over holding periods.",
-        "Utilities' regulated-revenue characteristics in Abu Dhabi offer a durable long-term cash-flow base.",
-        "Ongoing infrastructure and energy projects in the emirate support demand visibility."
+        "Dependable dividend characteristics (Dividend 63/100) underpin the neutral long-term stance for income-focused investors.",
+        "Moderate Stability score (60) signals resilient utility operations supported by regulation and sovereign backing.",
+        "Sovereign-linked ownership via Abu Dhabi Power Corp stake acquisition may enhance strategic alignment over time.",
+        "No demonstrable catalyst beyond the shareholder move suggests steady but unexciting long-term returns."
       ],
       "risks": [
-        "The weak Growth signal (18/100) is a material long-term constraint on capital appreciation.",
-        "Elevated Gulf security risk (Iran inflation at 58%) could keep regional risk premiums elevated for long-lived infrastructure assets over time.",
-        "State-linked concentration may reduce minority-influence on future capital allocation and dividend policy.",
-        "No current stream item confirms medium-term tariff or offtake renegotiation risks, meaning structural regulatory uncertainty is unmonitored here."
+        "Weak Growth signal (Growth 18/100) limits long-term total-return potential beyond the dividend.",
+        "Absence of a credible second stream confirming durable capex or tariff expansion restrains conviction.",
+        "Geopolitical risk level is high; sustained regional conflict could eventually raise broader cost-of-capital pressures.",
+        "The neutral long-term stance remains at low conviction, reflecting limited visibility on growth acceleration."
       ],
-      "what_would_change_view": "A credible medium-term growth catalyst—such as a disclosed renewable expansion, acquisition pipeline, or raised dividend trajectory—would change the long-term view."
+      "what_would_change_view": "A credible multi-year capex plan or tariff uplift/expansion raising return profiles would shift long-term stance to positive; a dividend cut or erosion of sovereign backing would shift to negative."
     },
     "_signal": {
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 52.4,
+        "score": 53.5,
         "reasons": [
           "A high-materiality disclosure (70/100) is in the recent flow"
         ],
@@ -1079,11 +1079,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-07-01T10:42:17+00:00",
+    "generated_at": "2026-07-01T10:58:35+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-30T10:18:21+00:00"
+    "narrated_at": "2026-07-01T10:51:17+00:00"
   },
-  "generated_at": "2026-07-01T10:42:17+00:00",
+  "generated_at": "2026-07-01T10:58:35+00:00",
   "peers": {
     "archetype": "utility",
     "self": {
@@ -1093,7 +1093,7 @@
       "pe": null,
       "pb": null,
       "roe": null,
-      "dy": 0.016,
+      "dy": 0.0159,
       "upside": null
     },
     "medians": {
