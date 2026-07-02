@@ -7277,3 +7277,19 @@ session_id: 20260626_063020_a62d4f
 [news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
 [geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(1), hormuz=high(6), red_sea=elevated(1), regional_conflict=high(5), sanctions=low(0), global_rates=high(6)
 [analyst] nothing stale (all narrated within 24h) — skip
+[mizan] stale batch (4 of 4 eligible): EMAAR, EMAARDEV, EMIRATESNBD, EMPOWER
+[mizan] EMAAR: wrote fundamentals (high, 2025-12-31)
+[mizan] EMAARDEV: wrote fundamentals (high, 2024-12-31)
+[mizan] EMIRATESNBD: not found / insufficient (kept modeled)
+[mizan] EMPOWER: wrote fundamentals (high, None)
+[mizan] done: 3/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 33): EMSTEEL, GHITHA, ALDAR, AMERICANA, BOROUGE, ALPHADHABI
+[news] EMSTEEL: gdelt fallback failed (HTTP Error 429: Too Many Requests)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: 0 articles — kept prior
+[news] ALDAR: 4 live articles (Google)
+[news] AMERICANA: 4 live articles (Google)
+[news] BOROUGE: 8 live articles (Google)
+[news] ALPHADHABI: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(1), hormuz=high(6), red_sea=elevated(1), regional_conflict=elevated(5), sanctions=low(0), global_rates=high(6)
