@@ -7307,3 +7307,20 @@ session_id: 20260626_063020_a62d4f
 [analyst] EMAAR: no/invalid output from nemotron — trying next
 [analyst] EMAAR: narrated by freeagent
 [analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
+[mizan] stale batch (4 of 4 eligible): MASHREQ, PARKIN, SALIK, 2POINTZERO
+[mizan] MASHREQ: wrote fundamentals (high, 2025-12-31)
+[mizan] PARKIN: wrote fundamentals (high, 2025-12-31)
+[mizan] SALIK: wrote fundamentals (high, 2025-12-31)
+[mizan] 2POINTZERO: wrote fundamentals (high, 2024-12-31)
+[mizan] done: 4/4 real fundamentals written -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/fundamentals
+[news] stale batch (6 of 33): EMSTEEL, GHITHA, BURJEEL, DANA, EAND, FAB
+[news] EMSTEEL: gdelt fallback failed (<urlopen error timed out>)
+[news] EMSTEEL: 0 articles — kept prior
+[news] GHITHA: gdelt fallback failed (<urlopen error _ssl.c:1063: The handshake operation timed out>)
+[news] GHITHA: 0 articles — kept prior
+[news] BURJEEL: 8 live articles (Google)
+[news] DANA: 8 live articles (Google)
+[news] EAND: 8 live articles (Google)
+[news] FAB: 8 live articles (Google)
+[news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
+[geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(1), hormuz=high(6), red_sea=elevated(1), regional_conflict=elevated(5), sanctions=low(0), global_rates=high(6)
