@@ -7293,3 +7293,17 @@ session_id: 20260626_063020_a62d4f
 [news] ALPHADHABI: 8 live articles (Google)
 [news] done: 4/6 updated -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/news
 [geo] wrote /Users/khalidalbastaki/Projects/uae-stocks-claude/data/geo.json — overall high; oil_opec=elevated(1), hormuz=high(6), red_sea=elevated(1), regional_conflict=elevated(5), sanctions=low(0), global_rates=high(6)
+[analyst] stale batch (4 of 4): IHC, DEWA, ADCB, EMAAR
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] IHC: no/invalid output from nemotron — trying next
+[analyst] IHC: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] DEWA: no/invalid output from nemotron — trying next
+[analyst] DEWA: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] ADCB: no/invalid output from nemotron — trying next
+[analyst] ADCB: narrated by freeagent
+[ai:cli:nemotron] exit 1: Error: Error code: 404 - {'status': 404, 'message': "Model 'nvidia/nemotron-3-ultra:free' not found. The requested model does not exist in our configuration or 
+[analyst] EMAAR: no/invalid output from nemotron — trying next
+[analyst] EMAAR: narrated by freeagent
+[analyst] done: 4/4 narrated (nemotron -> freeagent) -> /Users/khalidalbastaki/Projects/uae-stocks-claude/data/ai
