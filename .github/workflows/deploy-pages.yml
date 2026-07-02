@@ -1,0 +1,39 @@
+# Custom Pages deploy — replaces GitHub's internal "pages build and deployment"
+# workflow, whose deploy step has a HARD 10-minute deployment_queued timeout
+# that fails (and emails) on slow-queue evenings. Ours waits up to 30 minutes
+# and serializes deploys, so queue latency can never fail a run again.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; never cancel a queued one (cancelled runs still email).
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1800000  # 30 min in ms (default is 600000 = the 10-min killer)
