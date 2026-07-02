@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-02T05:51:49+00:00",
+  "as_of": "2026-07-02T06:57:14+00:00",
   "risk_level": "high",
   "method": "heuristic from recent (<=3d) headline volume + escalation keywords; not a rating",
   "drivers": [
@@ -12,8 +12,15 @@
         "Utilities",
         "Holding / Diversified"
       ],
-      "risk": "low",
-      "items": []
+      "risk": "elevated",
+      "items": [
+        {
+          "title": "Brent Under Pressure As Oil Supply Recovery Accelerates, ING Warns",
+          "published_at": "2026-07-01T23:15:10+00:00",
+          "domain": "bitcoinworld.co.in",
+          "age_days": 0.3
+        }
+      ]
     },
     {
       "key": "hormuz",
@@ -32,22 +39,22 @@
           "age_days": 0.5
         },
         {
+          "title": "Oil tanker traffic through Strait of Hormuz rebounds despite Iran threats",
+          "published_at": "2026-07-02T05:15:26+00:00",
+          "domain": "israelhayom.com",
+          "age_days": 0.1
+        },
+        {
           "title": "How Iran could try to control the Strait of Hormuz - and profit from it",
           "published_at": "2026-07-01T11:44:00+00:00",
           "domain": "cbsnews.com",
           "age_days": 0.8
         },
         {
-          "title": "Oil tanker traffic through Strait of Hormuz rebounds despite Iran threats",
-          "published_at": "2026-07-02T05:15:26+00:00",
-          "domain": "israelhayom.com",
-          "age_days": 0.0
-        },
-        {
           "title": "Iran insists on keeping control over Hormuz, senior Iranian sources say",
           "published_at": "2026-07-01T10:30:02+00:00",
           "domain": "reuters.com",
-          "age_days": 0.8
+          "age_days": 0.9
         },
         {
           "title": "Iran Strikes Vessel in Strait of Hormuz, Pausing Escort Operations",
@@ -92,7 +99,7 @@
           "title": "Iran threatens \"complete halt\" to talks after trading strikes with U.S.; Washington official says talks to continue",
           "published_at": "2026-06-29T03:20:00+00:00",
           "domain": "cbsnews.com",
-          "age_days": 3.1
+          "age_days": 3.2
         },
         {
           "title": "Shadow war: how use of proxy forces by Iran, Israel and US is driving Middle East instability",
@@ -104,7 +111,7 @@
           "title": "Strait Of Hormuz Still A ‘Warlike Operations Area’",
           "published_at": "2026-07-01T05:00:00+00:00",
           "domain": "rferl.org",
-          "age_days": 1.0
+          "age_days": 1.1
         },
         {
           "title": "Dubai and Middle East flight disruption: the latest updates as the US and Iran accuse each other of breaching ceasefire",
@@ -147,13 +154,13 @@
           "title": "Fed's Warsh vows to 'disappoint' anyone who thinks he will tolerate inflation above 2%",
           "published_at": "2026-07-01T19:06:28+00:00",
           "domain": "reuters.com",
-          "age_days": 0.4
+          "age_days": 0.5
         },
         {
           "title": "Warsh tells Wall Street to stop looking to the Fed for clues on interest rates — and start watching the economic data",
           "published_at": "2026-07-01T15:09:00+00:00",
           "domain": "marketwatch.com",
-          "age_days": 0.6
+          "age_days": 0.7
         },
         {
           "title": "Federal Reserve Chair Warsh emphasizes political independence, signals focus on inflation",
@@ -168,9 +175,9 @@
           "age_days": 0.6
         },
         {
-          "title": "Federal Reserve Chair Warsh Speaks at European Central Bank Forum",
-          "published_at": "2026-07-01T18:31:27+00:00",
-          "domain": "c-span.org",
+          "title": "Fed’s Warsh Says Inflation Poses Less Risk Than a Few Weeks Ago",
+          "published_at": "2026-07-01T18:16:11+00:00",
+          "domain": "nytimes.com",
           "age_days": 0.5
         }
       ]
