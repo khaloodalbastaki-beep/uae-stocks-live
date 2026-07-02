@@ -52,7 +52,7 @@
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-07-01T12:51:45.464Z",
+      "retrieved_at": "2026-07-02T05:07:48.885Z",
       "url": null,
       "lang": null
     }
@@ -191,8 +191,8 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 61,
-      "grade": "C+",
+      "score": 55,
+      "grade": "C",
       "subfactors": [
         {
           "key": "yield",
@@ -242,15 +242,15 @@
         {
           "key": "freq",
           "label": "Frequency & regularity",
-          "raw": "annual",
-          "points": 55.0,
+          "raw": "none",
+          "points": 0.0,
           "weight": 0.1,
-          "note": "annual distribution, 3y streak",
-          "contribution": 5.5
+          "note": "none distribution, 3y streak",
+          "contribution": 0.0
         }
       ]
     },
-    "headline": 44,
+    "headline": 42,
     "headline_grade": "D+",
     "archetype": "developer",
     "engine": "deterministic-v1"
@@ -274,13 +274,13 @@
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
     "cut_history": 0,
-    "frequency": "annual",
+    "frequency": "none",
     "years_paid": 3
   },
   "fundamentals_source": {
     "real": true,
     "as_of": "2025-12-31",
-    "source": "Modon",
+    "source": "Modon Holding",
     "source_url": "https://www.modon.com/about-modon/media-centre/details/2026/02/18/modon-delivers-outstanding-growth-in-2025-with-aed-3.9-billion-in-net-profit-and-aed-46.0-billion-revenue-backlog",
     "extractor": "mizan/ollama",
     "confidence": "high"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "MODON-1-1780912305",
+      "id": "MODON-1-1780970869",
       "symbol": "MODON",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-08T09:51:45+00:00",
+      "published_at": "2026-06-09T02:07:49+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "MODON-0-1779522705",
+      "id": "MODON-0-1779581269",
       "symbol": "MODON",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-05-23T07:51:45+00:00",
+      "published_at": "2026-05-24T00:07:49+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "MODON-4-1778997105",
+      "id": "MODON-4-1779055669",
       "symbol": "MODON",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-05-17T05:51:45+00:00",
+      "published_at": "2026-05-17T22:07:49+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "MODON-3-1777006305",
+      "id": "MODON-3-1777064869",
       "symbol": "MODON",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-24T04:51:45+00:00",
+      "published_at": "2026-04-24T21:07:49+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "MODON-2-1775631105",
+      "id": "MODON-2-1775689669",
       "symbol": "MODON",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-04-08T06:51:45+00:00",
+      "published_at": "2026-04-08T23:07:49+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "MODON-5-1775375505",
+      "id": "MODON-5-1775434069",
       "symbol": "MODON",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-05T07:51:45+00:00",
+      "published_at": "2026-04-06T00:07:49+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -456,7 +456,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
@@ -471,7 +471,7 @@
       "published_at": "2026-07-01T01:30:30+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T08:40:47+00:00",
+      "retrieved_at": "2026-07-01T22:32:22+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -481,7 +481,7 @@
       "published_at": "2026-06-30T13:32:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T08:40:47+00:00",
+      "retrieved_at": "2026-07-01T22:32:22+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -491,7 +491,7 @@
       "published_at": "2026-06-18T01:46:36+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T08:40:47+00:00",
+      "retrieved_at": "2026-07-01T22:32:22+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -499,7 +499,7 @@
     {
       "symbol": "MODON",
       "kind": "board",
-      "date": "2026-07-16",
+      "date": "2026-07-17",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -514,7 +514,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -522,7 +522,7 @@
     {
       "symbol": "MODON",
       "kind": "agm",
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -539,7 +539,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -547,7 +547,7 @@
     {
       "symbol": "MODON",
       "kind": "board",
-      "date": "2026-04-11",
+      "date": "2026-04-12",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -565,7 +565,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -596,7 +596,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-07-01T12:51:45+00:00",
+      "retrieved_at": "2026-07-02T05:07:49+00:00",
       "url": null,
       "lang": null
     }
@@ -686,12 +686,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -702,12 +702,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -718,12 +718,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -734,12 +734,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -750,12 +750,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -766,12 +766,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -781,7 +781,7 @@
       {
         "title": "Federal headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-30T10:51:45+00:00",
+        "published_at": "2026-07-01T03:07:49+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -3.75,
@@ -789,7 +789,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:49+00:00",
           "url": null,
           "lang": null
         }
@@ -797,7 +797,7 @@
       {
         "title": "Federal headline — global macro update 2",
         "theme": "AGRICULTURE",
-        "published_at": "2026-06-30T10:51:45+00:00",
+        "published_at": "2026-07-01T03:07:49+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": -4.32,
@@ -805,7 +805,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:49+00:00",
           "url": null,
           "lang": null
         }
@@ -813,7 +813,7 @@
       {
         "title": "Federal headline — global macro update 3",
         "theme": "TRADE",
-        "published_at": "2026-06-28T18:51:45+00:00",
+        "published_at": "2026-06-29T11:07:49+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": 1.18,
@@ -821,7 +821,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:49+00:00",
           "url": null,
           "lang": null
         }
@@ -834,35 +834,33 @@
       "stance": "Bullish",
       "confidence": "high",
       "reasons": [
-        "Recent disclosure tone skews positive, giving near-term sentiment support.",
-        "A high-level government review of Modon Holding's Al Dhafra development and investment projects signals ongoing strategic backing.",
-        "Stability (59) and dividend (61) scores provide a defensive floor that limits downside in the near term.",
-        "No near-term negative catalyst has surfaced in the available recent streams."
+        "Recent disclosure tone skews positive, supporting near-term sentiment.",
+        "Modon awarded a $200m contract for Ras El Hekma district in the last 48 hours, adding visible revenue momentum.",
+        "Forward P/E is in active focus, offering a valuation anchor that can drive short-term rerating if demand holds.",
+        "High stability (59) and dividend (61) scores provide a near-term floor under the bullish stance."
       ],
       "risks": [
-        "A surprise filing or a sector-wide move could shift the picture quickly.",
-        "Geopolitical tensions and the slowing of maritime traffic in the Hormuz Strait could weigh on broader ADX real-estate sentiment.",
-        "Elevated global interest rates and the possibility of further Fed hikes raise financing and discount-rate headwinds.",
-        "The latest company news is 13 days old; momentum can fade without fresher confirmation within the next week."
+        "A surprise filing or sector-wide move could shift the picture quickly (short-signal risk).",
+        "Real-estate sector geopolitical risk is high as of today, with Hormuz traffic and Gulf security tensions.",
+        "Global interest-rate risk is elevated, which could pressure forward earnings multiples.",
+        "The stock’s sensitivity to technicals around the forward P/E read adds event-risk volatility."
       ],
-      "what_would_change_view": "A new negative filing, a deterioration in disclosure tone, or a sharp escalation in Gulf security that directly disrupts project execution or sector liquidity."
+      "what_would_change_view": "A material negative disclosure, a broad sector sell-off, or an abrupt deterioration in Gulf security that disrupts new project financing or buyer flows."
     },
     "long_term": {
-      "stance": "Neutral",
+      "stance": "Cautious",
       "confidence": "low",
       "reasons": [
-        "Stability (59) and dividend (61) scores indicate a moderate defensive profile that can support long-term holding.",
-        "The Al Dhafra development review signals ongoing government-backed project pipeline visibility.",
-        "Mixed fundamentals mean there is no overwhelming bearish structural thesis either.",
-        "Real-estate assets tied to Abu Dhabi's Al Dhafra region may benefit from long-term economic diversification plans."
+        "Dividend (61) and stability (59) scores offer a baseline of resilience for long-term holders.",
+        "Continued contract awards and government engagement suggest a visible pipeline to support earnings."
       ],
       "risks": [
-        "Weak growth signal (Growth 19/100) limits long-term capital appreciation potential.",
-        "High geopolitical risk in the Gulf raises the probability of episodic sector de-ratings.",
-        "Elevated global rates may persistently raise funding costs for capital-intensive real-estate projects.",
-        "No news within the last 7 days to confirm sustained improvement, reducing long-term conviction."
+        "Weak growth signal with Growth at 19/100 is a structural headwind to long-term capital appreciation.",
+        "High geopolitical risk level for the sector could deter foreign capital and delay project execution.",
+        "Global interest-rate uncertainty may keep financing costs elevated and compress valuations over time.",
+        "Mixed fundamentals with no single standout pillar reduce predictability of the long-term earnings path."
       ],
-      "what_would_change_view": "A meaningful improvement in growth metrics, a new catalyst for Al Dhafra development, or a significant easing of regional conflict that removes the sector's geopolitical discount."
+      "what_would_change_view": "A durable rebound in the Growth score into mid-50s or above, or a sustained easing of geopolitical and interest-rate risk that lets the dividend and stability profile drive steady NAV growth and margin expansion."
     },
     "_signal": {
       "short": {
@@ -877,9 +875,9 @@
         ]
       },
       "long": {
-        "stance": "Neutral",
+        "stance": "Cautious",
         "confidence": "low",
-        "score": 42.6,
+        "score": 41.3,
         "reasons": [
           "Mixed fundamentals; no single pillar stands out"
         ],
@@ -890,11 +888,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-07-01T12:51:45+00:00",
+    "generated_at": "2026-07-02T05:07:49+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-30T18:52:53+00:00"
+    "narrated_at": "2026-07-01T19:22:23+00:00"
   },
-  "generated_at": "2026-07-01T12:51:45+00:00",
+  "generated_at": "2026-07-02T05:07:49+00:00",
   "peers": {
     "archetype": "developer",
     "self": {
@@ -908,11 +906,11 @@
       "upside": null
     },
     "medians": {
-      "pe": 6.9,
-      "pb": 0.575,
+      "pe": 7.15,
+      "pb": 0.605,
       "roe": 0.086,
       "dy": 0.0,
-      "upside": 0.273
+      "upside": 0.209
     },
     "peers": [
       {
@@ -939,11 +937,11 @@
         "symbol": "DEYAAR",
         "name_en": "Deyaar Development",
         "archetype": "developer",
-        "pe": 5.7,
-        "pb": 0.6,
+        "pe": 6.2,
+        "pb": 0.66,
         "roe": 0.1038,
-        "dy": 0.0624,
-        "upside": 0.6301
+        "dy": 0.0575,
+        "upside": 0.5008
       },
       {
         "symbol": "EMAAR",
@@ -962,7 +960,7 @@
         "pe": null,
         "pb": null,
         "roe": null,
-        "dy": 0.0478,
+        "dy": 0.0544,
         "upside": null
       },
       {

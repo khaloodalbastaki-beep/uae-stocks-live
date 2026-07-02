@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "TALABAT",
-    "price": 1.19,
-    "change": -0.04,
-    "change_pct": -0.0325,
-    "volume": 0,
-    "market_cap": null,
-    "high_52w": 1.212,
-    "low_52w": 1.17,
+    "price": 1.52,
+    "change": -0.03,
+    "change_pct": -0.0188,
+    "volume": 21019942,
+    "market_cap": 9822000000.0,
+    "high_52w": 1.77,
+    "low_52w": 1.37,
     "spark": [
-      1.209,
-      1.212,
-      1.198,
-      1.209,
-      1.202,
-      1.195,
-      1.194,
-      1.192,
-      1.194,
-      1.183,
-      1.17,
-      1.186,
-      1.193,
-      1.183,
-      1.19,
-      1.189,
-      1.188,
-      1.181,
-      1.176,
-      1.18,
-      1.186,
-      1.189,
-      1.204,
-      1.194,
-      1.189,
-      1.183,
-      1.185,
-      1.181,
-      1.187,
-      1.19
+      1.531,
+      1.561,
+      1.569,
+      1.57,
+      1.578,
+      1.583,
+      1.607,
+      1.593,
+      1.61,
+      1.627,
+      1.635,
+      1.61,
+      1.587,
+      1.589,
+      1.602,
+      1.589,
+      1.619,
+      1.594,
+      1.601,
+      1.59,
+      1.589,
+      1.571,
+      1.576,
+      1.606,
+      1.606,
+      1.599,
+      1.607,
+      1.616,
+      1.634,
+      1.52
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "DFM (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-07-01T12:51:45.464Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-07-02T05:07:49+00:00",
       "url": null,
       "lang": null
     }
@@ -191,17 +191,17 @@
     },
     "dividend": {
       "pillar": "dividend",
-      "score": 62,
+      "score": 58,
       "grade": "C+",
       "subfactors": [
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0555,
-          "points": 92.5,
+          "raw": 0.0435,
+          "points": 72.5,
           "weight": 0.18,
-          "note": "5.55% yield",
-          "contribution": 16.6
+          "note": "4.35% yield",
+          "contribution": 13.0
         },
         {
           "key": "payout",
@@ -250,7 +250,7 @@
         }
       ]
     },
-    "headline": 65,
+    "headline": 64,
     "headline_grade": "B",
     "archetype": "consumer",
     "engine": "deterministic-v1"
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0555,
+    "dividend_yield": 0.0435,
     "payout_ratio": 0.86,
     "fcf_coverage": 0.99,
     "net_debt_pressure": 0.3,
@@ -292,15 +292,14 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 0,
-      "high_52w": 1.212,
-      "low_52w": 1.17,
-      "dividend_yield": 0.0555
+      "market_cap": 9822000000.0,
+      "volume": 21019942,
+      "high_52w": 1.77,
+      "low_52w": 1.37,
+      "dividend_yield": 0.0435
     },
     "top_catalysts": [
-      "Solid growth profile (Growth 72/100)",
-      "Dependable dividend characteristics (Dividend 62/100)"
+      "Solid growth profile (Growth 72/100)"
     ],
     "top_risks": [
       "Execution and macro conditions remain the key swing factors"
@@ -308,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "TALABAT-3-1781952705",
+      "id": "TALABAT-3-1782011269",
       "symbol": "TALABAT",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-20T10:51:45+00:00",
+      "published_at": "2026-06-21T03:07:49+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -327,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TALABAT-5-1781934705",
+      "id": "TALABAT-5-1781993269",
       "symbol": "TALABAT",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-06-20T05:51:45+00:00",
+      "published_at": "2026-06-20T22:07:49+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -353,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TALABAT-7-1781585505",
+      "id": "TALABAT-7-1781644069",
       "symbol": "TALABAT",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-16T04:51:45+00:00",
+      "published_at": "2026-06-16T21:07:49+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -379,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TALABAT-6-1780195905",
+      "id": "TALABAT-6-1780254469",
       "symbol": "TALABAT",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-05-31T02:51:45+00:00",
+      "published_at": "2026-05-31T19:07:49+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -405,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TALABAT-2-1780134705",
+      "id": "TALABAT-2-1780193269",
       "symbol": "TALABAT",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-05-30T09:51:45+00:00",
+      "published_at": "2026-05-31T02:07:49+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -431,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TALABAT-1-1777351905",
+      "id": "TALABAT-1-1777410469",
       "symbol": "TALABAT",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-04-28T04:51:45+00:00",
+      "published_at": "2026-04-28T21:07:49+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -457,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "TALABAT-4-1775638305",
+      "id": "TALABAT-4-1775696869",
       "symbol": "TALABAT",
       "event_type": "agm_invitation",
       "title_src": "دعوة للجمعية العمومية",
       "title_en": "Invitation to the General Assembly Meeting",
       "title_lang": "ar",
-      "published_at": "2026-04-08T08:51:45+00:00",
+      "published_at": "2026-04-09T01:07:49+00:00",
       "body_excerpt": "AGM agenda includes dividend approval, board election and auditor appointment.",
       "url": null,
       "summary_en": "Invitation to the General Assembly Meeting. AGM agenda includes dividend approval, board election and auditor appointment.",
@@ -483,20 +482,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "TALABAT-0-1775191905",
+      "id": "TALABAT-0-1775250469",
       "symbol": "TALABAT",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-04-03T04:51:45+00:00",
+      "published_at": "2026-04-03T21:07:49+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -509,7 +508,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
@@ -524,7 +523,7 @@
       "published_at": "2026-06-25T18:27:51+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T02:20:19+00:00",
+      "retrieved_at": "2026-07-01T16:08:48+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -534,7 +533,7 @@
       "published_at": "2026-06-25T14:09:17+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T02:20:19+00:00",
+      "retrieved_at": "2026-07-01T16:08:48+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -544,7 +543,7 @@
       "published_at": "2026-05-12T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T02:20:19+00:00",
+      "retrieved_at": "2026-07-01T16:08:48+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -554,7 +553,7 @@
       "published_at": "2026-05-12T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T02:20:19+00:00",
+      "retrieved_at": "2026-07-01T16:08:48+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -564,7 +563,7 @@
       "published_at": "2026-05-12T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T02:20:19+00:00",
+      "retrieved_at": "2026-07-01T16:08:48+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -572,7 +571,7 @@
     {
       "symbol": "TALABAT",
       "kind": "board",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -587,7 +586,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -595,7 +594,7 @@
     {
       "symbol": "TALABAT",
       "kind": "agm",
-      "date": "2026-08-22",
+      "date": "2026-08-23",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -612,7 +611,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -620,7 +619,7 @@
     {
       "symbol": "TALABAT",
       "kind": "board",
-      "date": "2025-12-30",
+      "date": "2025-12-31",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -638,7 +637,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -669,7 +668,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-07-01T12:51:45+00:00",
+      "retrieved_at": "2026-07-02T05:07:49+00:00",
       "url": null,
       "lang": null
     }
@@ -713,11 +712,11 @@
     "fair_value": 1.542,
     "fair_low": 1.197,
     "fair_high": 1.702,
-    "price": 1.19,
-    "upside_pct": 0.2955,
-    "rating": "undervalued",
+    "price": 1.52,
+    "upside_pct": 0.0142,
+    "rating": "fairly valued",
     "confidence": "high",
-    "summary": "Model fair value AED 1.54 is 30% above the AED 1.19 price — undervalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 10.0% discount rate, 60% ROE. High confidence (range AED 1.20–1.70).",
+    "summary": "Model fair value AED 1.54 is 1% above the AED 1.52 price — fairly valued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 10.0% discount rate, 60% ROE. High confidence (range AED 1.20–1.70).",
     "methods": {
       "ddm": 1.388,
       "pb": 0.552,
@@ -739,7 +738,7 @@
       "fcf": "FCF perpetuity"
     },
     "basis": "deterministic",
-    "note": "The market may discount the stock below the AED 1.542 fair value due to lingering margin pressure and sector-level geopolitical uncertainty, with reversion likely only if earnings growth and cost trends validate the high-confidence undervaluation case.",
+    "note": "The market price appears to reflect near-term margin pressure and sector/geopolitical uncertainty rather than the longer-run earnings potential embedded in valuation models; the gap to fair value would likely narrow only when investors see evidence that costs are stabilizing and growth is converting into reliable cash flows.",
     "note_by": "freeagent"
   },
   "global_factors": {
@@ -779,12 +778,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -795,12 +794,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -811,12 +810,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -827,12 +826,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -843,12 +842,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -859,12 +858,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -874,7 +873,7 @@
       {
         "title": "Uae headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-30T11:51:45+00:00",
+        "published_at": "2026-07-01T04:07:49+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 0.1,
@@ -882,7 +881,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:49+00:00",
           "url": null,
           "lang": null
         }
@@ -890,7 +889,7 @@
       {
         "title": "Uae headline — global macro update 2",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-07-01T03:51:45+00:00",
+        "published_at": "2026-07-01T20:07:49+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -2.07,
@@ -898,7 +897,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:49+00:00",
           "url": null,
           "lang": null
         }
@@ -906,7 +905,7 @@
       {
         "title": "Uae headline — global macro update 3",
         "theme": "TOURISM",
-        "published_at": "2026-06-29T06:51:45+00:00",
+        "published_at": "2026-06-29T23:07:49+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": -5.59,
@@ -914,7 +913,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:49+00:00",
           "url": null,
           "lang": null
         }
@@ -927,56 +926,55 @@
       "stance": "Cautious",
       "confidence": "high",
       "reasons": [
-        "Positive price momentum (+0.8% on the session)",
-        "Recent analyst updates published 2026-06-25 (actuals, estimates, and 2027 forecast) keep the name actively covered",
-        "Q1 2026 revenue grew 23–26% year-over-year, showing business resilience",
-        "Earnings call transcript highlighted operational resilience despite headwinds"
+        "No near-term catalyst; recent TradingView actuals/estimates and 2027 forecast reinforce a wait-and-see tone rather than an immediate re-rating.",
+        "Q1 reports showed revenue growth paired with a fall in net profit, confirming cost and margin pressure that is still coloring near-term sentiment.",
+        "Recent disclosure tone skews cautious/negative, limiting the scope for a short-term upside surprise.",
+        "Consumer-sector geopolitical risk is elevated as of 2026-07-02, adding a macro headwind to a stock already trading on broad-market drift."
       ],
       "risks": [
-        "Recent disclosure tone skews cautious/negative",
-        "Q1 net profit fell to ~$86.6M amid higher costs and margin pressure",
-        "Consumer sector geopolitical risk is rated high due to Gulf security tensions",
-        "Macro conditions and execution remain near-term swing factors"
+        "Negative price momentum (-3.2% on the session in demo data) could extend if liquidity or sentiment sours.",
+        "Margin pressure from Q1 may persist, capping near-term earnings upside potential.",
+        "Regional instability—Red Sea shipping and Gulf security tensions—may affect retail demand or logistics costs for a consumer platform.",
+        "2027-focused forecasts provide no near-term relief, leaving the stock exposed to index/market swings."
       ],
-      "what_would_change_view": "A clear upward revision to forward margin guidance or a de-escalation of the cautious disclosure tone would likely shift the short-term view from Neutral."
+      "what_would_change_view": "A near-term earnings beat with clear margin stabilization or a discrete catalyst (partnership, buyback, outlook upgrade) paired with reduced sector geopolitical noise would shift the short-term stance from cautious."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Solid growth profile with Growth score 72/100",
-        "Revenue trajectory remains strong (23–26% YoY increase in Q1)",
-        "Model fair value of AED 1.542 (high confidence) sits well above the current traded price",
-        "Valuation methods spanning DDM, P/B, P/E and FCF provide a broad anchored range with FCF and DDM closest to the stated fair value"
+        "Solid growth profile (Growth 72/100) provides the foundation for earnings and dividend expansion over time.",
+        "Dependable dividend characteristics (Dividend 62/100) support total-return appeal in a low-catalyst environment.",
+        "Q1 revenue remained robust against a higher base, demonstrating underlying consumer demand resilience even as profitability was compressed.",
+        "Model fair value sits materially above the current price, implying long-run undervaluation if execution and macro conditions stabilize."
       ],
       "risks": [
-        "Execution and macro conditions remain the key swing factors",
-        "Margin pressure from higher costs that compressed Q1 net profit",
-        "Gulf security tensions with high geopolitical risk for the Consumer sector",
-        "Stability score of 60/100 indicates only moderate earnings predictability"
+        "Execution and macro conditions remain the key swing factor for whether growth translates into sustained profitability.",
+        "Stability score at 60/100 signals only moderate earnings predictability, leaving room for volatility.",
+        "Prolonged geopolitical tension in the Gulf could weigh on consumer spending and operational assumptions.",
+        "If margin pressure does not ease, the dividend and growth narrative may face a confidence penalty over time."
       ],
-      "what_would_change_view": "A sustained period of expanding margins alongside continued double-digit revenue growth would likely move the long-term stance from Neutral to Positive."
+      "what_would_change_view": "Sustained improvement in net profit margins while revenue growth stays strong, or a durable reduction in regional geopolitical risk that restores consumer confidence, would support a more constructive long-term view."
     },
     "_signal": {
       "short": {
         "stance": "Cautious",
         "confidence": "high",
-        "score": 30.5,
+        "score": 34.6,
         "reasons": [
           "No strong short-term catalysts; trading on broad market drift"
         ],
         "risks": [
-          "Negative price momentum (-3.2% on the session in demo data)",
+          "Negative price momentum (-1.9% on the session in demo data)",
           "Recent disclosure tone skews cautious/negative"
         ]
       },
       "long": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 65.5,
+        "score": 64.6,
         "reasons": [
-          "Solid growth profile (Growth 72/100)",
-          "Dependable dividend characteristics (Dividend 62/100)"
+          "Solid growth profile (Growth 72/100)"
         ],
         "risks": [
           "Execution and macro conditions remain the key swing factors"
@@ -985,29 +983,29 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-07-01T12:51:45+00:00",
+    "generated_at": "2026-07-02T05:07:49+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-07-01T01:18:12+00:00"
+    "narrated_at": "2026-07-02T01:45:20+00:00"
   },
-  "generated_at": "2026-07-01T12:51:45+00:00",
+  "generated_at": "2026-07-02T05:07:49+00:00",
   "peers": {
     "archetype": "consumer",
     "self": {
       "symbol": "TALABAT",
       "name_en": "Talabat Holding",
       "archetype": "consumer",
-      "pe": 15.5,
-      "pb": 10.78,
+      "pe": 19.8,
+      "pb": 13.77,
       "roe": 0.6,
-      "dy": 0.0555,
-      "upside": 0.2955
+      "dy": 0.0435,
+      "upside": 0.0142
     },
     "medians": {
-      "pe": 18.55,
-      "pb": 10.235,
+      "pe": 20.7,
+      "pb": 11.73,
       "roe": 0.524,
-      "dy": 0.056,
-      "upside": -0.054
+      "dy": 0.043,
+      "upside": -0.194
     },
     "peers": [
       {

@@ -9,50 +9,50 @@
   "isin": null,
   "quote": {
     "symbol": "DTC",
-    "price": 2.3,
-    "change": -0.04,
-    "change_pct": -0.017,
-    "volume": 0,
-    "market_cap": null,
-    "high_52w": 2.419,
-    "low_52w": 2.3,
+    "price": 2.95,
+    "change": -0.1,
+    "change_pct": -0.0341,
+    "volume": 1789558,
+    "market_cap": 10873000000.0,
+    "high_52w": 3.19,
+    "low_52w": 2.52,
     "spark": [
-      2.329,
-      2.354,
-      2.372,
-      2.369,
-      2.342,
-      2.325,
-      2.352,
-      2.37,
-      2.353,
-      2.364,
-      2.345,
-      2.347,
-      2.346,
-      2.374,
-      2.388,
-      2.397,
-      2.389,
-      2.41,
-      2.388,
-      2.407,
-      2.395,
-      2.419,
-      2.41,
-      2.391,
-      2.375,
-      2.361,
-      2.387,
-      2.389,
-      2.39,
-      2.3
+      2.93,
+      2.887,
+      2.908,
+      2.865,
+      2.834,
+      2.838,
+      2.868,
+      2.887,
+      2.944,
+      2.901,
+      2.885,
+      2.833,
+      2.882,
+      2.852,
+      2.802,
+      2.846,
+      2.84,
+      2.808,
+      2.832,
+      2.81,
+      2.842,
+      2.865,
+      2.837,
+      2.82,
+      2.804,
+      2.82,
+      2.854,
+      2.841,
+      2.835,
+      2.95
     ],
     "prov": {
-      "source_type": "official",
-      "source_name": "DFM (delayed)",
-      "data_quality": "delayed",
-      "retrieved_at": "2026-07-01T12:51:45.464Z",
+      "source_type": "mock",
+      "source_name": "Demo seed",
+      "data_quality": "demo",
+      "retrieved_at": "2026-07-02T05:07:49+00:00",
       "url": null,
       "lang": null
     }
@@ -197,11 +197,11 @@
         {
           "key": "yield",
           "label": "Yield (quality-adjusted)",
-          "raw": 0.0049,
-          "points": 8.166666666666666,
+          "raw": 0.0038,
+          "points": 6.333333333333334,
           "weight": 0.18,
-          "note": "0.49% yield",
-          "contribution": 1.5
+          "note": "0.38% yield",
+          "contribution": 1.1
         },
         {
           "key": "payout",
@@ -269,7 +269,7 @@
     "governance_cadence": 0.8,
     "disclosure_quality": 0.85,
     "macro_sensitivity": 0.5,
-    "dividend_yield": 0.0049,
+    "dividend_yield": 0.0038,
     "payout_ratio": 0.85,
     "fcf_coverage": 1.2,
     "net_debt_pressure": 0.3,
@@ -292,11 +292,11 @@
       "DFM"
     ],
     "quick_stats": {
-      "market_cap": null,
-      "volume": 0,
-      "high_52w": 2.419,
-      "low_52w": 2.3,
-      "dividend_yield": 0.0049
+      "market_cap": 10873000000.0,
+      "volume": 1789558,
+      "high_52w": 3.19,
+      "low_52w": 2.52,
+      "dividend_yield": 0.0038
     },
     "top_catalysts": [
       "Resilient balance sheet / stability (Stability 69/100)"
@@ -307,13 +307,13 @@
   },
   "disclosures": [
     {
-      "id": "DTC-5-1782377505",
+      "id": "DTC-5-1782436069",
       "symbol": "DTC",
       "event_type": "governance",
       "title_src": "Governance / board change",
       "title_en": "Governance / board change",
       "title_lang": "en",
-      "published_at": "2026-06-25T08:51:45+00:00",
+      "published_at": "2026-06-26T01:07:49+00:00",
       "body_excerpt": "Change in senior leadership / board composition disclosed.",
       "url": null,
       "summary_en": "Governance / board change. Change in senior leadership / board composition disclosed.",
@@ -326,20 +326,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DTC-6-1781524305",
+      "id": "DTC-6-1781582869",
       "symbol": "DTC",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-15T11:51:45+00:00",
+      "published_at": "2026-06-16T04:07:49+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -352,20 +352,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DTC-2-1781322705",
+      "id": "DTC-2-1781381269",
       "symbol": "DTC",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-06-13T03:51:45+00:00",
+      "published_at": "2026-06-13T20:07:49+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -378,20 +378,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DTC-1-1777467105",
+      "id": "DTC-1-1777525669",
       "symbol": "DTC",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-29T12:51:45+00:00",
+      "published_at": "2026-04-30T05:07:49+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -404,20 +404,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DTC-4-1775991105",
+      "id": "DTC-4-1776049669",
       "symbol": "DTC",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-12T10:51:45+00:00",
+      "published_at": "2026-04-13T03:07:49+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -430,20 +430,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "DTC-3-1775908305",
+      "id": "DTC-3-1775966869",
       "symbol": "DTC",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-11T11:51:45+00:00",
+      "published_at": "2026-04-12T04:07:49+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -456,20 +456,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "DTC-0-1775641905",
+      "id": "DTC-0-1775700469",
       "symbol": "DTC",
       "event_type": "dividend",
       "title_src": "الإعلان عن توزيع أرباح نقدية",
       "title_en": "Cash dividend distribution announcement",
       "title_lang": "ar",
-      "published_at": "2026-04-08T09:51:45+00:00",
+      "published_at": "2026-04-09T02:07:49+00:00",
       "body_excerpt": "Company announces a cash dividend per share with entitlement and payment dates.",
       "url": null,
       "summary_en": "Cash dividend distribution announcement. Company announces a cash dividend per share with entitlement and payment dates.",
@@ -482,7 +482,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       },
@@ -497,17 +497,7 @@
       "published_at": "2026-05-15T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T00:14:20+00:00",
-      "feed_source": "Google News (live media)"
-    },
-    {
-      "title": "Dubai Taxi Company revenue hits $150m as fleet expands 16%",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXZaWVNRWHd4cWNCeFJadGE5dDZYNnk0THhURkc2YXB2SU1rY0RRb3pHLVU1ZlI1OExVNU9GMzVvaTQ3QS01b1lxUm1CdWRQQkdqVjlXY1BpLWVNZlFWQUk3WmQzY0VURldHMEo0cXJIckcwX0FEREJjNlE5cGNsT3BhZjU0V1RQVWJfaEFmLWtjbkktNkwwN1hGSnF3MWZIYkNGMDFQankzeUk?oc=5",
-      "domain": "arabianbusiness.com",
-      "published_at": "2026-05-08T07:00:00+00:00",
-      "lang": "English",
-      "source_type": "media",
-      "retrieved_at": "2026-07-01T00:14:20+00:00",
+      "retrieved_at": "2026-07-02T02:47:02+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -517,17 +507,17 @@
       "published_at": "2026-05-08T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T00:14:20+00:00",
+      "retrieved_at": "2026-07-02T02:47:02+00:00",
       "feed_source": "Google News (live media)"
     },
     {
-      "title": "Dubai Taxi Company, JOOD explore digital donation services through taxis, ride-hailing app",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcFhBNXlvMDhjeFViYm1oX1VPb2hhOGplZC1Ic3dNNmdkMkcycUp1aUE4eTZzOEZBTXNJTlBSNWtKczMwZ1hlTFBsbndIUkUwSUFiOU9hMWZoc0JENW9aRzNjYThhWUZfNGVnajZpOWdaYl9hNmJyZjVlc0pqZFJ0MDVMV1ZpTFRSUGhWNDJWRXh2cnJrWTJBNm5jT3lzUl8zbkl4UXZsVng2Z0hBaFViWFoyVkRobnNKb0VJUmVGSFRTaWwtcVJKdg?oc=5",
-      "domain": "gulfbusiness.com",
-      "published_at": "2026-06-24T06:50:36+00:00",
+      "title": "Dubai Taxi Company revenue hits $150m as fleet expands 16%",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXZaWVNRWHd4cWNCeFJadGE5dDZYNnk0THhURkc2YXB2SU1rY0RRb3pHLVU1ZlI1OExVNU9GMzVvaTQ3QS01b1lxUm1CdWRQQkdqVjlXY1BpLWVNZlFWQUk3WmQzY0VURldHMEo0cXJIckcwX0FEREJjNlE5cGNsT3BhZjU0V1RQVWJfaEFmLWtjbkktNkwwN1hGSnF3MWZIYkNGMDFQankzeUk?oc=5",
+      "domain": "arabianbusiness.com",
+      "published_at": "2026-05-08T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T00:14:20+00:00",
+      "retrieved_at": "2026-07-02T02:47:02+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -537,7 +527,7 @@
       "published_at": "2026-05-13T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T00:14:20+00:00",
+      "retrieved_at": "2026-07-02T02:47:02+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -547,7 +537,17 @@
       "published_at": "2026-05-08T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T00:14:20+00:00",
+      "retrieved_at": "2026-07-02T02:47:02+00:00",
+      "feed_source": "Google News (live media)"
+    },
+    {
+      "title": "Dubai Taxi Company, JOOD explore digital donation services through taxis, ride-hailing app",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcFhBNXlvMDhjeFViYm1oX1VPb2hhOGplZC1Ic3dNNmdkMkcycUp1aUE4eTZzOEZBTXNJTlBSNWtKczMwZ1hlTFBsbndIUkUwSUFiOU9hMWZoc0JENW9aRzNjYThhWUZfNGVnajZpOWdaYl9hNmJyZjVlc0pqZFJ0MDVMV1ZpTFRSUGhWNDJWRXh2cnJrWTJBNm5jT3lzUl8zbkl4UXZsVng2Z0hBaFViWFoyVkRobnNKb0VJUmVGSFRTaWwtcVJKdg?oc=5",
+      "domain": "gulfbusiness.com",
+      "published_at": "2026-06-24T06:50:36+00:00",
+      "lang": "English",
+      "source_type": "media",
+      "retrieved_at": "2026-07-02T02:47:02+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -557,7 +557,7 @@
       "published_at": "2026-05-14T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T00:14:20+00:00",
+      "retrieved_at": "2026-07-02T02:47:02+00:00",
       "feed_source": "Google News (live media)"
     },
     {
@@ -567,7 +567,7 @@
       "published_at": "2026-05-13T07:00:00+00:00",
       "lang": "English",
       "source_type": "media",
-      "retrieved_at": "2026-07-01T00:14:20+00:00",
+      "retrieved_at": "2026-07-02T02:47:02+00:00",
       "feed_source": "Google News (live media)"
     }
   ],
@@ -575,7 +575,7 @@
     {
       "symbol": "DTC",
       "kind": "board",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "status": "upcoming",
       "agenda": [
         "Review interim results",
@@ -590,7 +590,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -598,7 +598,7 @@
     {
       "symbol": "DTC",
       "kind": "agm",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "status": "upcoming",
       "agenda": [
         "Approve dividend",
@@ -615,7 +615,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -623,7 +623,7 @@
     {
       "symbol": "DTC",
       "kind": "board",
-      "date": "2026-01-31",
+      "date": "2026-02-01",
       "status": "held",
       "agenda": [
         "Approve annual results"
@@ -641,7 +641,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -652,17 +652,17 @@
       "symbol": "DTC",
       "amount": 0.0032,
       "currency": "AED",
-      "agm_date": "2026-07-26",
-      "entitlement_date": "2026-08-15",
-      "ex_date": "2026-08-14",
-      "payment_date": "2026-09-04",
+      "agm_date": "2026-07-27",
+      "entitlement_date": "2026-08-16",
+      "ex_date": "2026-08-15",
+      "payment_date": "2026-09-05",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -671,17 +671,17 @@
       "symbol": "DTC",
       "amount": 0.0032,
       "currency": "AED",
-      "agm_date": "2026-06-10",
-      "entitlement_date": "2026-06-28",
-      "ex_date": "2026-06-27",
-      "payment_date": "2026-07-14",
+      "agm_date": "2026-06-11",
+      "entitlement_date": "2026-06-29",
+      "ex_date": "2026-06-28",
+      "payment_date": "2026-07-15",
       "frequency": "annual",
       "fiscal_year": "2026",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -690,17 +690,17 @@
       "symbol": "DTC",
       "amount": 0.0032,
       "currency": "AED",
-      "agm_date": "2025-06-04",
-      "entitlement_date": "2025-06-22",
-      "ex_date": "2025-06-21",
-      "payment_date": "2025-07-08",
+      "agm_date": "2025-06-05",
+      "entitlement_date": "2025-06-23",
+      "ex_date": "2025-06-22",
+      "payment_date": "2025-07-09",
       "frequency": "annual",
       "fiscal_year": "2025",
       "prov": {
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-01T12:51:45+00:00",
+        "retrieved_at": "2026-07-02T05:07:49+00:00",
         "url": null,
         "lang": null
       }
@@ -730,7 +730,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-07-01T12:51:45+00:00",
+      "retrieved_at": "2026-07-02T05:07:49+00:00",
       "url": null,
       "lang": null
     }
@@ -771,16 +771,16 @@
     "currency": "AED"
   },
   "valuation": {
-    "fair_value": 1.647,
-    "fair_low": 1.565,
+    "fair_value": 1.659,
+    "fair_low": 1.578,
     "fair_high": 1.739,
-    "price": 2.3,
-    "upside_pct": -0.284,
+    "price": 2.95,
+    "upside_pct": -0.4378,
     "rating": "overvalued",
     "confidence": "low",
-    "summary": "Model fair value AED 1.65 is 28% below the AED 2.30 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 10.0% discount rate, 60% ROE. Low confidence (range AED 1.57–1.74).",
+    "summary": "Model fair value AED 1.66 is 44% below the AED 2.95 price — overvalued. Driven mainly by a normalised earnings multiple; assumes ~10% growth and a 10.0% discount rate, 60% ROE. Low confidence (range AED 1.58–1.74).",
     "methods": {
-      "ddm": 0.236,
+      "ddm": 0.295,
       "pb": 0.821,
       "pe": 2.535
     },
@@ -799,7 +799,7 @@
       "fcf": "FCF perpetuity"
     },
     "basis": "deterministic",
-    "note": "The model fair value (AED 1.647) sits far below the market price (AED 2.34) but is low confidence, reflecting weak or inconsistent quantitative outputs; the gap may persist if DTC delivers acquisition synergies or growth optionality that the methods underweight, or could close if those expectations are not met.",
+    "note": "The market may be pricing Dubai Taxi ahead of its model fair value on acquisition scale optimism and sector liquidity, despite wide method dispersion and low confidence; the gap could narrow if growth and integration successes justify the premium, or widen if fundamentals remain insufficient.",
     "note_by": "freeagent"
   },
   "global_factors": {
@@ -839,12 +839,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -855,12 +855,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -871,12 +871,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -887,12 +887,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -903,12 +903,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -919,12 +919,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-07-01T12:51:45+00:00",
+        "as_of": "2026-07-02T05:07:48+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:48+00:00",
           "url": null,
           "lang": null
         }
@@ -934,7 +934,7 @@
       {
         "title": "Fuel headline — global macro update 1",
         "theme": "ENERGY",
-        "published_at": "2026-06-29T02:51:45+00:00",
+        "published_at": "2026-06-29T19:07:49+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -5.04,
@@ -942,7 +942,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:49+00:00",
           "url": null,
           "lang": null
         }
@@ -950,7 +950,7 @@
       {
         "title": "Fuel headline — global macro update 2",
         "theme": "TRADE",
-        "published_at": "2026-06-29T21:51:45+00:00",
+        "published_at": "2026-06-30T14:07:49+00:00",
         "domain": "reuters.com",
         "url": null,
         "tone": -1.46,
@@ -958,7 +958,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:49+00:00",
           "url": null,
           "lang": null
         }
@@ -966,7 +966,7 @@
       {
         "title": "Fuel headline — global macro update 3",
         "theme": "TOURISM",
-        "published_at": "2026-06-29T15:51:45+00:00",
+        "published_at": "2026-06-30T08:07:49+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 5.3,
@@ -974,7 +974,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:49+00:00",
           "url": null,
           "lang": null
         }
@@ -982,7 +982,7 @@
       {
         "title": "Fuel headline — global macro update 4",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-29T09:51:45+00:00",
+        "published_at": "2026-06-30T02:07:49+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -3.96,
@@ -990,7 +990,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-01T12:51:45+00:00",
+          "retrieved_at": "2026-07-02T05:07:49+00:00",
           "url": null,
           "lang": null
         }
@@ -1003,47 +1003,47 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Recent disclosure tone skews positive and a high-materiality item (90/100) is in the flow, supporting near-term sentiment.",
-        "Price momentum (+1.3% on the session) aligns with the positive news tone.",
-        "The 7-day-old announcement of digital donation services through taxis and the ride-hailing app signals operational innovation that can attract attention.",
-        "The acquisition of National Taxi remains in the recent news cluster (~47–49 days old) and may still be influencing positioning as integration proceeds."
+        "A high-materiality disclosure (90/100) with positive recent tone is in the flow, and the most recent dated corporate update (8 days ago, 2026-06-24) on digital donation services through taxis and the ride-hailing app adds a forward-revenue narrative.",
+        "The National Taxi acquisition appears to have closed in the recent flow (~49–48 days ago), which should expand market share and build on the previously reported $150m revenue scale with 16% fleet growth.",
+        "House Stability score of 69/100 signals a resilient operational footing in the near term.",
+        "Recent corporate actions — acquisition confirmation and a new services initiative — together provide multiple near-term catalysts for attention."
       ],
       "risks": [
-        "A surprise filing or sector-wide move could shift the picture quickly.",
-        "Weak growth signal (Growth 34/100) limits near-term upside.",
-        "Sector-wide geopolitical risk is high (Strait of Hormuz, Gulf security), which can raise logistics and transport costs without direct company-specific offset.",
-        "Model fair value (AED 1.647) is well below the price (AED 2.34) with low confidence, leaving gap risk if sentiment reverts."
+        "Negative price momentum (-1.7% on the session in demo data) shows investor caution despite the positive disclosure tone.",
+        "Weak growth signal (Growth 34/100) may keep near-term earnings or volume surprises muted.",
+        "Sector-wide geopolitical risk is elevated (high as of 2026-07-01), with chokepoint and conflict-related shipping frictions that can dampen transport and logistics appetite even though Dubai Taxi is land-based.",
+        "The stock trades above the model fair value (AED 2.3 vs 1.647, low confidence), so disappointment in near-term execution or sentiment could drive a valuation-gap close."
       ],
-      "what_would_change_view": "A confirmed new fundamental update or strong volume-backed breakout that validates the high-materiality disclosure, or concrete regional de-escalation that directly lowers logistics-sector costs."
+      "what_would_change_view": "A post-acquisition volume or revenue synergy figure, daily operational metric, or formal quarterly trading update that provides hard confirmation of the positive disclosure tone and breaks the recent negative price momentum."
     },
     "long_term": {
       "stance": "Neutral",
       "confidence": "low",
       "reasons": [
-        "Resilient balance sheet / stability (Stability 69/100) provides a durable base.",
-        "The National Taxi acquisition expands scale and could reinforce market position if fully integrated.",
-        "Management’s exploration of digital platforms (e.g., JOOD donation initiative) hints at longer-term channel diversification.",
-        "Historical revenue of $150m and a 16% fleet expansion show past capacity to grow when conditions allow."
+        "Resilient balance sheet / stability score of 69/100 gives a durable long-term operating base.",
+        "The National Taxi acquisition consolidates market position and, if integrated well, can deliver durable scale benefits over time.",
+        "Digital partnership initiatives (e.g., JOOD tie-up 8 days ago) suggest a path to revenue diversification beyond traditional fares.",
+        "Established revenue and fleet expansion precedent ($150m revenue, 16% fleet growth 55 days ago) supports a capacity base that can grow with Dubai transport demand if utilization improves."
       ],
       "risks": [
-        "Weak growth signal (Growth 34/100) undermines long-term trajectory and fair-value upside.",
-        "Geopolitical risk level for the sector is high as of late June 2026; prolonged Gulf security friction would pressure operating costs.",
-        "The most recent dated fundamental news is older (~54 days for revenue/fleet update, ~47+ days for acquisition updates), creating an information lag.",
-        "Macro and peer-comparable context is unavailable, lowering conviction and making valuation dependence on internal assumptions higher."
+        "Weak growth signal (Growth 34/100) structurally caps the long-term upside.",
+        "High geopolitical risk for the Logistics & Transport sector (as of 2026-07-01), which may not have company-specific operational links today but remains a persistent macro overhang for the industry.",
+        "Valuation method dispersion (DDM 0.236, PB 0.821, PE 2.535) with low confidence in model fair value introduces uncertainty about the true long-term intrinsic value floor.",
+        "Failure to integrate the National Taxi acquisition successfully could erode the stability advantage over time and stall growth momentum."
       ],
-      "what_would_change_view": "Sustained evidence of organic revenue growth, confirmed acquisition accretion, or a material improvement in dividend coverage that re-rates the stock on income rather than growth multiple."
+      "what_would_change_view": "A sustained and material improvement in Growth score away from 34/100, or evidence that acquisition integration and digital initiatives are structurally lifting scale and returns rather than just headline size."
     },
     "_signal": {
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 51.7,
+        "score": 46.6,
         "reasons": [
           "A high-materiality disclosure (90/100) is in the recent flow",
           "Recent disclosure tone skews positive"
         ],
         "risks": [
-          "Negative price momentum (-1.7% on the session in demo data)"
+          "Negative price momentum (-3.4% on the session in demo data)"
         ]
       },
       "long": {
@@ -1060,29 +1060,29 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-07-01T12:51:45+00:00",
+    "generated_at": "2026-07-02T05:07:49+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-06-30T22:09:38+00:00"
+    "narrated_at": "2026-07-01T23:37:32+00:00"
   },
-  "generated_at": "2026-07-01T12:51:45+00:00",
+  "generated_at": "2026-07-02T05:07:49+00:00",
   "peers": {
     "archetype": "mobility",
     "self": {
       "symbol": "DTC",
       "name_en": "Dubai Taxi Company",
       "archetype": "mobility",
-      "pe": 17.7,
-      "pb": 14.01,
+      "pe": 22.7,
+      "pb": 17.97,
       "roe": 0.6,
-      "dy": 0.0049,
-      "upside": -0.284
+      "dy": 0.0038,
+      "upside": -0.4378
     },
     "medians": {
-      "pe": 17.7,
-      "pb": 14.01,
+      "pe": 22.7,
+      "pb": 17.97,
       "roe": 0.6,
-      "dy": 0.005,
-      "upside": -0.284
+      "dy": 0.004,
+      "upside": -0.438
     },
     "peers": [],
     "n": 1
