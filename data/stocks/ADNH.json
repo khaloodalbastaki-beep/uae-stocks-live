@@ -10,49 +10,49 @@
   "quote": {
     "symbol": "ADNH",
     "price": 0.395,
-    "change": 0.006,
-    "change_pct": 0.0154,
-    "volume": 665679,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "volume": 0,
     "market_cap": null,
-    "high_52w": 0.396,
-    "low_52w": 0.38,
+    "high_52w": 0.402,
+    "low_52w": 0.386,
     "spark": [
-      0.381,
-      0.38,
-      0.385,
-      0.389,
-      0.386,
-      0.382,
-      0.386,
-      0.384,
-      0.382,
-      0.381,
-      0.384,
-      0.388,
-      0.393,
-      0.389,
-      0.385,
-      0.382,
-      0.385,
-      0.384,
-      0.381,
-      0.386,
-      0.385,
-      0.385,
       0.387,
+      0.386,
+      0.391,
+      0.395,
+      0.392,
+      0.388,
+      0.392,
+      0.39,
+      0.388,
+      0.387,
+      0.39,
+      0.394,
+      0.399,
+      0.395,
+      0.391,
       0.388,
       0.391,
-      0.389,
+      0.39,
+      0.387,
       0.392,
       0.391,
-      0.396,
+      0.391,
+      0.393,
+      0.394,
+      0.397,
+      0.395,
+      0.398,
+      0.397,
+      0.402,
       0.395
     ],
     "prov": {
       "source_type": "official",
       "source_name": "ADX (delayed)",
       "data_quality": "delayed",
-      "retrieved_at": "2026-07-02T05:40:04.638Z",
+      "retrieved_at": "2026-07-02T05:56:04.546Z",
       "url": null,
       "lang": null
     }
@@ -293,9 +293,9 @@
     ],
     "quick_stats": {
       "market_cap": null,
-      "volume": 665679,
-      "high_52w": 0.396,
-      "low_52w": 0.38,
+      "volume": 0,
+      "high_52w": 0.402,
+      "low_52w": 0.386,
       "dividend_yield": 0.1139
     },
     "top_catalysts": [
@@ -308,13 +308,13 @@
   },
   "disclosures": [
     {
-      "id": "ADNH-4-1780706404",
+      "id": "ADNH-4-1780707364",
       "symbol": "ADNH",
       "event_type": "subsidiary",
       "title_src": "Subsidiary event",
       "title_en": "Subsidiary event",
       "title_lang": "en",
-      "published_at": "2026-06-06T00:40:04+00:00",
+      "published_at": "2026-06-06T00:56:04+00:00",
       "body_excerpt": "Material development at a subsidiary disclosed to the market.",
       "url": null,
       "summary_en": "Subsidiary event. Material development at a subsidiary disclosed to the market.",
@@ -327,20 +327,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-02T05:40:04+00:00",
+        "retrieved_at": "2026-07-02T05:56:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ADNH-0-1780537204",
+      "id": "ADNH-0-1780538164",
       "symbol": "ADNH",
       "event_type": "board_meeting",
       "title_src": "دعوة لاجتماع مجلس الإدارة",
       "title_en": "Board of Directors meeting invitation",
       "title_lang": "ar",
-      "published_at": "2026-06-04T01:40:04+00:00",
+      "published_at": "2026-06-04T01:56:04+00:00",
       "body_excerpt": "Board to convene to discuss results and a proposed cash dividend.",
       "url": null,
       "summary_en": "Board of Directors meeting invitation. Board to convene to discuss results and a proposed cash dividend.",
@@ -353,20 +353,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-02T05:40:04+00:00",
+        "retrieved_at": "2026-07-02T05:56:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ADNH-2-1777254004",
+      "id": "ADNH-2-1777254964",
       "symbol": "ADNH",
       "event_type": "capital_raise",
       "title_src": "Capital increase / sukuk issuance",
       "title_en": "Capital increase / sukuk issuance",
       "title_lang": "en",
-      "published_at": "2026-04-27T01:40:04+00:00",
+      "published_at": "2026-04-27T01:56:04+00:00",
       "body_excerpt": "Board approved a capital markets transaction to fund expansion.",
       "url": null,
       "summary_en": "Capital increase / sukuk issuance. Board approved a capital markets transaction to fund expansion.",
@@ -379,20 +379,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-02T05:40:04+00:00",
+        "retrieved_at": "2026-07-02T05:56:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": false
     },
     {
-      "id": "ADNH-1-1776048004",
+      "id": "ADNH-1-1776048964",
       "symbol": "ADNH",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-13T02:40:04+00:00",
+      "published_at": "2026-04-13T02:56:04+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -405,20 +405,20 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-02T05:40:04+00:00",
+        "retrieved_at": "2026-07-02T05:56:04+00:00",
         "url": null,
         "lang": null
       },
       "translation_app_generated": true
     },
     {
-      "id": "ADNH-3-1775349604",
+      "id": "ADNH-3-1775350564",
       "symbol": "ADNH",
       "event_type": "results",
       "title_src": "نتائج مالية للفترة",
       "title_en": "Financial results for the period",
       "title_lang": "ar",
-      "published_at": "2026-04-05T00:40:04+00:00",
+      "published_at": "2026-04-05T00:56:04+00:00",
       "body_excerpt": "Board approved the interim financial statements; revenue and net profit disclosed.",
       "url": null,
       "summary_en": "Financial results for the period. Board approved the interim financial statements; revenue and net profit disclosed.",
@@ -431,7 +431,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-02T05:40:04+00:00",
+        "retrieved_at": "2026-07-02T05:56:04+00:00",
         "url": null,
         "lang": null
       },
@@ -489,7 +489,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-02T05:40:04+00:00",
+        "retrieved_at": "2026-07-02T05:56:04+00:00",
         "url": null,
         "lang": null
       }
@@ -514,7 +514,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-02T05:40:04+00:00",
+        "retrieved_at": "2026-07-02T05:56:04+00:00",
         "url": null,
         "lang": null
       }
@@ -540,7 +540,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-02T05:40:04+00:00",
+        "retrieved_at": "2026-07-02T05:56:04+00:00",
         "url": null,
         "lang": null
       }
@@ -561,7 +561,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-02T05:40:04+00:00",
+        "retrieved_at": "2026-07-02T05:56:04+00:00",
         "url": null,
         "lang": null
       }
@@ -580,7 +580,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-02T05:40:04+00:00",
+        "retrieved_at": "2026-07-02T05:56:04+00:00",
         "url": null,
         "lang": null
       }
@@ -599,7 +599,7 @@
         "source_type": "mock",
         "source_name": "Demo seed",
         "data_quality": "demo",
-        "retrieved_at": "2026-07-02T05:40:04+00:00",
+        "retrieved_at": "2026-07-02T05:56:04+00:00",
         "url": null,
         "lang": null
       }
@@ -629,7 +629,7 @@
       "source_type": "mock",
       "source_name": "Demo seed",
       "data_quality": "demo",
-      "retrieved_at": "2026-07-02T05:40:04+00:00",
+      "retrieved_at": "2026-07-02T05:56:04+00:00",
       "url": null,
       "lang": null
     }
@@ -701,12 +701,12 @@
         "value": 77.2,
         "change_pct": -0.0103,
         "unit": "USD/bbl",
-        "as_of": "2026-07-02T05:40:04+00:00",
+        "as_of": "2026-07-02T05:56:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-02T05:40:04+00:00",
+          "retrieved_at": "2026-07-02T05:56:04+00:00",
           "url": null,
           "lang": null
         }
@@ -717,12 +717,12 @@
         "value": 11.22,
         "change_pct": -0.024,
         "unit": "USD/mmbtu",
-        "as_of": "2026-07-02T05:40:04+00:00",
+        "as_of": "2026-07-02T05:56:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-02T05:40:04+00:00",
+          "retrieved_at": "2026-07-02T05:56:04+00:00",
           "url": null,
           "lang": null
         }
@@ -733,12 +733,12 @@
         "value": 2396.1,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-02T05:40:04+00:00",
+        "as_of": "2026-07-02T05:56:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-02T05:40:04+00:00",
+          "retrieved_at": "2026-07-02T05:56:04+00:00",
           "url": null,
           "lang": null
         }
@@ -749,12 +749,12 @@
         "value": 352.08,
         "change_pct": -0.022,
         "unit": "USD/mt",
-        "as_of": "2026-07-02T05:40:04+00:00",
+        "as_of": "2026-07-02T05:56:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-02T05:40:04+00:00",
+          "retrieved_at": "2026-07-02T05:56:04+00:00",
           "url": null,
           "lang": null
         }
@@ -765,12 +765,12 @@
         "value": 242.82,
         "change_pct": -0.0089,
         "unit": "USD/mt",
-        "as_of": "2026-07-02T05:40:04+00:00",
+        "as_of": "2026-07-02T05:56:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-02T05:40:04+00:00",
+          "retrieved_at": "2026-07-02T05:56:04+00:00",
           "url": null,
           "lang": null
         }
@@ -781,12 +781,12 @@
         "value": 2470.68,
         "change_pct": 0.0381,
         "unit": "USD/oz",
-        "as_of": "2026-07-02T05:40:04+00:00",
+        "as_of": "2026-07-02T05:56:04+00:00",
         "prov": {
           "source_type": "mock",
           "source_name": "Demo seed",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-02T05:40:04+00:00",
+          "retrieved_at": "2026-07-02T05:56:04+00:00",
           "url": null,
           "lang": null
         }
@@ -796,7 +796,7 @@
       {
         "title": "Dubai headline — global macro update 1",
         "theme": "TRADE",
-        "published_at": "2026-06-29T14:40:04+00:00",
+        "published_at": "2026-06-29T14:56:04+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -2.02,
@@ -804,7 +804,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-02T05:40:04+00:00",
+          "retrieved_at": "2026-07-02T05:56:04+00:00",
           "url": null,
           "lang": null
         }
@@ -812,7 +812,7 @@
       {
         "title": "Dubai headline — global macro update 2",
         "theme": "MARITIME",
-        "published_at": "2026-06-30T04:40:04+00:00",
+        "published_at": "2026-06-30T04:56:04+00:00",
         "domain": "gulfnews.com",
         "url": null,
         "tone": 0.21,
@@ -820,7 +820,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-02T05:40:04+00:00",
+          "retrieved_at": "2026-07-02T05:56:04+00:00",
           "url": null,
           "lang": null
         }
@@ -828,7 +828,7 @@
       {
         "title": "Dubai headline — global macro update 3",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-30T13:40:04+00:00",
+        "published_at": "2026-06-30T13:56:04+00:00",
         "domain": "bloomberg.com",
         "url": null,
         "tone": 1.53,
@@ -836,7 +836,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-02T05:40:04+00:00",
+          "retrieved_at": "2026-07-02T05:56:04+00:00",
           "url": null,
           "lang": null
         }
@@ -844,7 +844,7 @@
       {
         "title": "Dubai headline — global macro update 4",
         "theme": "TOURISM",
-        "published_at": "2026-06-29T09:40:04+00:00",
+        "published_at": "2026-06-29T09:56:04+00:00",
         "domain": "thenationalnews.com",
         "url": null,
         "tone": -5.07,
@@ -852,7 +852,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-02T05:40:04+00:00",
+          "retrieved_at": "2026-07-02T05:56:04+00:00",
           "url": null,
           "lang": null
         }
@@ -860,7 +860,7 @@
       {
         "title": "Dubai headline — global macro update 5",
         "theme": "ECON_INTEREST_RATE",
-        "published_at": "2026-06-30T02:40:04+00:00",
+        "published_at": "2026-06-30T02:56:04+00:00",
         "domain": "wam.ae",
         "url": null,
         "tone": -4.35,
@@ -868,7 +868,7 @@
           "source_type": "mock",
           "source_name": "GDELT (demo)",
           "data_quality": "demo",
-          "retrieved_at": "2026-07-02T05:40:04+00:00",
+          "retrieved_at": "2026-07-02T05:56:04+00:00",
           "url": null,
           "lang": null
         }
@@ -881,43 +881,42 @@
       "stance": "Neutral",
       "confidence": "medium",
       "reasons": [
-        "Positive session price momentum per the short-signal note",
-        "A high-materiality disclosure (91/100) is in the recent flow and can drive near-term re-pricing",
-        "The most recent dated data update arrived 5 days ago in the form of TradingView actuals/estimates, keeping the name on active screens",
-        "Mid-June dividend-focused coverage (SimplyWallSt and SahmCapital) indicates sustained investor interest"
+        "Positive price momentum (+1.5% on the session in demo data) supports near-term interest.",
+        "A high-materiality disclosure (91/100) is in the recent flow, indicating a significant corporate update.",
+        "Recent dividend-focused coverage (17d ago) reinforces the stock's income profile.",
+        "The 6-day-old Actuals & Estimates article keeps ADNH in the near-term research flow."
       ],
       "risks": [
-        "The recent high-materiality disclosure tone is cautious/negative, which could cap near-term upside",
-        "Execution and macro swing factors remain a key near-term risk",
-        "Consumer sector geopolitical risk is high due to Regional conflict & Gulf security, though direct company-specific exposure is not confirmed in the given streams",
-        "Conviction is limited by the most recent dated news item being 5 days old"
+        "The recent disclosure tone skews cautious/negative, which could dampen sentiment.",
+        "High geopolitical risk in the Consumer sector (elevated Red Sea shipping and Gulf security tensions) may indirectly affect travel and hospitality demand.",
+        "Macro conditions remain a swing factor for near-term performance.",
+        "Absence of explicit positive catalysts in the most recent dated news limits upside visibility."
       ],
-      "what_would_change_view": "A constructive shift in the high-materiality disclosure tone or confirmed momentum expansion with volume support would support a short-term upgrade; a downgrade would likely follow if Gulf security escalates into direct tourism disruption or if the disclosure flow implies a material earnings cut."
+      "what_would_change_view": "A materially positive update in the Actuals & Estimates report or a reversal of the disclosure tone to upbeat would confirm bullish momentum; a miss or escalation in regional tensions would likely shift the short-term view to negative."
     },
     "long_term": {
       "stance": "Bullish",
       "confidence": "medium",
       "reasons": [
-        "Growth profile is solid (Growth 84/100), anchored in the long-signal",
-        "Dividend characteristics are dependable (Dividend 63/100), supporting total-return appeal",
-        "Stability score of 60/100 provides a reasonable medium-term execution foundation",
-        "Dated May and June 2026 dividend stock screens (Yahoo Finance, SimplyWallSt, SahmCapital) reinforce income credibility over time"
+        "Solid growth profile (Growth 84/100) underpins the long-term bullish case.",
+        "Dependable dividend characteristics (Dividend 63/100) highlighted in recent coverage provide income visibility.",
+        "Stability score 60/100 offers a balanced foundation for consumer-facing operations.",
+        "Multiple dated articles (June and May) maintain visibility in the dividend/investor universe."
       ],
       "risks": [
-        "Execution risk remains the key swing factor for the growth thesis",
-        "Macro conditions could pressure consumer and tourism spending over the longer horizon",
-        "Geopolitical tension in the Gulf (Regional conflict & Gulf security at high risk level) could structurally undermine tourist spending and local demand",
-        "Dividend sustainability depends on payout ratio and earnings growth holding"
+        "Execution risk remains a key swing factor for long-term growth delivery.",
+        "Macro conditions and consumer spending pressure could constrain revenue expansion.",
+        "High regional geopolitical risk (Gulf security) could structurally impact tourism and hospitality demand.",
+        "Cautious tone from the recent high-materiality disclosure may signal underlying challenges that persist."
       ],
-      "what_would_change_view": "A material decline in Growth or Dividend scores below their current levels, or prolonged Gulf security deterioration that structurally depresses UAE consumer demand, would challenge the bullish view; confirmation of rising market share and a stable payout policy would reinforce it."
+      "what_would_change_view": "Sustained outperformance on the Growth 84/100 score and growing dividend coverage would strengthen conviction; a deterioration in regional stability or execution missteps that erode the growth profile would shift the long-term stance."
     },
     "_signal": {
       "short": {
         "stance": "Neutral",
         "confidence": "medium",
-        "score": 55.5,
+        "score": 50.9,
         "reasons": [
-          "Positive price momentum (+1.5% on the session in demo data)",
           "A high-materiality disclosure (91/100) is in the recent flow"
         ],
         "risks": [
@@ -939,11 +938,11 @@
     },
     "_engine": "deterministic-signal+narration",
     "provider": "stub",
-    "generated_at": "2026-07-02T05:40:04+00:00",
+    "generated_at": "2026-07-02T05:56:04+00:00",
     "narrator": "freeagent",
-    "narrated_at": "2026-07-01T05:28:08+00:00"
+    "narrated_at": "2026-07-02T05:53:50+00:00"
   },
-  "generated_at": "2026-07-02T05:40:04+00:00",
+  "generated_at": "2026-07-02T05:56:04+00:00",
   "peers": {
     "archetype": "consumer",
     "self": {
